@@ -1,0 +1,178 @@
+#!/bin/sh
+
+USE_TRUE_COLOR=true
+
+COWSAY_FILES="/opt/cowsay-files2"
+COWS_DIR="${COWSAY_FILES}/cows"
+COWRC=$0
+
+# List of cow lists, one will be picked at random at the load of each new terminal
+# window, to pick random cows for cowlistsay
+COW_LISTS=(
+  "adultswim"
+  "assassin"
+  "batman"
+  "bk"
+  "bojack"
+  "burger"
+  "dilbert"
+  "futurama"
+  "god"
+  "genius"
+  "got"
+  "hero"
+  "homestar"
+  "koth"
+  "looneytunes"
+  "movie"
+  "metalgear"
+  "peanuts"
+  "pokemon"
+  "rickandmorty"
+  "seinfeld"
+  "smash"
+  "southpark"
+  "starwars"
+  "tf2"
+  "toon"
+  "tmnt"
+  "tv"
+  "vg"
+  "zelda"
+  #make new cows list more likely to appear
+  "new"
+  "new"
+  "new"
+  "new"
+  "new"
+  "new"
+  "new"
+  "new"
+  "new"
+  "new"
+)
+
+NUM_LISTS=${#COW_LISTS[@]}
+L_INDEX=$(($RANDOM % $NUM_LISTS + 1))
+COW_LIST=${COW_LISTS[$L_INDEX]}
+
+# generate <listname>say commands for various cow lists!
+for listfile in ${COWSAY_FILES}/lists/*.cows; do
+  listname=$(basename $listfile)
+  listname="${listname%.*}"
+  listvar="cowlist_${listname}"
+  eval "${listvar}=(\$(cat ${COWSAY_FILES}/lists/${listname}.cows))"
+
+  eval "function ${listname}say() {
+    N_COWS=\${#${listvar}[@]}
+    R_INDEX=\$((\$RANDOM % \$N_COWS + 1))
+    COWNAME=\${${listvar}[\$R_INDEX]}.cow
+    if [ \$USE_TRUE_COLOR = true ]; then
+      FILE=\${COWS_DIR}/true-color/\${COWNAME}
+      if test -f \"\$FILE\"; then
+        COWNAME=\"true-color/\${COWNAME}\"
+      fi
+    fi
+    RANDOMCOW=\${COWS_DIR}/\$COWNAME
+    COWTEXT=\$1
+
+    if [ \"\$1\" == \"\" ] ; then
+      COWTEXT=\`cat -\`
+    fi
+    #echo \$COWNAME
+    echo \$COWTEXT | cowsay -n -f \$RANDOMCOW
+  }";
+done
+
+randomsay(){
+  COWTEXT=$1
+  if [ "$1" == "" ] ; then
+    COWTEXT=`cat -`
+  fi
+  echo $COWTEXT | asciisay
+}
+
+cowlistsay(){
+  COWTEXT="$1"
+
+  if [ "$1" == "" ] ; then
+    COWTEXT=`cat -`
+  fi
+
+  echo $COWTEXT | ${COW_LIST}say
+}
+
+alias cows="cd $COWS_DIR"
+alias numcows="eval echo '\${\#cowlist_${COW_LIST}[@]}'"
+alias cowcount="numcows"
+alias cowrc="atom $COWRC"
+alias randomfortune="clear && fortune | cowlistsay"
+
+function verifycows() {
+  LISTNAME=$1
+  if [ "$LISTNAME" = "" ]; then
+    LISTNAME="$COW_LIST"
+  fi
+  echo "Verifying \"$LISTNAME.cows\""
+  VERIFY_LIST=($(cat "${COWSAY_FILES}/lists/${LISTNAME}.cows"))
+  for cowfile in $VERIFY_LIST; do
+    if ( test -f "$COWS_DIR/${cowfile}.cow" ); then
+      echo "     -- FOUND --     \t $cowfile"
+    else
+      if ( test -f "$COWS_DIR/true-color/${cowfile}.cow" ); then
+        echo "     -- FOUND --    \t $cowfile (true color only)"
+      else
+        echo "====== MISSING ======\t $cowfile"
+      fi
+    fi
+  done
+}
+
+# Usage: cowtest <cowfile name without extension>
+cowtest() {
+  COWNAME="$1.cow"
+  if [ $USE_TRUE_COLOR = true ]; then
+    FILE=${COWS_DIR}/true-color/${COWNAME}
+    if test -f "$FILE"; then
+      COWNAME="true-color/${COWNAME}"
+    fi
+  fi
+  clear && fortune | cowsay -f $COWS_DIR/$COWNAME
+}
+
+cowlist() {
+  atom ${COWSAY_FILES}/lists/$1.cows
+}
+
+cowedit() {
+  atom ${COWS_DIR}/$1.cow
+}
+alias editcow="cowedit"
+
+palette(){
+  for fgbg in 38 48 ; do # Foreground / Background
+    for color in {0..255} ; do # Colors
+        # Display the color
+        printf "\e[${fgbg};5;%sm  %3s  \e[0m" $color $color
+        # Display 6 colors per lines
+        if [ $((($color + 1) % 6)) == 4 ] ; then
+            echo # New line
+        fi
+    done
+    echo # New line
+  done
+}
+
+# function that updates all files dependent on cows list
+buildcows() {
+  echo "Generating examples.html..."
+  ${COWSAY_FILES}/converter/generate-examples.sh
+  echo "Generating examples.md..."
+  ${COWSAY_FILES}/make-examples.sh
+  echo "Generating ascii.cows..."
+  ${COWSAY_FILES}/list-ascii-cows.sh > ${COWSAY_FILES}/lists/ascii.cows
+  echo "Generating ansi.cows..."
+  ${COWSAY_FILES}/list-ansi-cows.sh > ${COWSAY_FILES}/lists/ansi.cows
+}
+
+randomfortune
