@@ -1,0 +1,61 @@
+# Gruntilda, game over screen (Banjo Kazooie)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;236m  ";
+$c = "\e[48;5;70m  ";
+$d = "\e[48;5;154m  ";
+$e = "\e[48;5;255m  ";
+$f = "\e[48;5;88m  ";
+$g = "\e[48;5;235m  ";
+
+$the_cow = <<EOC
+      $t
+        $t
+          $t
+            $t        $a          $x        
+                  $a  $b          $a  $x
+                  $a$b                $a$x
+                $a$b      $c$b          $a$x
+                $a$b      $d    $c$b    $a$x
+              $a$b      $c$d  $c$b  $d$b$a$x
+              $a$b  $a$c$a  $c$d    $a$b$a$x
+              $a$b  $a$c$a$d$a$c  $a$d$b$a$x
+              $a  $b$a$c  $e$f$c$d$f$e$b$a$x
+              $a      $c$d        $c  $b$a$x
+              $a        $d$c$d  $c    $b$a$x
+              $a$b$a    $c$d$c$b  $c$b  $a$x
+              $a$b$a$b$a  $c$d$c  $b$a$b$a$x
+              $a$b$a$b$a  $c$b    $a  $b$a$x
+                $a  $b$a  $c$d  $a$b$a  $x
+                  $a      $c        $b$a$x
+                $a$c$d$g$a$b$d    $c$d$b$a$x
+              $a$c$d$c$d$a  $b    $a$b  $a$x
+            $a$c$d  $g$c$a  $b    $a$b  $a$x
+            $a$d  $c$a$g$a              $x
+          $a$c$d$c$a$x$a            $c$a$x
+          $a$d$c$a$x  $a    $b    $a$c$b$a$x
+          $a$d  $a$x  $a  $b        $a$c$a$x
+          $a$c$d$c$a$x$a  $b        $a$c$a$x
+            $a$c    $a    $b        $a$c$a$x
+            $a$c$d  $c$a  $b        $a$c$b$a$x
+              $a$d  $c$a  $b  $a$b  $a$c  $a$x
+                $a$c$a    $b  $a$b    $a$c$a$x
+                $a      $b  $a$b      $a  $x
+                $a      $b  $a$b      $a$x
+                  $a                    $x
+                  $a$d  $c$a  $b$c  $a$x
+                  $a$d  $c$a$x$a$c  $a$x
+                  $a$d  $a$x  $a$c  $a$x
+                $a$c$d$c$a$x  $a$b$c  $a$x
+                $a$c$d$a$x      $a$c  $a$x
+                $a$d  $a$x      $a$c  $a$x
+                $a$d  $a$x      $a  $c$a$x
+                $a$d  $a$x      $a  $c$b$a$x
+                $a  $c$a$x      $a    $c$a$x
+                $a        $x    $a          $x
+                $a$x$a    $x    $a$x$a      $x
+EOC

@@ -1,0 +1,67 @@
+# Rey (Star Wars)
+# by Michael B Myers - https://dribbble.com/shots/2314676-The-Force-Awakens-pixel-art
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;240m  ";
+$b = "\e[48;5;236m  ";
+$c = "\e[48;5;94m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;137m  ";
+$f = "\e[48;5;180m  ";
+$g = "\e[48;5;187m  ";
+$h = "\e[48;5;144m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;101m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                                    $a$x
+              $t                    $c  $x        $b$x
+                $t          $c          $x      $a$x
+                          $c            $x      $a$x
+                        $c$d      $c      $x  $a$x
+                      $c$x$d        $c    $x  $b$x
+                      $c$x$e$d  $e$d$f$c$x  $a$x
+                        $c$d        $c$x    $a$x
+                          $d        $c  $x$a$x
+                            $d    $f$c  $x$a$x
+                                $f  $x  $a$x
+                          $g$c$d$f  $g$h$g$x
+                        $g$c$d    $g$h$g$f$x
+                        $h$c$g$d$g      $d$x
+                      $f$c$g  $h$g    $f$d  $x
+                      $f$c$g    $h$g  $x$d$g$x
+                      $g$c$g    $h$g$i$x  $g$h$x
+                    $g$h$x$g      $h$i$x  $h$g$x
+                    $h$x  $h$g    $i$x      $g$x
+                    $g$x  $i$h$g  $c  $x    $h$x
+                  $h$x    $c          $x    $g$x
+                  $g$x    $h      $c  $x    $h$x
+                $h$x    $g    $c  $g$h$x    $g$x
+                $g$x  $c      $g$h$g$h  $x  $c$x
+                $h$x$c  $h$g$j$g$h  $g$h$x  $c$x
+                $g$x$c$g$h$g$j  $g$h      $x$c$x
+                $h$x$c$g      $j$h$g  $h  $x$c$x
+                $h$x$c$j$g      $h    $g$h  $c$x
+                $f  $c$h  $g        $h    $d  $x
+                $f  $a$h  $j$g        $h  $d  $h$x        $g$x
+                    $a$h  $j  $g        $h              $g$x
+                  $a$x$j  $h$j  $g  $j$g      $h  $g$x$g$x
+                  $a$x$h      $j    $g          $x        $g$x
+                $a$x  $h    $j          $g                $x
+                $a$x    $h  $j    $h$j      $x$g      $x
+              $a$x      $h$j$h$j  $h      $j$x
+              $a$x      $h    $j    $h    $j  $x  $j$x
+            $b$x          $h    $j  $h$j$h$j      $x
+            $b$x          $h  $j  $x$h  $j      $x
+          $a$x            $j    $x  $j    $x
+          $a$x              $j  $x    $j  $x
+        $a$x                $f$x        $f$x
+        $a$x                $f$x        $f$x
+      $a$x                  $f$x        $f$x
+      $a$x                  $c$x        $c$x
+    $a$x                    $c$x        $c$x
+    $a$x                  $c  $x        $c  $x
+EOC

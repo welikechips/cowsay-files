@@ -1,0 +1,68 @@
+# Nomad (Crysis)
+# by domino99designs - https://www.deviantart.com/domino99designs/art/Crysis-2-Alcatraz-NANOSUIT-2-205227719
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;236m  ";
+$c = "\e[48;5;239m  ";
+$d = "\e[48;5;243m  ";
+$e = "\e[48;5;250m  ";
+$f = "\e[48;5;244m  ";
+$g = "\e[48;5;249m  ";
+$h = "\e[48;5;52m  ";
+$i = "\e[48;5;160m  ";
+$j = "\e[48;5;88m  ";
+$k = "\e[48;5;220m  ";
+$l = "\e[48;5;172m  ";
+
+$the_cow = <<EOC
+                    $t                        $a        $x
+                      $t                  $a$b    $a$c  $b$a$x
+                        $t              $a$d$a$b$c  $a$c    $a$x
+                          $t          $a$e  $f$a  $c  $b    $c$a$x
+                            $t        $f  $e  $f$c$b$c        $b$x
+                                    $a$b$f  $e$f$b$c$a$c      $b$a$x
+                                    $a$b    $f  $g$d  $g$e    $d  $x
+                                    $f$a  $d$e$a$h  $i$j  $i$j  $a$x
+                                    $e$f$a$d$e$a$h$i$j  $i$e  $j$a$x
+                                    $e  $f$a$d$g  $j  $i$g$c$f$e$a$x
+                                    $f$e$f$b$a$d$f$e$j$g$b$f$e$f$e$x
+                                    $a$f$d  $a  $f  $g$a$d$c$f  $b$x
+                                    $d$a$b$c$a$c$b$k$a$b$a$d$e$f$a$x
+                                      $a$d$c$b$c$k$a$b$a$b$c$g$b$a$x
+                                  $a  $b$a$d$b$l$a$b$c  $a  $b$a$x
+                                $a$b$d$a$b$a$d$g$d$a$b$c$b$d  $a$x
+                              $a$b$g  $b  $a$c$b$a$d$g    $a    $d$x
+                            $a$b  $d$c$b$c$b$c  $a        $b$a$b$a$d$x
+                        $c$a$b  $a$c  $a$c  $b$c$b$a$d$g  $c$b$c  $a$x
+                      $c$d$g    $d$b$c$a$b$c$a$c  $b$c$d$b$c$b  $c  $a$x
+                  $a    $c$a$b$a  $d$g      $d$a$c$a$c  $b$c$b$c$b$c  $a  $x
+                $a$b$a$b$a$b  $a$b$a$b  $a  $d$g$e$d$a$d$e$c$d$c$e$c$d$g$a    $x
+              $a$c$a$c$a$b$c$a$b$c$a$c$b  $a    $d$e  $a$f$e$c  $e$c$g$b  $a$b$a$x
+              $b$c$b$c$a$c  $b$c$a$c    $b$a$b      $d  $c$f$e$c$d$b  $a$b$c$a$c$a$x
+            $a$c$b$c$b$c  $b$c  $b$c    $a$b  $c      $b$c$a$f$d$c$a$c  $a$c  $b  $x
+            $a$c$b$c$b$c  $b$c$b$c    $b$a$b$c    $a$b$d$g  $a$d$a$g$d$b  $a$c$b$c$a$x
+            $b$c$b$c$b$c$b$c  $b$c  $b$a$b  $c$a$b$c      $b  $d$b$c      $b$c  $b$a$x
+            $b$a$c$b$c  $b$c$a$c  $b$a$b$a  $b$c      $b$a  $g$f  $g$b  $c  $a$c$b$a$x
+            $a  $c$a$c$a$c$b$a$c$b  $a  $b$c    $b$a  $b$c    $e$f$c    $b$a  $c$b$a$x
+            $d$a$b$a$c$a$b$a$b    $a        $b  $c      $b$a  $b$d$b$a  $b$c$a$c$a  $x
+          $a$b$d$a  $b$a      $b$a      $b    $a  $b$c      $b$a$g$a$b$c    $a  $b$a$x
+          $a$b$a$g$a    $d$g  $d$a        $b$c    $b$a$b$c    $b$g$b$c  $b$a  $b    $x
+        $a$b$d$b$c$g  $d$a$b$a  $b$a  $b  $a  $b$c      $b$a    $d$a  $b$c  $a  $c  $a$x
+        $a$b$d$c  $g$b$a$c  $a$c$b$a  $b$c    $b$a$b$c      $b  $g$b  $c  $b$a  $c  $b$x
+        $a$b$a$c$a$b$c$b$c$a$c  $a$d  $a  $b$c      $b$a  $b  $a$d$a$b    $a  $b$a$c  $a$x
+        $d$b$a$c$a$c$b$c  $b$c$b$a$d$e    $d$a  $b$c      $a  $d$c$d$a$c  $b$a$c$a$c  $a$x
+      $c$e$b  $a$c  $b$c$b$c  $b$a$b$c$f  $e  $f$c$f          $c$f$c$f  $d  $a$c$b$c  $b$x
+      $f$e$f$d$a$c$b$c  $b$c$b$a$b$c$d$c$a  $f$e  $c$f  $c$e          $c$f$d$a$c  $b$c$b$x
+      $e    $f$d$b  $c$b$c  $b$a$c    $f$d$a    $c$e      $f$c$f  $c$f$e  $g$a$c  $b$c$a$x
+    $c$e  $f$c$b$d$b$c$b$c  $a$b$c    $f$e$g$d$e        $f$c$f      $c$f$e$b$a$b$c$a$b$a  $x
+    $f$e$f$c$d$b$c$b  $a$c$a  $d$b$c$d$g$c      $f  $e$f$c            $d$b$a$b$a$c$a$d$a$b$a$x
+    $f$c$d$a  $d$b$c$a    $x$a  $d    $a  $b      $c$d$c$a  $b$a$b$a  $c$a  $b$a$b$a$g$a$c$a$x
+    $e$c$a$d$a  $b    $a$x  $a  $b$a$c$a$b  $a      $c$a$b$a$c$b$c$a$b$a    $b$a  $g$c$a$c$a  $x
+  $a$e$c$a    $c  $b$a$x    $a$b    $a  $b$a$c$b$a$b$a  $c$b$c$b$c$b$c$a$b$x$d$g$e$f$c$b$c$a$b$x
+  $a$b$g$a$b  $a$c  $b$a$x    $b  $c$a$b$a  $c  $b$c$b$d$c$a$c$a$c$a$d$a$c$x$a  $d$e$c$b$c$a$b$a$x
+  $a$c$d$g$b$c  $b$c  $a$x    $a$b$c$a$c$b$a  $c$a$c  $a$d$g      $d$c$a$c$x$a$b$a$d$g$b$c$b$c$b$x
+  $a$c$b$d$a$c    $b$c$b$x    $a$b$c$a$c  $a$c$b$a$c  $a$c$a$c$a$c$a$c$a$c$x$a$c$a$b$d$b$c$b$c$b$x
+EOC

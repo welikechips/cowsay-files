@@ -1,0 +1,65 @@
+# Master Chief (HALO)
+# by domino99designs - https://www.deviantart.com/domino99designs/art/Halo-4-Master-Chief-295829526
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;71m  ";
+$b = "\e[48;5;22m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;28m  ";
+$e = "\e[48;5;130m  ";
+$f = "\e[48;5;172m  ";
+$g = "\e[48;5;214m  ";
+$h = "\e[48;5;237m  ";
+$i = "\e[48;5;242m  ";
+$j = "\e[48;5;250m  ";
+$k = "\e[48;5;245m  ";
+
+$the_cow = <<EOC
+                  $t
+                    $t                      $a  $b    $a  $x
+                      $t                $b  $a  $c      $a  $x
+                        $t            $d$b    $a  $b    $a  $c$x
+                          $t          $a  $b  $a  $c    $a  $c$d$x
+                                    $d$a    $d$a  $c$b  $a  $d  $x
+                                    $d$a  $d$b  $c        $b$d  $x
+                                    $b  $e    $f$g      $f$e$b  $x
+                                    $b$c$e  $f$g          $f$h$x    $a    $d$x
+                                  $a$d  $c$e$f$g          $f$c$a$x  $c    $a$d$x
+                                  $a$c$a  $b$c$f  $c    $f$c$a  $x  $c    $a  $d$x
+                                  $a$c$a      $b$h$c$h    $b$a  $x$a      $b$a  $x
+                          $a  $b    $c$a  $d  $a$b$a$c$h$d$b  $x$a      $b$d$b$a$d$x
+                        $a      $b    $a$b$a  $d$c$a$d$a$d$c$b$a      $d    $b$a$d$x
+                      $c    $b            $a    $c$a      $c$d$a    $b$d  $b  $d$b$x
+                    $i$c          $b  $c$j    $h$b$a$d$a$d$b$d    $b$d  $b  $a  $b$a$b$x
+                $d  $i$c        $i  $c$k    $c$j    $h$b  $d$a    $b$d$c$b$d$a$d$b$a  $b$x
+              $a  $d$i              $c  $k$c$k      $c$j    $a    $b$d$c  $d$a  $d$b$a$d$x
+            $a  $d$c$h            $i        $c  $k$c$k      $c$j  $b  $c  $b$a      $c$a$x
+          $a  $d  $c$h                        $i  $c  $k  $c$k      $j$c    $b$a  $d$c$a$x
+          $a  $d$h$c        $a$c$a$h    $c    $h      $c    $k        $j$c    $b$a$d$c$a$x
+        $h        $a  $c$a  $h$a$h  $a$c          $h$a$h$a$i$c$k        $j$c$a  $b$a$c$d$x
+      $j$h    $a  $d  $c$a  $c                    $h$c$h$c$h  $c$k      $c$a      $b  $x
+    $j  $h$b$a$d  $a  $c$a  $h$a$h$a$c            $a$c$a$c  $h  $k  $c  $b  $a      $b$x
+    $j  $h$d  $a      $c$d  $c        $d  $c      $h$c$h$c$h$c      $h$k  $j  $k$a    $x
+      $j$h$a      $b    $c        $d$a    $d    $c$a$c$a$c$a$c$d$a  $h  $k  $j  $h$a  $x
+        $h$d$b    $d    $x      $c  $a      $d  $c          $a  $d    $h          $b$a$x
+            $d    $x            $c$h$c$a      $c    $a  $c$b  $a        $d        $b  $x
+                                $c$h  $c      $h  $c  $b  $d    $b  $a            $b$j$x
+                                $d$c$h          $c  $b  $c  $b$d        $b          $j$x
+                                $a$d$c$h      $c  $b$d$a    $c  $b$d            $b$j$x
+                                $a  $d$b        $d$a      $c        $x$b    $x
+                                  $a  $d$b    $d$a      $c          $x
+                                  $c$a            $c        $h  $c$x
+                                  $c  $a        $c  $h$c  $h    $c$x
+                                  $d$c$h        $c$b$d$c$h    $c$x
+                                  $a$d$c$h    $c$d$a  $h    $c  $x
+                                  $a  $d$b    $d$a    $h  $c$h  $c$x
+                                  $c$a              $h  $c$h      $x
+                                  $c  $a          $c$h$c  $a    $h$x
+                                $c  $h$c  $h  $c      $b$a      $b$x
+                                $c$h  $c$h      $c  $b$a      $b$d  $x
+                              $b$h    $c$h      $c$h$d$a      $b$d  $b$x
+                            $b$a$h    $c$h      $c$a$d$a    $b$d  $b  $x
+                            $a  $h      $c$h    $c$d$a      $d    $b  $x
+EOC

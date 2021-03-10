@@ -1,0 +1,72 @@
+# Fox McCloud (Star Fox, Super Smash Bros)
+# by Abysswolf - https://ahruon.tumblr.com/post/126102755350/so-apparently-our-cardgallery-site-has-gone-down
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;130m  ";
+$b = "\e[48;5;173m  ";
+$c = "\e[48;5;215m  ";
+$d = "\e[48;5;216m  ";
+$e = "\e[48;5;222m  ";
+$f = "\e[48;5;239m  ";
+$g = "\e[48;5;244m  ";
+$h = "\e[48;5;230m  ";
+$i = "\e[48;5;255m  ";
+$j = "\e[48;5;250m  ";
+$k = "\e[48;5;235m  ";
+$l = "\e[48;5;97m  ";
+$m = "\e[48;5;61m  ";
+$n = "\e[48;5;231m  ";
+$o = "\e[48;5;88m  ";
+$p = "\e[48;5;167m  ";
+$q = "\e[48;5;210m  ";
+$r = "\e[48;5;58m  ";
+$s = "\e[48;5;101m  ";
+
+$the_cow = <<EOC
+              $t
+                $t                $a  $x                    $a  $x
+                  $t            $a$b  $a$x                $a$b$a$x
+                    $t          $b$c$a$d$a$x            $a$d$b$a$x
+                      $t      $a$c$e$b$a$d$a$f$g    $f$a$d$b  $a$x
+                              $a$e$h$c$b$d$b$f$i$j$i  $f$b    $a$x
+                              $b$h  $c$e$b$d$a$j$g$f    $k$b$a$x
+                              $b$e$h$e$h$b$d$a$k$g$f    $k$a  $x
+                              $a$c    $e$b$a$b  $f$k    $b$a  $x
+                              $a$k  $b$c$a$b  $d$b$e    $c$b$a$x                                              $f$x
+                              $k$f  $k$b$a$b$e$c$d$b$e$h  $c$a$b$a$x                $k          $x    $k      $f  $x
+                              $k$f$i$f$k$d$b$c$e$h$e$b$c$e$d$b$h$a$x                $k$f$k$g    $f$k  $f$g$f$g$j$f$x
+                              $f  $i  $f$b$d$a    $h  $c$b  $h$b$x                  $k$f$k$f    $g$j$i$j$f$k    $x
+                              $f$g$f$i  $f$b$a$l  $a$e  $c$a$m$a$x                  $k          $f$m$f      $g  $f$x
+                              $f$j$g  $i  $f$b$n  $m$a$b$h$e$a  $x                  $k      $f$g  $f$g$j$i    $j$f$x
+                          $f  $k$f$g$j$f$k$f$b  $c  $e$h    $e$a$k$x              $f$g    $j$k        $f$g    $f$k$x
+                        $f$j$g$k  $f$g$k$f$k$a$c  $e      $h  $f  $k$f$g  $f    $g$j$i  $g$f  $j$i$f$k            $x
+                      $f$g$i  $f$g$k$g$k$f$g$f$k      $a$b$c  $k    $g$i$a  $f$j$f$j$f$i$f          $k$x
+                  $a$b$a$f$g$i$g$f$i$k    $f$i$g$k$f$k$c  $a  $f$g$f$i$a$b$d$f$g$f      $i    $f$k  $x
+                $a$d$c$a  $f$g$j$f$i  $g$f$j$k      $a      $f$g  $f$g$a$c$d$b$f$g$k$g$f  $g  $f$x
+                $a$b$c$b$a$f  $g$f$g$j$g$f  $i$o$a    $p$o  $g$f$g$f$g$a$b  $a  $f$k$g$f$j$i$g$f$x
+                $a$f  $g  $k  $f    $g$f$g  $f$g$o$p$q  $p$o$f        $a  $x      $k$g$j$f    $x
+                $f$g  $i  $g$f$k$x$f    $g  $j$f$o$p    $o$g$f  $x                $k        $x
+              $f$j$f$i$j$i  $g$k$x  $f    $g  $i$f$o    $f$j$f$x
+              $f  $j$i  $g$i$f  $x  $f$g  $j$i  $f$k$r$k$f$i$f$x
+                $f$i$g$i$j$f$g$f$x    $f$g$i  $j$f$k      $f$g$f$x
+              $a$f$g$j$g$f$g  $f$x    $f  $g  $f$b$j$b$j$k  $f  $x
+            $a  $b$f          $a        $k  $r$k      $s$r$k$x
+        $a$b  $d    $b$a    $b    $a  $k$s$r  $s$r$s$r$s  $r$k$x
+      $a$e  $d$e  $d$a$b$d  $b$a$x  $r$s$r  $k$r  $s$r$s$r  $s$r$x
+    $a$e$b$e  $h$d$b$d  $b$a  $x  $k$s  $r$k    $r    $k  $r$s  $r$x
+    $d$b$d$e$h$d  $e$b$a  $x    $f$r$s    $r$k          $r$s      $k$x
+  $b$a$b$e  $h$d$e$b$a$x        $f$k$s    $r  $k  $x$k  $r$s    $r$k$f$x
+  $a  $d$e$h  $e$b$a$x        $f$g$f$k$r  $k    $x    $k$r  $s  $k$f$j$f$x
+    $a$d$e$h$e$h$b$x          $f$j$f  $k      $x      $k  $r  $k$f$i  $f$x
+    $a$b$e$h$e$h$a$x        $k$f$j$g$f    $k$x          $k    $f$g$i$f    $x
+      $a$d$e$h  $a$x      $f$j$f$g$f$i$g$k$x              $k$f$j$g$f$g$f$j$k$x
+        $a$d$e$h$b$a$x    $k$f$g$f$k$f$k$x                    $f$k  $f$g$k  $x
+          $a$d$e  $b$a$x$f      $k    $x                        $k    $f    $k$x
+              $a$b$d  $k$f$j$g  $f$k  $x                          $k$f  $g  $f$k$x
+                      $f$j$g  $i$j$k$x                            $k$f$g  $i$j$f$k$x
+                      $f$g  $i  $g$k$x                            $k$f$j$g$i  $g$k$x
+                      $k$f$g$i$g$f$k$x                            $k$f$j$g$j$i$f$k$x
+                          $k      $x                                $k  $f    $k$x
+EOC

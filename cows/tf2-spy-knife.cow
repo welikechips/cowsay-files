@@ -1,0 +1,72 @@
+# The Spy w/ knife (Team Fortress 2)
+# by Ultrabananabuddy - https://www.deviantart.com/ultrabananabuddy/art/TF2-Spy-Alt-351722086
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;244m  ";
+$b = "\e[48;5;233m  ";
+$c = "\e[48;5;25m  ";
+$d = "\e[48;5;18m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;180m  ";
+$g = "\e[48;5;232m  ";
+$h = "\e[48;5;202m  ";
+$i = "\e[48;5;236m  ";
+$j = "\e[48;5;231m  ";
+$k = "\e[48;5;252m  ";
+$l = "\e[48;5;31m  ";
+$m = "\e[48;5;24m  ";
+
+$the_cow = <<EOC
+          $t
+            $t          $a$x                    $b            $x
+              $t        $a    $x              $b$c            $b$x
+                $t        $a    $x          $b$c    $d        $c$b$x
+                  $t        $a  $x        $b$c    $d            $b$x
+                            $a  $x        $b$e    $d              $b$x
+                        $a    $x          $b    $f  $d    $c  $d  $b$x
+                      $a    $x          $b$f$b$f    $d        $c$d$b$x
+                      $a  $x            $b$d$f  $d                $b$x
+                      $a  $x          $b$c$d                      $b$x
+                        $a  $x        $b  $d                    $b$x
+                          $a$x          $b$e      $d        $g  $b  $x
+                              $h$i    $b  $e    $f$d      $g$d      $b  $x
+                                      $b$e    $f  $d    $g$d        $b$j$b  $x
+                                        $b$f$e$f$d    $g$d        $g$j$k$b$l$b  $x
+                                        $b$e  $d$g    $d        $g$j  $g$l      $b    $x
+                        $b    $x        $b      $l$g$k$g$d    $g$j  $k$g$l            $b  $x
+                        $b$c$b  $x          $b$l  $g$k$g$d  $g$j  $k$g$l                  $b$x
+                  $b        $c$b$x        $b$l    $g$k  $g  $j  $k$g$l                $m  $b$x
+                $b$c    $d$b    $x      $b$l      $g$k$g$d  $g$k  $g$l              $m    $b$x
+              $b$c    $g$d  $b$x      $b$l          $g  $d  $g$k$g$l              $m    $l  $b$x
+            $b$c    $d  $g$d$b$x    $b$l            $g      $k$g$l              $m    $l  $m$b$x
+            $b$c  $d    $g$d$b$x  $b$l      $m$b$l  $g  $d  $g  $l          $m      $l$m    $b$x
+            $b$g$d      $g$b$x  $b$l    $m      $b$l  $g$d  $g  $l    $m                    $b$x
+            $k$b$g$d  $g  $m$b  $l    $m        $b$m  $g$d  $g$m                              $b$x
+          $k$a$b  $g  $m        $l$m            $b  $m  $g$d$g$m                $b$m          $b$x
+        $k$a$b$x  $b$m                      $b  $x$b$m  $g$d$g$m                  $b$m        $b$x
+      $k$a$b$x      $b$m                  $b$x      $b$m  $g  $m                  $b$m          $b$x
+    $k$a$b$x          $b$m            $b  $x        $b$m    $g$m                  $b$m          $b$x
+    $k$b$x              $b$m      $b  $x              $b$m                          $b$m        $b$x
+                          $b      $x                  $b$m                          $b$m        $b$x
+                                                      $b$m                          $b$m          $b$x
+                                                        $b$m                      $b$l    $m      $b$x
+                                                        $b$m                  $b  $l        $m    $b$x
+                                                        $b$m  $g    $m      $b$l        $m        $b$x
+                                                        $b$m$g$c  $d$g  $b  $l      $m          $b$x
+                                                        $b  $c$g  $d    $g$j$l  $m          $b  $x
+                                                        $b    $g$c$d      $g$j$m          $b$x
+                                                      $b$l  $g$d$c  $d    $g$j$m      $b  $x
+                                                      $b$l$g$d    $c$d    $g$b$m  $b  $m$b$x
+                                                      $b$l$g$d      $g    $m$b    $m    $b$x
+                                                    $b$l$m  $g$d  $g$m                $l$b$x
+                                                $b  $m  $b  $m$g  $m              $l    $b$x
+                                              $b$m  $b  $m    $b$m          $l          $b$x
+                                              $b    $m          $b$m$l                  $b$x
+                                            $b$m                  $b$m$l                $b$x
+                                        $b  $l    $m                $b$m$l              $b$x
+                                      $b$l        $m                  $b$m$l            $b$x
+                                  $b  $l          $m                    $b$m$l          $b$x
+                                $b$l            $m          $b      $m    $b$m  $l      $b$x
+EOC

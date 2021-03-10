@@ -1,0 +1,65 @@
+# Sonic the Hedgehog
+# sprite from Sonic the Hedgehog (SEGA Genesis)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;20m  ";
+$b = "\e[48;5;18m  ";
+$c = "\e[48;5;215m  ";
+$d = "\e[48;5;26m  ";
+$e = "\e[48;5;130m  ";
+$f = "\e[48;5;248m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;117m  ";
+$i = "\e[48;5;244m  ";
+$j = "\e[48;5;234m  ";
+$k = "\e[48;5;239m  ";
+$l = "\e[48;5;52m  ";
+$m = "\e[48;5;196m  ";
+
+$the_cow = <<EOC
+           $t
+             $t
+               $t
+
+                    $a        $x
+            $a                      $x
+        $b      $a        $b  $a        $x      $b$x
+            $b        $a  $b$c$b$a$d$a      $x$b  $x
+                  $b      $e$c  $b$a$d  $a    $b  $x
+                    $b$a$b$e$c    $a$d    $a    $b$x
+                  $a    $b$e  $a  $d        $a    $x
+            $a                  $d    $f$d  $a    $x
+        $a            $d          $b    $a$d  $a    $x
+      $a                $d$g$d$a$b  $h$g$f$d$a    $d$x
+    $a$b            $a    $d$a  $b$f$g    $f$b$a  $h$x
+    $b                  $a      $b$f$g      $i$b$a$f$x
+                $b      $a        $f$g      $j$f$j$h$x
+                  $b      $a      $d$g      $j$k$j$k$x
+                $a  $b      $a$e$c  $f$g      $e$f$j  $x
+              $a      $b    $e$c$g$c    $h  $c  $j  $k$x
+            $a    $b        $e$c  $j$c          $e$x
+          $a  $b              $e  $c$e$c    $e  $x
+          $a$b$x      $b          $e        $x
+                    $b                    $x
+                    $b    $e$c  $b$a$e$c$g$e$x  $i  $x
+                  $b    $e$c  $b$a$e$c$g    $k$g    $i$x
+                  $b$x$e$k$i$h$g  $e$c  $g$c$k$g$i$k$g$x
+                      $k$i$h  $g    $e$c    $k$i$k$g  $x
+                    $b$k$h  $g      $i$e$c$a$k  $i    $x
+                      $k$i$g      $i  $a  $x$k$i  $k$x
+                      $k  $i$g$i$g$i$k$a  $x  $k  $x
+                        $k$i$g$i  $k$x$b$a$x
+                          $k      $x  $b$a$x
+                          $b  $a$x  $k$b$a$x
+                        $k$i$b$a$x$k$h$b$a$i$x
+                      $k$i  $g  $i$k$i$g  $i$x
+                      $k    $i  $k    $i  $k$x
+                      $j$l$m  $l$j$l$i  $l  $m  $x
+                    $j$l$i$g      $j$l    $m  $h$g  $m$x
+                    $j$i$m      $l$i$l      $i  $h$m      $x
+                    $j$l  $m  $g$m$l$j$l  $k  $i$l$m    $g$m$x
+                    $j$l    $m    $l$j$l  $k    $l      $m    $x
+                      $j                                        $x
+EOC

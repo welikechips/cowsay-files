@@ -1,0 +1,53 @@
+# Solid Snake (Metal Gear Solid)
+# by Unknown - https://66.media.tumblr.com/c27bc23d326a693af79c452bef52eac3/tumblr_nef650fjLB1s5mfvio1_500.gif
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;94m  ";
+$b = "\e[48;5;239m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;247m  ";
+$e = "\e[48;5;249m  ";
+$f = "\e[48;5;242m  ";
+$g = "\e[48;5;245m  ";
+$h = "\e[48;5;244m  ";
+$i = "\e[48;5;243m  ";
+
+$the_cow = <<EOC
+                      $t
+                        $t
+                          $t        $a      $x
+                            $t    $a          $x
+                                  $b$a$b      $x
+                                  $b          $x
+            $b      $x      $b    $c        $a$x
+      $b    $x      $b      $x    $c$a    $c$a  $x
+    $b$x                      $b  $a$c    $a    $x
+  $b$x                $b      $x  $a$c$a$c$a$d$x
+                $b    $x            $a    $d  $x
+            $b  $x                  $e$d    $e$b$f$x
+          $b$x              $d  $f$b$d$e    $d$b$f$e  $x
+          $b$x            $d  $e$f$b$e  $d$e  $b$f$e      $x
+      $b  $x              $d  $e$f$b$e  $d$e  $b$f$e$d  $e  $x
+                          $d  $e$f$b$e  $d$e  $f$e$d        $g$x
+                          $d    $e$f$e  $d$f    $e$d        $g$x
+                            $d$g  $f      $d    $b$f$x$d      $g$x
+                            $f    $b$d  $h$d    $f$b$x  $d    $f$x
+                            $h$i$b$f$d$h    $d$b$f  $x    $g$f$i$x
+                          $g$h$i$f  $b$d$h$d  $f$b$x        $h  $i$x
+                          $d$f$i$x$b$f$d  $f      $x        $h  $i$x
+                        $d  $g$x  $f      $h$d  $f$x      $g$f$i$x
+                        $d  $g$x    $d    $h$d$b$f$b$x    $d  $f$x
+                        $d$g$x    $f$b$f      $b$f$b$x    $d  $g$x
+                        $i$f$x    $f    $e$d  $f    $x    $d$g$x
+                      $d$i$f$x    $f$d$e    $f      $x    $i$f$x
+                      $i  $f$x    $f$g$d$e  $f$d$f  $x  $i  $f$x
+                      $i$f$x    $e  $d$f$e  $d$g$e$d$g$x$i$d$g$x
+                        $f$x  $f$e  $d$f$e  $f$e  $d$g$x$i  $f$x
+                            $e  $f$d  $g$f$x$f$e    $d$g$x
+                          $e    $d$f$d$g$x  $d  $e  $d$g$x
+                          $g$e$d    $f$x      $d$e  $d$g$x
+                        $d  $f  $d$g$x        $d$e    $g$x
+                        $e$d    $f$x          $d$e$f$g$f  $x
+EOC

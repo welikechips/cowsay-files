@@ -1,0 +1,76 @@
+# Thor (The Avengers)
+# by Gustavo Vilsener - https://dribbble.com/shots/2042938-Avengers-Age-of-Ultron-Pixelart
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;159m  ";
+$b = "\e[48;5;66m  ";
+$c = "\e[48;5;239m  ";
+$d = "\e[48;5;244m  ";
+$e = "\e[48;5;242m  ";
+$f = "\e[48;5;109m  ";
+$g = "\e[48;5;234m  ";
+$h = "\e[48;5;222m  ";
+$i = "\e[48;5;237m  ";
+$j = "\e[48;5;215m  ";
+$k = "\e[48;5;136m  ";
+$l = "\e[48;5;94m  ";
+$m = "\e[48;5;124m  ";
+$n = "\e[48;5;52m  ";
+$o = "\e[48;5;231m  ";
+$p = "\e[48;5;179m  ";
+
+$the_cow = <<EOC
+          $t                                                  $a$x        $a    $x
+            $t                                                $a$x$b      $x
+              $t                                              $a$c$d        $b$x    $a$x
+                $t                                          $a$d$a$e  $d    $e$b$x  $a$x
+                  $t                                        $a$d$a$d$e  $b$e$a$c$x  $a$x
+                    $t                                    $a$x$f$d$f  $e$c  $a$c$x  $a$x
+                      $t                                  $a$x$f      $e$c  $a$c$x  $a$x
+                        $t                                    $f      $e$a    $c$x$a$x
+                          $t                                  $a$d$f  $e$a$c    $x
+                            $t                                $a$d$f  $e$a$g    $x
+                              $t                              $f    $d$a$c$g      $h    $x
+                                $t                            $f$d  $a$e$c$i$a$g  $h        $x
+                                                                $f$a$d$e$c$a$c  $x$h$j$h$j  $g$x
+                                              $k        $x        $f$d$e$c      $x$h$j    $g      $x
+                                          $k    $l$k      $x        $a$b$c      $x  $h  $j$g        $x
+                                          $k$l$k$l        $k$x        $a$c  $x        $h    $j$g        $x
+                                        $k$l$j      $l      $x    $a    $x                $h  $j$x$g    $x
+                                        $k$h      $j$l      $x                            $h  $j$x
+                                        $k$g$h$g$l$j$l      $x                            $h  $j$x
+                                  $k$x$k  $j$h$j    $k$j$l  $x                            $h  $j$x
+                                    $k  $l$h$k  $h$j$k$l    $x$m  $n$m$n  $x              $h  $j$x
+                                $k$x  $k    $o  $k    $l  $m$n$m$n$m$n      $x          $h    $j$x
+                                  $k  $l$k  $j  $k  $j  $n$i$m$n  $m$n$g  $j$h$x        $h    $j  $x
+                                    $l$k$l$k      $j    $i  $m$n      $g  $j$h    $x    $h    $j  $x
+                                  $k  $l      $j      $n$i    $n$p$e$n$g    $j$h              $j  $x
+                                    $l$k$l  $n  $i$n  $i      $p  $e  $g    $j$h              $j  $x
+                                      $m$n$m$n  $i            $p  $e  $g      $j$h            $j  $x
+                                    $m$n$m$n$p  $n$i            $e  $g        $j$h            $j  $x
+                                    $m    $p    $e$g$i      $p$i$g            $j    $h      $j  $x
+                                    $h  $m$p    $e$g$p$i$g$p$e$i$g            $n  $j    $h$j    $x
+                                  $h  $j$c$m$e  $g$i$p$e    $i$g              $n  $x  $j    $x
+                                  $h  $j$c      $i    $p$e  $i$g  $p$e$g      $n  $x
+                                $h  $j    $c      $g  $i$p$e$i  $p  $e  $g    $n  $x
+                                $h  $j    $c      $p  $i$g$p$e$i$e      $g  $n  $x
+                                $h  $j      $c  $p  $e  $i$p$e$i$g$e  $g    $n  $x
+                                $h  $j      $c  $p  $e  $i$p$e$i$g          $n  $x
+                                $h$j        $n$c  $e  $i    $e  $g          $n$x
+                            $h    $j      $m$n  $c        $i      $g          $x
+                        $h        $j    $m$n      $c        $i    $g          $x
+                      $h        $j    $m$n$m$n      $c  $i$c$i$p$i  $p$e$g    $x
+                    $h      $j      $m$n$m$n        $c  $p$e$g$p  $i$e$p$g    $x
+          $j  $x$h      $j        $m    $n            $c$p$e$i$g$p$i$g        $x
+      $j      $h    $j        $x$m    $n    $m$n        $c  $i      $g        $x
+    $j                    $x  $m        $n$m$n          $c  $i      $g        $i$x
+    $j        $x      $m              $n                $c  $i  $g$i  $g      $i  $x
+    $j      $x      $m              $n    $m$n        $g    $i  $g$i  $g        $i  $x
+                  $m              $n    $m$n  $m$n  $g      $i  $g$i  $g        $i    $x
+                $m            $n      $m$n        $g$i$g    $i  $g$i  $g          $i  $x
+                $m          $n    $m$n      $m$n  $g              $i$g            $i    $x
+                $m      $n      $m$n$m$n  $m$n  $g$i$g                            $i    $x
+                  $m  $n    $m  $n$m$n  $m$n    $g                                  $i  $x
+EOC

@@ -1,0 +1,70 @@
+# Shadow the Hedgehog (Sonic series)
+# by Clyent Nite - https://www.spriters-resource.com/custom_edited/sonicthehedgehogcustoms/sheet/95705/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;88m  ";
+$b = "\e[48;5;234m  ";
+$c = "\e[48;5;160m  ";
+$d = "\e[48;5;236m  ";
+$e = "\e[48;5;172m  ";
+$f = "\e[48;5;210m  ";
+$g = "\e[48;5;216m  ";
+$h = "\e[48;5;238m  ";
+$i = "\e[48;5;241m  ";
+$j = "\e[48;5;60m  ";
+$k = "\e[48;5;146m  ";
+$l = "\e[48;5;254m  ";
+$m = "\e[48;5;251m  ";
+$n = "\e[48;5;233m  ";
+$o = "\e[48;5;244m  ";
+$p = "\e[48;5;223m  ";
+$q = "\e[48;5;250m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t    $a            $x
+                  $a                    $x
+              $a            $b  $a  $c      $x
+            $a  $b  $d      $b$e$b$a  $c$f  $c$x    $b  $x
+          $a$b          $d  $b$e$g$b$d$c  $f  $c$b      $x
+                $b        $d$b$e$g  $b$d$c  $f  $c$b  $x
+                    $b  $c$d$b$e$g    $b$d$c  $f  $c$b$x
+      $a$x          $b$c  $d$b$e  $d      $h$i$c$f$c$a$x
+      $b$a  $x    $a  $c$d      $h    $i  $d$h$i$a  $i$x
+      $b  $a        $c  $d    $h    $c$a$b$i$d$h$i$a$i$x
+        $b    $a  $c$d    $b$d    $h$c$j$k$b$i$d$h    $d$x
+        $b          $d  $b  $d      $a$k$l  $b$i$h$d$h$i$x
+          $b              $c$d      $a$m$l    $b$d$b$d$b$x
+            $b          $c  $d$b$d    $m$l    $c$b    $c$x
+                $b    $c  $d  $b  $d  $k$m$l  $f$b$j$b$f$x                                      $i  $x
+                  $a  $c  $d  $b  $e$g  $k$m$l$c$b$e$b    $x        $n$h  $i  $o  $i$h$i$o      $i  $h  $x
+                $a  $c  $d  $b  $e$g$p$g  $p    $g  $b  $j$x      $b$h$b$h$b$h$b$h                  $i$b$x
+        $a              $b      $e$g                $e$x          $n$b$h$b$h$b$h$b$h$i            $h$i$x
+          $b$a      $b            $e  $g        $e  $x            $j$k$j$b      $h                $b  $x
+            $b                        $e        $x    $a    $e$g$e$k$m  $j$h$m$l$k$h  $i        $h    $x
+                $b        $x  $b$d    $o$q$l$d$q$l$d      $e$p$e$j$m$j$l$j$b$j$k$j$x
+                          $a  $d$h$b$d  $o$q  $l$b$a  $c  $e$p$e$j$k$j  $l  $h$i$h$x
+                        $a$c$a  $b    $o  $q$l    $x  $a  $e$g$e$j$m$k$j  $m$j$x
+                        $a$e$p$e  $b      $o$q$h$x        $e    $j$k$j$l$m$j$x
+                        $e$g$e$k$m$l  $b  $d$h  $x            $n    $b$j  $x
+                        $e  $k$m  $l    $b  $d$h$x              $n      $x
+                          $j$m  $l      $k$b  $d$x
+                          $j$k$l      $k  $x$b$h$x
+                          $j  $k$l$k$l$k$j$x$b$h$x
+                            $j$k$l$k  $j$x  $b$h$x
+                              $j      $x  $b  $d$x
+                              $b$a    $x$b$d$b  $a  $x
+                            $b$d$a$c$f$a$b  $d$a$f$a$x
+                          $e$g$b$a  $c$a$e$b  $a$c$a$x
+                          $e  $g$p  $g$e  $g$p$a  $e$q$x
+                          $b$e                    $o$q  $l  $x
+                          $b  $q$l$f$c  $b    $d  $o  $q  $l    $c  $x
+                          $b$q$l$f$c$a$c$a$b    $d    $o  $q  $c$f$a$x
+                        $a$b  $f$c$a$e$a  $c$f$b    $d$c      $f$a$g$x
+                        $c$b  $c$a$e$b$e$a  $c  $a$x  $a$c    $a$b$x
+                        $a$b$a  $e$g$p$g$e$a      $x    $a    $e$x
+EOC

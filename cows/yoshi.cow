@@ -1,0 +1,65 @@
+# Yoshi (Super Mario)
+# by Unknown - http://pixelartmaker.com/art/ff02326495b93ac
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;28m  ";
+$c = "\e[48;5;40m  ";
+$d = "\e[48;5;22m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;254m  ";
+$g = "\e[48;5;52m  ";
+$h = "\e[48;5;203m  ";
+$i = "\e[48;5;34m  ";
+$j = "\e[48;5;242m  ";
+$k = "\e[48;5;95m  ";
+$l = "\e[48;5;137m  ";
+$m = "\e[48;5;209m  ";
+$n = "\e[48;5;221m  ";
+$o = "\e[48;5;184m  ";
+$p = "\e[48;5;100m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t      $a  $x$a  $x
+                $t  $a$b$c$a$b$c$a$x
+                  $a$d$b$e  $f$e$c$a$x
+                  $a$d$e  $a$e$a$e$d$x
+                  $a$f$e  $a$e$a$e$d$x
+                $a$d$f  $e  $f$e$f$d$x
+            $g$a  $b$d$f    $d  $a        $x
+          $g$h$d  $c$b$d$f$d  $b  $i    $b$a$x
+          $g$d  $c    $b$d  $b$i$c  $d$c$d$b$a$x
+          $g$d$e  $c    $b  $i$c          $i$a$x
+        $g$d$e      $c  $b  $c              $b$a$x
+      $g$h$d$e        $c$b  $c              $i$a$x
+      $g$h$d$f$e        $b  $i$c            $i$a$x
+        $g$d$f  $e    $f$d$b  $i$c        $i$b$a$x
+          $g$d$f  $e$f  $d  $b  $i$c    $i$b$a$x
+          $g$h$d$f    $d$f$d      $b    $d  $a$x
+          $g    $d$f        $d          $a  $x
+                $a  $f    $j$a          $x
+              $d  $a  $c$e    $j  $x
+            $g  $f$d$b$c$e    $f$j$x
+          $g$h  $f$d$i$a$e    $f$j$x
+        $g$h  $f$a$b$c$a$e    $f  $j$x
+        $g$h$f$a$b$c$a$f$e    $f  $j$x
+        $d$f$d$a$b$c$a$e      $f  $j$x
+      $a$d    $a$c  $a$e      $f  $j$x
+    $a$d  $b  $d$i$c$a$e      $f  $j$x
+    $a$b$a$d$a$b$c  $b$a  $e$f    $j$x
+    $a  $d  $a$i$c  $i$b  $a$f    $j$x
+      $a$d$b$a$d$c    $i$a  $f  $j$a$x
+      $a$b  $i$a$d$i    $b$a$f$j$b$a$x
+        $a$b    $a$d$b  $d$a$j$b$d$a$x
+        $a  $k    $a                $x
+        $a$l$m$n$m$a  $l  $k$n  $m$a  $x
+        $a$k$l  $k$a    $l$m        $a$x
+      $a$k$l  $k$n  $m$a  $o      $p$a$x
+      $a$l    $m        $a            $x
+      $a$p  $o        $p$a$x
+        $a                $x
+EOC

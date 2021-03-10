@@ -1,0 +1,67 @@
+# Marcus Fenix (Gears of War)
+# by Michael B. Myers Jr - https://dribbble.com/shots/254781-Pixel-Video-Game-Characters
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;237m  ";
+$b = "\e[48;5;239m  ";
+$c = "\e[48;5;137m  ";
+$d = "\e[48;5;180m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;242m  ";
+$g = "\e[48;5;233m  ";
+$h = "\e[48;5;117m  ";
+$i = "\e[48;5;255m  ";
+$j = "\e[48;5;248m  ";
+$k = "\e[48;5;234m  ";
+$l = "\e[48;5;236m  ";
+$m = "\e[48;5;235m  ";
+$n = "\e[48;5;88m  ";
+$o = "\e[48;5;131m  ";
+$p = "\e[48;5;94m  ";
+
+$the_cow = <<EOC
+            $t
+              $t      $a  $b  $x
+                      $a  $b    $x
+                  $b  $c$d$e    $x
+                $f  $g$c$d$e    $x
+          $b$x$b$h$i$b$g$c$d$e  $b$x
+        $b  $x$b  $f$j$g$k$c  $k$b$f$x
+      $l$b$j$k$f$b$h$i$j$k$d  $k$i$b$f$x
+    $l  $f$j$g$f$b  $f  $k$m  $k$j$f$b$x
+    $l  $f  $g$f  $b  $f  $j  $f  $j$b$x
+    $l  $b$f$g$b$f$k  $f$b    $f$j$k$b$x                    $b$x
+      $l  $b$g$l$g$k    $b$f$j$b$g$k  $j$x                  $b$x
+    $b  $l      $g$k    $f  $k        $j$k                    $x
+    $b      $x$l  $g  $h$k          $j$l                      $g$k  $x
+    $b  $f  $x$l  $b$g$k$l$h$i$h$b$f$l$b                  $n$b  $x
+      $m$f  $x  $l  $b  $k$m$a$b  $l      $k  $m$k$m$k      $n$k$m$o$n$x
+      $m  $b$m$a    $f  $m$a$m  $a$k$l$k    $m    $x  $m    $n$m$n$o$n$x
+      $f$a$b$f$m    $l$b    $m  $k      $l$k$m$n$o  $n$o          $n$x
+      $m$l      $m$l  $b$k$g  $k  $l$k  $l$k$x$o$x$o$x$n$x$o$n$o$n$x$n$x
+                $l$g$k$g  $b$k$g    $x$k  $x              $o$x$n$x$n$x
+                $g$k$g  $b$k$f$k$g  $x
+                $g$p$g  $b$f  $k$g  $x                        $n$x
+              $g$p$l$b$g  $b$f$g  $f$x
+              $g$p$l$b$m$g$b$f$m$b$f$x
+                $l  $b$m  $b$f$m$b$f$x
+                $l  $b$f$m$x$m$b  $f$x
+                $l  $b$m$f$x$l$b  $f$x
+                $l  $b$a$m$x$m  $b$f$x
+                $l  $b$f$a$x$m$b  $f$x
+                $l  $b$m$f$x$l$m$b$f$x
+                $l  $b$m$a$x$m  $b$f$x
+                $l  $m$a  $x$m  $b$a$x
+                  $g$a    $x$g$a$m$a$x
+                  $m$k    $x$m$k    $x
+                  $m$k  $x  $m$k  $x
+                  $g$a  $x  $g$a  $x
+                  $m$k  $x  $m$k  $x
+                  $m$a  $x  $m$a  $x
+                  $m$a  $x  $m$a  $x
+                  $m  $a$x  $m$a  $x
+                  $p$c  $x  $p$c  $x
+                  $p$c  $x  $p$c  $x
+EOC

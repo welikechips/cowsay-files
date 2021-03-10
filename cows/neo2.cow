@@ -1,0 +1,67 @@
+# neo2
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;234m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;236m  ";
+$e = "\e[48;5;180m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;137m  ";
+$h = "\e[48;5;95m  ";
+$i = "\e[48;5;237m  ";
+
+$the_cow = <<EOC
+            $t
+              $t                      $a$b  $c    $x
+                $t                  $b  $c      $b$c$b$a$x
+                  $t              $a  $b      $c  $b$a    $x
+                    $t            $b$c    $a$b  $c$a$c  $a  $x
+                      $t        $a      $b$c$a  $b$a$d  $c$a$x
+                                $a  $e  $a    $e$f$a$b$a$d$c$x
+                                $a  $g$a    $g$f    $e$g$d$c$x
+                                $a$h$g$a$g$a$c$g$f$e  $g$a$x
+                                $a$h  $g  $c  $a        $x
+                              $a  $g$h$g  $e$a    $e$a$x
+                              $a    $h$g  $e      $f$x
+                            $a      $h$g  $e    $h  $x
+                          $b      $a  $h$g$e$g    $x
+                        $b              $h$g$e$g$a$x
+                    $b$c  $b    $c  $b    $h    $b$x
+                  $c        $d$b    $c$d$b  $a  $b  $c$d    $x
+              $c      $d$i          $b  $i$c$b      $d  $i$d  $x
+            $c$d  $i                $d$i        $b$i          $d$x
+            $a        $i                          $d$i          $x
+          $a  $b$c  $a  $i                        $d$i      $d$i$d$x
+        $a  $b  $c    $a  $d$i                    $d$i        $d  $x
+        $a  $b    $c  $b$a$d  $i                $d  $i          $d$x
+        $a    $b        $a$c$d    $i            $d$i$d$i      $d$b$x
+        $a      $b  $a    $c$b$d                  $c$d        $c$b$x
+        $a                  $b  $c                            $a$b$x
+      $a            $b$a    $b    $c      $i  $d$i        $c    $b  $x
+      $a          $b$a    $b        $c$d  $i          $d$i$c$d$a  $b$x
+      $a        $b  $a    $b    $c  $d        $i      $d$i$b$d$a  $c$x
+      $a      $b$c$a      $b        $c      $d  $i$d$i    $d$b$c$b$c$x
+      $a    $b$c$a          $b$a$b  $c$b$c      $d  $c$d    $a$c$b$c$x
+      $a  $b$a  $b$a    $x$a      $b  $c  $b  $d  $c  $d      $a$c  $x
+    $a        $b  $a  $x    $a      $b  $c  $i            $d$c$a$c$b$x
+    $a      $b$c$b$a  $x      $a    $b    $c$d  $i      $c$b  $a$b  $x
+    $a    $b$c$b  $a$x          $a    $b        $c  $d$c    $b$a  $b$x
+    $a  $b$c  $b$a  $x            $a  $b    $c      $d$c      $a$b$c$b$x
+    $a$b$c$b$a    $x              $a  $b    $c      $d$c      $a$c$b  $x
+    $a$b$a  $b  $a$x                $a    $b    $c$d$i      $d$b$a  $b$x
+  $a    $b$c  $b$x                  $a    $b    $c$d$i      $d$b$a$b$c$x
+  $a  $b$c$b$a  $x                  $a  $b    $d  $i    $d  $c$b$a$b$c$b$x
+  $a$b  $a    $b$x                $a$b  $c  $d  $c      $d$c  $b$a$b$c  $x
+$a          $c$b$x              $a  $b  $c          $d$i$d$c  $b  $a$b$c$x
+$a        $c  $b$x              $a  $b  $c    $d  $i        $d$c$d$a  $c  $x
+$a    $b$c    $b$x            $a  $b    $i$c  $d$i            $c$i$a  $b$c$x
+$a    $b  $c  $b$x            $a  $b$a$b$c$i$d$i      $c$i        $c$a  $c$x
+$a    $b  $c$b  $x          $a  $b$a  $d  $i  $d    $i$a$i  $d  $i$c$a  $b$c$x
+$a    $b  $c$b  $x          $a  $b$a$c$d      $i$d$i  $a$i  $d  $i$d$a    $c$x
+$a    $b  $c$b$x          $a  $b$a  $c$d      $i      $a  $i  $d    $c$a  $b$a$x
+$a    $b  $c$b$x          $a  $b$a  $b$d      $c$i  $a    $i  $d  $c  $a  $b$c$a$x
+EOC

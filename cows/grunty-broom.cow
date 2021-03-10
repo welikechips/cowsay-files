@@ -1,0 +1,74 @@
+# grunty-broom
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;52m  ";
+$d = "\e[48;5;106m  ";
+$e = "\e[48;5;255m  ";
+$f = "\e[48;5;190m  ";
+$g = "\e[48;5;94m  ";
+$h = "\e[48;5;127m  ";
+$i = "\e[48;5;170m  ";
+$j = "\e[48;5;180m  ";
+$k = "\e[48;5;223m  ";
+$l = "\e[48;5;107m  ";
+$m = "\e[48;5;88m  ";
+
+$the_cow = <<EOC
+                                  $t                    $a        $x
+                                    $t                $a    $b    $a  $x
+                                      $t                  $a  $b      $a$x
+                                        $t                  $a$b        $a$x
+                                          $t                $a$b          $a$x
+                                            $t              $a  $b          $a$x
+                                              $t            $a  $b            $a$x
+                                                $t          $a  $b            $a$x
+                                                            $a  $b              $a$x
+                                                          $a    $b              $a  $x
+                                                          $a  $b    $a                      $x
+                                                        $a                                        $x
+                                                    $a                              $c            $a  $x
+                                              $a                $b$d$e  $d  $b$f  $a  $c          $a  $x
+                                          $a  $c        $a$b$a  $b$e      $d$f  $d$a  $c    $a    $x
+                                        $a$c          $a  $b$a$b  $e  $a  $e$f$d$e$f$a      $x
+                                        $a    $c    $a  $b$a  $d$b$e  $g$a$e$d$a$g$b$a$x
+                                            $a          $b$a$d$f  $d$e    $f    $b$a    $x
+                                        $a  $h$i$h$a        $f                  $d$a    $x
+                            $a  $x  $a  $i  $h  $b$h$a$h$a  $d$f  $d      $b$f    $a$x$a$x
+                            $a$h$a  $h    $i  $b$h$b$h  $a  $b$d    $a$d    $b$d$f$a$x
+                              $a$h        $b        $a  $h$a  $b$d    $e$a    $b$a  $x
+                                $a$h    $a  $b      $a    $h$a$b  $d    $c$e$c$b$a$x
+                                  $a          $b    $a  $h$i$h  $b$a$d      $f$d$b$a$x
+                                    $a  $b$a  $b    $a    $h    $i$b$a$d  $f    $b$a$x
+                                $a  $b                $a  $h  $i      $b$a$d$f  $d$b$a$x
+                              $a$b                      $a  $h$i      $h  $b$a$d  $b$a$x
+                        $a    $b          $a    $b      $a      $i  $h        $b$a      $x  $a$x
+                      $a$b              $a      $b        $a          $h    $a  $b  $a$g$a  $j$a$x
+                      $a$b            $a          $b          $a                  $k$e  $g$j$b$k$a$x
+                      $a$b        $a$b    $a      $b            $a                $k$e$l$e$b$g$e  $a$x
+                      $a          $b    $a          $b          $a            $g$a$k$e$l$e$b$e$l$e$a$x
+                        $a      $b      $a  $b$a      $b      $a$f    $a$g      $a$k$e$l$e$a$e$l$e$a$x
+        $a  $x        $a      $b    $a    $b  $a      $b    $a$f$d  $a  $g    $a$g$a$k$e$g$a$g$e$a$x
+        $a$g$a  $x    $a$g$a          $b    $a          $b$a$f$d$f    $d$a    $x$a  $g$b$a$g$j  $a$x
+      $a$k  $g$a      $x$a          $b    $a            $b$a$f          $d$a$x  $a$b$g$j      $g$a$x
+    $a      $g$k    $g$x$a$g$a  $b    $a                    $d$f        $d$a$x  $a$g    $j        $a$x
+  $a$g$k      $j    $k$a    $g$a                          $g$a$f  $d$a$d$a$x    $a$g$b$a$g$j    $g$a  $x
+  $a        $k    $j  $k$g$a$k$g$a              $b$i$a$g    $a  $d$f$d$a$x      $a$g$b$m$a$g    $a$b$g$a$x
+$a  $j      $g  $j      $g$k$g$a            $b$h  $i$a$g$a  $b  $a    $x        $a$b$g$b$a      $b$j  $a$x
+    $a    $k      $j  $g      $k$a            $i  $a      $b      $a$x            $a$g$j            $g$a$x
+  $a$k    $j  $g$j      $g  $a  $g          $a  $b    $a  $b$a      $x            $a$b$g$j        $g$a$x
+  $a    $g$k    $g  $j$g$j$g$k$g      $a      $b      $a  $b$a      $x              $a$b  $g    $b$a$x
+$a  $k    $j$g                $a      $x    $a$b$a              $x                    $a          $x
+    $a$g$j$a$j$g$j$g        $a$k  $a$x      $a$b$a      $x
+      $a  $j$g$j  $g        $a  $x          $a      $x
+      $a$j$g$a$j$g    $j$g$a$x$k$a$x
+    $a$j$a  $j$g  $j$g$a  $x  $a  $x
+    $a      $g$a$j$g$j$a$x
+        $a$g$a$j$a$g$a$x
+        $a  $j$g$a    $x
+            $a  $x
+EOC

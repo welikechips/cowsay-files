@@ -1,0 +1,70 @@
+# Spiderman
+# sprite from Spiderman and Venom: Maximum Carnage (SNES)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;232m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;124m  ";
+$d = "\e[48;5;88m  ";
+$e = "\e[48;5;160m  ";
+$f = "\e[48;5;17m  ";
+$g = "\e[48;5;20m  ";
+$h = "\e[48;5;18m  ";
+$i = "\e[48;5;19m  ";
+$j = "\e[48;5;21m  ";
+$k = "\e[48;5;231m  ";
+
+$the_cow = <<EOC
+                                         $t
+                                           $t
+                                             $t
+                        $a            $x       $t
+                    $a    $b  $c$d$b$a    $x     $t
+                  $a$c  $d$b$a      $d$c$b$a  $x
+                $a$d$e  $c$d$a$f$g$h$a$d$e$c$b$a          $x            $a        $x
+              $a$d$e  $c$b    $a$i$a$j$a  $c$e$c$a$b$d$c$d$a        $x$a$b$d$c$d$b$a$x        $a      $x
+            $a  $c    $b  $d$c$a  $f$g$j$h$a          $c$e$d$a$b    $a$b$d$c$e$c$d$b$a        $b$d$e$c$a$x
+          $a$c$d$b    $d$c$a        $i$g$j$i$a$f$h$i$f$a$c  $e$c$d$b$a$d$c$e    $c$b$a$b$d$c$e$a$c$d$a    $x
+        $a$d$c$b  $d$a    $x        $a$i$g$j$i$h$i$j$i$f$a$d$c$d$b$d$a$b$d$c$e  $c$d$a$d$c$e$c$e$d$a$c$e$a$x
+      $a$d$c$b$d$a  $x                $a  $g$h$f$h$j  $i$f$a$d$b$a$c$a  $b  $c  $d$b$a$c$e$c$d$a$b$a$d$c$a$x
+  $a  $c$d$b$d$a$x                      $a      $f$g$j  $i$f$a$b$a$d$a$k$a$b$d  $b$a  $e$c$d$b$a    $b$a  $x
+$a$b$d$c  $b$a$x                            $a    $i$g    $h$f$a$b  $a$k  $a$c$b$a$k$a$e$d$b  $a$x$a  $e$d$a$x
+$a$d$e  $d$a$x                            $a$f  $a  $f$i$h$f$a$b    $a$k  $a$e$a$k  $a$c$b  $a$x$a$c$a$c$a  $x
+$a$c    $a  $x                            $a$i$h$f$a        $b  $d$b$a$k  $a$e$a$k  $a$d$b$a$x$a    $c$a$d$a$x
+  $a$d$a$b$a$x                            $a$j$g$i$h$f$a    $b$c  $b$a    $c$e$a$k  $a$b$a  $x$a$x  $a$x$a  $x
+    $a$b$a$x                              $f$h$f$a  $h$f$a$c$d$e$c$b$a$b  $d$e$c$a  $d$b$a$x    $a$x      $a$x
+      $a$x                                  $a$h$f$a    $b$d$c$e  $b  $a$b$d$c  $a$c$a  $x              $a$x
+                                            $a$i$h$f$a  $b  $d$c$e$a            $c$a$x
+                                            $a$g$i$h$f$a  $b  $d$a$e$a  $b  $d$c$a$x
+                                            $a$j$g$i$a$b$a  $b  $d$c$a$c$a      $x
+                                          $a$f$i$j$g$a$b  $a              $x
+                                          $a$h$a$g$j$a$c$d$b  $a  $x
+                                          $a$i$a        $c$b$a  $x
+                                          $a    $h$g$j$g$a$c$b$a$x      $a        $x
+                                        $a$i$a$f$a$h$i$a$f$a$c$a$x$a    $f$h$i$h$f$a    $x
+                                      $a  $j$a$f  $a  $f$i$a$d$c$a$f$h$i$g  $j  $g  $i$g$a  $x
+                                    $a$f$a$g$a$h$i$g$j  $g$a$b$a$f$h$i$g$j    $g$i$h$a$i  $g$a$x
+                                    $a$h$a              $h$a  $f$h$i$g$j    $g$i$h$f$a  $h$f$h$a$x
+                                    $a$i$a$b      $d$e$b$a  $f$h$i$g$j  $g$i$h$f$a$i$j$h$f$a$i$g$a$x
+                                    $a$g$a$d$b  $d$c$e$d$a  $f  $h$i$g$i$h$f$a  $i$g$h$f$a  $h$j$a$x
+                                    $a$i$a$c$d$b$d$e  $c$a    $f$h$f  $a      $b$a$h$f$a          $x
+                                    $a$h$a$e$c$b$c$e  $d$a            $h$f$a$c$d$b$a      $h$f$a$x
+                                    $a$f$a$c$e$b$c$e$c$b$a      $h$g$i$a  $c$e$c$d$b$a  $g$i$a$x
+                                      $a  $d$e$b$c  $d$a    $f$h$i$h$a  $c$d$b        $d$a  $x
+                                        $a$b$c$b$e$c$b$a              $d$e  $c$d$b$a    $x
+                                          $a$d$b$e$d$a$x      $a$b    $c$d$b$a    $x
+                                          $a$b$d$e$b$a$x    $a$b    $c$b$a  $x
+                                          $a$b$c$e$a$x      $a$d  $b$a  $x
+                                            $a$c$e$a$x      $a$c$e$a$e$c$a  $x
+                                            $a$c$e$a$x      $a$d$c$e$c$d$b  $a$x
+                                            $a$d$e$a$x        $a                $x
+                                            $a$b$c$a$x
+                                            $a$b$c$a$x
+                                            $a  $c$d$a$x
+                                            $a$b$d$c$d$a$x
+                                            $a  $b$d$e$d$a$x
+                                            $a$b  $d$c$e$d$a$x
+                                              $a            $x
+EOC

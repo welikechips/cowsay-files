@@ -1,0 +1,68 @@
+# Link with snowquill armor (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;94m  ";
+$b = "\e[48;5;136m  ";
+$c = "\e[48;5;215m  ";
+$d = "\e[48;5;253m  ";
+$e = "\e[48;5;242m  ";
+$f = "\e[48;5;173m  ";
+$g = "\e[48;5;39m  ";
+$h = "\e[48;5;144m  ";
+$i = "\e[48;5;239m  ";
+$j = "\e[48;5;238m  ";
+$k = "\e[48;5;64m  ";
+$l = "\e[48;5;178m  ";
+$m = "\e[48;5;243m  ";
+$n = "\e[48;5;131m  ";
+$o = "\e[48;5;237m  ";
+$p = "\e[48;5;95m  ";
+$q = "\e[48;5;236m  ";
+$r = "\e[48;5;88m  ";
+$s = "\e[48;5;161m  ";
+$u = "\e[48;5;18m  ";
+$v = "\e[48;5;26m  ";
+$w = "\e[48;5;240m  ";
+$y = "\e[48;5;101m  ";
+
+$the_cow = <<EOC
+                    $t
+                      $t
+                        $t
+                          $t            $a$x
+                            $t        $b      $x
+                                    $b      $a  $x
+                                  $b  $c$b$a$b$a  $d  $x
+                                  $b$c    $b  $d  $e$x
+      $b  $x                        $c    $b$c  $f$x
+        $b  $x$b$x                  $c    $b$g$a$x
+        $b$a$b    $x                $a$c  $b$h  $x
+        $b$i$b  $x            $b$i$e$b$d  $b$d$j$h$k$l  $x
+        $m  $b$i$x            $b$i$h$n$h  $i  $j$k$l$j$a$x
+        $m  $i$x              $j$o$h$n$h    $i  $j$p    $x
+        $m  $x              $j  $o$h  $n$h  $e  $x$j$p$j$p$x
+        $m$i$x            $h  $o  $x$h$i$n$q$i$q$x  $j$h$d  $x
+        $m$i$x            $q  $e$x  $q$i$q$n  $p$x    $i  $q$h$x
+        $i  $m$x          $q  $x    $q$i$q$i$q  $x  $i$c$q  $x
+          $i$m  $x    $h$q  $x      $r$i$q$s      $x$c$i$q$x
+          $i  $m  $x$h$e$q  $x  $i$e$p$h$s$p$n  $p$x
+            $a$b$m$i$h$q    $e    $i$r$p  $s      $x
+              $a$x$h$e$f$q$e    $i  $r    $s$h$k$h$r$x
+                  $e$x  $i$e  $i      $r  $e$k$h$k$r$x
+                        $i        $h$e$p$r$e$h    $r$x
+                      $a  $i  $h  $e$p  $x  $h    $e$x
+                        $a  $i  $u$o      $x$e    $h$x
+                                $u$i  $o  $x$h$e    $d$x
+                              $u  $x$i  $j$o$x$h$d  $b$x
+                            $u$v$x    $a$o  $x  $p$n  $x
+                            $v  $x    $a$x$j$x  $p  $n$x
+                            $v  $x                $p  $x
+                              $v  $x              $p$b$x
+                                                  $w$p$x
+                                                  $y  $x
+                                                  $p  $x
+                                                  $y$x
+EOC

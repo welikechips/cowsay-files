@@ -1,0 +1,70 @@
+# Headcrab (Half Life)
+# by Gamingpixels - https://www.pinterest.com/pin/348325352413596885/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;216m  ";
+$b = "\e[48;5;88m  ";
+$c = "\e[48;5;131m  ";
+$d = "\e[48;5;52m  ";
+$e = "\e[48;5;167m  ";
+$f = "\e[48;5;172m  ";
+$g = "\e[48;5;137m  ";
+$h = "\e[48;5;231m  ";
+$i = "\e[48;5;229m  ";
+$j = "\e[48;5;247m  ";
+$k = "\e[48;5;17m  ";
+$l = "\e[48;5;24m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t    $a  $b$c$x
+                  $a        $c  $x
+                  $b$a        $c  $x
+                $a  $c$a    $c    $x
+                $c$a$c$a$c$a$c    $x
+                $c$a$c$a$b$a$c$a$c$x
+                $c      $b$c$b$a$b$x
+                $b$c$b$d$c$b  $c  $x
+                $d$b    $c$b$c$b$d$x
+              $b$d$b$c$e$a$b$c$e$d$b$x
+            $e  $b  $a$e  $b  $e$b$e$b$x
+            $e    $b$a$e  $b$e$b$e  $b$x
+            $e          $a$e        $b$x
+            $e$b$e    $b$e      $b$e  $b$x
+            $e$b$e  $b    $e$b    $x$e$b$x
+            $e$b$e  $f$b$g$e  $b  $x$e$b$x
+            $h$b$e$f$i$b$i$f$e$b$j$x$e$b$x
+            $e$j$e$f$g$b$g$f$h$b$j$x$b$j$x
+          $h$j$x$e  $i$b$i$b$h$j  $x  $h$d$x
+          $h$j$x$b$f$g$b$g$f$h$j$b$x  $h$j$x
+          $h$j$x$h$f$i$b$i$g$b$j$b$x  $b$j$x
+          $b$j$x$b$f  $b$g$e  $j$b$x  $h$j$x
+          $h$j$x$h$b$i$b$i$f$e$j  $x  $b$j$x
+          $h$j$x$h  $f$b$f$h$b$j$b$x  $h$j$x
+          $j  $x$h$b      $h  $j  $x  $j  $x
+          $c  $x$b$e  $b$e  $h$j$d$x  $j$b$x
+          $e  $b$e$b              $x$a$e$b$x
+          $a$b$x$e$b  $x    $e$b$k$e$i$e$b$x
+        $a$x$i$x$l$b  $x    $e$b$k$e$x$e$x$b$x
+        $a$x$c$x$b    $x    $e$b$k$x  $e$x$b$x
+        $a$x$a$x$b$k$b$x    $b$k$b$x  $c$x$c$x
+        $b$x  $b    $k$x    $e$k  $x$a$x  $c$x
+          $b$x  $b$k  $x    $b$k  $x    $b$x
+                $b$k  $x    $l$k  $x
+                $l$k  $x    $e$k  $x
+                $l  $k$x    $l  $k$x
+                  $k  $x      $k  $x
+                  $l$k$x      $l$k$x
+                  $b$k$x      $l$k$x
+                  $b$k$x      $l$k$x
+                  $l$k$x      $l$k$x
+                  $l$k$x      $l$k$x
+                  $l$k$x      $l$k$x
+                  $l$k$x      $l$k$x
+                  $l$k$x      $l$k$x
+                $b$k  $x      $l$k$x
+              $k      $x      $k    $x
+EOC

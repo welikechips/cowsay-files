@@ -1,0 +1,70 @@
+# Chester Cheetah (Cheeto's Mascot)
+# sprite from Chester Cheetah: Wild Wild Quest (SNES) - https://www.spriters-resource.com/snes/cheetahquest/sheet/12240/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;52m  ";
+$b = "\e[48;5;166m  ";
+$c = "\e[48;5;208m  ";
+$d = "\e[48;5;220m  ";
+$e = "\e[48;5;110m  ";
+$f = "\e[48;5;88m  ";
+$g = "\e[48;5;60m  ";
+$h = "\e[48;5;153m  ";
+$i = "\e[48;5;234m  ";
+$j = "\e[48;5;67m  ";
+$k = "\e[48;5;231m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                  $a$b        $x
+                $t                  $a$b$c    $b  $x
+                  $t                  $a$b$c$a$d$c$b  $x
+                            $e$x    $a$f$b$c$d  $a$c$b  $x        $e$x
+                            $g$h$i            $c  $i            $h$g$x
+                              $b$i$g  $j$e$k$i      $g  $j$h$k$i$b$x
+                        $j$e  $x$i            $c$b$i            $x$e  $j$x
+                        $i$j$k$e$i          $c$d$b  $i          $e$k$j$i$x
+                          $i$j$k$e$i    $k          $e  $i    $e$k$j$i$x
+                          $f$i$b      $k$i$e$k$j$i    $j$e$b      $i$f$x
+                $i$x    $f$b    $c  $b$k$i  $e$i        $e$b$c  $b    $f$x    $i$x
+                  $i  $f$b  $c  $d    $b$k$i        $j$e$b$d    $c  $b  $i    $x
+                    $f$i        $d      $b$k$i  $j  $e$b$d      $i      $f$x
+                    $f$b  $c$d            $c$k$h$e  $c$d            $c$b  $f$x
+                    $f$i      $d    $k      $c$j$e$c$k      $d    $i    $b$f$x
+                $i    $b  $c$d$k          $h$e$i$e$h$k            $d$c$b$i    $x
+                      $f  $b$i  $k  $h  $e$j$i    $j$e  $h$k    $i  $b$f  $x
+                        $i  $j$e  $j$g$i    $j    $i    $g$j$e    $j$i  $x
+                        $a$i          $j  $e$k    $e$j  $i            $x$i  $x
+                    $i  $f  $a$i$g  $j$e$k  $h    $k  $e$j$g  $i$x
+                  $a$b$i$b  $i    $g$j                  $g$i  $x
+                    $i  $b$f$b$i$x$i      $e    $j$i      $x
+                        $i  $c$b$i  $b$i  $k  $i  $x
+                          $i  $c$b$i$f$g  $i$e$k$i$x
+                        $i$h$i$d  $i$c$g    $i    $x
+                        $i$k$b$c$d$i$f$g$j    $i$b$a$x
+        $i$f$c$f$d$x      $i$k  $i$c$d$g$e    $i$b$a$x
+      $i      $a$c$i$x      $i  $a$c$d$g$e$k$g  $b$i$a$x
+    $i    $x    $a$d$x          $a  $d$g$j$h$k$g$i$b$a$x
+    $i  $x      $a$d$x          $a$c$d$c$g$j$e$i$x$i$b$a$x
+    $i$x        $a$i$x        $a  $b$c$a$d$c$b$i$x$i$b$i$x
+                $a$d$x      $c$b$a$f$b$c  $b$i$x    $i$b$a$x
+                $a$i$x    $i$b$a$x$a$b$a$i  $x    $g$b  $i$x
+                $a$c$b$x$d$b$a$x  $a$d$x$i$a$x$g  $k$c$f$c$i$x
+                  $a$c$i$b$a$x    $a$i$x$i$f$i$j$k$j$b$d  $i$x
+                    $a    $x      $a$d$x$i$f$i      $k$a$d$b$i$x
+                                  $a$d$f$a  $f$i    $h$i$a$b$i$x
+                                  $i$b$c$i$c$f$i$g$i$e$i$k$i$x
+                                    $i          $e$b$i$j$k$i  $x
+                                      $i$f$i  $g$e$b$i$e$i$e$i$x
+                                    $i$j$h$j$i  $g$e$h$i$g$e$i$x
+                                    $i$j$k$g  $e$i  $e$g  $e  $i$x
+                                    $i$k$g  $k$g$e$g$i$j$k$g$k$i$x
+                                  $i$h$g$c  $g$k$g    $i$j$g$e$i$x
+                                  $i$e$g$c  $g  $k  $e$j$i$g$j$i$x
+                                  $i$g            $i        $g$i$x
+                                  $i$g$e$h$k        $h$e$j$i    $x
+                                  $i                        $x
+EOC

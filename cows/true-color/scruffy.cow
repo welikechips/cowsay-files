@@ -1,0 +1,80 @@
+# Scruffy (Futurama)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/futurama/comments/4mrql2/futurama_pixel_art_edition/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;144;26;30m  ";
+$b = "\e[48;2;207;29;70m  ";
+$c = "\e[48;2;255;78;80m  ";
+$d = "\e[48;2;207;28;70m  ";
+$e = "\e[48;2;208;29;70m  ";
+$f = "\e[48;2;249;166;118m  ";
+$g = "\e[48;2;208;111;71m  ";
+$h = "\e[48;2;255;218;174m  ";
+$i = "\e[48;2;255;255;253m  ";
+$j = "\e[48;2;38;38;38m  ";
+$k = "\e[48;2;255;255;254m  ";
+$l = "\e[48;2;151;128;120m  ";
+$m = "\e[48;2;205;191;186m  ";
+$n = "\e[48;2;17;41;42m  ";
+$o = "\e[48;2;250;166;118m  ";
+$p = "\e[48;2;250;167;118m  ";
+$q = "\e[48;2;21;51;52m  ";
+$r = "\e[48;2;37;98;98m  ";
+$s = "\e[48;2;255;244;177m  ";
+$u = "\e[48;2;209;111;71m  ";
+$v = "\e[48;2;255;219;175m  ";
+$w = "\e[48;2;172;217;244m  ";
+$y = "\e[48;2;85;96;148m  ";
+$z = "\e[48;2;30;44;91m  ";
+$A = "\e[48;2;134;65;29m  ";
+$B = "\e[48;2;173;90;38m  ";
+$C = "\e[48;2;45;22;21m  ";
+$D = "\e[48;2;172;218;244m  ";
+$E = "\e[48;2;255;255;255m  ";
+$F = "\e[48;2;122;102;94m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                  $t
+                    $a  $b  $c$x
+                $a    $b    $c$x      $c$x
+            $a        $b$a  $b$c$x  $c$x
+            $a          $b  $d  $b$e$x
+            $a        $b    $f  $a$x
+            $a  $g$f            $h$x
+            $a$g$f          $h      $x
+              $g$f  $i  $j$i$h  $j$i$x
+            $g$h$f    $i$k  $h  $k  $x
+            $g$h        $f  $h$g  $f$x
+              $g$f$h  $f$h$l    $m  $x
+                  $f$h  $l$m          $x
+                  $f$h$l  $m$l$m  $l$m$x
+              $n$o$h    $f    $p$x
+            $n$q$r$h  $f$h  $f$x
+          $n$q$r    $g$f    $h$x
+        $n$q$r    $g$f      $h  $x
+      $n$q$r$n$r$g  $f$g$h    $s  $x
+      $n$q  $r$q$u    $f$p$v$w$r$x
+      $q    $n$r    $q$w$n$q$w$r$x
+    $n$q    $n$r    $q$w$n$q$w$r  $x
+    $n$q  $n$r    $q$y$w$n  $y$q$r$x
+    $n$q  $n$r    $q$y$w$n  $w$q$r  $x
+  $n  $q  $r    $q$y$w  $n  $y$q$r  $x
+  $n    $q      $r$y$w  $n  $w$q  $r$x
+  $n      $q  $r  $y$w  $n$w$n$q  $x
+  $n          $q$r$y$w  $n$w$n  $x
+      $z      $y$A    $B$q$w$x
+      $C      $A$q  $r$q  $D$x
+      $n    $q    $r$n  $q$y$r$x
+      $n    $q    $r$E$n$q$w$r$x
+      $n      $q  $r$E$n  $y$r  $x
+      $n    $A  $B                      $x
+      $z  $l  $F$m$l$m  $l$m  $l$m  $l$m$x
+      $z$F  $l  $m                        $x
+
+EOC

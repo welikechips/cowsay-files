@@ -1,0 +1,56 @@
+# Officer Barbrady
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;67m  ";
+$b = "\e[48;5;226m  ";
+$c = "\e[48;5;236m  ";
+$d = "\e[48;5;131m  ";
+$e = "\e[48;5;223m  ";
+
+$the_cow = <<EOC
+      $t
+        $t
+          $t        $a                          $x
+            $t        $a        $b  $a        $x
+              $t        $a      $b  $a      $x
+                      $c                      $x
+                    $d                          $x
+                    $d        $e        $d      $x
+                    $d    $e                $d  $x
+                  $e$c$e    $c  $e  $c  $e    $c$e$x
+                  $e  $c$e                  $c$e  $x
+                  $e    $c                  $e    $x
+                  $e      $c    $e  $c    $e      $x
+                  $e      $c    $e  $c    $e      $x
+                  $e                              $x
+                    $e          $c  $e          $x
+                      $e      $c$e  $c$e        $x
+                        $e                    $x
+                        $a$e                $a$x
+                    $a  $c$a    $c$a$c$a    $c$a$x
+                    $a    $c$a$c$a$c$a$c$a$c$a  $x
+                  $a        $c$a$c  $a  $c$a      $x
+                  $a              $c$a$b        $a$x
+                $a              $c  $a              $x
+                $a                $c$a    $b$a      $x
+                $a              $c  $a  $b    $a    $x
+              $a                  $c$a    $b$a        $x
+              $a                $c  $a                $x
+              $a                  $c$a                $x
+              $a                $c  $a                $x
+              $a                  $c$a                $x
+                $e  $a          $c  $a            $e$x
+                $e  $a                          $e  $x
+                $e    $a                      $e    $x
+                  $e  $a                      $e  $x
+                  $a                              $x
+                  $a                              $x
+                    $a                          $x
+                    $a                          $x
+                      $a                      $x
+                    $c                          $x
+                  $c                              $x
+EOC

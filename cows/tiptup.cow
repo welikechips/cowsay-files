@@ -1,0 +1,54 @@
+# Tiptup (Diddy Kong Racing, Banjo Kazooie)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;154m  ";
+$c = "\e[48;5;70m  ";
+$d = "\e[48;5;255m  ";
+$e = "\e[48;5;57m  ";
+$f = "\e[48;5;52m  ";
+$g = "\e[48;5;130m  ";
+$h = "\e[48;5;220m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                  $t      $a        $x
+                        $a$b        $a  $x
+                      $a$b$c$d    $c$d  $a$x
+                    $a$c  $d      $c$d    $a$x
+                    $a$c  $d  $e$a$c$e$a$d$a$x
+                    $a$b$c$d  $a  $c$a  $d$a$x
+                  $a$c$b  $c  $b        $c$a$x
+                  $a$b                      $a$x
+                $a$c$b                $a$b$a$b$a$x
+                $a$b                          $c$a$x
+                $a$c$b                        $c$a$x
+                $a$c  $b$c  $b                $c$a$x
+                  $a$c      $a                  $x
+                  $a  $c                $a  $x
+                $a$f  $a$c        $a    $x
+              $a$f  $a    $c    $a$f$a$x
+            $a$f  $a$c  $g$c    $g$a$f$a$x
+            $a$f$a$c  $a$g          $f$a$x
+          $a$f$a$c    $a$h  $g    $h$f  $a$x
+          $a$f$a$c$b$c$a$g            $f$a$x
+          $a  $c$b  $a$g$h            $f$a$x
+          $a  $b    $a$g$h            $f$a  $x
+          $a$b        $a$g            $a$c$a$x
+          $a$c$b  $a$c$a$h          $g$a$c$a$x
+          $a$c$b  $c$a$g            $a$c  $a$x
+          $a  $c$b  $a$g    $h  $g$a  $c  $a$x
+            $a          $g      $a$c$a    $x
+              $a  $c$b$c$a      $c  $a$x
+                $a$c$b  $a      $c  $a$x
+                $a$c  $b$a  $x$a$c    $a  $x
+              $a$c$b      $a$x$a$c        $a$x
+              $a$c$b      $a$x$a$c        $a$x
+              $a            $x$a            $x
+EOC

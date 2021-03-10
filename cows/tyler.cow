@@ -1,0 +1,73 @@
+# Tyler Durden (Fight Club)
+# by Gustavo Viselner - https://twitter.com/PixelGustavo/status/1192511174144909313/photo/1
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;173m  ";
+$b = "\e[48;5;95m  ";
+$c = "\e[48;5;237m  ";
+$d = "\e[48;5;216m  ";
+$e = "\e[48;5;225m  ";
+$f = "\e[48;5;182m  ";
+$g = "\e[48;5;52m  ";
+$h = "\e[48;5;88m  ";
+$i = "\e[48;5;204m  ";
+$j = "\e[48;5;231m  ";
+$k = "\e[48;5;223m  ";
+$l = "\e[48;5;160m  ";
+$m = "\e[48;5;181m  ";
+$n = "\e[48;5;124m  ";
+$o = "\e[48;5;23m  ";
+$p = "\e[48;5;149m  ";
+$q = "\e[48;5;234m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                $a$x$b$a$x$a$x
+              $t              $c$a$c        $x
+                $t            $c  $b$c      $a$x
+                  $t        $b$c$a$d    $a$c$b$x
+                            $c$a  $d    $a  $c$x
+                            $c$a$d        $a$c$x
+                            $c$e    $a$e    $c$x
+                            $f$g    $e$g    $f$x
+                            $f$h  $f$a$f$h  $f$x
+                            $a$f  $a$d$a$f  $a$x
+                              $a            $x
+                              $a  $i  $j$a  $x
+                              $b$a$d$a$d$j$b$x
+                              $b  $d    $b  $x
+                          $k  $a$b        $x
+                        $k    $a$b        $a$k$x
+                      $h$k      $b        $a$k  $x
+                  $h    $k        $b    $a  $k    $x
+          $h        $g$h$k          $b  $a  $k    $h  $x
+          $h    $l  $g$h          $m$b$a    $m  $g  $h  $x
+        $h  $l$h$l  $g          $h$m  $a    $m  $g    $h$x
+        $h$n$l  $h$l    $n    $g$h$m  $a  $m$k$m$h$n$g$h$x
+        $h$l$n$l$n$h$l  $n$l  $g$h$k$m  $a$k  $m$h$n$g$h$x
+      $h  $l  $n  $h$l  $n$l  $g$h$k  $m$a$k  $m$h$n$g$h$x
+      $h$n$l  $n$h  $n    $l  $g$h$k          $m$h$n$g$h$x
+      $h$l$n    $h    $n        $g  $k  $o  $k$m$h$n$g$h$x
+    $h  $l  $n$h$g  $h$n        $g  $k  $o  $k$m$h$n$g$h$x
+    $h$n$l  $n$h$g                  $k$o  $p$o$m$h$n$g$h  $x
+    $h$n      $g    $h  $g$h    $g  $o        $m$h  $g$l$h$x
+    $h$l$n  $h$g$x$g$h  $g$h    $g  $o$p$o  $c$m$h  $g$n$h$x
+    $h  $l$n$h$g$x$g  $h$g$h    $g  $p$o  $k$m  $h  $g$n$l$x
+  $h        $g  $x$g  $h$g$h    $g  $o$p$o$k$m  $h  $g$l$h  $x
+  $h$l  $n$h$g$x  $g  $h  $g$h    $g$k$o  $k$m  $h  $g$h    $x
+  $h$n$l  $h$g$x  $g  $h  $g$h    $g$k      $m  $g$h$g$h    $x
+  $h$n    $h$g$x  $g  $h  $g$h    $g$k      $m  $g$h$g$h    $x
+  $h$l  $n$h$g$x  $g    $h$g$h    $g$o  $k  $m  $g$h$g  $n$h  $x
+  $h$l  $h$g$x    $g    $h$g$h    $g$o$p$o$k$m  $g$h  $g$l  $h$x
+  $h$n  $h$g$x    $g    $h$g$h    $g$k$o    $m  $g$h  $g$l  $h$x
+  $h$l$n$h$g$x    $g    $h$g$h    $g$k  $o$p$m  $g$h      $n$l$h$x
+  $h$n  $h$g$x    $g    $h$g$h    $g$k  $o  $m  $g$h  $x$h$n$l$h$x
+  $h$l$n$g$x      $g            $h$g$o$k      $m$g$h  $x$h$n$l$h$x
+  $h$l$n$g$x      $g$n$l      $g$h$g$o$k$q$k  $m$g$h  $x$h  $n$l$h$x
+  $h$l$n$g$x    $g  $n        $g$h$g$p$o$q$k  $m$g$h  $x  $h$n$l$h$x
+  $h$n  $g$x    $g  $n        $g$h$g$o  $q$k$o$c$g$h    $x$h$n  $h$x
+  $h$l$n$g$x    $g    $n    $g  $h$g$k  $q$k$p$c$g$h    $x$h  $n$l$h$x
+  $h$l$n$g$x    $g      $n$g$h$g$h$g$k  $q$k$o$c$g  $h  $x  $h  $n$h$x
+EOC

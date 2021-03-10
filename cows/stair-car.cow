@@ -1,0 +1,57 @@
+# Stair Car (Arrested Development)
+# by Drew Wise - https://www.youtube.com/watch?v=YwCQcCUVx4w
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;208m  ";
+$d = "\e[48;5;26m  ";
+$e = "\e[48;5;246m  ";
+$f = "\e[48;5;238m  ";
+$g = "\e[48;5;196m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                        $a                                    $x
+              $t                    $a$b                                    $a$x
+                $t                $a$b          $c  $b                        $a$x
+                  $t              $a$b        $c$b  $c$b                      $a$x
+                    $t          $a$b        $c$b  $d  $b$d$b$d$b$d$b            $a$x
+                      $t        $a$b          $c$b$d      $b$d$b$d$b            $a$x
+                              $a$b            $c$b$d$b$d  $b$d    $b              $a      $x
+                              $a$b            $c  $d          $b$d$b              $a$b    $a$x
+                            $a$b                                                    $a$b  $a$x
+                            $a$b              $c                  $b                $a$b    $a$x
+                            $a$b                                                    $a$b    $a$x
+                              $a$b                                                $a$b        $a$x
+                                $a                                                $b          $a$x
+                                                                $a$b                            $a$x
+                                                                $a$b    $c  $b                  $a$x
+                                    $a                    $x    $a$b  $c$b  $c$b                  $a$x
+                                  $a$b                    $a$x  $a$b$c$b  $d  $b$d$b$d$b$d$b      $a$x
+                                $a$b    $a            $b  $a$x  $a$b  $c$b$d      $b$d$b$d$b        $a$x
+                                $a$b  $a$e  $f  $e$f  $a$b$a      $b  $c$b$d$b$d  $b$d    $b        $a$x
+                              $a$b    $a$f$e  $f  $e$f$a$b$a$e  $a$b  $c  $d          $b$d$b      $g$b$a$x
+                              $a$b  $a$e  $f$e  $f  $e$a$b$a      $b                            $g$b  $a$x
+                            $a$b  $a  $f$e  $f$e  $f  $a$b$a$x  $a$b  $c                  $b  $g$b  $d$b$a$x
+                            $a$b$a$b$a$f  $e  $f$e  $f$a$b$a      $b                        $g$b  $d$b  $a$x
+                      $a    $b  $a$b$a                  $b$a$e  $a$b                      $g$b  $d$b  $d  $a$x
+                $a    $b          $a  $b                  $a      $b                    $g$b  $d$b  $d    $a$x
+            $a  $g                                        $a$x  $a$g                    $b  $d$b  $d        $a$x
+        $a    $b                                          $a$x  $a$b                      $d$b  $d          $a$x
+      $a$b$e  $a$d                              $a$e  $a$d$a$x  $a$d                      $b  $d              $a$x
+      $a$b$e  $a$b                                        $a$x  $a$b                        $d                $a$x
+        $a    $d                                          $a$x  $a$d                                            $a$x
+          $a$d            $a      $d                      $a      $d              $a      $d                  $a      $x
+          $a  $d      $a  $f      $a  $d                  $a$e  $a$d          $a  $f      $a  $d            $a$e      $a$x
+        $a$e  $a$d  $a$f  $a      $f  $a$d                $a$f  $a$d        $a$f  $a      $f  $a$d          $a$f      $a$x
+        $a$f  $a$d$a$f  $a          $f  $a$d              $a      $d      $a$f  $a          $f  $a$d          $a      $x
+          $a  $d  $a$f$a    $f  $a    $f$a$d              $a$x  $a$d      $a$f$a    $f  $a    $f$a$d                $a$x
+            $a      $x$a  $f$e  $f$a  $f$a                $x      $a        $x$a  $f$e  $f$a  $x$a                  $x
+                      $a  $f$e  $f$a  $x                                      $a  $f$e  $f$a  $x
+                      $a    $f  $a    $x                                      $a    $f  $a    $x
+                        $a          $x                                          $a          $x
+                          $a      $x                                              $a      $x
+EOC

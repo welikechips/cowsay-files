@@ -1,0 +1,71 @@
+# Hank Hill (King of the Hill)
+# by Mauri Helme - https://www.youtube.com/channel/UCas7DqhT9pKI3_L0dY2HhTw
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;137m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;230m  ";
+$f = "\e[48;5;180m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;251m  ";
+$i = "\e[48;5;166m  ";
+$j = "\e[48;5;208m  ";
+$k = "\e[48;5;214m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                $a                $x
+                $t            $a$b            $c  $a$x
+                  $t        $a$b                  $c$a$x
+                          $a$b    $a              $b$a$x
+                          $a$b  $a$d          $e  $a  $x
+                          $a$b$a$d        $f  $d  $e$a$x
+                          $a$b$a$d                  $a$x
+                          $a$b$a$d$a      $d  $a      $x
+                          $a$b$a  $f  $a$f$a  $f  $a$f$a$x
+                          $a  $f$d$a$d$a$d$a$f$a$d$a$d$a$x
+                          $a$f  $d  $a    $d    $a    $x
+                            $a$f$d        $c    $d$e$a$x
+                            $a$f  $d$f  $d        $e$a$x
+                            $a$f  $d      $c      $d$a$x
+                            $a$f    $d              $a$x
+                              $a$f$c$d      $f  $d  $a$x
+                              $a$f  $c$d            $a$x
+                              $a$f  $d      $c    $a$x
+                              $a$f    $d      $f  $a$x
+                          $a  $g$a$f      $d    $a$g$a  $x
+                      $a  $g      $a            $g      $a  $x
+                  $a  $g                                    $a  $x
+                $a$g                                            $a$x
+              $a$g                                                $a$x
+            $a$h$g                                                  $a$x
+          $a$h$g                                                      $a$x
+        $a$h$g                                                        $a$x
+        $a$h$g                                                          $a$x
+      $a$h  $g                                              $h$g        $a$x
+      $a$h  $g    $h$g                                      $a$h$g        $a$x
+      $a$h$g      $a$g                                      $a$h  $g      $a$x
+    $a$h  $g    $h$a$h$g                                      $a$h    $g  $a$x
+    $a$h  $g    $a$h  $g          $a    $g                    $a$h  $a      $x
+    $a$h    $g  $a$h  $g        $a$i$j$k$a$g                  $a    $d  $e$a$x
+    $a  $h  $g  $a$h  $g        $a        $g                  $a$f  $d  $e$a$x
+    $a$f$a        $h  $g      $a$d    $e  $a$g                  $a$f$d    $a$x
+    $a$f$d  $e$d$a$h    $g  $a$e$d  $a    $g                    $a$f  $d  $e$a$x
+    $a$f$d  $e$d$a$h    $a  $e$d          $a$g                  $a$f  $d  $e$a$x
+    $a$f$d      $a$h$a  $e  $d      $a      $g                  $a$f  $d  $e$a$x
+  $a$f  $d  $f$a$e$a$e  $d        $f      $a$g                    $a$f$d  $e$a$x
+  $a$f  $d  $a$d            $f    $a      $g                      $a$f$d  $e$a$x
+  $a$f  $d              $f    $a  $h      $g                    $h$a$f$d  $e$a$x
+  $a$f    $d        $f    $a  $h    $g                          $a$f  $d    $a$x
+    $a$f  $d  $f      $a  $h    $g                            $h$a$f$d      $a$x
+    $a$f          $a  $h    $g                                $h$a$f$d    $f$a$x
+      $a$f    $a  $h      $g                                $h$a$f  $d    $a$x
+        $a      $h      $g                                  $h$a$f$d    $f$a$x
+              $a$h      $g                                $h  $a$f$d    $a$x
+              $a$h        $g                              $h$a  $f$d  $f$a$x
+EOC

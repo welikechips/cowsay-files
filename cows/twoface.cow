@@ -1,0 +1,73 @@
+# Harvey "Two-face" Dent (Batman)
+# sprite from The Adventures of Batman & Robin (SNES)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;237m  ";
+$b = "\e[48;5;247m  ";
+$c = "\e[48;5;255m  ";
+$d = "\e[48;5;234m  ";
+$e = "\e[48;5;52m  ";
+$f = "\e[48;5;24m  ";
+$g = "\e[48;5;173m  ";
+$h = "\e[48;5;17m  ";
+$i = "\e[48;5;130m  ";
+$j = "\e[48;5;67m  ";
+$k = "\e[48;5;179m  ";
+$l = "\e[48;5;88m  ";
+$m = "\e[48;5;132m  ";
+$n = "\e[48;5;239m  ";
+
+$the_cow = <<EOC
+          $t                                                              $a$x
+            $t                                                              $a$x
+              $t                                                          $a$b$a$x
+                $t                                      $a  $b  $x      $b$c$b$a$x
+                  $t                        $d        $a$b  $c  $b      $c$b  $a$b$x
+                                      $d              $b  $c              $b$a$c  $b$a$x
+                                    $d                $b  $c                        $b$a  $x
+                                $d                      $b$c  $b    $c          $b  $a$x
+                              $d                        $b$c$b$c    $b$c      $b  $a$x
+                            $d                          $b  $c$b    $c$b$c          $b$x
+                            $d                          $a$c$b        $c              $b$x
+                            $d                          $a$b  $a    $b  $c              $b$x
+                            $d        $e$d              $b  $a$f    $a$b  $c    $b    $c$b$x
+                            $d        $e$g    $d        $b$a$f      $a$b        $a    $b$a$x
+                            $d        $e$g        $d    $a$f    $h  $f$a$b    $a$x    $a  $x
+                            $d      $e$i$g              $j    $h$f  $h$f$a    $b$a$x  $a$x
+                            $d      $e$i$g            $j  $f  $j$h      $a$b    $a  $x
+                            $d      $i  $g            $j      $f  $j  $f  $a$b$a$x
+                            $d      $i$g        $i$e  $j  $f  $j      $d      $a$x
+                          $i  $d    $i$g  $i    $g    $j        $d        $f$h$x
+                          $e$g$i$d  $i$g              $i$j$f$d              $h$x
+                          $e  $g$e$d$i$g$d  $i$g    $i  $j$f$d  $k  $d  $f$h$f$h$x
+                          $e$i$e$i$d$i$d        $e$i  $e$j$f$d  $k    $d$f$h$f$h$x
+                          $e$i$e  $i  $g  $d        $e$j  $d  $k  $d$k$h$f$h$f$h$x
+                          $i$g$e  $i  $g$d$b$d      $e  $j$h$k    $d$k$h$f$h  $x
+                          $e$i$g$e$i  $g  $e  $d  $e$i$j$h$f$h$k    $h$f$h$f$h$x
+                            $e$i$e$i  $g      $e  $i  $j$f    $h$f  $j$h    $x
+                              $e  $i  $g  $i$e$i$g$i    $j$h  $f$j    $h$f$h$x
+                                $e$i  $g          $i$g$i$j$f$h$f  $j  $h  $x
+                                $e$i  $g          $i$g$i$j$h$f  $l  $f  $h$x
+                                $e$i  $g          $e$i$j$h$f  $l      $f$h$x
+                                $e$i  $g          $e  $j$h$f$l  $e  $l$f$h$x
+                                $e$i  $g          $i$e$h$f$l  $m  $l  $f$h$x
+                              $n$e$i  $g            $i$e$l  $m$b$m$l$e$f$h$x
+                            $n$b$e  $i  $g    $e$g$i$e$b  $c$b$d$e  $f$h  $x
+                          $n$b  $e  $i  $g  $e$g$i$e$d        $b$e  $f$h  $x
+                      $n  $b    $e$i$e$i$g  $i$g$i$d$b  $c  $b  $m$e$f$h  $n$x
+                  $n    $b      $e$i$e$i  $g$i$g  $i$e  $l    $m  $l$f$h$c$d$n$x
+          $n      $b  $n$b      $d$i  $e$i$g        $i  $f$l        $h$b$c$d  $n  $x
+$n        $b        $n$b        $d  $i$e  $i$g    $i$e  $h  $l    $h  $b$c$d      $n      $x
+$b                  $n$b        $d    $i$e  $i$g      $j$f$h$f$h$f$h$b  $c$d        $n$d  $n        $x
+$b                $n$b          $n$d    $e  $i$g        $j  $h$f  $h$b$c  $d        $n$d            $n        $x
+$b                $n$b          $n$d      $e  $i$g      $j  $f  $h$b  $c$n$d        $n$d                      $n    $x
+$b                $n$b        $d  $n$d        $e$i$g  $j  $f  $h$b  $c  $n$d          $n$d                          $n    $x
+$b              $n$b          $d  $n$d          $e    $f  $h  $b    $c  $n$d          $n$d                              $n$x
+$b              $n$b          $d    $n$d          $n$b$d    $n$b  $c    $n$d          $n$d                                $n$x
+$c        $b    $n$b          $d    $n$d        $n$b  $d      $n$c      $n$d            $n$d                              $n$x
+$c            $b$c            $d      $n$d    $n$b$c$b$d    $b  $n$c  $n$b$d            $n$d                              $n$x
+$c            $b$c            $d        $n$d$n$d  $c$b$d  $b      $n$c$n$b$d            $n$d                              $n$x
+$c            $b$c            $d          $n$d    $b$n  $d$b        $n$b  $d              $n$d                              $n$x
+EOC

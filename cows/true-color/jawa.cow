@@ -1,0 +1,75 @@
+# Jawa (Star Wars) - true color
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;193;108;71m  ";
+$b = "\e[48;2;228;133;96m  ";
+$c = "\e[48;2;142;71;45m  ";
+$d = "\e[48;2;87;42;61m  ";
+$e = "\e[48;2;103;45;41m  ";
+$f = "\e[48;2;66;27;27m  ";
+$g = "\e[48;2;27;23;19m  ";
+$h = "\e[48;2;120;77;57m  ";
+$i = "\e[48;2;42;32;38m  ";
+$j = "\e[48;2;255;255;215m  ";
+$k = "\e[48;2;74;53;40m  ";
+$l = "\e[48;2;111;67;90m  ";
+$m = "\e[48;2;105;100;141m  ";
+$n = "\e[48;2;185;166;133m  ";
+$o = "\e[48;2;152;116;94m  ";
+$p = "\e[48;2;102;92;102m  ";
+$q = "\e[48;2;159;155;194m  ";
+$r = "\e[48;2;67;51;59m  ";
+$s = "\e[48;2;58;55;84m  ";
+
+$the_cow = <<EOC
+            $t                  $a  $b  $x
+              $t              $c$a      $b$x
+                $t            $c  $a        $x
+                  $t          $d  $c$a        $x
+                    $t      $d    $c  $a        $x
+                            $d    $c  $a        $b$x
+                            $d  $e$c  $a        $b  $a$x
+                          $d    $e$c      $a    $b    $a$x
+                          $d    $e  $c      $a    $b  $a  $x
+                          $d    $e    $c    $a            $x
+                        $d      $e    $c      $a          $c$x
+                        $d    $f$e        $c                $x
+                        $d    $f$e    $c      $a          $c$x
+                      $d  $f    $d$c        $a    $b      $a$x
+                      $f      $e$c          $a      $b      $a$x
+                      $f    $d  $e$c                    $a$b  $x
+                    $f  $d        $c  $e  $g          $f$e$a    $x
+                    $f  $d$f$d  $e    $g                  $h$a  $x
+                    $f        $d  $f$g$c  $g    $i$a$c$f$g$f$c  $x
+                  $d$f            $g$h$j  $g    $e$j  $k$g  $e$c$x
+            $l$m  $d$f          $g  $k$n$h$g    $f$o$h$g    $f$c  $x
+          $p$q  $l$d$f        $g                            $f$c  $x
+          $m$q$m$l$d      $f  $g                            $f$c  $x
+          $m$q$p$d        $f    $g                          $e$c$x
+          $p  $d$f$d  $f  $e  $k$g                        $e$c$a$x
+          $r$p$r$f          $e    $f$g                  $e$c  $o$x
+          $r$p$r$f              $e$c$k$g              $c  $e$h  $o$x
+          $l$p  $f                $e$c$h$k$g        $c  $e$h$o$n    $x
+          $l  $p$l$f                $e$c  $h      $c$e  $h$n        $x
+          $l$k  $e$f    $e$f            $e$c      $e  $k$h$n    $a$h$x
+        $l$d$k$f$r$f    $e  $f        $e              $h$k  $o$a$b$c$x
+        $l$d$s$m$p$r$f    $e    $f  $e            $h    $k$h$a    $c$x
+      $l    $s  $p$r$f    $e  $l$p$m$p  $e      $h  $k  $h$a        $x
+      $l  $e$s    $r$f      $e$s    $m  $p      $o$h$k$h$c$a        $x
+    $l  $e$c$r        $f      $r$s      $m      $p$r$k  $c$a        $x
+    $l  $h$e$r$i$r$i$r$f    $i$g$i    $s    $r  $i$r$p        $o  $a$x
+    $l  $e$c$e  $k$r  $e$d$s$i    $g  $r  $i      $s    $m  $q    $p    $x
+    $l    $d    $e    $d$r$s$i      $k$p$k$g      $s      $m  $q$r$g  $r$p$x
+    $l    $d        $f$r$s  $i  $s$r$p$h$k$g    $i$g$i  $s$m  $p$g      $k$x
+      $l  $d      $f  $i  $f    $i  $f$r    $i  $g$k  $f  $m  $g        $r$x
+        $d      $f  $i    $f  $e$f$i$f$r    $i$s$r$k  $h$e$r$p$r$g    $k$x
+          $d    $f  $i      $f  $i$f    $e$f$i  $k$g$k$c      $p$r  $p  $x
+            $l$d$f  $i      $f  $i  $f$i  $f  $i$g$f$e$c        $a      $x
+              $d$e$f$i      $f    $g$f      $e$k    $e$c        $a      $x
+                $f    $i    $f            $e$k    $f$c      $a          $x
+                $i$f    $i$f        $e$k$f  $k$f  $e$c      $a          $x
+                $i$f    $i$f    $e    $k$f$g    $f$e$c    $a    $c  $h$x
+EOC

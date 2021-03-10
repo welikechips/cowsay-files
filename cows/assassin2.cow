@@ -1,0 +1,68 @@
+# Ezio Auditore (Assassin's Creed Brotherhood)
+# by Unknown - https://www.pinterest.com/pin/148759593925101571/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;253m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;137m  ";
+$d = "\e[48;5;180m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;247m  ";
+$g = "\e[48;5;242m  ";
+$h = "\e[48;5;88m  ";
+$i = "\e[48;5;145m  ";
+$j = "\e[48;5;231m  ";
+$k = "\e[48;5;238m  ";
+$l = "\e[48;5;250m  ";
+
+$the_cow = <<EOC
+        $t
+          $t          $a      $x
+            $t      $a          $x
+              $t    $a    $b$a$b$a$x
+                    $a  $b$c$b$c$a$x
+                    $a  $b$d    $b$a$x
+                  $a  $b$e$d$e$d$b$a$x
+                  $a  $b$e  $c$e$b$a  $x
+                $b$a$b  $f$e    $b  $g$x
+              $a$f$h    $b$f$c$f$b$h  $i  $x
+            $a    $f  $h$b  $f$b  $h$i$j$i$x
+            $a  $f$a  $f$h$b$a$b$h$g$i  $g$a$x
+            $a    $f  $a$f$b$i$b$j  $g  $a$b$x
+          $a    $f$a  $f$a$k  $i$g  $a    $b$a$x
+          $a    $f  $a  $k  $e  $a  $f  $a$b$a$x
+          $a    $f$e        $f$a$f  $a$f$a  $b$a$x
+          $a    $x  $e  $a$f$h    $f$a$b$f$a$b$a$x
+        $a      $x  $f  $h  $j    $h  $b$f$g  $b$a$x
+        $i    $f$x  $f$h  $j$g$j$g$j$h$b$g  $i$b$a$x
+        $i$j$i$x  $f    $g$i$g$i$g$i$f$b$g  $i$b$a$x
+        $i$j$i  $x$g$f    $g$j$g$j$g$f$b  $g$i$g$b$a$x
+        $i$j$i$f$x  $g  $f  $g    $f  $b  $g  $i$b$a$x
+    $d  $j$e$i$x    $a  $g  $f$g    $a$b    $g$e$g$a$x
+      $d$g$c$x    $a    $j$b$j$g$j$b$j$a$b  $g$e$d  $x
+      $d$g$d$x    $a    $j$h$j$g$j$h$j$a$b  $d$c$g$x
+      $g$c$x      $a    $j$h$a$g$j$h$j$a$b    $d$c$g$x
+      $g$x        $a  $j$h$j$a$g$j$h$j$a$b  $g$x$d$g$x
+    $l$x          $a  $j$h$j$a$g$a$j$h$j$a$g$x      $l$x
+    $l$x        $a    $j$h$j$a$g$a$j$h$j$a$x        $l$x
+                $a    $j$h$j$a$g$a$j$h$j$a$x
+                $a    $j$h$b$a$e$a$b$h$j  $x
+              $a    $j$h    $e  $b$h    $j$a$x
+              $a    $j$h    $e  $b$h    $j$a$x
+              $a    $j$h    $e  $b$h    $j$a$f$x
+              $f$a    $j$h  $e  $b$h  $j$a  $f$x
+              $f$a      $j  $k  $g$j  $a  $f$x
+                $f$a        $x  $g$a      $f$x
+                $e$f  $a    $x  $g$a    $f$e$x
+                $k$e  $f    $x  $g$f    $e$k$x
+                $k  $e  $x          $e  $k  $x
+                $k  $e  $x            $k$e  $x
+                $k  $e$x              $e$k$e$x
+                $k  $g$x              $g$k  $x
+              $k  $e$x                  $e$k  $x
+              $k  $g$x                  $g$k  $x
+            $g  $k$e$x                  $e$k$g  $x
+          $k    $e  $x                  $e    $k  $x
+EOC

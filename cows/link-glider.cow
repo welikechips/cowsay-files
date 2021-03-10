@@ -1,0 +1,71 @@
+# Link with glider (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;95m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;131m  ";
+$d = "\e[48;5;144m  ";
+$e = "\e[48;5;253m  ";
+$f = "\e[48;5;242m  ";
+$g = "\e[48;5;17m  ";
+$h = "\e[48;5;52m  ";
+$i = "\e[48;5;239m  ";
+$j = "\e[48;5;88m  ";
+$k = "\e[48;5;24m  ";
+$l = "\e[48;5;173m  ";
+$m = "\e[48;5;215m  ";
+$n = "\e[48;5;29m  ";
+$o = "\e[48;5;94m  ";
+$p = "\e[48;5;113m  ";
+$q = "\e[48;5;22m  ";
+$r = "\e[48;5;136m  ";
+$s = "\e[48;5;238m  ";
+$u = "\e[48;5;64m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t  $a$b$x            $c$a$x
+                $b    $d$a  $c      $a  $e$c          $x
+              $f$b  $d$b$g            $e$a$g        $a$c$e$x
+            $b  $x  $a  $x  $h    $i$h$c  $h$i  $h  $i$h$a$c$x
+                    $a  $x      $j$f$j$c  $f  $j  $f$j  $h  $j$x
+                    $a  $x        $j    $c$k        $j    $h  $x
+                      $a  $x      $b$k  $c  $x      $k    $h$a  $x
+                      $a  $x        $a$b$c  $x        $c$a$x
+                        $a  $x    $a$b$x  $c  $x    $c$a$x
+                          $a$l  $b  $x      $a$m  $a  $x
+                            $c$l$x            $l$m$x
+                          $c$l$x              $n$m$l$x
+                          $l  $x$o$p  $n      $q$m  $x
+                          $l$c$x$r  $p  $n  $q  $l$m$x
+                          $s$r        $p  $n$q$x$o  $x
+                          $s$o$r    $o$r$u$q$x  $s  $x
+                          $s  $m  $r    $m$l$x$s$o$s$x
+                            $s$m    $r$m$l$o$s$o  $x
+                            $s$m    $r$o  $q$s$o$x
+                              $o$m  $r$l$o$n$q$s$x
+                              $q$o$s$o$r$n    $x
+                                $q$a$o$n    $q$x
+                                  $q$a$c    $a$x
+                                    $q$n    $c$x
+                                    $a$r$c  $q$a$x
+                                    $q    $c$a$q$x
+                                $q$n$q$a  $q$c  $q$x
+                                $s  $n$q  $n      $x
+                              $s      $q    $n  $o$x
+                              $l  $c$s$x    $s  $o  $x
+                              $l  $c$b$a$x    $s$o$m$x
+                                $c$b$a  $x      $l$m  $x
+                                  $a  $b$x        $l  $c$x
+                                    $b    $x      $a$c    $x
+                                      $b  $x        $c  $a$x
+                                        $b  $x        $a  $x
+                                        $b  $x          $c$a$x
+                                                        $c  $x
+                                                        $c  $x
+EOC

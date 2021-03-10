@@ -1,0 +1,78 @@
+# Goku (DBZ)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;242m  ";
+$c = "\e[48;5;216m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;173m  ";
+$f = "\e[48;5;247m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;208m  ";
+$i = "\e[48;5;166m  ";
+$j = "\e[48;5;93m  ";
+$k = "\e[48;5;54m  ";
+$l = "\e[48;5;52m  ";
+$m = "\e[48;5;136m  ";
+$n = "\e[48;5;25m  ";
+$o = "\e[48;5;214m  ";
+$p = "\e[48;5;26m  ";
+$q = "\e[48;5;124m  ";
+$r = "\e[48;5;196m  ";
+
+$the_cow = <<EOC
+          $t        $a$x
+            $t      $a$x
+              $t  $a      $x      $a$x
+                  $a$b  $a      $x$a  $x
+                $a$b        $a      $b$a$x  $a$x
+                $a  $b          $a  $b$a  $x$a$x
+          $a$x$a      $b  $a$b    $a$b  $a  $b$a$x
+          $a          $b    $a  $b$a$b    $a$b$a$x  $a$x
+          $a        $b$a$b    $a    $b    $a$b  $a    $x
+          $a        $b  $a$b    $a  $b$a$b$a$b  $a    $x
+          $a        $b    $a$b    $a$b$a$b$a$b$a      $x
+          $a          $b  $a  $b    $a  $b$a          $x
+            $a        $b    $a  $b$a      $b    $a  $x
+    $a                            $b  $a  $b      $a$x
+      $a                  $b  $a  $b    $a    $b  $a  $x
+        $a              $b    $a$b    $a$c  $a$b    $a$x
+          $a            $b$a    $b  $a$c$d    $a  $b$a$x
+            $a          $b$a$c$a  $b$a$d      $a      $x
+                $a    $c$a$b$c$e$f$a$b$d    $c$a$x$a  $x
+              $a      $c  $a$c$e$g  $a  $d  $a$x    $a$x
+                $a    $c  $e$c  $g  $a$d    $a$x
+                    $a    $e$c    $d      $c$a$x
+                          $a$e$c  $d      $a$x
+                        $a  $c$e$d    $c$a    $x
+                    $a  $e$c  $e    $a  $c$d  $a  $x
+                  $a$e$d  $c$e$d      $c$d$c    $d$a$x
+                  $a$d    $e$d        $e$d    $c$d$a$x
+                  $a$d    $c$d      $c$e  $d  $c$e$d$a$x
+                    $a$c        $e    $c  $a$c$d  $e$a$x
+                  $a  $c$d      $c  $d$c$d$a  $d  $c$a$x
+                  $a$h$c$d$c$d  $c$h  $d$a$x  $a$c$d$a$x
+                $a$c$a$h$i$c$d$i$j  $a  $x      $a$d  $a$x
+              $a$k  $c$a$k          $a$x        $a$c$d$a$x
+              $a$k  $a  $j$k$j  $i  $h$a$x      $a$j  $a$x
+            $a$c    $a$h$j$k$j$h  $i$h$a$x      $a$j  $k$a$x
+            $a$c$e$a$i$h$j$k$j$h    $i$h$a$x  $a$d      $a$x
+            $a$c$e$a$h  $j$k$j$h        $a    $d$c$d    $a$x
+            $a$c  $a$h  $j$k  $j$h        $a    $c$d$c$d$a$x
+              $a  $i$h$i$j$k  $j$i$h      $i$a  $d  $a  $x
+                $a  $i  $j$k  $j$i  $h      $a$x$a  $x
+                  $a$i  $h$a    $h  $i$h  $i$a$x
+              $a  $h    $i$l  $a    $h      $a  $x
+              $a$h$i    $l$i  $a$x  $a$i$h  $i$h$a$x
+                $a$h$i$l$i$h$a$x  $a  $i$l  $i$h$a$x
+                  $a$h    $a$x    $a$i$h      $i$a$x
+                    $a$m$n$a$x      $a  $h  $o$p$a$x
+                    $a$m$n$a$x          $a  $o$p$a$x
+                    $a$q$a$x              $a$r  $a$x
+                $a  $m$n$a$x                $a$o$p$a$x
+              $a$m  $n  $a$x                $a$p$o$a$x
+                                            $a$p$o$p$a$x
+EOC

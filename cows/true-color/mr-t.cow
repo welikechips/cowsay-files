@@ -1,0 +1,65 @@
+# Mr. T (The A Team) - true color
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;18;18;18m  ";
+$b = "\e[48;2;62;33;7m  ";
+$c = "\e[48;2;112;60;20m  ";
+$d = "\e[48;2;186;101;27m  ";
+$e = "\e[48;2;152;83;25m  ";
+$f = "\e[48;2;213;130;65m  ";
+$g = "\e[48;2;242;237;235m  ";
+$h = "\e[48;2;211;195;171m  ";
+$i = "\e[48;2;128;116;99m  ";
+$j = "\e[48;2;189;193;0m  ";
+$k = "\e[48;2;104;105;0m  ";
+$l = "\e[48;2;28;28;90m  ";
+$m = "\e[48;2;153;155;0m  ";
+$n = "\e[48;2;237;246;0m  ";
+$o = "\e[48;2;35;60;145m  ";
+$p = "\e[48;2;55;55;1m  ";
+$q = "\e[48;2;31;53;124m  ";
+
+$the_cow = <<EOC
+          $t
+            $t          $a    $x
+              $t        $a    $x
+                    $b  $a    $b  $x
+                  $b$c$d$a    $e$f$b$x
+                $b$c$e  $a    $e$d$f$b$x
+              $b$c  $e  $b$a$b$e$d$e$c$b$x
+              $b$e$c$e          $f$e  $b$x
+              $a$e$c$e          $f$e  $a$x
+              $a$e$c$e  $a$d$a$e$d$e$b$a$x
+              $a$b  $a    $c$a    $b  $a$x
+            $b$a$b$g$a$g$c    $g$a$g$b$a$b$x
+            $b$a$b$c      $f$e$c    $b$a$b$x
+            $b$a$b$e$c  $b    $c$e$d$b$a$b$x
+            $b$a$b$e  $a        $e$d$b$a$h$x
+              $a        $c    $a        $i$x
+              $a      $b$a    $c$a      $i$x
+          $b    $j$a                $k$l$b  $x
+      $b  $c$e$l$j$m$b            $m$j$l$e  $b  $x
+    $b$c$e    $l$k$j$k$e$d$b$e$m$k$j$m$l$c  $e  $b$x
+    $b$c$e  $b$l  $m$j$k$m    $k$j$m$k$l$b$c  $e$b$x
+    $b$c$e  $b$l  $m$j$k$m    $k$j$m$k$l$b$c  $e$b$x
+    $b$c  $b$a$l  $k$m$j$k$n$k$j$m$k$o$a  $b$c$e$b$x
+    $b$c$e  $b$a$l$o$k$m$n    $m$b$o$l$a$b$e    $b$x
+    $b$c$e  $a  $l        $n$l        $a  $c    $b$x
+    $p$m$n$m  $a$l$q                $l$a$k$m$n$m$p$x
+    $p$m$n$m  $a$l$q    $o$q$o$q    $l$a$k$m$n$m$p$x
+  $b$c        $a$l$q  $o  $q$o  $q  $l$a$c        $b$x
+  $b$c      $b$a$l$q$o            $q  $a$b$c      $a$x
+    $b      $x$a$l$q                $l$a$x$a      $x
+              $a$l  $q          $l    $a$x
+              $a$l      $a      $q  $l$a$x
+              $a$l$o  $l$a$x$a$l$q  $o$a$x
+              $a$l$o  $l$a$x$a$l$q  $o$a$x
+              $a$l$o  $l$a$x$a$l$q  $o$a$x
+              $a$l$o  $l$a$x$a$l$q  $o$a$x
+              $a          $x$a          $x
+            $a$b        $a$x$a$b        $a$x
+            $a            $x$a            $x
+EOC

@@ -1,0 +1,67 @@
+# Solid Snake w/ stinger (Metal Gear Solid)
+# by Unknown - https://www.pinterest.com/pin/534732155732812575/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;136m  ";
+$d = "\e[48;5;23m  ";
+$e = "\e[48;5;66m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;137m  ";
+$h = "\e[48;5;231m  ";
+$i = "\e[48;5;239m  ";
+$j = "\e[48;5;244m  ";
+$k = "\e[48;5;250m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                $a  $x    $a  $x
+              $t      $a      $b$c$a    $b  $a$x
+                      $a$b  $c$a$b$c$b$a$c$b$a  $x
+                  $a      $b  $c$a$c  $b$c  $b$a$x
+                    $a$b  $c$b      $c$b$c  $b$a$x
+                    $a                  $b    $a$x
+                      $a$d  $e          $a  $b$a$x
+                    $a    $d    $e          $a$x
+                  $a$d$a  $f$g  $a  $e      $a$x
+                $a$e$a    $f$g$f$h$a    $e  $a$x
+              $a$e  $a$d$a$g$f        $g$a  $x
+              $a$d$a  $d$e$a$g$f          $a$x
+              $a  $d  $a$d$e$a$g$f$g  $f$a$x
+              $a$e      $a$d$e$a$g$f    $a$x
+            $a$e$a$d$e    $a$d$e$a$g  $a    $x
+            $a  $i$a$e      $a$d$a    $d$a$e$a$x
+            $a$j  $i$a  $d  $a          $d$e$a$x
+            $a$j  $i$a$d$a    $d$e  $a$d$a    $x
+          $a  $j    $a$d$a$d$e  $a$e$d$a$e  $a  $x
+          $a  $j    $a$d$a        $e  $a        $x
+          $a$j    $i$a$d$a$e$d$e$a$e  $a$e$d$a  $x
+          $a      $i$a    $e$d$e$a$e  $a$e$d$a  $x
+        $a$d$e    $a            $d$e$d$a        $x
+        $a$h$e  $d  $a$x$a  $d      $e$d$a$d$a$j$a$x
+        $a$d$a    $d$a$x$a  $d      $e$d$a    $j$a$x
+          $a  $j$a  $x$a  $d$a              $d$a  $x
+          $a$j    $a$x$a$d      $e          $d$a  $x
+          $a$j  $a$x  $a$d              $e$d$a    $x
+          $a$j  $a$x  $a                          $x            $a                  $x
+          $a$d  $a$x  $a$i$a  $i  $a  $i  $a    $x            $a$k              $a$x
+          $a$e  $d$a$x$a$i$a  $j$i$a  $i$a  $j$a$x          $a$i              $a$x
+          $a$h$e  $a$x$a$i$j$a  $i$a      $j  $a$x        $a$i$a          $i$a$x
+    $a$x  $a$e    $a    $i$j  $a        $j    $i$a$x        $a$x          $a$x      $a  $x
+    $a      $d$e$d$a$j$a        $i$a  $i$j    $i$a                                  $k  $a$x
+    $a$k    $a$d  $g$a    $j$a          $j    $i$a$k                              $a$j$a$j$a$x
+    $a$j    $a$f  $a                  $i$j    $i$a$j                              $a$j$a$j$a$x
+    $a$i      $a  $i$a$i$a$i  $a  $i$a$i$j$a  $i$a$i                $a$i$a  $i  $a  $i  $a$x
+    $a                  $e$a              $e  $a$i          $a  $i$a$i$a  $i$a  $i$a    $x
+    $a$x  $a$x    $a$d$e$h  $d  $a    $d$e  $h$a            $x  $a  $i$a  $i$a  $i$a$x
+                  $a$d$e$h  $d$a$x$a$d  $e  $h$a$x$a  $x  $a$x  $a  $i$a  $i$a  $i$a$x
+                  $a$d  $e$d  $a$x$a$d$e  $d$e$a$x$a  $x  $a$x  $a$i$a$i  $a$i  $a  $x
+                  $a    $d$a    $x$a    $e$d  $a$x$a    $x        $a              $x
+                $a$i    $a$i  $a$x$a$i  $a    $x    $a    $x
+                $a$j$i      $a$x  $a$j$i      $a$x
+                $a$j          $a$x$a$i$j      $a$x
+                $a$j          $a$x$a$i  $j  $i$a$x
+EOC

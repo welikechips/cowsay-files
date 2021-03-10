@@ -1,0 +1,52 @@
+# Shyguy (Mario series)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;160m  ";
+$c = "\e[48;5;124m  ";
+$d = "\e[48;5;250m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;95m  ";
+$g = "\e[48;5;220m  ";
+$h = "\e[48;5;25m  ";
+$i = "\e[48;5;19m  ";
+
+$the_cow = <<EOC
+              $t
+                $t
+                  $t          $a          $x
+                          $a                    $x
+                        $a      $b      $c$a        $x
+                    $a            $b          $c$a      $x
+                $a    $d$e    $d$a    $b          $c$a    $x
+              $a  $d$e            $d$a  $b            $c$a  $x
+              $a$d$e                $d$a  $b  $a$b      $c$a  $x
+            $a  $e                    $d$a$b  $c$a$b      $c$a$x
+            $a$d$e$a$d$e    $d$a$d$e    $a  $b  $a  $b  $c$a  $x
+          $a  $e$d$a  $d$e$d$a    $d$e  $d$a  $b$c$a        $x
+          $a$d$e$a      $e$a        $e    $a$f  $a        $x
+          $a$e  $a      $e$a        $e    $a$g    $f$a$x
+          $a$e  $a      $e$a        $e    $a$g      $f$x
+          $a$e  $d$a  $d$e$d$a    $d$e    $a$f        $x
+          $a$e    $a$d$e    $d$a$d$e      $a$c    $a  $x
+          $a$d$e                        $d$a$b  $a$c$a$x
+          $a  $d$e                      $a$b      $a  $x
+            $a  $e      $d$e          $d$a$b      $c$a  $x
+            $a  $d$e  $d$a$d$e      $d$a$b        $c$a  $x
+            $a    $d$e$d$a$d$e    $d$a$b            $c$a$x
+          $a          $e      $d$a  $b              $c$a  $x
+        $a  $c$b$a$b$a          $b                    $c$a$x
+        $a$c$b  $a$b                $a    $b          $c$a$x
+        $a$c$b  $a$b                $c$a        $b$c  $a  $x
+        $a          $b  $a$e    $a$b      $c$a          $x
+          $a              $e      $a                  $x
+            $a  $c$b    $a          $b          $c$a  $x
+          $a        $b                  $a        $c$a$x
+        $a  $h  $i$a    $b        $c$a  $h        $a    $x
+        $a$h      $i  $a  $b  $c$a    $h        $i  $a  $x
+        $a  $h      $i  $a            $h      $i  $a    $x
+          $a                      $x$a              $x
+EOC

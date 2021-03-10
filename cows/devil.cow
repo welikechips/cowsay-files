@@ -1,0 +1,47 @@
+# devil
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;228m  ";
+$b = "\e[48;5;196m  ";
+$c = "\e[48;5;236m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t      $a$x                    $a$x
+                    $a  $x                    $a  $x
+                  $a  $x                        $a  $x
+                $a    $x                        $a    $x
+              $a    $x                            $a    $x
+              $a    $x                            $a    $x
+              $a    $x                            $a    $x
+              $a      $x                        $a      $x
+                $a      $x                    $a      $x
+                $a      $x    $b        $x    $a      $x
+                  $a      $b                $a      $x
+                    $b                            $x
+        $b  $x    $b        $c$b        $c$b        $x    $b  $x
+          $b  $x  $b          $c  $b$c  $b          $x  $b  $x
+            $b  $x$b      $a      $c$a      $b      $x$b  $x
+            $b          $a                    $b          $x
+            $b          $a    $c$a    $c$a    $b          $x
+              $b        $a        $c$a        $b        $x
+                $b        $a    $b$c$b$a    $b        $x
+              $b                                        $x
+            $b                  $c$b$c$b                  $x
+            $b                    $c$b                    $x
+          $b    $c              $b    $c              $b    $x
+        $b      $c$b                                $c$b      $x
+      $b          $c$b                            $c$b          $x
+    $b              $c$b        $c    $b        $c$b              $x
+        $b            $c$b                    $c$b            $x
+              $b      $c  $b    $c    $b    $c  $b      $x
+                  $b    $c  $b$c        $b$c  $b    $x
+                      $b$c                    $b$x
+                        $c                    $x
+                        $c$x$c            $x$c$x
+                        $c$x$c$x$c    $x$c$x$c$x
+EOC

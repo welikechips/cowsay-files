@@ -1,0 +1,74 @@
+# Link with Master Sword (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;145m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;243m  ";
+$d = "\e[48;5;117m  ";
+$e = "\e[48;5;94m  ";
+$f = "\e[48;5;136m  ";
+$g = "\e[48;5;69m  ";
+$h = "\e[48;5;215m  ";
+$i = "\e[48;5;173m  ";
+$j = "\e[48;5;56m  ";
+$k = "\e[48;5;54m  ";
+$l = "\e[48;5;39m  ";
+$m = "\e[48;5;197m  ";
+$n = "\e[48;5;32m  ";
+$o = "\e[48;5;237m  ";
+$p = "\e[48;5;95m  ";
+$q = "\e[48;5;150m  ";
+$r = "\e[48;5;253m  ";
+$s = "\e[48;5;131m  ";
+$u = "\e[48;5;144m  ";
+$v = "\e[48;5;242m  ";
+$w = "\e[48;5;239m  ";
+
+$the_cow = <<EOC
+     $t               $a$x
+      $t              $b$x
+       $t             $b$x
+        $t          $c$b$a$x
+         $t         $a$d$b$x
+          $t        $a$d$b$x
+           $t       $a$d$b$x
+            $t      $a$d$b$x
+             $t     $a$d$b$x
+              $t    $a$d$b$x
+                    $a$d$b$x
+                    $a$d$b$x
+                    $a$d$b$x
+                    $a$d$b$x  $e$x
+                    $a$d$b$x    $f    $e$x
+                    $a$d$b$x  $f      $e  $x
+                  $a$g$d  $b$f      $e$f$e$x
+                    $a$d$b$x$f  $h$f    $h$i$x
+                    $a$d$b$x$f$h    $f$h$i$x
+                $j$k$a$j$b$g  $h    $f$l$e$x
+                  $k  $m$g$j$x$e$h  $f$i$e$f$x
+                    $k$j  $x$n$f$n$i$f$n$l  $x
+                      $o$p  $q$i$q$i$q$r$l    $x
+                  $p$o  $p  $q$i$q$i$q$i$r$l  $x
+                  $p$o$i$x  $n  $q$i$q$i$r$l$x
+                    $k$j  $x$n      $p  $x
+                      $j$x  $n    $l    $x
+                            $p$f$p  $s  $x
+                            $n    $p$s$u$x
+                          $p$u$p  $l$s$u  $x
+                          $n      $l$s$u  $x
+                          $n      $l$r$u    $x
+                        $v$u      $r  $u    $x
+                        $v    $w$x  $v$u    $x
+                        $v  $w  $x  $v  $u  $x
+                        $w    $x      $v    $u$x
+                        $v  $w$x        $u  $s  $x
+                        $o$p    $x      $s$p$s  $x
+                        $o$p    $x      $s$p    $x
+                          $o  $x            $p  $x
+                          $p$o$x              $s$p$x
+                          $p  $x              $s  $x
+                        $p    $x              $s  $x
+EOC

@@ -1,0 +1,63 @@
+# Oscar the Grouch (Sesame Street)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;234m  ";
+$c = "\e[48;5;238m  ";
+$d = "\e[48;5;242m  ";
+$e = "\e[48;5;246m  ";
+$f = "\e[48;5;250m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;59m  ";
+$i = "\e[48;5;22m  ";
+$j = "\e[48;5;28m  ";
+$k = "\e[48;5;34m  ";
+$l = "\e[48;5;88m  ";
+$m = "\e[48;5;52m  ";
+$n = "\e[48;5;188m  ";
+$o = "\e[48;5;248m  ";
+$p = "\e[48;5;160m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t      $a          $x
+                      $b$c  $d$e$f$e$a$x
+              $b        $c$g      $c$a        $x
+            $b$d      $e            $f  $e  $d$a$x
+          $b$h                                  $a$x
+          $b$c$b                              $c$a$x
+            $b$c  $i$j                  $i$c  $a$x
+                $i$j$k$l    $k  $l    $k  $i$x
+              $i$j  $l$m    $l  $m    $l$k$j$i$x
+              $i$k$l$m$n    $m  $n    $m$l$k$i$x
+            $i$j$k$m$l$o$b$n$m  $o$b$n$l$m$k$j$i$x
+            $i$j$k  $m$o  $n$k  $o  $n$m$k  $j$i$x
+            $i$j$k                          $j$i$x
+            $i$j$k$b                      $k$j$i$x
+              $i$j$k$j$b  $l      $b  $j    $i$x
+                $i$j$k$j$b$l$p  $l$b$j$k$j$i$x
+                  $i$j                  $i  $x
+                  $i$b    $i      $b      $i$x
+              $b$i  $j$k  $b      $i$j$k$j$i$b$x
+              $b$i$j      $c      $i$j$k$j$i$b$x
+            $b  $i    $j$h$c$h  $c$i      $h$a$b$x
+            $b  $c      $e$c$d$f$c        $f$a$b$x
+            $b  $c$d$c$h$e$c$d$f$c$d$f$c$d$e$a$b$x
+            $b  $c$d$c$h$e$c$d$f$c$d$f$c$d$e$a$b$x
+              $b$c$d$c$h$e$c$d$f$c$d$f$c$d$e$a$x
+              $b$c$d$c$h$e$c$d$f$c$d$f$c$d$e$a$x
+              $b$c$d$c$h$e$c$d$f$c$d$f$c$d$e$a$x
+              $b$c$d$c$h$e$c$d$f$c$d$f$c$d$e$a$x
+              $b$c$d$c$h$e$c$d$f$c$d$f$c$d$e$a$x
+              $b$c$d$c$h$e$c$d$f$c$d$f$c$d$e$a$x
+              $b$c$d$c$h$e$c$d$f$c$d$f$c$d$e$a$x
+              $b$c$d$c$h$e$c$d$f$c$d$f$c$d$e$a$x
+              $b$c$d$c$h$e$c$d$f$c$d$f$c$d$e$a$x
+              $b$c    $h  $c$h  $c$h  $c$h  $a$x
+              $b$a                            $x
+EOC

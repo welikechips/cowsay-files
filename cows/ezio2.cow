@@ -1,0 +1,68 @@
+# Ezio Auditore (Assassin's Creed Brotherhood)
+# by domino99designs - https://www.deviantart.com/domino99designs/art/Assassin-Creed-Ezio-251170776
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;254m  ";
+$c = "\e[48;5;246m  ";
+$d = "\e[48;5;124m  ";
+$e = "\e[48;5;88m  ";
+$f = "\e[48;5;180m  ";
+$g = "\e[48;5;239m  ";
+$h = "\e[48;5;137m  ";
+$i = "\e[48;5;94m  ";
+$j = "\e[48;5;223m  ";
+
+$the_cow = <<EOC
+      $t                    $a    $x
+        $t              $a  $b    $a$x
+          $t          $a$b          $a$x
+            $t      $a$b              $a$x
+                  $a$b                  $a$x
+                  $a$b                  $a$x
+                $a$b  $c  $b              $a$x
+                $a$b$c$b  $c  $b          $a$x
+              $a$b$c$b        $c$b        $a$x
+              $a$b    $d$e$b    $c$b        $a$x
+                $d$b$d$a  $e$d$b  $c$b      $a$x
+                $a$d$a$f$a    $d$b  $c$b  $c  $a$x
+                  $a  $f    $a  $d$b$c      $g$a$x
+                  $e$a  $h  $f$a  $d$c  $b    $c$a$x
+                  $e$a    $f  $a    $e$b      $a    $x
+                $d$a$b$a      $b  $a  $e$c$a$g$c  $g$a$x
+              $a    $c$a$b    $c$e$c$a$e$a$c  $g  $c  $a  $x
+            $a$c$e  $a$g$b$c  $e$b$a$e$a$c$g    $c$a$b$c  $a$x
+              $a$b$e  $a  $b$e$b$a$e$a$c$g$c$g$c$a$c  $b  $c$a$x
+            $g$b$a$b$e  $a$e$b$a$e$a$c$g$c$g  $c$a$b  $c$g$a    $x
+          $a$g$b  $a$b$e$a$c$a    $c$g$c$g  $c$a$b$c$g$b$c$b$a  $x
+          $g$c  $g$b$a$c$a      $g  $c$g$c$g$c$a$g$c$b  $g$b$a$e$a$x
+          $a$b$c$b$g$c$a      $g$c  $g$c$g$c$g$a$b  $g$b$g  $a$d$a$x
+          $a$b$c  $b  $c$a    $g$c  $g    $c$g$a$b$g$b$g$b$c$a$d$a$x
+          $a$c$b  $c$a$i$h  $i$a$g  $a$c  $g$a$c$a$b$c$b  $g$a$e$a$x
+          $a$b$c  $a$h  $i  $a$b  $a        $c  $a$c$b  $c$b$c$a  $x
+          $a$g$b$a$h$i  $a$b  $c      $b      $c$a$b  $c$b  $a    $x
+          $g$c$a$h$i$a$c$b$c    $b  $c    $b$c  $a$b$g$b  $c$b$a$e$a$x
+          $g$c$a$i$a$b  $a$b  $c$b  $g$b  $c$g$a$e$a$c$b$g$b  $a$d$a$x
+            $a$c$a$b$c$a$c$a$c$b  $c$b    $c$a$e$d$a$c$g$c  $a  $d$a$x
+            $a$c$a$e$a$g$e$g$a$d  $e$b  $c$g$a$d  $a  $c  $a$g$a$d$a$x
+            $a        $c    $a  $i$a$e$d  $e$a$d  $a$c$a$g  $a  $d$a$x
+            $a$g$a$c$g$a$g$a$g$c$a$i$h  $i$a  $d  $a  $g$c  $g$a$d$e$a$x
+            $a  $c$g$c$a$c$a$c$g$c$a  $i$h  $a$e$d$a$g$a$c  $a  $d  $a$x
+          $a$g$a$g  $a$c$a$c$a$g  $a$e$d  $e$a$e$d$a$c$g$a  $c$a$d  $a$x
+          $a$c$a  $c$g$c$a$c$g$c$a$i$a$i    $a$e$d$a$c$g    $c$a$d  $a$x
+        $a$g$c$a$c$g$c$a$g$a$c$g$c$a$i$h    $a$e$d  $a$g$c$g$c$a$d  $e$a$x
+        $a$c$g$a$c$a$c$a$g$a$c$a$c$a$d  $a    $e$d  $a$c$g$c$g$a$e$d  $a$x
+        $a$g  $a      $c$a$c$a        $c  $g$a$e  $d$a$g$c$g  $e$a$d  $e$a$x
+        $a$c$a  $c$g$b$a    $b$g$c$b      $c$a$e    $a$g$c$g$a$d$a$d  $e$a$x
+      $a$g$a$b$a$b$c$b$g$c$g$b$c$b        $c$g$e  $a  $g  $a  $d$a$d$e$a$x
+      $a$b    $a$b$c$b$g$c$g$b$c$b    $c  $g  $a$e$a$c$a$g$c$a$d$a$e$a$x
+    $a$c$b  $c$a$g$c$b$g$c$g$b$c$b  $c$b    $c$a$e$a$g$c  $a  $d$e$a$x
+    $a  $g$a    $b$g$b$g$c$g$b$g  $c$b      $c$a$e$a$b$g$a$c$a$e$d$a$x
+      $a$j$f$j$a$b    $g$c$g$b$c$b        $c  $a  $b        $c$a$d$a$x
+    $a$j$a  $f$g$b    $g$c$g$b$c$b    $c  $b  $a                $d$e$a$x
+  $a$f$a        $g$c$b$g$c$g$b$c$b  $c$b  $a  $b$a$f$j$f$j$f$a$d    $a$x
+    $a    $b$a  $b$g$b$g$c$g$b$c    $b$a$c    $a    $j$f$j$a$e$d  $e$a$x
+        $a$b$a$c$a$b  $g$c$g$b$c$b  $a  $b  $c  $a  $j$a$j$a$e$d$e$a$x
+EOC

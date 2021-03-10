@@ -1,0 +1,50 @@
+# Bert and Ernie (Sesame Street)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;220m  ";
+$c = "\e[48;5;202m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;160m  ";
+$f = "\e[48;5;136m  ";
+$g = "\e[48;5;210m  ";
+$h = "\e[48;5;208m  ";
+$i = "\e[48;5;166m  ";
+
+$the_cow = <<EOC
+          $t                    $a$x$a  $x$a$x                          $a  $x$a$x$a$x$a  $x$a$x
+            $t                $a              $x$a$x                $a  $x$a                        $x
+              $t                $a                  $x                $a                          $x
+                $t              $a                  $x        $a                                      $x
+                  $t            $a$b  $a        $x              $a                                      $x
+                              $a$b          $a$x              $a                      $c  $a              $x
+                            $a$b            $a$x            $a              $c                    $a  $x
+                          $a$b                $a$x              $a      $c            $d      $c      $a$x$a    $x
+                        $a$b                  $a$x            $a      $c  $d      $c$d$a  $d    $c      $a$c    $a$x
+                      $a$b$a      $b          $a$x            $a$x$a$c  $d  $a  $d$e$d$a  $d    $c        $a$c    $a$x
+                      $a$b$a              $b    $a$x              $a$c  $d  $a          $d    $c            $a$c  $a$x
+                    $a$b$a                    $b$a$x            $a$c    $d    $a$e      $a$d$c              $a$c  $a$x
+                    $a$b  $f  $b  $a          $b$a$x          $a$c        $d  $a$e      $a$c                  $a$c$a$x
+                  $a$b  $f$d  $f$b    $f$a    $b$a$x      $a    $c            $a$e      $a$c              $a$c$a$e$a$x
+                  $a$b$f$d      $f$b$f$d$f$b    $a$x    $a$c$a$c              $a$e      $a$c        $e$a    $c$a  $x
+              $a  $b  $f$d$a  $d$f  $d    $f$b  $a$x  $a$c  $a$c                $a      $c    $e$a      $c  $a  $x
+            $a$b$a$b    $f$a      $f$a  $d$f$b  $a$x  $a$c  $a$c                      $e$a      $e    $a$c$e$a$x
+          $a$b$f$a$b      $a$c    $a    $d$f$b  $a$x  $a$c  $a$c$a$c            $e$a    $g  $a$e    $a$c  $e$a$x
+          $a$b$a$b      $a$c        $a$f  $b    $a$x  $a$c  $a$c$a                $g$a$g    $a$e    $a$c$e$a$x
+          $a$b$a$b    $f$a$c        $a$b      $f$a  $x  $a$e$a$c    $a$e      $a$g  $a$g    $a$e  $a$c  $e$a$x
+            $a  $b    $a$c        $e$a$b      $f$a$b$a$x  $a    $c  $a$e      $a$g          $a$e  $a$c$e$a$x
+              $a  $b  $a$c        $e$a$b      $f$a$b$a$x      $a$c    $a$e      $a$g      $a$e  $a$c$e$a$x
+              $a$b$a$b$a$c      $e  $a$b    $f$a$b$f$a$x        $a$c  $a  $e      $a      $e  $a$c  $e$a$x
+              $a$b  $a  $c    $e  $a$b  $f$a$f$a    $x            $a  $c  $a    $e        $a  $c  $e$a$x
+              $a$b    $a  $e    $a$b$f  $a  $f$a$x                  $a$c  $a$c  $a        $c    $e$a$x
+              $a$b        $a            $b$f$a$x                  $a$c  $e$a      $c      $e    $a  $x
+              $a$b                      $f$a$x                    $a$c$e$a  $c    $a$e    $a    $h$a$x
+                $a$b                  $f$a$x                    $a$c  $e$a$c    $e$a      $i$h  $i$a    $x
+              $a  $b                $f$a$x                      $a$c          $e$a$h$i$h$i$h$i$h$a$e  $a  $x
+              $a$d$a$f              $a  $x                      $a$c        $e$a    $i$h$i$h$a  $e    $a$e$a$x
+              $a$d  $a              $d$a$x                    $a  $c        $a$c    $a      $e    $h  $a$e  $a$x
+                $a$d                $a$x                    $a$e$a$c              $e$a$e      $h      $a$e    $a$x
+EOC

@@ -1,0 +1,59 @@
+# Stewie (Family Guy)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;180m  ";
+$c = "\e[48;5;255m  ";
+$d = "\e[48;5;137m  ";
+$e = "\e[48;5;143m  ";
+$f = "\e[48;5;160m  ";
+$g = "\e[48;5;228m  ";
+$h = "\e[48;5;52m  ";
+$i = "\e[48;5;184m  ";
+$j = "\e[48;5;124m  ";
+$k = "\e[48;5;67m  ";
+$l = "\e[48;5;153m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                      $a$x
+                $t          $a                    $x
+                        $a  $b  $a$b  $a$b  $a$b  $a  $x
+                    $a  $b  $a$b$a$b  $a$b  $a$b$a$b  $a  $x
+                  $a$b  $a$b                        $a$b  $a$x
+                $a$b$a$b                                $a$b$a$x
+              $a$b                                            $a$x
+            $a$b$a$b  $a      $b                $a      $b  $a$b$a$x
+            $a$b              $a  $b        $a  $b              $a$x
+          $a  $b      $a      $b                $a      $b      $a  $x
+        $a$b        $a$b      $a$b            $a$b      $a$b        $a$x
+        $a$b$a$b    $a          $b            $a          $b    $a$b$a$x
+        $a$b      $a$c  $a  $c  $a$b  $a$b  $a$c  $a  $c  $a$b      $a$x
+          $a  $d$b$a$c          $a$b$a$b    $a$c          $a$b  $a  $x
+              $a$d$b$a$d      $a$b    $a$b    $a$d      $a$b  $a$x
+                $a$d$b$a      $b  $a$b          $a      $b  $a$x
+                  $a$d$b          $d$a      $b            $a$x
+                    $a  $d  $b      $d$a$b            $a  $x
+                        $a  $d$b                  $a  $x
+                          $a                        $x
+                        $a$e$a$f$a$e        $a$f$a$e$a$x
+                      $a$e$g$a$f$a$g        $a$f$a$g$e$a$x
+                    $a$e$g  $a$h$a$g        $a$h$a$e$g$e$a$x
+                  $a$e$g  $e$a$i  $a        $i  $a$e$g  $e$a$x
+                  $a$e$g  $e$a$i  $h$j    $h$i  $a$e  $g$e$a$x
+                  $a$e$g$e$a$j$h  $f      $j$h  $j$a$e$g$e$a$x
+                  $a        $j    $f        $j  $f$a        $x
+                  $a$d$b  $a$j$f                  $a$d$b  $a$x
+                    $a$b  $a$j$f    $j$a$j$f      $a$d$b$a$x
+                      $a    $j$f    $j$a$j$f      $a    $x
+                          $a$j$f    $j$a$j$f      $a$x
+                          $a$j$f    $j$a$j$f      $a$x
+                          $a$j$f    $j$a$j$f      $a$x
+                        $a                            $x
+                      $a$k$l        $k$a$k$l        $k$a$x
+                      $a                                $x
+EOC

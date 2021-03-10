@@ -1,0 +1,57 @@
+# Shield-surfing Link (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;34m  ";
+$b = "\e[48;5;28m  ";
+$c = "\e[48;5;94m  ";
+$d = "\e[48;5;136m  ";
+$e = "\e[48;5;173m  ";
+$f = "\e[48;5;215m  ";
+$g = "\e[48;5;22m  ";
+$h = "\e[48;5;131m  ";
+$i = "\e[48;5;137m  ";
+$j = "\e[48;5;240m  ";
+$k = "\e[48;5;242m  ";
+$l = "\e[48;5;249m  ";
+$m = "\e[48;5;244m  ";
+$n = "\e[48;5;60m  ";
+$o = "\e[48;5;17m  ";
+$p = "\e[48;5;52m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t      $a      $x
+                    $a          $b    $x
+                  $c$a$d  $b$a$b    $x
+                $d  $c$d    $b    $x
+                $d$c$e$f$d    $f$e$x
+                  $c$f    $d$f$e$x$g  $f  $e  $x
+                    $f      $e$b  $g  $f$e  $f$e$x
+                $a  $b$f  $e$f$a$b$g  $e$x$f$e$f$x
+        $e$x  $f  $a  $b$a  $e$a$b  $g$x
+      $e$f$e$f      $a$b  $a$b$g  $b$x
+      $f$e$f    $x    $g$b  $a  $g$b$x
+        $f$e$x          $g$b$d$b    $x
+                        $a      $g$b$x
+                $a      $h$b$a  $b$x
+              $f  $a    $b$h$d$h  $x
+            $f      $a$g$b      $g$b$x
+            $f        $a$g$b$g  $b$g    $x
+            $i$c$i  $x  $g  $b    $g  $x
+            $i$c$i  $x      $g$b  $f  $x
+              $c  $x            $e$f  $x    $j$x
+              $c  $x            $e  $f$x
+              $c  $x          $i  $c$i$x$j$x              $k  $x
+            $c$l  $m$x        $i  $c$i$k$x    $k    $x  $k  $j$x
+      $m$l    $n  $l        $m$c    $k$x    $k      $j$x$j  $x
+    $m$l$n                  $m  $c$k  $x    $k  $j    $x
+    $j$o$n$m  $n    $l  $n  $o  $k  $j$x      $j  $k$j  $k$x  $j$x
+      $j  $o$j$n$c$n  $m$o$p  $k  $j    $x  $j$k  $j  $k  $x
+        $j      $o  $c$o$p  $k        $j    $k  $j  $k  $x
+          $j          $o  $k  $j$k  $j  $k    $x$j$x$k$x
+              $j        $k  $j  $x$j  $x  $k$x
+EOC

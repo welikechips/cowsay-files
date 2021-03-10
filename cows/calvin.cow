@@ -1,0 +1,61 @@
+# Calvin (Calvin & Hobbes)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;220m  ";
+$c = "\e[48;5;223m  ";
+$d = "\e[48;5;255m  ";
+$e = "\e[48;5;160m  ";
+
+$the_cow = <<EOC
+              $t                  $a$x      $a    $x
+                $t                  $a$x    $a    $x          $a$x
+                  $t                $a$x    $a$b$a$x    $a      $x
+                    $t              $a  $x  $a$b$a$x    $a$b  $a$x
+                      $t          $a    $x$a$b  $x  $a  $b  $a  $x
+                                $a  $b    $a$b$a$x  $a  $b  $a$x
+                              $a  $b          $a$x$a$b    $a  $x
+                              $a  $b          $a  $b      $a$x          $a$x
+                              $a    $b$a  $b  $a  $b      $a  $x    $a$b$a$x
+                        $a  $x$a$b$a$b$a$b                $a  $x$a  $b  $a$x
+                        $b$a$x$a  $b                      $a    $b    $a  $x
+                        $b  $a    $b                                $a  $x
+                        $a$b$a    $b                              $a    $x
+                        $a$b  $a$b    $a    $b                    $a      $x$a$x
+                        $a  $b      $a                    $b    $a            $x
+                    $a      $b        $c                $a  $b              $a  $x
+                    $b            $c              $a      $c    $b              $x
+                    $a    $b    $c                $a$c          $b  $a$b        $x
+                        $a  $b  $c      $a    $c  $a        $c  $b    $a  $x$b  $x
+                          $a$b  $c  $a              $c          $b      $a$x
+                          $a$b$c                                $b  $a  $x
+                      $a    $c                      $a    $c    $b    $a  $x
+                    $a$c          $a      $c      $a$c    $a$c  $b    $a  $x
+                    $a$c          $a$d    $a$c  $a$c$d    $a$c  $b  $a  $x
+                    $a$c          $a      $d$a$c$a  $d    $a$c  $b  $a    $x
+                    $a$c                  $a      $d      $a$c  $b  $a$x
+                    $a$c              $a    $c  $a$c$a      $c  $b  $a  $x
+                      $a$c                $a$c  $a$c            $b  $c  $a$x
+                      $a$c        $a  $c  $a  $c$a    $c                $a$x
+                        $a  $c    $a    $c    $a  $c$a  $c              $a$x
+                          $a$c  $a  $d$a    $c        $a$c              $a$x
+              $a    $c$a$x$a$c  $a    $d$a$d$a          $c            $a$x
+            $a  $c      $a  $c    $a      $d$a$d$a$d  $a  $c  $a      $x
+          $a  $c        $a$x$a$c  $a$d$a$d      $a$d  $a  $c$a$x
+        $a$c  $a$c    $a$x  $a$c  $a    $d  $a$d  $a$d  $a$c$a$x  $a$c$a  $x
+        $a$c$a      $c$a$x    $a$c  $a  $d  $a$d  $a$d  $a$c$a$x$a$c      $a$x
+      $a$c  $a$x$a$c$a$x      $a$c    $a      $d  $a    $c  $a$x  $a$c      $a$x
+      $a$c  $a$x                $a    $c  $a        $c    $a$x    $a$c      $a$x
+    $a  $c  $a$x  $a            $e  $a  $c            $a  $x        $a    $c  $a$x
+    $a$c    $a    $e              $a$e$a  $c    $a          $x            $a$c$a$x
+    $a  $c      $a$e      $a$e$a    $e    $a      $e    $a$e$a$x          $a$c$a  $x
+      $a  $c    $a$e      $a$e$a  $e                    $a$e  $a    $x    $a$c  $a$x
+        $a        $e      $a    $e                      $a$e  $a$e  $a        $c$a$x
+                $a$e        $a  $e                      $a$e  $a$e  $a$c        $a$x
+                $a  $e      $a$e                      $a  $e$a  $e  $a  $c      $a$x
+                  $a$e      $a$e                      $a$e  $a$e    $a            $x
+                  $a          $e                      $a$e        $a  $x
+EOC

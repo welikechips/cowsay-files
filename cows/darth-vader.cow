@@ -1,0 +1,81 @@
+# Darth Vader (Star Wars) - cropped
+# by Z-Studios - https://www.deviantart.com/z-studios/art/Vader-Lightsaber-Throw-729542643
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;238m  ";
+$b = "\e[48;5;242m  ";
+$c = "\e[48;5;233m  ";
+$d = "\e[48;5;240m  ";
+$e = "\e[48;5;236m  ";
+$f = "\e[48;5;244m  ";
+$g = "\e[48;5;235m  ";
+$h = "\e[48;5;231m  ";
+$i = "\e[48;5;252m  ";
+$j = "\e[48;5;131m  ";
+$k = "\e[48;5;249m  ";
+$l = "\e[48;5;71m  ";
+$m = "\e[48;5;247m  ";
+$n = "\e[48;5;114m  ";
+$o = "\e[48;5;95m  ";
+$p = "\e[48;5;245m  ";
+$q = "\e[48;5;234m  ";
+$r = "\e[48;5;203m  ";
+$s = "\e[48;5;167m  ";
+$u = "\e[48;5;124m  ";
+$v = "\e[48;5;217m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t                $a$b    $x
+                    $t            $a$c$d$b$d$f$x
+                      $t          $a$c    $a$c$a$x
+                        $t      $g$c      $a$c$g$x
+                                $g$c        $a$c$x
+                              $c      $a$d  $e$d$c$x
+                              $c    $a$c    $a$c$d$x
+                            $c    $a$c  $g  $c$g$a$x
+                            $c  $e$c$e$a$c  $b$c  $e$x
+                          $c  $e$c        $b$e$a$c$e$x
+                          $g  $c      $g$b$g$c$a$c  $x
+                              $g$c              $x
+                          $a$c  $g$e$c          $x
+                      $a  $e$g$c  $a$c      $a$g$e$x
+                  $a    $g$e$c$g  $c$d$b$a$b$c  $e$a$d$x
+                $a      $g  $c  $d$a$g$c      $a$c$e$d  $x
+              $a      $c$g$c$a$c  $g$a$c$e$d$c$a$c  $e$a$x
+              $a    $c      $a  $c$e$a$c$e$a$c$e  $c  $e$d$x
+              $a  $c  $g$c  $e$a$c$g$e$c$e$a$c$g$e$c    $d$x
+            $a  $c  $g  $c                              $d$x
+            $a  $c$g  $c            $e  $h$i  $h$c  $g$c$d$x
+          $d$e$c    $g$c    $g  $c  $e$a  $e$b$j$c  $g$c  $a$x
+          $d$e$c  $g  $c    $e  $c  $e$a$b$a$k$f$c  $g$c  $a$x
+          $d$e$c$g$e$c      $e  $g$c$e  $f$a$b$l$c  $g$c  $a$x
+          $d$g$c$g$e$c      $d$a$g$c$e$g$i  $m$n$g$c$g  $c$a$x
+        $a$d$c  $e  $c      $d$c$g$c            $g$c  $g$c$a$x
+        $a$e$c$g  $c        $g$c$g$a$c$g$e$g$e$c$g$c  $g$c  $e$x
+        $a$e$c$g  $c      $g$i$l$g  $c    $e$c              $a$x
+        $a$e$c            $e            $c      $l$e$c      $a$x
+        $a$c    $g$c      $e$f$o$e$m$k$c$o  $i$c$k$e$c      $a$x
+        $a$c  $g$e$c                    $e$p  $c              $x
+        $a$c  $q$e$c                                            $x
+        $a$c  $g$e$q$c    $g$c$g$c    $g$e  $g$c$g$c            $x
+        $a$c  $g$d$q$c    $g$c  $g$c  $g$e  $g$c$g$c            $x
+        $d$c  $g$d$e$c    $g  $c  $g$c$g$e  $g$c$g$e$c          $x
+      $d$e$c$g  $d$a$c    $e$g$c  $g$c  $a  $c  $g  $c          $x
+      $d$e$c$e$g$e$o$c  $g$a$d$e$c$g$c  $e$g$c    $g$c          $x
+      $d$e$c$e$g  $h$d$c$g  $e  $c$g$c            $g$c          $x
+      $a$e$c  $e$h$c$r$s$u$e$g$c$g  $c      $g$c  $g$c          $x
+    $g$a$g$c  $e  $u$v$h$r$u$q$c            $g$c  $g$c          $x
+    $g$a$g$c      $u$s$v$h$r$u$q$g$c        $g$c  $g$c          $x
+    $g$a$c          $u$s$v$h$r$u$c          $g$c  $g$c          $x
+    $g$a$c            $u$s$v$h$r$u$c          $g$c$g$c          $x
+    $g$a$c              $u$s$v$h$r$u$c        $g$c$g$c            $x
+    $g$a$c              $g$u$s$v$h$r$u$c      $g$c  $g$c          $x
+    $g$a$c              $e$a$u$s$v$h$r$u$c          $g$c          $x
+    $g$a$c              $e$d$q$u$s$v$h$r$u$c        $g  $c        $x
+    $a$d$c              $g$e  $q$u$s$v$h$r$u$c      $g  $c        $x
+    $a$g$c              $g$q    $c$u$s$v$h$r$u$c    $g  $c        $x
+    $a$g$c            $q$g$q    $c  $u$s$v$h$r$u$c  $g  $c        $x
+EOC

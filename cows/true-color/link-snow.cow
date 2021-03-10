@@ -1,0 +1,71 @@
+# Link with snowquill armor (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;145;88;22m  ";
+$b = "\e[48;2;190;132;32m  ";
+$c = "\e[48;2;255;179;91m  ";
+$d = "\e[48;2;230;220;206m  ";
+$e = "\e[48;2;120;112;102m  ";
+$f = "\e[48;2;215;126;75m  ";
+$g = "\e[48;2;0;185;255m  ";
+$h = "\e[48;2;172;159;143m  ";
+$i = "\e[48;2;71;71;80m  ";
+$j = "\e[48;2;78;101;56m  ";
+$k = "\e[48;2;92;55;71m  ";
+$l = "\e[48;2;108;140;47m  ";
+$m = "\e[48;2;235;183;10m  ";
+$n = "\e[48;2;113;113;126m  ";
+$o = "\e[48;2;177;92;81m  ";
+$p = "\e[48;2;97;70;57m  ";
+$q = "\e[48;2;76;41;54m  ";
+$r = "\e[48;2;134;75;88m  ";
+$s = "\e[48;2;71;46;42m  ";
+$u = "\e[48;2;49;47;45m  ";
+$v = "\e[48;2;139;26;37m  ";
+$w = "\e[48;2;207;30;49m  ";
+$y = "\e[48;2;121;61;78m  ";
+$z = "\e[48;2;9;54;128m  ";
+$A = "\e[48;2;22;100;197m  ";
+$B = "\e[48;2;127;130;94m  ";
+
+$the_cow = <<EOC
+                    $t
+                      $t
+                        $t
+                          $t            $a$x
+                            $t        $b      $x
+                                    $b      $a  $x
+                                  $b  $c$b$a$b$a  $d  $x
+                                  $b$c    $b  $d  $e$x
+      $b  $x                        $c    $b$c  $f$x
+        $b  $x$b$x                  $c    $b$g$a$x
+        $b$a$b    $x                $a$c  $b$h  $x
+        $b$i$b  $x            $b$j$e$b$d  $b$d$k$h$l$m  $x
+        $n  $b$i$x            $b$j$h$o$h  $p  $k$l$m$k$a$x
+        $n  $i$x              $k$q$h$o$h    $p  $k$r    $x
+        $n  $x              $k  $q$h  $o$h  $e  $x$k$r$k$r$x
+        $n$i$x            $h  $q  $x$h$p$o$s$p$s$x  $k$h$d  $x
+        $n$i$x            $u  $e$x  $s$p$s$o  $r$x    $i  $s$h$x
+        $i  $n$x          $u  $x    $s$p$s$p$s  $x  $i$c$s  $x
+          $i$n  $x    $h$u  $x      $v$p$s$w      $x$c$i$s$x
+          $i  $n  $x$h$e$u  $x  $j$e$y$h$w$y$o  $y$x
+            $a$b$n$i$h$u    $e    $j$v$y  $w      $x
+              $a$x$h$e$f$u$e    $j$i$v    $w$h$l$h$v$x
+                  $e$x  $i$e  $i  $j$i$v  $e$l$h$l$v$x
+                        $i        $h$e$y$v$e$h    $v$x
+                      $a  $i  $h  $e$y  $x  $h    $e$x
+                        $a  $i  $z$q      $x$e    $h$x
+                                $z$i  $q  $x$h$e    $d$x
+                              $z  $x$i    $q$x$h$d  $b$x
+                            $z$A$x    $a$q  $x  $y$o  $x
+                            $A  $x    $a$x$i$x  $y  $o$x
+                            $A  $x                $y  $x
+                              $A  $x              $y$b$x
+                                                  $j$y$x
+                                                  $B  $x
+                                                  $y  $x
+                                                  $B$x
+EOC

@@ -1,0 +1,78 @@
+# Marth (Fire Emblem, Super Smash Bros)
+# by thekrillmaster - https://www.deviantart.com/thekrillmaster/art/Marth-palette-swaps-577386081
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;220m  ";
+$c = "\e[48;5;26m  ";
+$d = "\e[48;5;136m  ";
+$e = "\e[48;5;19m  ";
+$f = "\e[48;5;111m  ";
+$g = "\e[48;5;173m  ";
+$h = "\e[48;5;216m  ";
+$i = "\e[48;5;223m  ";
+$j = "\e[48;5;130m  ";
+$k = "\e[48;5;231m  ";
+$l = "\e[48;5;17m  ";
+$m = "\e[48;5;196m  ";
+$n = "\e[48;5;94m  ";
+$o = "\e[48;5;52m  ";
+$p = "\e[48;5;39m  ";
+$q = "\e[48;5;88m  ";
+$r = "\e[48;5;160m  ";
+$s = "\e[48;5;249m  ";
+
+$the_cow = <<EOC
+            $t                        $a          $x
+              $t                    $a$b$c  $b$d  $e  $x
+                $t                $a$e$c$e  $c$e$d  $e  $x
+                  $t              $a$c            $e$d$e$a$x
+                    $t          $a$f$c$f$c$f$c$f$c  $e$c$a$x
+                      $t        $a$f$c$f$c$f$c$f$c      $a$x
+                                $a$c$g$c$g$c$g$e$c  $e$c$a$x
+                                $a    $g$h$g$a    $e    $a$x
+                                  $a$e$a$i$a$e$f$a$e$g$j$a$x
+                                  $j$e$g$i$h$e$k$g$c$h$j$a$x
+                                    $j$h$i      $h$c$j$e$x
+                                    $j$h$g$i  $h  $j$c$e$x
+                                    $a$j$g$a$g$h$g$h$d$e$x
+                                $a      $j$g$h$g$h$d$c$a  $x
+                          $a    $e$c$e$a  $j  $b  $c$e$a$e$a    $x
+                      $a  $c  $e$l$a$c  $a$d$a  $e  $a$e  $a$e  $a  $x
+                      $a$b$l$e  $l  $a$e$d$m$d$e  $a  $c$e$a$e$l$d$a$x
+                        $a$b$d$l        $d$m$d$a    $c$e$a$l  $d$a$x
+                        $a    $d  $n$l  $a$n$e  $c  $e$a  $n  $a$x
+                        $a  $e$a    $d$e$c  $a        $e$a      $x
+                      $a$o$a$c  $e  $d$l$e$c    $e$a$e  $a$e$c$a$x
+                      $a  $p  $c  $a$n$b$l  $b  $d  $a    $c  $p$a$x
+                      $a  $c$p    $a  $n$b  $c$p$c$n$d$n$a$p    $a$x
+                      $a$j$h$c  $a$o$a$l$c  $p    $d$c$a$c    $a$x
+                      $a$j$i  $j$o    $a$c  $p$c$n$l  $a$j$i  $j$x
+                      $j$g$i$h$j$o    $a$l$c  $p$d$c$a$o$j$h$i$g$j$x
+                      $a$l$g$j$o    $a$o$j$o  $b    $o$a$o$j$g$l  $a$x
+                    $a$l    $a$o    $a$c$o$j$d$o$q$o$d$a$o$a$l$e$c$a$x
+                    $a$c$e  $a$o  $a$c  $p$c$p$c$d$c  $l$n$a$e$l    $a$x
+                    $a$l    $a$o  $a$c$p      $b$l$d$c$n$a$n$a$e  $c$a$x
+                  $a$c$e  $a  $o$a$c$p    $c$p$b$l$d$c$a$l$a  $l    $a$x
+                  $a$l    $a$q$o$a$c$p  $c  $b$l    $d$a  $e$a  $l  $e$a$x
+                  $a$e  $a  $q$o$a$d$c      $b$l$a$l$d$a$e$c$a  $l$a$l  $a$x
+                $a$l$e$l$a$o$q$o$q$a$d$n$c  $d$a$l  $d$c$a$c$a$j$h$a  $h$g$j$x
+              $a  $l    $g$o$q$o$q$a$c$e$n  $l$a$l  $d$n$a$c$e$a$h$j$x$j$h$j$x
+            $a$d$b$a$i$g$h$o$r$o$a$e$c$e  $n$a$o$a$l$n$e$a$e$c$a$x$j$x  $j  $x
+          $a$b  $n$m$a$h$o$q$r$q$a$c  $e  $a$q$o$a$l  $e$c$a$c$a$x
+          $a$b$a$m  $n$a$o$q$r$q$a$c  $e$l$a$r$o$a$l$e$l$c$a$e$c$a$x
+          $a  $n$m$a$d$a$o$r  $a$l$c  $e$a$q$r$o  $a$e  $c$e$a$c$a$x
+            $a$s$a$d  $a$q$r  $a$l$c$e  $a$r  $o$q$a$l$e$c  $a$c$a$x
+          $a$k$s$a$n$a  $q$r$q$a$e$c$e$l$a$r  $o$r$a$l  $c  $a$e$c$a$x
+          $a$s$a    $x$a$q$r$q$a$e  $l$a$q$r  $q$r$a$l$e  $c$a$e$c$a$x
+        $a$k$s$a$x    $a$r  $a$e  $c  $a$r    $q$r  $a$e$c  $a  $c$e$a$x
+        $a$k$a$x    $a$q$r$q$a$l$e  $a$q$r    $q$r  $a$l$c$e$a  $e$c$a$x
+      $a$k$s$a$x    $a$q$r$a$s$k  $s$a$q$r    $q$r$a$s$k  $s$a  $e$c$d$a$x
+      $a$k$a$x      $a$r  $a$e$k$s  $a$q$r    $o$r$a$s  $k  $a$o$a$n$c$a$x
+    $a$k$s$a$x      $a$r$a$l$e  $l$a$q  $r  $q$o$r$a$l  $e  $a$o$a$n$c$a$x
+    $a$k$a$x        $a$r$a$e    $l$a$q$o$r  $q$o$r$a$l  $e  $a$o$a  $e$d$a$x
+  $a$k$s$a$x        $a$r$a$e  $l  $a$q$o$r  $o  $r$a$l  $e  $a$o$a  $e$d$a$x
+  $a$k$a$x        $a$q$r$a$e  $l$a$q$o  $r  $o  $r  $a$l$e  $a$o$a    $n$a$x
+EOC

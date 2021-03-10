@@ -1,0 +1,54 @@
+# Stealth Link (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;145m  ";
+$b = "\e[48;5;136m  ";
+$c = "\e[48;5;243m  ";
+$d = "\e[48;5;239m  ";
+$e = "\e[48;5;94m  ";
+$f = "\e[48;5;88m  ";
+$g = "\e[48;5;161m  ";
+$h = "\e[48;5;95m  ";
+$i = "\e[48;5;237m  ";
+$j = "\e[48;5;253m  ";
+$k = "\e[48;5;215m  ";
+$l = "\e[48;5;60m  ";
+$m = "\e[48;5;238m  ";
+$n = "\e[48;5;173m  ";
+$o = "\e[48;5;39m  ";
+$p = "\e[48;5;17m  ";
+$q = "\e[48;5;235m  ";
+$r = "\e[48;5;234m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t                      $a            $x
+                        $b  $x      $a  $c$d      $c  $a  $x
+                  $e$x  $b$f$g$x  $a$c$d              $c$a  $x
+                  $b    $e$x    $c  $d$x          $c$d  $c$a  $x
+                $b    $e  $x  $c$h$b$i$j$a$x        $c$d$x$a$x
+              $b    $e$b  $e$c$h  $b$i$a$j  $x      $c$x
+              $b  $e$b    $k$a$b  $l$m$l$j$a$j$x
+                $b$k$b  $k$n$a$c$l$m$x    $j$l$h$x
+                $l  $k$b$o$c$a$c$i$x        $l  $k$x
+                  $l  $m$b$a$c$a$h$m$x      $k$x
+      $n$k$x    $i$c$a    $b$a$m$h$m$i$x
+      $n$m$c$x  $i$e$m$c  $a$p    $m$q  $x
+        $a$c$a$c$e$m$p  $x  $p  $r$q$l  $m$x
+          $a$c$a$m$p  $x    $l      $m$l  $m$x
+            $c$a$p  $x  $l            $m$l$r$m$x
+              $p  $x  $l              $m$r  $m  $x
+                      $l  $b$e  $i$m$p    $m      $x
+                        $b$i    $e$m  $c$x$p$m  $p  $x
+                                    $m  $x    $p  $m    $x
+                                      $c$x        $e    $m$x
+                                                    $i  $e$m$x
+                                                        $i$e$m$d$x
+                                                            $m  $x
+                                                              $d$x
+EOC

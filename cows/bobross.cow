@@ -1,0 +1,73 @@
+# Bob Ross (The Joy of Painting)
+# by u/dangmattjoe - https://www.reddit.com/r/iWallpaper/comments/9yefyj/bob_ross_pixel_art/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;136m  ";
+$b = "\e[48;5;234m  ";
+$c = "\e[48;5;236m  ";
+$d = "\e[48;5;94m  ";
+$e = "\e[48;5;251m  ";
+$f = "\e[48;5;137m  ";
+$g = "\e[48;5;61m  ";
+$h = "\e[48;5;144m  ";
+$i = "\e[48;5;180m  ";
+$j = "\e[48;5;139m  ";
+$k = "\e[48;5;22m  ";
+$l = "\e[48;5;71m  ";
+$m = "\e[48;5;52m  ";
+$n = "\e[48;5;110m  ";
+$o = "\e[48;5;60m  ";
+$p = "\e[48;5;67m  ";
+$q = "\e[48;5;250m  ";
+$r = "\e[48;5;185m  ";
+$s = "\e[48;5;17m  ";
+$u = "\e[48;5;96m  ";
+$v = "\e[48;5;124m  ";
+$w = "\e[48;5;239m  ";
+$y = "\e[48;5;18m  ";
+$z = "\e[48;5;25m  ";
+
+$the_cow = <<EOC
+        $t
+          $t
+            $t
+              $t      $a      $x                                  $b  $x                  $b$c$x
+                  $a  $d      $a  $x                              $e$c$x                  $e$c$x
+                $a$d              $a$x                            $e                        $c$x
+              $a$d                    $x                          $e$c$x      $e$c$x      $e$c$x
+              $a$d    $c      $d      $x                          $e$c$x      $e$c$x      $e$c$x
+              $a$d  $c          $d    $x                        $e                            $x
+              $a$d$c  $f      $c  $d  $x                          $g            $h  $g      $c$x
+              $a$d$c$f  $i      $c$d  $x                          $e$g    $b$e$g        $e$h$c$x
+                $a$c$f$i        $d  $x                            $h$e$g  $b$e  $b$g  $e$h  $c$x
+                  $a$f$i        $d$x                              $g    $b  $e  $b  $e$g    $c$x
+                    $f$d      $i$x                                $g$b$e$b  $e  $b  $e  $g  $c$x
+                    $d$i      $d$x          $j    $x              $b  $e  $b  $e  $b$e  $b$e$c$x
+                    $d          $x      $j    $k  $j  $x          $b  $e  $b  $e$l$e$l$e$b$e$c$x
+                      $d      $x      $j      $k  $j    $x        $l$b  $l$e$b$e$c$e$c$e$l$e$c$x
+                        $f  $x        $j      $k$j  $m  $j$x      $l$b  $c$e$l          $c$e$c$x
+                    $n  $f$i$n  $x      $j          $m  $j  $x    $c$l      $o      $b$o$l  $c$x
+                $p$n$p$n  $i$n$p$n$x      $j                $x    $l    $o  $n    $b    $o$l$c$x
+              $p$n                  $x    $j          $c  $j  $x  $l  $o$n        $b    $o$l$c$x
+              $n        $p$q$n      $x  $j            $c  $j  $x  $l    $o$n      $l$c$l    $c$x
+              $n  $x$n  $p  $n      $p$x$j$r  $j              $x$e                            $c$x
+            $n  $x  $n  $p$q$n    $p  $j  $r  $j        $s  $j$x      $e$c$q          $e$c$x
+            $i  $x  $n  $p  $n  $x$p  $j      $u$i$x$j  $s  $j$x      $e                $c$x
+            $i$x    $n  $p$q$n  $x  $p$j$v  $u$i  $x  $j      $x    $e$c  $w  $b    $e$c$w$b$x
+            $i$x    $n  $p  $n    $x  $j$v  $u$i  $x  $j    $x      $e$c$x    $w$b  $e$c$x$w$b$x
+            $i$x    $b$y$b    $y$b$x    $j    $u$x  $j    $x      $e$c$x      $w$b$e$c$x  $w$b$x
+          $d$i$d$e  $v$y    $z    $x        $j          $x        $e$c$x      $w$b$e$c$x  $w$b$x
+                $e  $v$y        $z$x                              $e$c$x        $w$e$c$x    $w$b$x
+                    $y  $z$x$y$z$x                                $e$c$x        $w$e$c$x    $w$b$x
+                    $y  $z$x$y$z$x                                $e$c$x        $w$e$c$x    $w$b$x
+                    $y$z$x  $y$z$x                              $e$c$x          $e$c$b$x      $w$b$x
+                    $y$z$x  $y$z$x                              $e$c$x          $e$c$b$x      $w$b$x
+                    $y$x    $y$x                                $e$c$x          $e$c$b$x      $w$b$x
+                    $y$x    $y$x                                $e$c$x          $e$c$b$x      $w$b$x
+                    $y$x    $y$x                              $e$c$x          $e$c$x$w$b$x      $w$b$x
+                    $y$x    $y$x                              $e$c$x          $e$c$x$w$b$x      $w$b$x
+                    $y$x    $y$x
+                    $d  $x  $d  $x
+EOC

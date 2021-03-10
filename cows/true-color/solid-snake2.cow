@@ -1,0 +1,60 @@
+# Solid Snake (Metal Gear Solid) - true color
+# by Unknown - https://66.media.tumblr.com/c27bc23d326a693af79c452bef52eac3/tumblr_nef650fjLB1s5mfvio1_500.gif
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;113;73;39m  ";
+$b = "\e[48;2;84;78;88m  ";
+$c = "\e[48;2;222;172;133m  ";
+$d = "\e[48;2;205;158;125m  ";
+$e = "\e[48;2;86;51;29m  ";
+$f = "\e[48;2;141;160;184m  ";
+$g = "\e[48;2;158;178;202m  ";
+$h = "\e[48;2;72;83;95m  ";
+$i = "\e[48;2;89;100;112m  ";
+$j = "\e[48;2;130;149;173m  ";
+$k = "\e[48;2;67;71;73m  ";
+$l = "\e[48;2;105;110;112m  ";
+$m = "\e[48;2;112;127;145m  ";
+$n = "\e[48;2;104;119;137m  ";
+$o = "\e[48;2;144;148;151m  ";
+$p = "\e[48;2;83;94;106m  ";
+
+$the_cow = <<EOC
+                      $t
+                        $t
+                          $t        $a      $x
+                            $t    $a          $x
+                                  $b$a$b      $x
+                                  $b          $x
+            $b      $x      $b    $c    $d  $e$x
+      $b    $x      $b      $x    $c$a    $d$a$e$x
+    $b$x                      $b  $a$c$d  $a  $e$x
+  $b$x                $b      $x  $a$c$a$d$a$f$x
+                $b    $x            $a    $f  $x
+            $b  $x                  $g$f    $g$h$i$x
+          $b$x              $f  $i$h$f$g    $f$h$i$g  $x
+          $b$x            $f  $g$i$h$g  $f$g  $h$i$g      $x
+      $b  $x              $f  $g$i$h$g  $f$g  $h$i$g$f  $g  $x
+                          $f  $g$i$h$g  $f$g  $i$g$f        $j$x
+                          $f    $g$i$g  $f$i    $g$f        $j$x
+                            $f$j  $i      $f    $k$l$x$f      $j$x
+                            $i  $l$k$f  $m$f    $l$k$x  $f    $i$x
+                            $m$n$k$l$f$m    $f$k$l  $x    $o$i$n$x
+                          $o$m$n$l  $k$f$m$f  $l$k$x        $m  $n$x
+                          $f$i$n$x$k$l$f  $i  $l  $x        $m  $n$x
+                        $f  $j$x  $l  $i  $m$f  $l$x      $o$i$n$x
+                        $f  $j$x    $f    $m$f$k$l$k$x    $f  $i$x
+                        $f$j$x    $l$k$l      $k$l$k$x    $f  $j$x
+                        $i$p$x    $l    $g$f  $l    $x    $f$j$x
+                      $f$i$p$x    $i$f$g    $i$l    $x    $i$p$x
+                      $i  $p$x    $i$o$f$g  $i$f$i  $x  $i  $p$x
+                      $i$p$x    $g  $f$i$g  $f$o$g$f$j$x$i$f$j$x
+                        $p$x  $i$g  $f$i$g  $i$g  $f$j$x$i  $p$x
+                            $g  $i$f  $j$i$x$i$g    $f$j$x
+                          $g    $f$i$f$j$x  $f  $g  $f$j$x
+                          $o$g$f    $i$x      $f$g  $f$j$x
+                        $f  $i  $f$j$x        $f$g    $j$x
+                        $g$f    $i$x          $f$g$i$o$i  $x
+EOC

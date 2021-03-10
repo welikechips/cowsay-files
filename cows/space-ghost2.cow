@@ -1,0 +1,64 @@
+# Space Ghost
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;255m  ";
+$c = "\e[48;5;223m  ";
+$d = "\e[48;5;130m  ";
+$e = "\e[48;5;180m  ";
+$f = "\e[48;5;88m  ";
+$g = "\e[48;5;221m  ";
+$h = "\e[48;5;251m  ";
+$i = "\e[48;5;60m  ";
+$j = "\e[48;5;167m  ";
+$k = "\e[48;5;173m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t          $a          $x
+                $t      $a              $x
+                  $t    $a              $x
+                        $a$b$a$b  $a    $x
+                        $a              $x
+                        $a$c        $a  $x
+                        $a$c$d  $c  $a  $x
+                        $a$c        $a    $x
+                        $a$e$c  $e$a      $f    $x
+                    $a                $g        $f$x
+                $a                  $g  $b  $h$i$a$f$x
+            $a    $i$b  $j        $b            $h$a$x
+          $a  $h$i$b      $j  $b                  $h$a$x
+          $a$h$i$h$b                                $h$a$x
+        $a$i$b$i$b      $h$b                          $i$x
+        $a$h$b$i$b      $h$b            $h  $b        $h$a$x
+        $a$b  $i$h$b    $h  $b        $i  $h  $b        $a$x
+        $a$b  $h$i  $h            $i    $a  $b          $a$x
+        $a$h    $a$b                      $a$b          $a$x
+          $i$b  $i$h$b                  $h$a$b      $h$i$a$x
+          $a$b  $h$i$b                  $i$a$h$b      $i$x
+          $a$b    $a$b                  $i$g$i$h$b$h$b  $a$x
+          $a$h$b  $a                      $g$a$b$h$b    $a$x
+            $i$b  $a$j              $a    $g$a$b        $a$x
+            $a$h$b$a$j              $a    $g$a$h$b      $a$f$x
+          $a$j    $a                          $i$b      $a$f$x
+          $a$g$j  $a$b                  $h$a$g$a$j      $a$f$x
+          $a$g$j  $a$h$b            $h$b  $i$g$a$j    $g$a$f$x
+          $a$g$j$a$i$h  $b        $h$b    $h$a    $j  $g$a$f$x
+        $a$b  $h$a$h$b$h  $b    $h$b        $i$g$a$j  $g$a$f$x
+      $a$b    $i$a$b    $i  $b$i$h$b        $i$a  $h    $a$g$f$x
+      $a$b$h$i$b$a$b      $i    $b          $h$a$b      $a$g$f$x
+      $a$b  $i$b$a$b        $h$a$b            $a$b      $a$g$f$x
+      $a$i      $a$b          $a$b            $a$b      $a$g$f$x
+      $a$b$i$b$i$a$b          $a$b            $a$i$b  $a$k$g$f$x
+        $a        $h$b        $a$i$b          $a      $k  $g$f$x
+                  $i$b      $a$k$a  $h$b      $h$a$k        $g$f$x
+                  $i$b      $a$k  $a$b  $h$b    $a$k        $g$f$x
+                  $a$b$h  $b$i$k    $a$b  $h$b  $i$k        $g$f$x
+                  $a$i  $b  $h$a$k    $a$i  $b  $h$a$k      $g$f$x
+                  $a$b        $a$k    $a$h$b      $a$k      $g$f$x
+                  $a$h$b      $a$k      $i$b      $a$k      $g$f$x
+EOC

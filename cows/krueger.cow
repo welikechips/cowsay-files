@@ -1,0 +1,78 @@
+# Freddy Krueger
+# by u/_xJustanOBodyx_ - https://www.reddit.com/r/PixelArt/comments/9o6n8m/oc_freddy_krueger/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;137m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;180m  ";
+$f = "\e[48;5;95m  ";
+$g = "\e[48;5;247m  ";
+$h = "\e[48;5;188m  ";
+$i = "\e[48;5;236m  ";
+$j = "\e[48;5;136m  ";
+$k = "\e[48;5;88m  ";
+$l = "\e[48;5;124m  ";
+$m = "\e[48;5;160m  ";
+$n = "\e[48;5;52m  ";
+
+$the_cow = <<EOC
+          $t
+            $t              $a          $x
+              $t        $b$a              $x
+                $t    $b$a                  $x
+                  $t  $b$a                  $x
+                      $b$a                    $x
+                      $b  $a                  $x
+                      $b      $a              $x
+                    $b          $a              $x
+                    $b        $a      $c  $a            $x
+                    $b          $a$c  $d$c$d$c$d$a        $x
+                  $b          $e$d$e$c    $d$c$d$c$d$a    $x
+                $b      $d$e$d$e$d  $e$c$d$c$f$d$f$c$a  $x
+            $b      $e$d$e$d$e  $g$a$e$d  $f  $d$f$d$a$x
+            $h$x    $e$d$e  $d  $e$d  $e$d$f  $c$d  $x
+            $h$x      $g$a$e  $c$d$e$d$e$d$f  $c$d$x
+            $h$x      $e  $d$e$d$c$d$e$d$e$f  $d$f$x
+            $h$x      $d$e$d$e$d  $c$e$d$e$c$d$f  $i$x
+            $h$x        $e  $d$c  $e$d$e  $d$c$f  $i$x
+            $h$x        $d$e    $a  $e  $d$e$f  $d$i  $x
+            $h$x          $d$e$a$d  $e$d$e$d$f  $d$i    $x
+            $h$x            $e$d$e$d$e$d$e$c$f  $d  $c  $i$x
+            $h$j$x          $e$d$e    $d$f  $d              $k  $a$x
+            $j    $x          $d  $e$d                  $l$k$l$a    $x
+              $j  $x  $h                    $d        $l$k$l$k$a        $x
+              $j  $x$h$j    $h$x    $d        $l$d  $l$k$l$k$l$k  $l  $k$a      $x
+              $j            $x      $d        $l$k$l$k$l  $k$l$k$l$k$l  $k  $a      $x
+              $j  $a  $j$a  $x    $l$a  $l$k$l$k$l$k$b                          $a    $x
+              $j$a  $j  $h            $l$k$l$k$l$a$b                              $a    $x
+              $a$j  $a        $l$a  $l$h  $a      $b                            $a        $x
+              $j$a  $j$a$h            $a  $m  $a  $b                            $a          $x
+              $j        $a  $j$a            $m                          $b      $a          $x
+                $j  $a              $m                                      $b  $n$a          $x
+                $j$a$j  $a          $m                                          $k$n  $a      $x
+                $j  $a  $j$a        $m                                            $k  $n$a      $x
+                $a$j        $a    $m                                          $a$m    $k$n$a    $x
+                $j$a$j      $a$j$a$m    $b                      $m            $a$m      $k$a      $x
+                $l$j      $a$j  $a  $b                                  $m    $a  $m    $k$n$a    $x
+                $l$j              $a$b                                  $a$m    $a$m    $k$a      $x
+                $j      $a$j    $a$b                                    $a  $m  $a$b      $a        $x
+                $l$j  $l$j  $a    $b                              $a        $m  $a  $b      $a        $x
+                $b$m    $l$m$a$m                                  $l$k$n$a          $b        $a        $x
+                $b$m    $l$m$a$m                                  $l$k$n$a          $b        $a        $x
+              $b    $m      $a$m                                  $l$k$n$a            $b$m      $k$l$k$a  $x
+              $m$b    $m  $a  $m                                  $l$k$n$a      $x  $a$m        $l$b  $a  $x
+              $m$b    $m  $a  $m                                  $l$k$n$a      $x  $a$m        $l$b  $a  $x
+            $m  $b        $a$m      $b                          $m$l$k$n$a      $x    $m$b    $m  $l$k$a    $x
+            $m  $b        $a$b                                    $a            $x      $b$m      $k  $a      $x
+          $b$m    $b      $a$b                                  $a            $x        $m$b        $a        $x
+          $b$m      $b    $a$b                                $a              $x            $b      $a        $x
+          $b$m          $b$a$b                                $a            $x              $b    $a        $x
+          $b  $m        $b$a$m                        $b      $a            $x            $b      $a        $x
+            $b$m        $b$a$m                                  $a          $x            $m$b    $a      $x
+            $b  $m      $b$a$m                                  $a    $l$a  $x            $m      $a      $x
+              $b$m    $b$a$m                                  $a  $l$m$l$a  $x            $m          $a  $x
+EOC

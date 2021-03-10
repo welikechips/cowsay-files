@@ -1,0 +1,83 @@
+# Yooka Laylee
+# by Lisnovski - https://www.deviantart.com/lisnovski/art/Yooka-Laylee-Custom-Sprite-530341730
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;133m  ";
+$c = "\e[48;5;173m  ";
+$d = "\e[48;5;53m  ";
+$e = "\e[48;5;216m  ";
+$f = "\e[48;5;253m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;64m  ";
+$i = "\e[48;5;52m  ";
+$j = "\e[48;5;239m  ";
+$k = "\e[48;5;124m  ";
+$l = "\e[48;5;210m  ";
+$m = "\e[48;5;22m  ";
+$n = "\e[48;5;106m  ";
+$o = "\e[48;5;149m  ";
+$p = "\e[48;5;88m  ";
+$q = "\e[48;5;37m  ";
+$r = "\e[48;5;160m  ";
+$s = "\e[48;5;178m  ";
+$u = "\e[48;5;94m  ";
+$v = "\e[48;5;220m  ";
+
+$the_cow = <<EOC
+        $t              $a$x      $a$x
+          $t          $a$b$a$x  $a  $x
+            $t      $a$b$c$b$a  $d$a$x
+                  $a$b$e  $c$b$a$b$a$x
+                  $a$b$e  $c$b$a$d$a$x
+                  $a$c$e  $c$b$a$d$a$x
+                $a$b$c$e$c  $b  $a  $x
+                $a$b$c$e$c$b  $d  $a  $x
+                  $a$b$c  $b$d$f$g$h$b$a$x
+                  $a$b$c$i$b$d$f$h$j$b$i  $x
+                    $a$b$i$b  $g$h$a$i$k$l$i$x
+                    $a    $b$d  $b  $i$k  $i$x
+                  $a$d  $b$a$d$g$d$b  $i  $x
+          $a      $d$b    $d$a$b$g$f$g$d$a$x
+            $i$d$c$b    $c$d  $a$b  $d$a$m  $x
+            $i$b  $c    $e$b$d$c$a$m  $h    $m$x
+              $i$c  $e  $b$c$d$a  $h$n$m  $h  $m$x
+              $i$e    $b$c  $d$a$n$o      $m  $h$x
+            $i$e  $b  $c$e$c$a$n$m    $n$o  $h$m$h$x
+              $i$b$c  $e  $d$a$m        $n$o  $h$m  $x
+              $i$c$e    $c$d$a$f  $g$f$m  $n$o  $m$h$x
+            $i$p$i$c$e$c  $a$h$f$g    $q$m  $n$o$h$m  $x
+          $i$r$k$h$i$e$c$d$a$h$f$g  $q$j$g$m$o  $h$m$h$x
+          $i$k  $p$i$c  $a$h$n$h$f$g$q$a$j$m$o    $m$h$x
+            $i    $m$i$d$a$n$o$n$h$f  $q$h  $o    $h$m$x
+                  $i$m$a$h$n$o  $n$h    $o        $h$m$x
+            $i    $h$n$o$n  $o$n$o              $m$o$h$m$x
+            $i$r$k$h$n  $h$n  $h$n    $o              $m$x
+            $i$k  $p$h$m  $h$n$o$h    $n              $m$x
+              $i  $m  $x  $m$h$n    $o$h            $m$x
+                            $m    $h$n        $h$m  $x
+                          $m$h    $m            $x
+                          $m$n  $h    $n$s$u$x
+                        $m$o      $n  $v  $s$u$x
+                        $m$o$n$m  $o$v      $u$x
+                        $m$o$m$h  $o$v      $u$x
+          $m        $x$m$o$n$m$h$n$o$v      $u$x
+        $m$o        $m  $o$n$m$n$o  $v      $u$x
+      $m$o$n  $h$n  $o$m$o$m$x$m$o  $v    $u$x
+      $m$n$h$i    $h$n$m$n$m$x$m$o$n$s$v  $u$x
+    $m$o$h$i$r    $i$m$o$n$m$x$m$o$n  $s  $u$x
+    $m$o$i$r  $k  $r$m$o$n$m$x$m$n$h$m$o$m$h$m$x
+    $m$o$i$k$r$i  $k$m$o$n$h$m$o$n$m  $o$m$h$m$x
+    $m$n$i$p$k$i$k$p$m$n  $h$m$n$h$m  $n$m$n$i$x
+    $m$n$o$i$k$p$m$p$m$h$m    $i$m$h$m$h$o$m$p$i$x
+      $m$n$i$p$n  $m    $p$i$k$i$m  $x$m$o$m$k$i$x
+      $m$n$o$m  $n$h$i$p$i$k$i  $m$x  $m$n$m$r$i$x
+        $m$n  $h$m  $i$k$i$r$i$m$x    $m$n$m$i$x
+          $m  $n$h    $i    $h$m$x    $m$n$m$x
+              $m          $h$m$x      $m$h$m$x
+                        $m$n$m$x    $m$h$n$o$m$x
+                      $m$h$k$n$m$x  $m$h$o$k  $i$x
+                      $m$h$r$i$k$i$x$m    $i    $x
+EOC

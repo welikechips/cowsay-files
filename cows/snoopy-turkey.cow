@@ -1,0 +1,45 @@
+# snoopy-turkey
+# by wrestlersanalyze - https://www.brik.co/blogs/pixel-art/snoopy-pixel-art-1
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;209m  ";
+$d = "\e[48;5;232m  ";
+$e = "\e[48;5;185m  ";
+$f = "\e[48;5;95m  ";
+$g = "\e[48;5;110m  ";
+$h = "\e[48;5;167m  ";
+$i = "\e[48;5;255m  ";
+
+$the_cow = <<EOC
+                    $t                          $a    $x$a  $x
+                      $t                      $a$b    $a$b  $a$x
+                        $t                    $a$b            $a    $x
+                          $t                    $a  $b              $a$x
+                            $t                    $a$b    $a$b$a$b  $a$x
+                                                $a$b  $a  $b$a$b    $a$x
+                                      $a    $x$a  $b            $a  $x
+                                    $a$b    $a$b  $a$b        $a$x
+    $c  $x      $a      $x        $a$b        $a$b  $a$b    $a$x
+  $c$a$c                $a  $x  $d$a$b                $a      $x
+$c    $a            $c      $a$x$a  $b                    $a$x
+      $c            $a$c      $a$x$a$b              $a$b$a    $x
+        $a$c        $a$c      $a$x  $a  $b        $a$b$a      $x
+      $c$a$c                    $a$x    $a  $b    $a$b$a      $x
+      $c  $a$c$e$c  $f$c$e$c$e$f  $a  $x    $a$b  $a$b$a    $x
+      $f    $e    $f  $e      $f$a$c  $a$x  $a            $x
+      $g                          $c    $a    $h  $a$x
+                              $a$c      $a$b      $a$h$x
+                                $a$c    $a    $b  $h  $x
+                                  $a$c$a$h  $a$h      $x
+                                    $a$h    $a$b  $a$h$a$x
+                                    $a  $h  $a$b  $a  $b$a$x
+                                    $a        $b        $a$x
+                                  $a$i  $a$b  $a  $b    $a$x
+                                    $a$b      $a  $b  $a$x
+                                      $a$b      $a$b$a$x
+                                        $a          $x
+EOC

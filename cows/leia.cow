@@ -1,0 +1,72 @@
+# Princess Leia (Star Wars)
+# by Gustavo Viselner - https://dribbble.com/shots/3183476-Carrie-Fisher
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;102m  ";
+$b = "\e[48;5;240m  ";
+$c = "\e[48;5;238m  ";
+$d = "\e[48;5;136m  ";
+$e = "\e[48;5;94m  ";
+$f = "\e[48;5;180m  ";
+$g = "\e[48;5;230m  ";
+$h = "\e[48;5;223m  ";
+$i = "\e[48;5;235m  ";
+$j = "\e[48;5;137m  ";
+$k = "\e[48;5;124m  ";
+$l = "\e[48;5;253m  ";
+$m = "\e[48;5;249m  ";
+$n = "\e[48;5;231m  ";
+
+$the_cow = <<EOC
+                      $t
+    $a$b  $x            $t
+    $b$c$b$x              $t
+      $c  $b$x              $t          $d  $e$d$e  $x
+      $c  $b$x                $t    $d      $e  $d$e  $x
+      $b$c$b$x                      $e          $f$e    $x
+        $c  $b$x                $d      $e    $g$h$f$e    $x
+        $c  $b$x                $e      $d$e$h      $f$e  $x
+        $b$c  $x                $e$d  $e$d$h  $f$h  $f$e  $x
+          $c    $x              $e$d$e  $d$h$f$i$h$f$i$e  $x
+          $b$c  $x  $a$b  $x    $e$d      $h$g$h    $f$e  $x
+            $c  $b  $c    $x      $e    $d$h        $f$e  $x
+          $b  $c      $x                  $j$h  $k  $f$x
+          $b  $c    $x                    $j  $h  $f$x
+          $b$c$i$c  $x                    $j      $x
+            $c$i  $c  $x                  $l$m    $x
+            $c$h$i$c  $x                $l    $m      $l      $x
+          $h  $i    $c$x          $n      $l          $n    $l  $x
+          $h    $i  $c$x        $n                          $l    $x
+          $h$f$c$h$c$x        $n                              $l    $x
+          $h$f$c$h$c$x        $n$m$n                    $m$n    $l    $x
+          $h$c  $h$c$x        $n$m$n                    $m  $n  $l      $x
+          $c  $h  $c  $x    $n$l$m$n                  $m    $n    $l      $x
+              $h  $c  $x$n  $l  $m$l      $m              $x  $n    $l      $x
+              $h    $c$x$n$l  $m  $l              $m      $x  $n    $l      $x
+                $f$h  $n$l    $m    $l              $m    $x    $n  $l      $x
+                  $f$h$n$l  $m      $l              $m  $x    $n  $l    $m$l$x
+                  $f  $l  $m        $l            $m    $x  $n  $l    $m  $l$x
+                    $n$l$m          $l    $m          $x  $n  $l  $m    $l  $x
+                    $n$l$m        $x  $c$a$c$a$c$a$c$x  $h$n$l    $m  $l  $x
+                    $n$l$m        $l      $c  $h          $f$l$m      $l  $x
+                  $n  $l$m      $x$n          $h        $f$x$m      $l  $x
+                  $n$l  $m    $x  $n          $h$f      $x  $m      $l  $x
+                  $n$l  $m    $x$n      $m$n    $l  $m    $x$m    $l  $x
+                  $n$l$m  $x    $n      $m$n      $l  $m  $x  $m$l    $x
+                                $n      $m$n      $l  $m    $x$m  $l$x
+                              $n        $m$n      $l    $m  $x  $m$l$x
+                              $n        $m$n        $l  $m  $x  $m$x
+                              $n      $m$n          $l  $m  $x
+                              $n      $m$n          $l  $m  $x
+                            $n        $m$n$m$n      $l  $m  $x
+                            $n    $m$n$m$n$m$l$n    $l  $m  $x
+                            $n    $m$n$m$n$m$l$n    $l  $m  $x
+                            $n    $m$n$m$n$m$l$n    $l  $m  $x
+                            $n  $m  $n$m$n$m$l  $n  $l  $m  $x
+                          $n    $m$n  $m$n$m$l  $n  $l  $m  $x
+                          $n    $m$n  $m$n$m$l  $n  $l    $m$x
+                          $n    $m$n  $m$n$m  $l$n    $l  $m$x
+                          $n    $m$n$m$n  $m  $l  $n  $l  $m$x
+EOC

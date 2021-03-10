@@ -1,0 +1,70 @@
+# Link with barbarian gear (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;178m  ";
+$b = "\e[48;5;136m  ";
+$c = "\e[48;5;94m  ";
+$d = "\e[48;5;52m  ";
+$e = "\e[48;5;233m  ";
+$f = "\e[48;5;124m  ";
+$g = "\e[48;5;253m  ";
+$h = "\e[48;5;247m  ";
+$i = "\e[48;5;235m  ";
+$j = "\e[48;5;243m  ";
+$k = "\e[48;5;173m  ";
+$l = "\e[48;5;236m  ";
+$m = "\e[48;5;215m  ";
+$n = "\e[48;5;95m  ";
+$o = "\e[48;5;144m  ";
+$p = "\e[48;5;98m  ";
+$q = "\e[48;5;54m  ";
+$r = "\e[48;5;131m  ";
+$s = "\e[48;5;234m  ";
+$u = "\e[48;5;28m  ";
+$v = "\e[48;5;22m  ";
+
+$the_cow = <<EOC
+        $t                                      $a    $b    $x
+          $t                                  $a    $b  $c$x
+            $t                                $a  $b$c$d  $x
+              $t                            $a  $b$c$d    $x
+                $t                                $b  $c  $b$a    $b$x
+                  $t                            $b  $c  $a      $b$x
+                    $t                          $b$c  $a      $b$c$x
+                      $t                      $b$c  $a      $b$c$x
+                                    $a$x    $b$c  $a    $b$c  $d$x
+                                    $a$b$d  $c  $a    $b$c  $d  $x    $b$x
+                                      $b$c$e    $c  $d          $c$b    $x
+                                $f$x$c$f  $x$e  $b$c$d        $c$b    $c$x
+                              $f$d$f  $d$x$e  $b$c$d$x    $d$c$b    $c$x
+                            $f$d$f  $d  $f$d  $c$x          $d    $c$d$x
+                            $g      $h$f$d    $x            $d      $x
+                          $g    $i$g$j$g  $d$c$b  $x      $c  $d  $x
+                        $j$i$j$i  $g$j$h$g  $d$c$x
+                        $j$g$h  $g$c  $k$g  $x
+                        $h$g$k  $g$c$k$g  $x
+                      $l$h$j$k    $c$g  $d  $x
+                  $m  $l$x  $c$m  $b$l  $n    $x
+                $m  $g$x    $b$c$g$o$g$l$n  $l$x
+                $k$g$n$b$x    $g$o$g  $o$l  $n  $x
+          $b$a$c$x$o$b$l$n$b$g$p$m$g$o$g$e$n$m$k$x
+      $a$b$c$b$a$x  $c$l$b$n$g$p$m$o$g$o$l$m$p$q$x
+    $a  $c$b$c$b$x    $l$c$o$k$q$x    $q$m    $k$x
+      $c$b  $c$x                      $o$r      $x
+      $c    $b$x                    $o$s$n$u$o$u  $x
+          $b$x                  $v$j$s$l$n$l$u    $x
+                              $k$l$s    $n$l$n$m  $p$x
+                            $k    $l$s$n  $l$m  $n  $x
+                          $k      $l$s$n$x$l$m$n  $m$p$x
+                          $k  $r  $x$n$x      $l$m$p$m$k$g$x
+                            $r  $j$x            $k$q$k$m$g$n$x
+                          $o  $j$l$c$x              $k$g$n  $x
+                            $l$c  $l$x              $o$l  $c$l$x
+                              $l  $c$x                  $c$l$c$x
+                                $c$l$x                    $c$o$g$x
+                                $o$j$x                      $n    $x
+                              $k$l  $x                      $m$l$k$x
+EOC

@@ -1,0 +1,64 @@
+# Roberto (Futurama)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/futurama/comments/4mrql2/futurama_pixel_art_edition/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;88m  ";
+$b = "\e[48;5;172m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;228m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;130m  ";
+$g = "\e[48;5;178m  ";
+$h = "\e[48;5;220m  ";
+$i = "\e[48;5;237m  ";
+$j = "\e[48;5;238m  ";
+$k = "\e[48;5;250m  ";
+$l = "\e[48;5;242m  ";
+$m = "\e[48;5;231m  ";
+
+$the_cow = <<EOC
+              $t
+                $t
+                  $t
+                    $t              $a$b      $x          $a$b  $x
+                      $t          $a$b          $x      $a$b      $x
+                                $a$b  $c        $b$x  $a$b  $c  $b  $x
+                              $a$b  $c  $d  $c    $b      $c  $d$c$b$x
+                              $a$b  $c  $d  $c              $d  $c$b$x
+                              $a$b  $c  $d$c$d$c          $d$c$d$c$b$x
+                              $a$b  $c  $d      $c        $d    $c$b$x
+                                $a$b  $c        $b        $c    $b  $x
+                                  $a$b                            $x
+                                    $a$b      $a$b      $a$b    $x
+                                          $a    $b      $x
+                                      $c  $a    $b      $x
+                                    $e$c$e$a    $b        $x
+                          $a  $b  $e$c$e$c$a    $b          $x
+                        $a  $b$f$e$c$e$c$x$a  $g$d$h$d$h$x
+                      $a  $b  $e$c$e$c$f  $a$g  $h      $x
+                    $f  $a$b  $f$e$c$f    $a  $g$d$h$d$h$x
+                  $f$c$f  $b    $f        $a    $b        $x
+                  $e  $c$f$b$f  $a      $f$b$a  $b      $x
+                $e$c$e$f  $b$f$b  $f  $a$f$i$b$x                        $j$x
+              $c  $e$f  $a$b$f$b  $f  $a$f$c$i$x                      $j$k$l$x
+            $c$e  $x  $a  $b$f    $a    $b$c  $x                    $j$k$m$l$x
+          $c$e  $x    $a  $b              $c$e$c$x                $j$k$m  $l$x
+          $c$e$x      $a  $b              $x$c$e  $x            $j$k$m  $l$x
+          $c$e$x      $a  $b              $x  $c$e$c  $x    $b$i$k$m    $l$x
+          $c  $x      $a  $b              $x    $c$e      $c$b  $i$m  $l$x
+          $c  $x      $a  $b              $x      $c  $e$c$e  $j$b$f$l$x
+        $a$f  $b$x      $c            $x              $c  $e$j  $f$x
+        $a$f$b  $x      $e          $x                    $e$j$x
+        $a$f$b$f$x    $a  $b          $x
+        $a$f$x$f$x  $f  $a$b          $x
+          $a$f$x    $c  $f$b        $f$x
+                    $c$e$f$x    $c  $e$x
+                  $c$e  $x        $c  $e$x
+                  $c$e  $x        $c  $e$x
+                $c$e  $x          $c  $e$x
+                $c$e  $x            $c  $e$x
+              $a  $b  $x            $a$b    $x
+            $a$b        $x        $a$b        $x
+EOC

@@ -1,0 +1,68 @@
+# Chester Cheetah (Cheeto's Mascot)
+# sprite from Chester Cheetah: Wild Wild Quest (SNES) - https://www.spriters-resource.com/snes/cheetahquest/sheet/12240/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;88m  ";
+$b = "\e[48;5;166m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;52m  ";
+$e = "\e[48;5;208m  ";
+$f = "\e[48;5;220m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;67m  ";
+$i = "\e[48;5;153m  ";
+$j = "\e[48;5;60m  ";
+$k = "\e[48;5;110m  ";
+
+$the_cow = <<EOC
+            $t
+              $t                    $a$b        $a$x
+                $t          $c$d  $a$b  $e      $b$a$d$x
+                  $t    $c  $d$b$e$f$a$e$f$b$f$d$e$b  $d$x$c    $x
+                    $t      $c$d$b$e$f$a$f        $e$b$c          $x
+                            $c                          $a$c    $x
+                        $c$g$b$e$b    $d$c$g$h$c        $b$e        $b      $d$x
+                          $c$i$d$b      $c$j$c        $d  $b$e  $f    $e    $a$c$x
+                            $c$a    $e$b$c            $a  $d$b$e    $b    $a$i$k$c$x
+                      $c$j    $d$b$e$f$a$b$c        $a$e$f$e$d$b$e$b$g    $i$c  $k$c$x
+                        $c$g  $b  $e$b$f  $b  $a  $b$e$f    $e$d$a$g$c$g$h$c    $h$c$x
+                          $c$i$k$d$b$e$f$a$e$a$b$e$f          $e$a$i$c$j$c      $j$c$d$x
+                            $c$i$k$b  $e$f$e$b  $e$f            $e$d$i$c      $j$d$b$d$x
+                              $c$h$b  $d$e$b$c$d$f                $e$d$i$k  $h$d$b$e$b$d$x
+                                $c  $a$b    $d$h$i$f                $e$d      $e  $f$e$b$c  $x
+                                    $c$a$b$c$h$k$i$g$f                $e$b  $d$e$f  $a$c  $x
+                              $d    $c$d$b$c$j$k$g  $f                  $e  $a$b$f    $e$c$x
+                          $d  $b$f  $b  $c  $j$h$i$g$c      $a$f          $e  $a$f  $a$c      $x
+                      $d  $b$c$f$b  $d$b$c    $j$i$g    $f                  $e$d$f    $e$b$c$x
+                  $d  $e$c$f$b$c  $b  $a$d$c  $j$k$i$g  $c  $a$f              $b$f  $e$c    $x
+                $d$b$c$f$b$c  $x$c$d$b$j  $c$d$c$j$c    $g    $f          $g$i$j$g    $i$j$c  $x
+                  $c  $b$a$e$c$x$c$b$j$i$h$d$c    $j$k$i$g  $c$a$g        $i$k$c$g  $i$j  $c$x
+                      $c  $f$e$c  $a$j$i$k$j$c$d$x$c$j$k$c  $g          $i$k$c$g$i$k$j  $c$x
+                        $c  $f$e$c$e$j$g$i$h$c$d$x  $c$j$k$i  $g    $i$k  $c$j      $c  $x
+                      $c$i$c$f  $c$e$j$g  $i$c$d$x    $c  $j  $h  $j  $c  $i$k$c    $x
+                      $c$i$b$e$f$c$a$j$g  $i$c$b$d$x      $c          $i  $d$c$x
+      $c$a$e$a$f$x      $c$i$g$c$e$f$j$i$g  $c$b$d$x          $c$j$h$k$j$c  $x
+    $c      $d$e$c$x      $c  $d$e$f$j$k$g$j  $b$c$d$x        $c$j$c    $x
+  $c    $x    $d$f$x          $d  $f$j$h$i$g$j$c$b$d$x      $c    $x
+  $c  $x      $d$f$x          $d$e$f$e$j$h$k$c$x$c$b$d$x
+  $c$x        $d$c$x        $d  $b$e$d$f$e$b$c$x$c$b$c$x
+              $d$f$x      $e$b$d$a$b$e  $b$c$x    $c$b$d$x
+              $d$c$x    $c$b$d$x$d$b$d$c  $x    $j$b  $c$x
+              $d$e$b$x$f$b$d$x  $d$f$x$c$d$x$j  $g$e$a$e$c$x
+                $d$e$c$b$d$x    $d$c$x$c$a$c$h$g$h$b$f  $c$x
+                  $d    $x      $d$f$x$c$a$c      $g$d$f$b$c$x
+                                $d$f$a$d  $a$c    $i$c$d$b$c$x
+                                $c$b$e$c$e$a$c$j$c$k$c$g$c$x
+                                  $c          $k$b$c$h$g$c  $x
+                                    $c$a$c  $j$k$b$c$k$c$k$c$x
+                                  $c$h$i$h$c  $j$k$i$c$j$k$c$x
+                                  $c$h$g$j  $k$c  $k$j  $k  $c$x
+                                  $c$g$j  $g$j$k$j$c$h$g$j$g$c$x
+                                $c$i$j$e  $j$g$j    $c$h$j$k$c$x
+                                $c$k$j$e  $j  $g  $k$h$c$j$h$c$x
+                                $c$j            $c        $j$c$x
+                                $c$j$k$i$g        $i$k$h$c    $x
+                                $c                        $x
+EOC

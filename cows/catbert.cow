@@ -1,0 +1,47 @@
+# Catbert, evil director of human resources (Dilbert)
+# by unknown - http://www.iconarchive.com/show/dilbert-icons-by-bo.html
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;167m  ";
+$c = "\e[48;5;124m  ";
+$d = "\e[48;5;251m  ";
+$e = "\e[48;5;52m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                $a  $x
+              $t            $a$b$c$a$x  $a  $x
+                $t        $a$b    $a    $c$a$x
+                      $a          $b    $c$a$x
+                    $a$b          $a$b$c  $a$x
+                $a  $b$a  $b          $c$a$x
+              $a$d  $a$d  $a$b        $c$a$x
+              $a$d  $a$d  $a      $b  $c$a$x
+          $a$x  $a        $b          $c$a$x
+            $a    $e    $a      $b    $c  $a$x
+          $a$x$a          $b          $e  $a$x
+        $a$x  $a$b$a  $b  $a  $b    $e$b$c$a$x
+              $a$b$a$b                  $e  $a$x
+    $a$x    $a$b  $a$b          $a$b  $a$b$c$a$x
+  $a          $b  $a$b          $a$b  $a$e  $a$x
+    $a$b    $a$b  $a  $b        $a$b  $a$b$c$a$x
+  $a  $b    $a$b                $a$b  $a$b$e$a$x
+      $a      $b              $a$b    $a$b$c$a$x
+            $a$b                $a    $b$e  $a$x
+            $a$b              $a$b$a$b  $c  $a$x
+            $a$b                      $e  $a$x            $a$x
+              $a$b                    $c  $a$x          $a$c$a$x
+              $a$b                $e$c$e$a  $x          $a$e$a$x
+                $a$b          $e$b  $e$a$c$a$x        $a$b  $a$x
+                  $a  $b        $e$c$a$c  $e$a$x      $a$e$b$a$x
+                    $a$b  $a$b  $c$a$x$a$e$c$a$x      $a$b$e$a$x
+                    $a$b  $a$b$c$a$x    $a$b$a$x    $a$e$b$a$x
+                    $a$b  $a$b$c$a$x    $a$e$b$a$x$a$b  $e$a$x
+                    $a$b  $a$b$c$a$x      $a$e$b$a$c$a$b$a$x
+                  $a  $b  $a$b$c$a$x        $a$c    $a  $x
+                $a$b    $a$b  $c$a$x          $a    $x
+                $a              $x
+EOC

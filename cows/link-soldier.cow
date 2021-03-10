@@ -1,0 +1,65 @@
+# Link with soldier armor (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;253m  ";
+$b = "\e[48;5;161m  ";
+$c = "\e[48;5;145m  ";
+$d = "\e[48;5;88m  ";
+$e = "\e[48;5;243m  ";
+$f = "\e[48;5;239m  ";
+$g = "\e[48;5;95m  ";
+$h = "\e[48;5;144m  ";
+$i = "\e[48;5;173m  ";
+$j = "\e[48;5;94m  ";
+$k = "\e[48;5;215m  ";
+$l = "\e[48;5;136m  ";
+$m = "\e[48;5;39m  ";
+$n = "\e[48;5;131m  ";
+$o = "\e[48;5;32m  ";
+$p = "\e[48;5;238m  ";
+$q = "\e[48;5;60m  ";
+$r = "\e[48;5;17m  ";
+$s = "\e[48;5;242m  ";
+$u = "\e[48;5;237m  ";
+
+$the_cow = <<EOC
+            $t
+        $a$x  $t
+        $a$x    $t
+      $a  $x      $t      $b    $x
+      $a$c$x$c$x    $t    $b  $d$b$x
+    $a$c$e$x$c$x      $t    $d        $x
+    $a$c  $f$c$x            $e$d    $x
+      $e$c$e  $x        $g$c  $a$e$d$x
+      $e$c$e$x        $g$h$g$c  $e  $x
+    $e  $c$x          $h$g$h$g$c$e  $x
+        $e$f$x        $g$h$g    $c  $x
+      $e$c$e$x          $g$i  $j$i  $c$x
+      $f$c$f$x          $i$k  $l$m$j$f$e$x
+        $g$x        $e$f$j$k  $l$e$c$e$x
+        $g$x      $e  $n$j$e  $l$c$e$c  $x
+        $n$x    $e$f$e$n$h$a  $o$e$c  $e  $x
+      $i$k$x      $e$f$h$n$a$b$o$e$c$e$c  $x
+      $k$g$e$f$e$p  $e$d  $n$a$o$f  $c$q  $x
+        $p$e$f$e  $r  $h$d$a$n  $g  $p$c  $q$x
+        $p$x  $e  $r$x$h  $a  $o$f$c  $e$c  $x
+        $p$x          $g$l$g  $n$c    $x
+        $p$x          $h  $a$g$n$g  $x
+        $p$x        $g$h$g  $o$n$e$g$k$x
+        $g$x        $f$o$h$o$s$n$c  $x
+        $n$x      $e$f  $o$f$s$l$e$c  $x
+        $n$x      $f$j      $l  $c$e  $x
+        $g$x      $e$f  $u  $x$g  $c  $x
+        $g$x        $r      $x$q    $p$x
+        $g$x          $p$r  $x  $q  $p$x
+        $g$x        $e  $p$r$x$c    $p$c$x
+        $g$x          $f$e$u  $x$e      $x
+        $g$x          $f      $x$e      $x
+        $g$x            $f  $x    $e  $x
+        $g$x            $e$f$x    $c  $x
+        $c$x            $f$e$x    $e  $x
+        $e$x          $e  $f$x    $c  $x
+EOC

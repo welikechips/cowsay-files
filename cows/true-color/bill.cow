@@ -1,0 +1,70 @@
+# Bill Dauterive (King of the Hill) - true color
+# by Mauri Helme - https://www.youtube.com/channel/UCas7DqhT9pKI3_L0dY2HhTw
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;48;48;48m  ";
+$b = "\e[48;2;238;186;136m  ";
+$c = "\e[48;2;252;222;168m  ";
+$d = "\e[48;2;204;152;102m  ";
+$e = "\e[48;2;171;119;69m  ";
+$f = "\e[48;2;128;84;45m  ";
+$g = "\e[48;2;255;255;255m  ";
+$h = "\e[48;2;204;204;204m  ";
+$i = "\e[48;2;249;156;3m  ";
+$j = "\e[48;2;102;102;154m  ";
+
+$the_cow = <<EOC
+            $t
+              $t                      $a          $x
+                $t                $a  $b$c        $a  $x
+                  $t            $a$d$b            $c  $a$x
+                              $a$d$b                  $c$a$x
+                            $a  $d$b                  $c$a  $x
+                            $a  $d$b$e$b      $e$b      $a  $x
+                          $a$f$a$b                      $a$f$a$x
+                          $a$f$a$b  $a$b      $a$b      $a$f$a$x
+                          $a$f$a$b  $a$b      $a$b      $a$f$a$x
+                          $a  $d$b                      $a    $x
+                          $a$d  $b$c$b          $c$b      $c$a$x
+                          $a$d  $b  $d$b$e  $b$d$b          $a$x
+                            $a$d    $b          $d$b      $a$x
+                            $a$d  $b  $e      $b          $a$x
+                              $a$d$b                    $a$x
+                              $a$d$b    $d  $b          $a$x
+                              $a$d$b$e$b      $e$b      $a$x
+                                $a$d$b$e      $b      $a$x
+                                $a$d  $b          $d$b$a$x
+                              $a$d  $b$d$b      $d$b  $c$a$x
+                          $a  $d  $b                    $c$a    $x
+                    $a    $g$a$d$b                        $a$g  $a  $x
+                $a    $g      $a$b        $e$b  $e$b      $a$g    $a    $x
+              $a$b$c  $a$g    $a$b    $e$b              $a$g    $a$c    $a$x
+            $a$b      $c$a$g    $a$b          $e$b    $a$g      $a$b    $c$a$x
+          $a$d$b$e$b    $a$g      $a  $b          $a  $g      $a$b  $e$b  $c$a$x
+        $a$d$b          $a$g          $a          $g          $a$b        $c$a$x
+        $a$d$b$e$b$c$b  $a$g                                  $a$b    $e$b  $c$a$x
+      $a$d$b      $c$b  $a$g                                  $a$d$b        $c$a$x
+      $a$d$b    $c$b  $a$h$g                                    $a$d$b        $c$a$x
+      $a$d$b  $c$b    $a$g                                      $a$d$b        $c$a$x
+    $a$d$b          $a$h$g                                        $a$d$b        $c$a$x
+    $a$d$b        $a$h$g                                          $h$a$d$b      $c$a$x
+    $a$d$b      $a$h  $g                                            $a$d$b      $c$a$x
+    $a$d$b      $a$h  $g                                            $h$a$d$b      $c$a$x
+    $a$d$b      $a$h$g                                              $h$a$d$b      $c$a$x
+  $a$d  $b    $a$h  $g                                                $h$a$d$b      $a$x
+  $a$d  $b    $a$h    $g  $a$g                              $a$g      $h$a$d$b      $c$a$x
+  $a$d  $b      $a        $g          $a    $g                $a$g      $h$a$d$b    $c$a$x
+  $a$d    $b  $c  $b    $a    $g  $a  $i    $a$g                        $h$a$d$b    $c$a$x
+    $a$d  $b                  $a  $b$a    $i$a  $g                      $h$a$d$b      $a$x
+      $a  $d    $b  $d$b              $c  $a$j$a$g                      $h$a$d$b    $d$a$x
+          $a  $d            $b      $a      $j$a$g                    $h$a$d$b    $d$a$x
+            $a                $d    $b$d  $a$j$a$g                    $h$a$d$b    $d$a$x
+            $a$h              $a$d    $a  $i$a  $g                    $h$a$b    $d$a$x
+            $a$h                $a    $i    $a$h$g                  $h$a$d$b    $d$a$x
+            $a$h                      $a    $h$g                    $h$a$b    $d$a$x
+            $a$h                            $g                    $h$a$b    $d$a$x
+              $a$h                          $g                  $h$a$f$a$b$d$a$x
+                $a    $h                $g                $h    $a    $h$a  $x
+EOC

@@ -1,0 +1,65 @@
+# Link with Flamebreaker armor (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;172;172;185m  ";
+$b = "\e[48;2;134;75;88m  ";
+$c = "\e[48;2;92;55;71m  ";
+$d = "\e[48;2;113;113;126m  ";
+$e = "\e[48;2;145;88;22m  ";
+$f = "\e[48;2;71;71;80m  ";
+$g = "\e[48;2;190;132;32m  ";
+$h = "\e[48;2;235;183;10m  ";
+$i = "\e[48;2;42;72;108m  ";
+$j = "\e[48;2;59;46;67m  ";
+$k = "\e[48;2;0;118;134m  ";
+$l = "\e[48;2;106;58;25m  ";
+$m = "\e[48;2;10;11;15m  ";
+$n = "\e[48;2;215;126;75m  ";
+$o = "\e[48;2;207;30;49m  ";
+$p = "\e[48;2;139;26;37m  ";
+$q = "\e[48;2;84;0;21m  ";
+$r = "\e[48;2;92;92;103m  ";
+$s = "\e[48;2;143;143;156m  ";
+$u = "\e[48;2;54;46;49m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t              $a$x        $b$c$b$x
+                  $t            $a$d$a$x  $b$c$e$c$b$x
+                              $d  $a$f$x  $c$g$h$e$c$x
+                      $c$e  $c  $a$f    $x    $i$x
+                    $c$g  $c$b  $j$x          $k$x
+                $f$d            $c$j$x        $i$x
+                $e$d  $g$d  $g$d$e$l$x      $k  $i$x
+                  $f$m$e$n$e$d$f$j  $x        $i$x
+                  $g$h      $d$f$j  $x      $a  $c$x
+                  $f$m$n    $d$f$l  $x    $o  $d$a$c$x
+            $p$d$f$d        $f$j  $x$b  $c$g$e$h$e  $j$c  $x
+          $p$q$d$m$f$q      $f  $d$p$b  $c  $g$e  $j  $c  $x
+          $d  $f$c$h$d$g$d  $g$c$a$p  $b  $c$b  $c$j$c$j$x
+        $q$p$q$p$b$h$b        $c$a$p  $b  $r$b  $c$r$c$j$x
+      $d  $f$p$q$b  $h$b      $c  $a$d$x$s$d        $u$x
+      $c    $j$x$b    $h$b  $c  $j$x    $a$d  $e$d  $f$x
+      $c  $d$f$x$b      $h$g$e$l  $x    $a$d  $e$d  $f$x
+        $d$j$c  $j$c      $j    $x      $a$d$e$d$e$d$f$x
+          $q$d  $g$e$h  $e$g$e  $x      $a$d  $e$d  $f$x
+          $p  $c$f$d$a  $d$q$d$c$j$x    $a$e$d    $e$f$x
+            $c  $d$c$b  $a$q$d$c  $x    $a$d$e$d$e$d$f$x
+            $c$d  $c$g$b$a$j$d$c  $d$x$d$a$d$e$d$e$d$f$u$x
+            $d$j$d$c$b$a$j$c$j$d  $x  $a  $e$d    $e$f  $x
+              $j  $a  $j$c    $j$x    $a$s$d  $e$d  $r$f$x
+              $f  $j    $d$c  $j$x  $d$a$d  $e    $d  $f$u$x
+              $p  $f  $p$o$d    $x  $a$s$d  $e    $d  $r$f$x
+                $q    $o$p$o$p$x    $a$d  $e$d    $e$d  $f$x
+                $p  $d$p$o$p$x  $c$b  $d      $e$d      $b  $c$x
+                  $c  $d$p$x  $c  $a$c$b  $d        $b  $c$a$c  $x
+                $d$c  $j$x    $c        $b            $c    $j  $x
+              $d$f$x$j  $x    $c  $j  $f  $c  $a$c  $f  $c$j    $x
+              $d  $x$f  $x      $j    $x  $c  $j    $x  $c$j  $x
+              $d  $f    $x                $c  $j    $x
+EOC

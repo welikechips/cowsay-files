@@ -1,0 +1,59 @@
+# Squidward (Spongebob Squarepants)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;18m  ";
+$b = "\e[48;5;71m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;131m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+            $a              $x
+          $a$b$a$b          $a$x
+        $a$b                  $a$x
+      $a$b      $a$b$a        $b$a$x
+      $a$b$a$b                  $a$x
+      $a$b              $a$b    $a$x
+      $a$b        $a              $x
+      $a$b          $c$a  $c$a$b$a$x
+        $a$b        $c  $a  $c$a$x
+          $a    $b          $a  $x
+            $a$b  $a    $b    $a$x
+            $a$b$a$b  $a$b    $a$x
+            $a$b  $a    $b    $a$x
+              $a  $b$a  $b    $a$x
+                $a$b$a$x$a    $x
+                $a$b$a$x
+                $a$b$a$x
+              $a      $x
+              $a$d  $a$x
+              $a$d  $a  $x
+              $a    $d$a$x
+              $a$b$a$d$a$x
+              $a$b$a$d$a$x
+              $a$b$a$d$a  $x
+              $a$b$a$d  $a$x
+              $a$b$a$d  $a$x
+              $a$b$a      $x
+        $a  $x$a$b$a$b  $a$x
+      $a$b  $a  $b$a$b  $a$x
+      $a$b        $a$b  $a$x
+      $a$b        $a$b$a  $x
+        $a$b    $a$b$a$b$a$x
+          $a      $b$a$b$a$x
+              $a  $b$a$b$a$x
+              $a  $b$a$b$a$x
+              $a  $b$a$b$a$x
+              $a  $b$a$b$a$x
+              $a  $b$a$b$a$x
+              $a  $b$a$b$a$x
+        $a        $b$a$b$a        $x
+      $a$b    $a  $b  $a$b    $a$b$a$x
+      $a$b      $a$b          $a$b$a$x
+        $a$b    $a$b        $a      $x
+          $a                      $x
+EOC

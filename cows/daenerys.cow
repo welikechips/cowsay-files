@@ -1,0 +1,81 @@
+# Daenerys Targaryen (Game of Thrones)
+# by Cezary 'Charlie' Luczynski - https://www.deviantart.com/luczynski/art/Pixel-art-Game-of-Thrones-Character-set-part-I-528286975
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;231m  ";
+$b = "\e[48;5;223m  ";
+$c = "\e[48;5;189m  ";
+$d = "\e[48;5;173m  ";
+$e = "\e[48;5;52m  ";
+$f = "\e[48;5;54m  ";
+$g = "\e[48;5;243m  ";
+$h = "\e[48;5;68m  ";
+$i = "\e[48;5;24m  ";
+$j = "\e[48;5;124m  ";
+$k = "\e[48;5;236m  ";
+$l = "\e[48;5;184m  ";
+$m = "\e[48;5;142m  ";
+$n = "\e[48;5;100m  ";
+$o = "\e[48;5;31m  ";
+$p = "\e[48;5;58m  ";
+$q = "\e[48;5;234m  ";
+$r = "\e[48;5;216m  ";
+$s = "\e[48;5;38m  ";
+$u = "\e[48;5;237m  ";
+$v = "\e[48;5;248m  ";
+$w = "\e[48;5;143m  ";
+
+$the_cow = <<EOC
+                                  $t                                        $a        $x
+                                    $t                                    $a    $b  $a$x
+                                      $t                                  $a  $b      $x
+                                        $t                                $a$c$d$e$b$d$x
+                                          $t                              $a$c$b      $x
+                                            $t                          $a$c$a$b      $x
+                                              $t                        $a$c$a$d$b  $c$x
+                                                                      $a$c  $a$d  $c  $x                                            $f$x
+                                                                      $c$x$c$a$b$d$c  $a$x                                            $h$i$x
+                                                                        $c  $a$b$d  $c$a$x                                        $j$e  $k    $x
+                  $l            $m    $x                      $n      $a$o  $a  $b$d$c  $i$x                                  $k  $h$i$f$k$f$i  $k$x
+          $l      $m      $n          $l  $m$x        $n      $p$q    $o  $i$c  $b$r$b$c$a$i$x                                $j$e  $k    $q    $i$f$x
+    $m$l  $m        $n    $m          $p$x      $n    $p  $q          $o$i$a  $b        $c$i  $x                            $j  $k$h$f$k    $q    $k$f$i$x
+$m$l$m        $n    $m    $n  $p      $x  $n    $p$q                $p$r$i$c  $o    $i  $c$k$i$x                          $k    $e$k  $f  $i  $f$k      $i$x
+$m      $n    $m    $n  $p  $q  $k  $x$p    $q                $p    $a$r  $c$o        $i  $a$d$x                          $j  $e  $k    $f$i  $f$k$q      $x
+$m  $n  $m    $n  $p  $q      $k$p$k$p$q                  $p    $k  $a$r$k$a$o          $k$a$d$x                        $j  $e$f$k                $f$i$f$k$x
+$n  $m  $n  $p  $q            $k$p$q                $p      $q$k    $a$r$q$a$k    $o  $k$a$d  $x                        $k  $f$e$k$f$k          $x
+$m  $n$q$p  $q              $k$p$k$q            $p$n$p    $q  $k  $a$r$k  $a$k  $i  $o$x$a$d$e  $x                    $k$j$e  $k$f$k  $q$x
+$p$q$p  $q                  $p  $q            $n  $p    $q  $k  $a$r  $q  $a$o  $k  $i$x  $a$e  $x                      $j$f  $k    $q$x
+$p  $q                    $p$n$p$q          $n$p    $q  $k  $q  $a$b  $q  $k$a$k$i  $o$x$a$x$r$d  $x                    $k$e$k    $q$x
+$q                        $n  $k$q        $m$p    $q    $k$q  $a$b  $q      $s$o$i    $x      $r$d  $x                  $j$k$f$k$q  $x
+$q                        $n  $k$q      $m$p      $q          $a$b$q        $s$o$i    $x        $r$d  $x              $k$e$k    $q  $x
+$q                      $p$n$p$k      $n$p      $q          $a$b$q        $s$o  $i    $x$u$x        $v$g$x            $j$k        $q  $x
+$q                      $n$p              $n$p    $x      $a$b$x          $s$o  $i    $u  $q      $x$g$r$d    $x      $k      $f$k$q  $x
+$q                    $k$m$p  $n  $k$p          $n$p  $x$a$b$x          $s$o  $i        $u$q        $g$q$d$r  $d  $x  $h$k          $q$x
+$q              $k      $m$p    $n  $p$k$p            $a$b  $x          $s$o  $i        $u  $q        $g$d$q          $k      $f$i$k$q  $x
+$q        $k              $m$p    $n  $k    $p$k  $p$a$k    $m$x      $s$o    $i          $u$q                  $u$i$f$k        $f  $k$q$x
+$q    $k          $p  $k    $m$n$p        $k    $p$a$b$p    $w$x      $s$o  $i            $u$q          $u  $f  $i  $f$k          $i  $k$q$x
+$q  $n$k    $p$k              $p$n  $p  $k  $p$k      $p      $n$x    $s$k$o$i            $u$q  $u  $f  $i  $f    $k      $u  $k  $f$i$f$q$k$x
+$q$n$k  $p$k    $p  $k$p  $k                      $p$k  $p    $w$u$n  $s$k$o$i            $u$f  $i  $f  $i  $f$k    $i    $f    $k$f  $i$k  $x
+$m$k    $p    $k$p  $k$p      $k$p  $k$p  $k        $n$k    $p$w$n$m$u$s$o$k$i            $u  $f$i$f        $k    $i$f$i$f  $i  $k$f    $k  $x
+$p$k$p                                              $m$k  $p    $m$u$s$o  $k$i            $u  $f  $k            $i$f      $i    $k$f    $k  $x
+$p$k$p            $n$p  $n  $p$n  $p$n  $p  $n  $p$n$m$k$p$n$p$n$p$n$s$o$i$k$o$i          $u$i$u$k              $i$f        $u  $k        $x
+$k$p$n      $p  $n  $p$k$p$n$p$n  $p$n    $p$x  $u  $n$p          $m$s$o$i$o$k$i          $u$i$u$k            $f    $u$q        $k      $f$x
+$n$p  $n      $p$n  $p$k$q    $p          $x    $u  $n$p    $n$p$q$u$s$o$i  $k$o$i        $k$u$i$k          $f    $u$q        $k    $f$k  $x
+$k$m$p  $n      $p    $q                $x        $m$p  $n$m$q$p  $s$o  $i  $k$o$i        $k$u$i$k      $h$f$u    $k$q    $k          $q$k$x
+$k  $m$p  $n    $p$n  $q                $x        $n$p  $w$q$p$q  $s$o  $i  $o$u$o$i      $k  $i$u$k    $h$u  $k    $q$k            $q  $k$x
+$k    $n$p    $k$p$n  $q            $p  $x      $m$p$q$p    $q  $x$s$o  $i  $o$u$o$i      $k  $u$i$k  $u$i$u  $k  $q$k            $q    $f$x
+$k      $n$k        $p$q          $p    $x      $n$p$n$p  $q    $x$s$o  $i  $o$u$o$i      $k    $i$u    $i$u$k                  $q      $f$x
+$k  $n  $k      $q  $x    $q      $p    $x      $q  $k    $p$q$x  $s$o  $i  $u  $o$i      $k    $u$i$u  $i$u$k                $q          $f$x
+$k$m$k      $q  $x      $q            $x          $m$e  $p  $q$x  $s$o  $i  $u    $o$i    $k      $i$u  $i$u$k          $q                $f$x
+$m$k      $p$x          $q            $x          $m$j$e$n$q$x    $o    $i  $u    $o$i      $k    $u$i$u$i$u$k      $q                    $f$x
+$k$m  $p    $x            $q        $x            $m$n  $q$x    $s$o    $i  $u    $o$i      $k      $u$i  $o$x  $q      $k$q              $f$x
+$k$x  $m$n$p$x              $q    $x                $q  $x      $s$o  $i    $u    $o$i      $k      $u$i    $x  $q  $k  $x$q              $f$x
+          $n$p$x                $q$p  $x                      $s  $o  $i    $u    $o$i      $k        $u$i  $u$x  $k    $x    $q            $f$x
+            $n$p$x                $q  $p  $x                  $s$o    $i  $u      $q$o$i  $k          $u$i  $o$u$x  $k$f  $x      $q        $i$x
+            $m$p    $x            $q      $p        $x      $s$o    $i    $u$x  $u$q$o$i  $k            $u$i$o  $x    $f    $x          $q    $i$x
+          $m$n      $m$x          $q$x      $q  $x$q$x    $s  $o    $i  $u  $x    $u  $o$k                $u$i$o$u$x    $i        $x        $q  $i$x
+        $m$p$x$p$n$p$k$n$x        $q$x      $q  $x$q$x    $s$o  $i      $k$q$x      $q  $x    $k            $u$i$o$u$x  $i$k$i  $f$i  $x        $q$i$x
+        $n$x  $k$n$x$q$n$x                              $s$o    $i    $u  $x        $q  $x        $k          $i  $o$x  $i$x  $i$k  $f$x          $q$i$x
+EOC

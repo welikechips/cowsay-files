@@ -1,0 +1,80 @@
+# Falco Lombardi (Star Fox, Super Smash Bros)
+# by Captain Vega - https://www.deviantart.com/namelessvega/art/SSF2-Sprite-Falco-Melee-763604663
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;17m  ";
+$b = "\e[48;5;19m  ";
+$c = "\e[48;5;25m  ";
+$d = "\e[48;5;32m  ";
+$e = "\e[48;5;75m  ";
+$f = "\e[48;5;88m  ";
+$g = "\e[48;5;124m  ";
+$h = "\e[48;5;160m  ";
+$i = "\e[48;5;167m  ";
+$j = "\e[48;5;234m  ";
+$k = "\e[48;5;253m  ";
+$l = "\e[48;5;250m  ";
+$m = "\e[48;5;136m  ";
+$n = "\e[48;5;178m  ";
+$o = "\e[48;5;220m  ";
+$p = "\e[48;5;246m  ";
+$q = "\e[48;5;52m  ";
+$r = "\e[48;5;236m  ";
+$s = "\e[48;5;251m  ";
+$u = "\e[48;5;239m  ";
+$v = "\e[48;5;131m  ";
+$w = "\e[48;5;95m  ";
+$y = "\e[48;5;255m  ";
+
+$the_cow = <<EOC
+              $t                    $a$x
+                $t                $a  $x
+                  $t              $a$b$a$x
+                    $t        $a$x$a$c  $a$x
+                      $t      $a    $c$d$c$a$x
+                              $a$c$b$d$e$d$a$x$a$x
+                              $a$d$c$d$e$d  $a$b$a$x
+                              $a$d  $e  $d    $c  $a  $x
+                              $a$d$e  $d    $e$d$c  $b$a$x
+                            $a$c$d$e  $d    $c        $b$a$x
+                            $a$c$d$e  $d$f$g$h$d$c      $a$x
+                            $a$c$d$e$d  $g$h  $g$h$g$d$c$b$a$x
+                            $a$c  $d  $c$b$h  $g$i$h$g$d$b$a$x
+                            $a$b$c      $b$h$g$j  $i$h$g$d$a$x
+                              $a$b$c  $b  $g  $j$k$d$i$g$f$a$x
+                              $a$b          $f$j$l$c$j$f$j  $x
+                              $a$b          $f  $j      $m$n$j$x
+                              $a$b            $m    $n  $o  $n$j$x
+                                $a$b      $j  $m$n  $o    $m$o$n$j$x
+                          $j      $b      $j$m$n  $o        $j$n$j$x
+                          $j$k    $j    $b  $j  $n$o          $n$j$x
+                            $j    $k  $p$j    $b$j    $n$o  $n$m$j$x
+                              $j    $p$k    $p$j$p  $q$j      $m$j$x
+                            $j$p  $j  $p  $k  $p$j$p$q  $p$r$x$j  $x
+                          $j$r$s$r$p$u      $p$k$p$j    $r$x
+                          $j$p$s  $r$j$u      $p$j$q  $j$x
+                        $j$r      $p$j$s$u  $s$u$k$j$q$j$r$x
+                        $j$p$s$k$s$r$j$u        $j$q$v$j$x
+                      $j$p$s$k    $s$j$k  $s$p  $j$v  $j$x
+                    $j$p$s  $k    $j$p  $s$k$s$p$j$q$j$x
+                    $j$p    $s$k$j$s  $k      $j$q  $j$x
+                  $j$p$k    $p$j$p  $s$k      $j$q$v$j$x
+    $a          $x$j$k$p    $j  $s  $p    $k$s$j$v  $j$x
+    $a$b    $c  $j$s$p$s  $k$j      $s$k  $p  $j$v$j$s$j    $x
+      $a$c$d    $j$p$s  $k  $s$j$w  $j    $s$k$j  $s$p  $s  $j$a$x
+        $a$b    $j$p$s  $k    $s$j  $w    $j  $w$j$s$p$s  $p$j$c$a$x
+          $a$c$d  $j$s  $k    $p  $s$j$q  $j    $v$j$p$s$p$j$d  $c$a$x
+            $a    $j$s  $k  $p$s      $j$w$j    $v$f$j$s$j$c      $a$x
+                  $j$s    $p$s$p$s$j    $w$j    $v$f$v$j$d    $c$a$x
+                  $j$p$s$p$s    $j$c  $a$f$j    $v$f$v$j$c    $a$x
+                  $j$p  $s$p$s$j$c  $d$c$a$j  $v$f  $v$i$j$a  $x
+                    $j$s    $j$c  $d$e$d$c$a$j$f    $v  $j$x
+                    $j$p$s$j$c  $e$c$d$e$c$a$q      $f$i  $j$x
+                    $j    $d$c$d  $e$c$d$a$x$j$q  $f$v$i  $j$x
+                    $j  $q$a$d$c$d  $a  $x  $j$q    $v    $j$x
+                      $j  $a$d  $a  $f$j$x  $j$f$q  $f$v$f$j  $x
+                          $j$a  $v  $f$j$x    $j$f      $j$y$j$x
+                        $j$q$f    $q$j$x    $j$r$v$f  $j$l$j$x
+EOC

@@ -1,0 +1,75 @@
+# The Sniper (Team Fortress 2)
+# by Ultrabananabuddy - https://www.deviantart.com/ultrabananabuddy/art/TF2-Pixel-The-Round-Up-374953611
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;137m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;173m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;221m  ";
+$g = "\e[48;5;52m  ";
+$h = "\e[48;5;243m  ";
+$i = "\e[48;5;124m  ";
+$j = "\e[48;5;247m  ";
+$k = "\e[48;5;238m  ";
+$l = "\e[48;5;210m  ";
+$m = "\e[48;5;197m  ";
+$n = "\e[48;5;94m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t    $a        $x
+                $a          $b$a        $x
+            $a  $c          $a    $b  $a$x
+          $a$b              $c    $a    $x
+        $a$b                      $c  $a  $x
+        $a$b                          $c$a$x
+      $a$b                              $c$a$x
+      $a      $b                            $a$x
+              $a                $b            $a$x
+                  $a                                $x
+                  $a  $d$e$a$d  $a$b  $a  $x  $a        $x
+                  $a  $d  $a$e    $a$f$a$e$a$x
+                    $a$d  $a  $e  $a  $e  $a$x
+        $a  $x        $a$d$a  $e      $d$e  $a$x
+    $a  $b$c$a$x      $a  $d  $e      $d$a    $x
+    $a$b  $c$a$x      $a  $d  $e          $a$x
+    $a$b  $c$a$x      $a$d$a$d  $e  $d$e  $a$x
+    $a$b  $c$a$x  $a        $d  $e  $d$e$a    $x
+    $a$b  $c$a$x$a$g        $a  $d$e$d$e    $a$x
+    $a$b  $c$a  $g              $a$d$e    $a$x            $a  $x
+    $a$b  $c$a  $g                $a$d$e  $a$x          $a$h  $a  $x
+    $a$b  $c$a$g  $i          $g    $a$c$a$x            $a$h$j$h  $a    $x
+    $a$b  $c$a  $i                  $g$a$x            $a$k$a  $j  $h$a$h$a  $x
+    $a$b  $c$a  $i                    $a  $x          $a  $k  $a$h$a$h$j$h  $a  $x                    $h$a$x
+    $a$b  $c$a  $i                        $a  $x          $a    $k$a$h  $j  $h  $a  $x              $h$a  $x
+    $a$b  $c$a$c$a$i                        $g$a$x            $a  $k$a  $h  $j  $h  $a  $x          $h$a  $x
+    $a$b    $c$a  $i                      $g$a  $x              $a    $k$a  $h  $j  $h  $a  $x      $h$a  $x
+      $a$b  $c$a$c$a$g            $i    $g$a$l  $a$x                $a  $k$a$k  $h  $j  $h  $a  $x  $h$a  $x
+      $a$b  $c$a$b$a$g                  $a$l  $m$a$x                $a$k$a  $k      $h  $j  $h  $a  $x$h$a$x
+      $a$b  $c$a  $b$a        $g        $a$l$m  $f$a$x  $a  $x    $a$h$a$x  $a  $k$a    $h  $j  $h  $a  $x
+      $a$b  $c$a  $b$a                  $l$m  $f  $a$x$a$k  $a  $x$a$h$a$x      $a  $k  $a  $h  $j  $h$a$x
+      $a$b  $c$a    $b$a                $m    $f  $a        $k$a  $h$a$x        $a$k$a  $k$a$k  $h    $a$x
+      $a$b  $c$a      $b$a              $m    $f    $a$b  $c$a  $k$a  $x      $a$h  $k  $a  $k      $a$x
+      $a$b  $c$a      $b$a              $m      $f  $a$b      $c$a  $k$a            $h$a$x  $a  $k  $a$x
+      $a$b  $c$a        $b$a            $m          $a  $b        $c$a  $k  $a  $k  $a    $x    $a  $x
+      $a$b  $c$a          $b$a          $m          $l$a    $b        $c$a  $k  $a  $k$a$h$a    $x
+      $a$b    $a          $b$a            $m      $l$m$a$x  $a  $b        $c$a  $k  $a      $h$a    $x
+      $a$b$a                $b$a          $m          $a$x      $a      $b    $c$a  $k  $a        $k$a  $x
+      $a                      $b$a        $m          $l$a$x      $a$n  $a        $c$a$k    $a  $k  $h$k$a$x
+          $a                    $b$a      $m        $l  $a$x    $a  $n      $d  $a$b$a  $k      $a  $k  $a$x
+          $a                      $b  $a    $m    $l  $m$a$x$a  $e  $a$n    $a  $b$a$x  $a  $k    $h$a  $x
+          $a                          $b  $a$m    $l$m$a$l$a$e    $d$a$n  $a$n$a  $x        $a  $k    $h$a  $x
+          $a                                  $m    $a$l  $a$d      $a$n    $a  $x              $a  $k    $h$a  $x
+          $a                                        $l  $m$a$d    $a        $x                      $a  $k    $h$a  $x
+          $a                                  $m          $a$d$a  $x                                    $a  $k    $h$a  $x
+          $a                                    $m        $a  $x                                            $a  $k    $h$a  $x
+          $a                                      $m    $a  $x                                                  $a  $k    $h$a  $x
+          $a                                            $x                                                          $a  $k    $h$a  $x
+          $a                                      $x                                                                    $a  $k    $h$a  $x
+            $a                                      $x                                                                      $a  $k    $h$a  $x
+EOC

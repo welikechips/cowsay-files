@@ -1,0 +1,37 @@
+# mr-vile
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;160m  ";
+$c = "\e[48;5;88m  ";
+$d = "\e[48;5;136m  ";
+$e = "\e[48;5;208m  ";
+$f = "\e[48;5;220m  ";
+$g = "\e[48;5;17m  ";
+$h = "\e[48;5;231m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t            $a  $x  $a    $x
+                $t        $a$b$c$a  $c$b$c$a$x
+                        $a$c$b$c  $b  $c$a                  $x
+                      $a$d$c  $b  $c  $d  $a$c  $b    $c$e$c$a      $x
+                      $a$d$a$c$b$c$a$d$f$d$c$b  $c$b      $e  $c$b$c$a    $x
+                      $a$c$g$c  $d$g$f  $c$b                $c  $b      $c$a  $x
+            $a      $x$a  $b    $d$g$d$c$b  $e$c$b    $c    $b    $e  $c$b  $c$a  $x
+          $a$c$e$b$c$a$c$b$e$c$b        $c$b$c$e$b          $c$b  $c    $b      $c$a    $x
+        $a$c$b  $c$b    $c  $b  $c$b  $c$h$c$b          $c$e$a$c$b                $e$b$c$a    $x
+        $a$b            $c$b  $c$h$c$b$c$h$c$b  $c$b    $e$c$a$c$b                  $c$b    $c$a      $x
+        $a$e$f    $e  $c$a$c$e$a$h$a$g$a$h$a$e  $b$a$b      $c$a$c$b$c$b    $c  $b                $c$a$x
+        $a$c      $h$c$a        $h$a$g$a$h$a$g$f$a$b  $c      $a$f  $a$b$e$b$c    $b            $c$a$x
+        $a$h$a    $h$a$f  $e  $d$a            $g$a$b$c$b  $c  $a$f$c$b$c  $b$c$a$f$e  $f  $e$d$a  $x
+        $a$h$a$x$a$h$a$d  $e    $f          $e  $a$b$a$b  $a$c$a$f$a$b      $c  $a$e    $d$a  $x
+          $a$x    $a            $d$e          $d$a              $c$b  $c        $a        $x
+                                $a              $d              $a$b$c$b  $c    $a$x
+                                    $a$c$a$c    $a                $b$a$b  $a$c  $a$x
+                                    $a            $x            $a              $x
+EOC

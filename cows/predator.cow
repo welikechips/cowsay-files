@@ -1,0 +1,72 @@
+# Predator (AvP)
+# by /u/Sbe16 - https://www.reddit.com/r/PixelArt/comments/a3399t/oc_the_predator_made_him_on_stream_as_part_of_my/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;242m  ";
+$b = "\e[48;5;240m  ";
+$c = "\e[48;5;238m  ";
+$d = "\e[48;5;102m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;247m  ";
+$g = "\e[48;5;180m  ";
+$h = "\e[48;5;251m  ";
+$i = "\e[48;5;137m  ";
+$j = "\e[48;5;237m  ";
+$k = "\e[48;5;230m  ";
+$l = "\e[48;5;241m  ";
+$m = "\e[48;5;223m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t            $a  $b$x$a  $x
+                $t        $a    $c$b$a    $x
+                      $c$a          $d  $a$c$a$x
+                    $e$c$a        $d  $a$c  $e$x
+                    $e$a$c$a    $d$f$b$c$a  $e$x
+                  $e$g$a  $b$a$d$h$b$a    $b$i$j$x
+                  $e    $b$a$b$a$b$a  $c$e$j$e$j$x
+                  $e$g$e  $b$a$d$f$a$e    $g$e$i$x    $a  $x
+                $e          $b$a  $e  $i$e$j$e$j$x    $d$a  $x
+                $i$e  $g$e$b$a  $d$b$a$j$e  $j$e$x  $b$a$e  $x
+              $e$x$i$e    $b$a  $d$b$c$e$j$e$i$e$b$x$b  $e  $x
+            $e$x$e        $b$a    $b$e  $i$e$j$b        $x
+            $e$x$e  $i$e  $b$a  $b$e    $j$e$j$b$j$b$x
+            $e    $x$e                  $j$e  $j  $b  $x
+          $e$x$a  $e  $a$e$i$e            $b  $j    $x$a$x
+            $d$c$e  $d$a$g  $i  $e  $d$j$a$b  $j    $a    $x
+          $b$d    $a$d$a$k$g    $i$b$d  $a$b  $d  $b$a$d$b  $x
+        $a  $b$d  $b$a$b$k  $g  $l  $d            $c$b  $a$x
+        $a$d$a$b$g    $l  $k$l    $d$l$d    $b$d  $b$a  $b  $x
+          $k            $l  $i$k  $i$b$d$f$h$a$l$c  $b  $x
+        $k            $l  $i$k    $g$i$a$d  $a$d  $b$a  $b$x
+        $k      $m  $l$i  $k        $g$d  $f$d  $b  $g$b$x
+        $k    $g$i$a$i$k              $b$a$d$l$b$c$g$a    $x
+        $k$m$g  $i$a$i  $g  $m  $k$m$i  $d      $c$b$a  $b$a$x
+          $m$k  $g$i  $g$m$k          $i$d    $x$b    $a  $x$a$x
+        $k      $g$i$g  $k            $i$b$a$l$x$b    $a  $x  $a$x
+        $k    $g  $x$g  $k            $g$i  $x  $b    $g  $x  $a$x
+        $k  $m$g  $x  $g$m$k            $g$i$x    $g        $a$x
+        $m  $g  $x    $g  $k$m  $k    $m$g$i$x      $g    $a$x
+        $k$m$g$x        $g  $m$k          $g$x      $g$b$a$d$a$x
+      $k  $g  $x      $g    $k    $m$k      $m$x    $b  $a$d$a$x
+      $k  $g    $x    $g  $m$k              $m$x    $b  $a$h$a$x
+      $k  $m$g  $x    $l$a  $l              $m$x    $b          $x
+    $a$d    $g  $x    $c$a    $d    $a$d    $c$x      $b  $d  $a$x
+    $a$d    $a  $x  $c        $a$d  $a$d  $c    $x    $b  $a  $i$x
+      $a        $x  $c$d    $c                  $x    $b    $i$a$x
+      $d    $a  $x  $d  $f$d  $c    $b  $c      $l$x$c$b$c$b$a$d$x
+      $d      $a$x  $d    $f$d$k$c    $b$c      $l$x$c$x$c      $x
+        $d    $a$b$x$d      $a  $k$c$k$l$b$c    $l$x    $c      $x
+        $d    $b  $x$d  $a$d    $c  $k  $b$c    $l$b$x    $c    $x
+          $a$b$a  $x$d$a$d      $c  $k  $d$c  $b    $x  $c    $x
+          $d  $f$a$c$x$c$d    $a  $k  $c    $i$b  $l$x$c  $x$c$x
+          $d    $a$c  $x$c$d$a$d  $k  $c  $i  $b  $l$x    $c$x
+          $d$a    $c  $x$c$a$d    $k$c    $i  $b  $l$x
+            $a$c  $a$x  $c  $d    $c  $k$c$i  $b    $x
+            $a  $c$a$x    $c$d    $c$k    $i    $b$l$x
+              $a$x  $a$x  $c$g$m$c$k      $i$g$i  $x
+                $l$x$l$x    $g$m$k  $m$k  $i$g  $i$x
+EOC

@@ -1,0 +1,51 @@
+# Rick and Morty
+# by u/Ramen_enthusiast - https://www.reddit.com/r/rickandmorty/comments/6p39qt/im_pixel_rick/
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;153m  ";
+$b = "\e[48;5;251m  ";
+$c = "\e[48;5;110m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;235m  ";
+$f = "\e[48;5;130m  ";
+$g = "\e[48;5;223m  ";
+$h = "\e[48;5;131m  ";
+$i = "\e[48;5;116m  ";
+$j = "\e[48;5;227m  ";
+$k = "\e[48;5;94m  ";
+$l = "\e[48;5;20m  ";
+$m = "\e[48;5;238m  ";
+
+$the_cow = <<EOC
+     $t
+      $t      $a$x  $a$x
+       $t   $a    $x$a  $x
+            $a          $x
+      $a      $b      $a    $x
+        $a  $b          $a$x
+          $a$b$c        $x
+        $a  $b$d  $b$d  $a$x
+      $a    $b$d$e$b$d$e$a  $x            $f          $x
+        $a$b            $a$x            $f            $x
+          $a$b          $x              $g          $f  $x
+        $a  $b  $h    $b$x            $g            $f  $x
+              $b      $x             $d   $g  $d  $g  $f$x
+                $b  $x               $e$d $g  $e$d  $g$f$x
+             $d$i    $d$x            $d   $e$g$d    $g  $x
+           $d  $i    $d  $x           $g              $x
+         $d$x$d$i    $d$x$d$x         $g              $x
+         $d$x$d$i    $d$x$d$x           $g  $e  $g  $x
+         $d$x$d$i    $d$x$d$x             $g      $x
+         $d$x$d$i    $d$x$d$x           $j          $x
+         $d$x$d$e$j$e$d$x$d$x           $j          $x
+         $d$x$d$k    $d$x$d$x           $g$j      $g$x
+         $i$x$d$k$b$k$d$x$i$x           $g$j      $g$x
+         $b$x$d$k$b$k$d$x$b$x           $g$j      $g$x
+             $d$k$b$k$d$x               $g$l      $g$x
+             $d$k$b$k$d$x               $g$l$x  $l$g$x
+               $k$x$k$x                   $l$x  $l$x
+               $k$x$k$x                   $l$x  $l$x
+               $d$x$b$x                   $b$x  $b$x
+               $m  $e  $x               $b  $x$b  $x
+EOC

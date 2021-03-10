@@ -1,0 +1,63 @@
+# Dark Link (Legend of Zelda: Breath of the Wild) - true color
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;40;40;48m  ";
+$b = "\e[48;2;31;30;33m  ";
+$c = "\e[48;2;115;101;149m  ";
+$d = "\e[48;2;161;149;206m  ";
+$e = "\e[48;2;52;60;66m  ";
+$f = "\e[48;2;81;85;98m  ";
+$g = "\e[48;2;255;34;68m  ";
+$h = "\e[48;2;56;62;96m  ";
+$i = "\e[48;2;19;20;18m  ";
+$j = "\e[48;2;43;42;76m  ";
+$k = "\e[48;2;98;91;124m  ";
+$l = "\e[48;2;86;86;93m  ";
+$m = "\e[48;2;77;40;55m  ";
+$n = "\e[48;2;77;52;47m  ";
+$o = "\e[48;2;105;71;63m  ";
+$p = "\e[48;2;179;179;189m  ";
+$q = "\e[48;2;124;125;134m  ";
+$r = "\e[48;2;59;91;134m  ";
+$s = "\e[48;2;27;37;85m  ";
+$u = "\e[48;2;35;61;103m  ";
+$v = "\e[48;2;146;87;18m  ";
+$w = "\e[48;2;85;0;20m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t      $a      $x
+                      $a          $b    $x
+                    $c$a$d  $b$a$b    $x
+                  $d  $c$d    $b    $x
+                  $d$c$e  $d    $f$e$x      $b  $x
+                    $c$e$f$g$e$f$e$x$b  $h  $i$b  $x
+                      $f    $e  $i  $b  $h$j$i$e$b$x
+                  $a  $i$f  $e$h$a$i$b  $j$x$e$i$e$x
+          $a$b$x$k  $a  $i$a  $j$a$i  $b$x
+        $b$f$a$h$k  $h$a$i  $a$i$b  $i$x
+        $f$b  $h  $x    $b$i  $a  $b$i$x
+          $b$f$x          $b$i$l$i    $x
+                          $a      $b$i$x
+                  $a      $m$i$a  $i$x
+                $k  $a    $i$m$l$m  $x
+              $k      $a$b$i      $b$i$x
+              $k    $h  $a$b$i$b  $i$b    $x
+              $e$a$e  $x  $b  $i    $b  $x
+              $e$b$e  $x      $b$i  $h  $x
+                $b  $x            $j$h  $x    $n$x
+                $a$b$x            $j  $h$x
+                $b  $x          $a  $b$a$x$n$x              $o  $x
+              $a$p  $q$x        $a  $i$a$o$x    $o    $x  $o  $n$x
+        $q$p    $r  $p        $q$b$i  $o$x    $o      $n$x$n  $x
+      $q$p$r                  $q  $i$o  $x    $o  $n    $x
+      $l$s$u$q  $r    $p  $r$u$s  $o  $n$x      $n  $o$n  $o$x  $n$x
+        $l  $s$l$u$v$u  $q$s$w  $o  $n    $x  $n$o  $n  $o  $x
+          $n$l    $s  $v$s$w  $o        $n    $o  $n  $o  $x
+            $n    $l    $s  $o  $n$o  $n  $o    $x$n$x$o$x
+                $n        $o  $n  $x$n  $x  $o$x
+EOC

@@ -1,0 +1,70 @@
+# Pizza slice w/ phone (Rick and Morty)
+# by PixelArtus - https://www.pinterest.com/pin/142004194481405011/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;131m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;222m  ";
+$d = "\e[48;5;173m  ";
+$e = "\e[48;5;161m  ";
+$f = "\e[48;5;243m  ";
+$g = "\e[48;5;187m  ";
+$h = "\e[48;5;144m  ";
+$i = "\e[48;5;230m  ";
+$j = "\e[48;5;223m  ";
+$k = "\e[48;5;229m  ";
+$l = "\e[48;5;231m  ";
+$m = "\e[48;5;236m  ";
+$n = "\e[48;5;216m  ";
+
+$the_cow = <<EOC
+                  $t                        $a$b  $x
+                    $t                    $a$c  $d$b$x
+                      $t                  $a$c    $d$b$x
+                        $t                $a$c    $d$a$b$x
+                          $t              $a$c      $d$a$b$x
+                                          $a$c        $d$a$x
+                                          $a$c$e  $c    $d$b$x
+                                        $a$c$e      $c    $d$a$x
+                              $f      $x$a$c$e      $c      $a$x
+                            $f$g      $f$a$c  $e  $c  $e  $c$d$b$x
+                      $a    $h  $g$i  $f$a$c          $e  $c$d$b$x
+                    $a$j$c  $a$h$i    $a$c                    $d$b$x
+                  $a$j$k$c  $a$i    $a$c$l    $c    $l    $c  $d$b$x
+                  $a$c    $a  $i  $h$a$l$m$l    $c$l$m$l    $c$d$a$x
+                  $a$c$d    $g  $h$f$a$l$m$l    $c$l$m$l    $c$d$b$x
+                  $a$d$a$h$i  $h$f$x$a$l        $c$l        $c$d$a$x
+                  $a  $h$g$i$g$f$x  $a$l        $c$l        $c$d$a$x
+                    $f$h$i  $f$x  $a$c$l        $c$l        $c  $d$b$x
+                    $f$h$i  $f$x  $a$c  $l    $c    $l    $c    $d$b$x
+                    $f$h$i  $f$x  $a$c                    $k$c  $d$b$x
+                    $f      $x  $a$c        $b$l      $b$c      $d$a      $x
+                      $a$c$k$a    $c$e  $c  $b    $a$b  $c      $a$c      $a$x
+                        $a$c  $j$d$a$e  $c    $b    $a$c        $a      $c  $a$x
+                          $a    $c$e    $c    $d    $c    $d$c  $d$a  $x$a$c  $a$x
+                            $a$d$c$e    $c                $e$n$c$d$e$a$x$a$c  $a$x
+                            $d$c    $e$c                $e    $c$d$e$a$x  $a$k$d$x
+                          $a$c                $e    $c  $e    $c$d$e$b$x  $a$k$c$a$x
+                      $a  $c    $e  $c      $e        $c  $e$c  $d$a  $x  $a$j$c$a$x
+                $a    $c$k$c  $e      $c  $e          $c      $d  $a  $x$a$j$k$c$a$x
+        $a      $c          $e        $c  $e        $c$k$c    $d  $b$x$a$j$k  $c$a$x
+      $a$j    $d    $c      $e        $c    $e    $c          $d$a$b$x$a$j$k$c  $a$x
+    $b$j            $d  $c    $e    $c                      $d  $a$b$x  $a$c  $d$x
+    $b$d$j            $n$d    $c                          $d    $a$b$x    $a$d$b$x
+    $b$d$n  $j          $n                          $d    $a      $b$x
+    $b$a$d  $n  $j            $n                  $j$d$a          $x
+      $b$a  $d    $j                                $d$a        $b$x
+        $b  $a    $d      $j                      $d$a$d    $b$a$x
+            $b    $a    $d          $j            $a$d      $b  $x
+                  $b    $a  $d                    $a$d      $b$x
+                        $b    $a            $d    $a$d    $a$b$x
+                          $b                $a          $d$b$x
+                          $b$d$b$x      $a$d$b            $x
+                          $b$c$a$x      $a$c$b$x
+                          $b$c$a$x      $a$c$b$x
+                        $b$c  $b$x      $b$c$b    $x
+                      $b$c    $b$x        $b$c    $b$x
+                        $b    $x            $b      $x
+EOC

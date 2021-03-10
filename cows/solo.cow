@@ -1,0 +1,76 @@
+# Han Solo (Star Wars)
+# by @starwarspixel - https://twitter.com/starwarspixel/status/764618651379130368
+# Generated with Charc0al's cowsay file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;254m  ";
+$c = "\e[48;5;130m  ";
+$d = "\e[48;5;236m  ";
+$e = "\e[48;5;94m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;180m  ";
+$h = "\e[48;5;137m  ";
+$i = "\e[48;5;139m  ";
+$j = "\e[48;5;230m  ";
+$k = "\e[48;5;60m  ";
+$l = "\e[48;5;187m  ";
+$m = "\e[48;5;96m  ";
+$n = "\e[48;5;216m  ";
+$o = "\e[48;5;173m  ";
+$p = "\e[48;5;167m  ";
+$q = "\e[48;5;251m  ";
+
+$the_cow = <<EOC
+                        $t
+    $a    $x              $t
+  $a$b$a$b$a$x              $t            $a          $x
+  $a          $x              $t        $a$c          $a$x
+    $a  $b$a$d$a$x              $t    $a$c              $a$x
+      $a      $d$a  $x              $a$c        $e$c      $a$x
+        $a      $d  $a$x          $a$c        $e$a$c  $e$c$a$x        $a  $x
+          $a$b$a$b$a$d$a$x        $a$c  $e$c  $e$a$e$c    $e$a$x    $a$f$g$a$x
+          $a$b$a      $d$a$x      $a$c$a$e    $a$f$a$e$c  $e$a$x  $a$f$g$a$g$a$x
+          $a      $d  $a  $x    $a$e$a$e$a    $f    $a$e    $a$x$a$g  $f$g    $a$x
+            $a      $d$g$a$x    $a$e  $a  $f    $a      $e    $a  $g$f$g$a  $g$a$x
+            $a    $h$a  $f$a$x    $a  $f$h$a$f$a$h$f    $a$e  $a  $g  $f$a$g$a  $x
+            $a$f  $a$h$a$f$a$x$a  $i$a$f            $g  $f$a$e$a    $g$f    $a$x
+          $a$f    $g$a        $i      $a$f        $g$f  $a$f$a              $x
+            $a$f          $a$i$a    $i$a$f    $a$g$f    $a$f$a      $x
+            $a$f    $a        $j    $a$i$a$f            $a          $x
+            $a$f        $a$f$a$j    $a    $f$a  $f    $a$g$a        $x
+              $a$f$h$a  $h$g$h$a$j    $a  $f        $a$g  $a        $x
+                $a$h    $g  $h$a$j    $a$i$a$f  $g$a  $g    $a      $x
+                $a$f    $g  $a$j      $a$i  $a        $g      $a      $x
+                  $a  $h  $a$j        $a$i$k$i$k    $a$g      $a      $x
+                  $a$j$a  $l  $j$l  $a$k    $i$k  $a$f$g      $a      $x
+                  $a$j  $l          $a$k  $i  $k  $a  $f$g  $f$a      $x
+                    $a$j$l        $a$k      $i$k  $a$l$a$f    $a      $x
+                      $a    $l  $a$k          $i$k$a$j$l$a$f$a$l$a    $x
+                      $a$i  $a  $k              $i$a$l$j$a$f$a$j$a    $x
+                      $a$i    $k                $i$a$j  $a  $j  $a    $x
+                      $a$i  $k    $i  $k        $i$a$l$j      $a      $x
+                        $a$k    $i  $k$i  $k    $a$l    $j    $a    $x
+                        $a$k  $i            $k  $a$l    $j  $a      $x
+                        $a$k  $i$m$i          $k$a$l      $j$a    $x
+                        $a  $i$m  $i            $a$l      $a      $x
+                      $a$n$a$i$m  $i            $a$l      $a    $x
+                      $a$n$a$i$d  $m$i          $a$l      $a    $x
+                    $a$n  $a$i$d    $m$i      $a$l      $a    $x
+                    $a$n  $a$i$m$d    $m$i    $a$l      $a    $x
+                    $a$n$o$a$i$m  $d  $m    $i$a$l    $a      $x
+                  $a$p$a$o  $a$i$m$d        $m$a          $q  $a$x
+                  $a$p$i$a    $i$d        $i$d$l  $d$a$o$a  $b$a$x
+                  $a$p$i  $m  $a$m$d      $a        $d$o$a    $x
+                $a$n$a            $m$a      $b    $a$d$o$a$d    $x
+              $a  $n  $o        $a$i$m$a$m$a$q  $b$a$d$o$a$d  $i$a  $x
+            $a$n$a$n$o    $a    $o$a$m  $a              $d  $m$i    $a  $x
+          $a$n  $a$n$o$a  $m    $a        $d              $m  $i        $a  $x
+          $a$n$a$o$n$a$i  $m            $d              $m  $i              $a  $x
+        $a    $n$o$a$i  $m                $d          $m          $i            $a$x
+        $a$n$a$o$a$i        $m              $d      $m                $i          $a  $x
+        $a$n$a$o$a$i          $m              $a$m                        $i          $a  $x
+        $a$n$a$o$a$i        $m            $a      $m                        $i            $a  $x
+        $a  $n  $a$i            $m    $a  $x      $a  $m                      $i              $a  $x
+EOC

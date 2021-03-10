@@ -1,0 +1,60 @@
+# Link with Hylian gear (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;230;220;206m  ";
+$b = "\e[48;2;172;159;143m  ";
+$c = "\e[48;2;54;92;135m  ";
+$d = "\e[48;2;177;92;81m  ";
+$e = "\e[48;2;36;61;102m  ";
+$f = "\e[48;2;145;88;22m  ";
+$g = "\e[48;2;215;126;75m  ";
+$h = "\e[48;2;28;37;85m  ";
+$i = "\e[48;2;1;118;135m  ";
+$j = "\e[48;2;120;112;102m  ";
+$k = "\e[48;2;76;41;54m  ";
+$l = "\e[48;2;255;179;91m  ";
+$m = "\e[48;2;121;61;78m  ";
+$n = "\e[48;2;0;76;87m  ";
+$o = "\e[48;2;139;26;37m  ";
+$p = "\e[48;2;190;132;32m  ";
+$q = "\e[48;2;207;30;49m  ";
+$r = "\e[48;2;79;75;69m  ";
+
+$the_cow = <<EOC
+                  $t
+                    $t
+                      $t            $a$b$x
+                        $t        $a$b$x        $c  $x
+                              $d    $x        $c        $x
+                          $d    $x          $c        $e$c$x
+                        $d  $x            $e$a  $c$e      $x
+                    $a$d  $x              $b$f  $a$c$e    $x
+                  $a  $b$x                $e$f$g  $a$b$e$b$e$x
+                $a  $b  $x                $e$h$g    $f$b$e$i      $x
+        $a  $j$x      $k$x            $f$a$b$a$f$l  $m      $i    $x
+    $a    $j$a$m$d                            $m$k    $m    $i  $e$x
+        $b  $j$x  $g$k$l$k        $m$n  $b$j$b$k$g$k    $o    $h  $c$x
+                    $g$k  $x  $k    $x        $k    $d$k  $o$h    $e$c$x
+                $b  $j$k$x                    $e$m  $k$d$k  $h      $c  $x
+                  $j    $x                  $e$h$o      $m  $h      $e$c  $x
+                    $j  $m$x              $e$h  $i      $n  $h  $e$h  $c  $x
+                        $m  $x            $e$x  $d$p$d  $m  $x  $e$h  $c  $x
+                          $m    $x            $i        $n$o  $x      $c$x
+                              $m$j$b$x    $o    $q    $o  $r$o  $x  $c$x
+                                  $j$b$x  $o  $q$b    $q$j$r$x$o$x
+                                            $q$b    $j    $x
+                                            $b    $j    $x
+                                          $j$r$j  $b$m$x
+                                          $j  $m$k$d  $m$x
+                                          $j  $r$m$k$d$m$x
+                                            $r  $k  $m    $x
+                                              $k    $x$d$m$x
+                                                $k  $x$d  $x
+                                                  $k$x$d$x
+                                                  $m$k$x
+                                                  $m  $x
+                                                  $m$x
+EOC

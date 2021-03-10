@@ -1,0 +1,73 @@
+# Boba Fett
+# sprite from Super Star Wars 2 (SNES) - https://www.spriters-resource.com/snes/superstarwars2theempirestrikesback/sheet/11101/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;222m  ";
+$b = "\e[48;5;188m  ";
+$c = "\e[48;5;103m  ";
+$d = "\e[48;5;233m  ";
+$e = "\e[48;5;65m  ";
+$f = "\e[48;5;235m  ";
+$g = "\e[48;5;60m  ";
+$h = "\e[48;5;239m  ";
+$i = "\e[48;5;23m  ";
+$j = "\e[48;5;114m  ";
+$k = "\e[48;5;237m  ";
+$l = "\e[48;5;124m  ";
+$m = "\e[48;5;166m  ";
+$n = "\e[48;5;214m  ";
+
+$the_cow = <<EOC
+                    $t
+                      $t          $a$b$c$d$x
+            $c  $x      $t        $b$e$f$x
+            $b$c$x        $t      $d$f$x
+            $b$c$x          $t    $f$x
+          $g$b$c$g$x              $f$x
+          $h$b  $h$x            $i$d$i$e$j$e$k$x
+          $h$c  $h$x          $i$e$h$e$a    $i$x
+          $d$h$f$d$x        $i$e$a$f$e$j$a$j$e$i$k$x
+            $d  $x          $k$i  $f$i$e  $i    $k$x
+            $b$c$x          $l  $m$d$h$l$m$n$m$l  $x
+          $b$c$h  $x        $f    $b$f$d          $x              $d$k$d$x
+          $c$b$c$h$x        $k$i$a$j$h$l$m$n$m$l$k$x              $i$b$d$x
+          $c$b$c$h$x        $k$i$j$e$h$l$f$d$f$l$f$x            $d$k$h$d$x
+            $d  $x          $f$k$e$i$h$l$h$f$d$l$d$x            $i$c$k$d$x
+          $m$n$l$k$x        $d$f$i  $f$l$c$h$f$k$d$x          $d$k$h$d$x
+        $h$l$m  $l$h$x        $d  $f$d$l$g$b$h$k$d$x          $i$c$k$d$x
+        $l$m$n  $m$l$n$h  $k$f$h$f  $d$f$h$g$c$h$d$x          $d    $x
+        $d        $f  $l$n$a$n$m$h$g$h$d  $f$g  $f$x        $i$k$d$x
+        $d$l  $m$l$d$l$n$a$n$a$n$m$h$b  $d  $x            $l  $d$x
+      $f$k$c$b  $c$f$m$n  $a$n  $m$f$e$j$b$d$f$x        $l$m$n$l$h$x
+      $f$g$i$k$d    $l$m$n    $m$l$k$e$a$j$i$h$x        $l$m$a$m$k$x
+      $h$g$i$c$g$h$d$f$l$m    $l$k$f$i$j$a$e$g$x        $f$l$m$l$f$x
+      $h$g$i$b$g$k$d  $f$l    $f$d  $i$e$j$i$c$x      $c$d$f$l$k$i$x
+      $h$g$i$b$h$k$d$f$i    $f$k$d  $k$e$g$i$b$x$d    $g$k$l$k$i$x
+      $f$g$i$c$k$f$d$f$e$j$e$i  $d$f$i$g$i$k$c$d    $c$k$d  $i$x
+      $f$g$k$g$f  $d$f$e$j  $e$i$f  $h  $k$b$d      $g$k$d$i$x
+      $f$h$k$h$f$d  $f$i$j  $e$i$f$d$f$c$b  $c$d  $c$k$d  $x
+      $f$h$k$f$d    $f$i$e$j$e$i$d$f$g$b$f$i$f$d  $g$k$f$d  $x
+      $f$h$k$c$b$c$d  $k$i$e$i$d$f$k$c$i$e$j$f$d$k  $d$x$f$d  $x
+      $k$h$k$b    $d  $f$i  $f$h$l  $f    $h  $l  $d$x    $f$d  $x
+      $f$k$f$h$b$h$d    $i$c$b$a$m    $l$h$f$n  $m$l$d$x
+        $f$d$g$h$d  $f$d$h$g  $m$n  $a$m$l$f$a  $m  $d$x
+          $h$b$c$k$d    $f$h  $l$m$l$m$l  $k$l$m  $l$d$x
+          $g$c$b$g$d$m$l$d    $k$i$k$i$k  $f$h$l  $d$x
+          $h$b  $d$l$d  $l$d$f$d              $f$x
+          $f  $d$m$n$m  $l$d    $f$d              $x
+              $d$m  $n$l$d  $f  $h$d              $x
+              $d$l$m  $l$d$c$b$c$h$f$d      $f$d  $x
+              $d$l  $m$l$d$f$g  $c$d      $f  $x
+                $f$l    $d$f    $d    $f$h$g$h$f$x
+                  $f$d  $h$b$g$h$d      $f$h$f  $x
+                  $h  $c$b$c$g$f$d  $f  $h$g$h$f$x
+                  $h$c$g$c$g$h$f$d    $f$g$c$g$h$x
+                  $h$g$c  $g$h$d$x$f  $h    $f  $x
+                  $f$h$g  $h  $d$x$f$h  $g$c$h$f$x
+                  $f  $h$g$h$f$d$x$f  $h$f    $n$m$x
+                  $l$f$d$h$f    $x  $f$h$n  $m$a  $x
+                $f$l$m  $l$f  $l$x  $f$m  $a    $m$x
+              $g$f$m$n$a  $n$m$l$x  $f    $m$a$m$f$x
+EOC

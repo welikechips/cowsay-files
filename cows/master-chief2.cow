@@ -1,0 +1,51 @@
+# Master Chief (HALO)
+# by EightBitPrints
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;22m  ";
+$b = "\e[48;5;28m  ";
+$c = "\e[48;5;34m  ";
+$d = "\e[48;5;236m  ";
+$e = "\e[48;5;94m  ";
+$f = "\e[48;5;137m  ";
+$g = "\e[48;5;179m  ";
+$h = "\e[48;5;234m  ";
+$i = "\e[48;5;188m  ";
+$j = "\e[48;5;245m  ";
+$k = "\e[48;5;240m  ";
+$l = "\e[48;5;149m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t    $a$b  $c$x
+                  $a$b      $c$b$x
+                  $a$b$d$e$f$g$x
+                  $a$b  $d$f$g$x
+            $a$d$x  $a$b    $c$x
+          $a    $b  $h$b$d$b$c$x
+          $b$c$d$a$b$d$h    $a$b$x
+        $a$b  $c$d$a$c$d    $c$b$c$x
+        $b    $c$h$a$b$c$b$d$b$c$b$c$x
+        $b$c$b$c$h  $a$c  $b$c  $a$c$x
+        $b$c$b$c$h  $a$b        $a$c  $x
+        $a$b  $c$h$a  $b$a$c$a$b$h$b$c$x
+        $a$b$c$h$d$a$b    $c$b  $d$i                $x
+        $d$h  $b$d$j                              $i  $d  $x
+          $d$b        $d  $b    $j$k$l$d$b$d$k$d  $i$x
+          $b      $j    $d$b  $d        $b  $d    $x
+              $a  $b    $h$a  $c$x      $a  $x
+                $h  $a  $b  $c$h$x
+                $a$h  $a  $b  $h$b$x
+              $a$b  $h  $b  $h$b  $x
+              $a$b  $c$h$b  $h$b  $c$x
+              $a$b  $c$h      $b  $c$x
+              $a$b    $d$h  $d$a$b  $x
+              $a$b  $a$d$x$h    $a$b$x
+              $a$b  $a$d$x$h    $a$b$x
+              $a$b  $a$d$x$h  $a  $b$x
+              $a$b  $d$x    $h$a  $b$x
+              $a$h  $b$x    $a  $b$h$x
+EOC

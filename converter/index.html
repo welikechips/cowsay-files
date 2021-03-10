@@ -1,0 +1,212 @@
+<head>
+  <meta property="og:image" content="ThumbnailImage.jpg" />
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="src/nearestColor.js"></script>
+  <script>
+      $.ajax({
+        url: './examples.html',
+        success: function(data) {
+           $('body').append(data);
+        },
+        error: function(error) {
+          console.log('Oh no!', error);
+          $('body').append('<iframe src="examples.html" style="border:none; width: 100%; height: 100%"></iframe>');
+        }
+      });
+
+      function each(arr, func) {
+        var i;
+        for (i = 0; i < arr.length; i++) {
+          func(arr[i]);
+        }
+      }
+
+      function range(lo, hi) {
+        var range = [];
+        var i;
+        for (i = lo; i < hi; i++) {
+          range.push(i);
+        }
+        return range;
+      }
+
+      function isFullColor() {
+        return document.getElementById("fullColor").checked || false;
+      }
+
+      function getAuthorName() {
+        return document.getElementById('authorName').value || '<authorName>';
+      }
+
+      function bashColor(px) {
+        if (isFullColor()) {
+          return px[0] + ';' + px[1] + ';' + px[2];
+        } else {
+          var pxColor = rgbToHex({r: px[0], g: px[1], b: px[2]});
+          var foundColor = nearestColor.BASH_MAP[nearestColor(pxColor)];
+          return foundColor;
+        }
+      }
+
+      function download(data, filename, type) {
+        var file = new Blob([data], {type: type});
+        if (window.navigator.msSaveOrOpenBlob) // IE10+
+            window.navigator.msSaveOrOpenBlob(file, filename);
+        else { // Others
+            var a = document.createElement("a"),
+                    url = URL.createObjectURL(file);
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            setTimeout(function() {
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+            }, 0);
+        }
+      }
+
+      var varNames = ['x', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',
+      'p', 'q', 'r', 's', 'u', 'v', 'w', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
+      'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+
+      // add shitload of extra variable names for full color support
+      each('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', l1 => {
+        each('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ', l2 => {
+          varNames.push(l1 + l2);
+        });
+      });
+
+      function convert() {
+          var file = document.getElementById('file').files[0];
+          var reader  = new FileReader();
+          reader.onload = function(e)  {
+              var showThoughts = true;
+              var img = new Image();
+              img.src = e.target.result;
+              img.onload = function() {
+                var colorCount = 0;
+                var varMap = {};
+                var canvas = document.createElement('canvas');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                var ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0, img.width, img.height);
+
+                //set background color to 1st pixel found
+                var cowFileVars = '$' + varNames[0] + ' = "\\e[49m  ";          #reset color\n$t = "$thoughts ";\n';
+                var cowFile = '';
+                var bgColor = bashColor(ctx.getImageData(0, 0, 1, 1).data);
+                varMap[bgColor] = varNames[0];
+                colorCount++;
+                var lastColor = bgColor;
+
+                var imgScale = document.getElementById("imgScale").value;
+                var scale = !!imgScale ? parseInt(imgScale) : 1;
+                var maxHeight = document.getElementById("maxHeight").value;
+                var height = !!maxHeight ? parseInt(maxHeight) : img.height;
+                var width = img.width / scale;
+                height = Math.min(height, (img.height / scale));
+                var cropLeftVal = document.getElementById("cropLeft").value;
+                var leftBound = !!cropLeftVal ? parseInt(cropLeftVal) : 0;
+
+                each(range(0, height), function(yval) { //rows
+                  var y = yval * scale;
+                  var whiteSpace = '';
+                  each(range(leftBound, width), function(xval) { //columns
+                    var x = xval * scale;
+                    console.log('pixel (' + x + ', ' + y + ')');
+                    var px = ctx.getImageData(x, y, 1, 1).data;
+                    var foundColor = bashColor(px);
+                    if (foundColor !== lastColor) {
+                      cowFile += whiteSpace;
+                      whiteSpace = '';
+                      lastColor = foundColor;
+                      var varName = varMap[foundColor];
+                      if (!varName) {
+                        varName = varNames[colorCount];
+                        colorCount++;
+                        varMap[foundColor] = varName;
+                        if (isFullColor()) {
+                          cowFileVars += '$' + varName + ' = "\\e[48;2;' + foundColor + 'm  ";\n';
+                        } else {
+                          cowFileVars += '$' + varName + ' = "\\e[48;5;' + foundColor + 'm  ";\n';
+                        }
+                      }
+                      cowFile += '$' + varName;
+                    } else {
+                      var diagonalColor = bashColor(ctx.getImageData(x + scale, y + scale, 1, 1).data);
+                      if (showThoughts && (yval < 5) && (yval === ((xval - leftBound) - 5)) && (foundColor === bgColor) && (diagonalColor === bgColor)) {
+                        cowFile += whiteSpace + '$t';
+                        whiteSpace = '';
+                      } else {
+                        if (lastColor == bgColor) {
+                          whiteSpace += '  ';
+                        } else {
+                          cowFile += '  ';
+                        }
+                      }
+                    }
+                  });
+                  if (lastColor !== bgColor) {
+                    cowFile += '$' + varNames[0];
+                    lastColor = bgColor;
+                  }
+                  cowFile += '\n';
+                });
+                var name = file.name.substring(0, file.name.lastIndexOf('.'));
+                var title = name + (isFullColor() ? ' - true color' : '');
+                var outFile = '# ' + title + '\n# by ' + getAuthorName() +
+                              '\n# Generated with Charc0al\'s cowsay file converter http://charc0al.github.io/cowsay-files/converter\n\n' +
+                              cowFileVars + '\n$the_cow = <<EOC\n' + cowFile + 'EOC\n';
+                download(outFile, name + '.cow', 'text');
+              }
+           };
+           reader.readAsDataURL(file);
+       }
+  </script>
+  <title>Charc0al's cowsay file converter</title>
+</head>
+<body>
+    <div class="margin">
+      <h1>Charc0al's cowsay file converter</h1>
+      <div class="converter-options">
+        <div class="option">
+          <input type=file name=filename id=file>
+        </div>
+        <div class="option">
+          <div class="row">
+            Author: <input type="text" id="authorName" placeholder="Author Name">
+          </div>
+          <div class="row">
+            <input type="checkbox" id="fullColor"> True color
+          </div>
+        </div>
+        <div class="option">
+          <div class="row">
+            Max height <input type="number" id="maxHeight" value="50">
+          </div>
+          <div class="row">
+            Scale <input type="number" id="imgScale" value="1">
+          </div>
+        </div>
+        <div class="option">
+          <div class="row">
+            Left crop <input type="number" id="cropLeft" value="0">
+          </div>
+        </div>
+      </div>
+      <div>
+        <button class="btn-convert" type=button onclick='convert()'>Convert!</button>
+      </div>
+      <br/>
+
+      <p>Instructions:</p>
+      <ul>
+        <li>Upload image to create cowsay file from (recommended size <= 50x50)</li>
+        <li>Press "Convert!" and save your new cowsay file to your cows directory!</li>
+        <li>Check the <a href="https://charc0al.github.io/cowsay-files/">README</a> for more tips and instructions.</li>
+      </ul>
+    </div>
+</body>

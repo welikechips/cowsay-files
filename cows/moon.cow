@@ -1,0 +1,54 @@
+# The Moon (Legend of Zelda: Majora's Mask)
+# by Lukefeir the Sloth - https://aminoapps.com/c/zelda/page/blog/majoras-mask-moon-pixel-art/PJwt_muwWZvlk2LxN0aRrEv0gElYq6p
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;250m  ";
+$b = "\e[48;5;244m  ";
+$c = "\e[48;5;233m  ";
+$d = "\e[48;5;241m  ";
+$e = "\e[48;5;166m  ";
+$f = "\e[48;5;208m  ";
+$g = "\e[48;5;235m  ";
+$h = "\e[48;5;131m  ";
+$i = "\e[48;5;144m  ";
+$j = "\e[48;5;187m  ";
+
+$the_cow = <<EOC
+        $t
+          $t
+            $t
+              $t              $a              $x
+                        $a  $b  $a$b$a$c        $a$x
+                    $a    $b  $d$b$a$c            $a  $x
+                $a$b$a        $b  $c    $e    $c    $a$b$x
+              $a$b  $a  $b  $a$b$c    $e$f    $e$c  $b$a$b$x
+            $a              $d  $c  $e$f  $c$f$e$c$d$b      $x
+            $a$b$a  $b  $a$d  $b$c  $e$f      $e$b  $a$g$a$g$b$x
+          $a  $b$a$b  $a$d$b    $c  $e$f    $e$d  $g$b$g$d$g$d$b$x
+          $b$c          $b$a$b$a$c    $e    $d$b$d$b$d$g$d$a$d$b$x
+          $c              $b$a  $d$c      $a$b$a$g$d  $b$d  $g$d  $x
+        $c      $e    $c    $a    $d$b        $d      $g$d  $g  $d$x
+        $c    $e$f    $e$c  $a    $d  $b          $d$g$d$g$d$b$g  $d$x
+        $c  $e$f      $e$c  $a    $d        $g  $b  $g$b$g$d  $g  $d$x
+        $c  $e$f$c$f  $e$c$b$a    $d      $c  $g$b$g      $d  $g  $d$x
+        $c  $e$f    $e$b$a$b  $a    $d    $c  $g$b$g$b  $h  $d  $g  $x
+        $c    $e    $a$b      $a      $d    $g$b$d$g$b$h$i  $h$d$g  $x
+        $b$c      $a  $b    $a        $d  $g$b$d    $h$c$i$j  $h$g  $x
+        $b  $c  $b    $a$b$a  $c  $a$d  $g$d    $b$h$i  $c$j  $c$h$g$x
+          $b$a$b  $d$a  $b$a  $c  $d  $b$d    $g$h$c$i$j  $c  $i$h$g$x
+          $b$a$b$a$b$a$d$b$a      $b  $d$g$b$h  $i  $c$j  $c$i$h$d$g$x
+          $a    $d$a  $d    $b$g        $h  $i$c$i$j  $c  $j$h$g$d$g$x
+          $a$b$a$d    $a  $d$g$d  $b$h  $c$i$j  $c$j  $c$i$h$g$d$g$x
+            $a$d$a$d    $g    $d$g$h$i  $j$c$j  $c    $j$h$d$g$d$g$x
+            $a$d  $g$d  $g$b$h  $i  $c$j    $c    $j$i$h$g  $d$g$x
+              $a$b$d$g$d$b$h$i$c$i$j  $c$j$c  $j$i$h  $g      $x
+                $a$g$d    $h$j  $c$j  $c  $j$i$h  $g$d$g$d$g$x
+                  $a$d$b$d$g$h$c      $j$i$h  $d  $g$d$g  $x
+                    $a  $d  $g$h$c$j$i$h  $g$d$g        $x
+                        $a  $d  $h  $g$d  $g      $x
+                            $a$g            $x
+
+
+EOC

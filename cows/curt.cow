@@ -1,0 +1,66 @@
+# curt
+# by Charc0al (original Cowsay art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;239m  ";
+$b = "\e[48;5;59m  ";
+$c = "\e[48;5;94m  ";
+$d = "\e[48;5;236m  ";
+$e = "\e[48;5;179m  ";
+$f = "\e[48;5;246m  ";
+$g = "\e[48;5;222m  ";
+$h = "\e[48;5;241m  ";
+$i = "\e[48;5;255m  ";
+$j = "\e[48;5;233m  ";
+$k = "\e[48;5;234m  ";
+$l = "\e[48;5;251m  ";
+
+$the_cow = <<EOC
+                    $t
+                      $t
+                        $t                        $a        $x
+            $a      $x    $t                    $a$b$c    $b$a$x
+          $a$c    $b$d$x                      $d$b$c$e    $c$b$a$x
+        $a$c$e    $c$b$d$x      $f        $x$d  $c$e$g    $e$c$a$x
+      $a$c$e$g      $e$d  $h    $i  $f$i    $h  $c$e$g    $e$c$a$x
+      $a$c$e$g      $e$b$h    $b$f$i        $h    $c$e$g  $e$c$a$x
+      $a$c$e$g      $c$h          $i        $b$h    $c$e$g$c  $a$x
+      $a$c$e$g    $c$h          $i    $f$i    $a$h    $b$c  $d$x
+      $a$b$c$e$g$c$h          $a              $h$a$b$h  $d  $x
+        $d  $b  $h$a$h      $a$d$j            $h$k  $d    $x
+            $d$a$h$j            $f$i$d$a    $d$i$k    $d$h  $x
+              $h  $a  $d$i$k      $i$d$a    $d$i$k    $i$d$h$x
+              $h  $a  $d$i$k      $i$d$a    $d$i  $k  $i$d$h  $x
+            $h  $a    $d$i  $k  $i  $d$a      $d$i      $d$h  $x
+            $h  $a    $d  $i      $d$a        $d        $a$h    $x
+            $h  $a      $d        $a    $d$j$d$a        $h      $x
+            $h  $a                $j        $d  $k        $d$h  $x
+            $h  $a        $k      $g$b$j$d$j    $g      $k    $h$x
+            $h  $a    $k      $e$g        $c$e$g          $k    $x
+            $h  $a  $k      $g            $c    $e$g        $k  $x
+            $h$b$a$k      $g          $c        $e$g        $e$k$x
+            $h  $a$k    $g                                    $d$x
+              $h$d$k    $g                        $e$g      $e$x
+              $h$d$k  $e$g              $e            $g    $x
+                $h$k  $g  $e                            $g$x
+                  $h$k  $e                          $c$x
+                          $b$a                        $h$x
+                      $h          $b$i  $l  $b      $h$b$h$x
+                      $h    $a    $b$l      $a          $h  $x
+                    $h  $a        $l        $a            $h$x
+                    $h  $a        $f$l    $f$a            $b$x
+                      $h$a        $d$f    $b$d  $a        $h$x
+                      $h  $a        $b$k  $h$k  $a    $b$h$x
+                        $h$k        $f$k  $f$k  $f$k  $h$k$x
+                        $k          $i$k  $d$k  $i$d$k    $x
+                      $i$k$d$k$d$k  $i  $k      $i  $k  $i$x
+                      $i$k$i$k$i$d$k$i  $k    $i    $k$i    $x
+                    $i$d$k$i$k$i$d$k$i    $k  $i    $k$i    $x
+                    $i          $k  $i    $k  $i      $k  $i$x
+                    $i$k$i                  $k        $i      $x
+                    $i$k                          $i          $x
+                  $i    $k                $i                  $x
+                  $i                                          $x
+EOC

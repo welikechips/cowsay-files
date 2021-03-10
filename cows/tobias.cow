@@ -1,0 +1,65 @@
+# Tobias Fünke (Arrested Development)
+# by Charc0al (original art for cowsay)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;27m  ";
+$b = "\e[48;5;20m  ";
+$c = "\e[48;5;33m  ";
+$d = "\e[48;5;19m  ";
+$e = "\e[48;5;18m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;17m  ";
+$h = "\e[48;5;237m  ";
+$i = "\e[48;5;235m  ";
+$j = "\e[48;5;234m  ";
+$k = "\e[48;5;233m  ";
+$l = "\e[48;5;238m  ";
+$m = "\e[48;5;239m  ";
+
+$the_cow = <<EOC
+        $t
+          $t                      $a            $x
+            $t                $a                    $x
+              $t          $b$a                          $x
+                $t      $b    $a        $c    $a          $b$x
+                      $b    $a      $c        $a          $b  $x
+                    $b      $a    $c            $a          $b$x
+                    $d$b  $a        $c                $a      $b$x
+                    $d  $b$a          $c              $a    $b    $x
+                  $d    $b  $a          $c            $a    $b    $x
+                  $d    $b  $a              $c  $a        $b      $x
+                  $e$d    $b  $a            $c$a          $b    $d$x
+                  $e  $d  $b    $a                    $b    $d      $x
+                  $e  $d  $b    $a        $c$a    $b        $d      $x
+                  $e$d    $b      $a      $c$a      $b        $d    $x
+                $f$e  $d  $b      $a    $c    $a      $b  $a$b  $d  $x
+                $f    $e$d$b      $a          $b              $d    $x
+              $e$d  $e$f  $a$b    $d  $g        $d                  $x
+            $d$e  $d$e$d  $f$a$d$g$h    $f    $i$g  $d  $g          $x
+            $b$d$b$e$d$b  $d$f$h$f$h$f$i$j$k  $f$i$g      $j      $i$x
+            $b$e  $d  $b    $d$b$h  $g$l  $k    $i$f$h  $j$i    $f  $x
+            $d$e$b  $d$b        $h$b$m    $f$j$i$h$i$d$g$i  $k  $j$f$i$x
+            $d$e$d$b$d$b    $a  $e$a$b$g      $h  $g$a$b$i    $j  $x$i$x
+            $e$d$e  $d  $b    $a$e$a  $b$d    $h  $d$a$b$f$i$g    $x$i$x
+              $e$d$e$d  $b    $a  $e$b    $d$h  $b$a    $d        $x$i$x
+              $e    $d  $b    $a  $d$e$h      $b  $a$c  $b$d$g$d  $x$i$x
+                $e$d    $b  $d$b  $d$g        $a      $b  $d$g  $h$f$x
+                    $d              $g        $d          $g$j$h  $x
+                    $g$d          $g  $f$h$l  $i$k$j$g    $i$k$j$g$x
+                    $g$d          $g$l      $h  $j$k      $j  $g  $x
+                    $g$d          $g$l$h    $i  $j$k      $j  $g  $x
+                    $g  $d          $g$i    $j$i$j            $g$x
+                    $g  $d          $g  $i$g        $i    $j$g  $x
+                    $g    $d                          $g$i$g  $x
+                    $g      $d                $g              $x
+                    $g$e$g    $d                $g          $x
+                    $g$e  $g    $d        $b  $d          $x
+                    $e      $g    $d      $b    $d      $g$x
+                    $e      $g      $d                  $g$x
+                    $e      $g          $d            $g  $x
+                  $b$e        $g                              $e$x
+                $b  $e        $g                            $e        $x
+              $a$b  $e        $g                            $e              $x
+EOC

@@ -1,0 +1,72 @@
+# Ken
+# by Street Fighter 2 (SNES) - https://www.spriters-resource.com/snes/streetfighter2streetfighter2championedition/sheet/5572/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;172m  ";
+$b = "\e[48;5;214m  ";
+$c = "\e[48;5;220m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;202m  ";
+$f = "\e[48;5;124m  ";
+$g = "\e[48;5;88m  ";
+$h = "\e[48;5;52m  ";
+$i = "\e[48;5;130m  ";
+$j = "\e[48;5;160m  ";
+$k = "\e[48;5;233m  ";
+$l = "\e[48;5;173m  ";
+$m = "\e[48;5;216m  ";
+$n = "\e[48;5;236m  ";
+
+$the_cow = <<EOC
+                  $t
+                    $t
+                      $t                $a$b  $a$x
+                        $t          $a$b          $a$x
+                          $t      $a$b            $c  $a$x
+                                  $b      $c$b$c$b    $c$a$x
+                                $a$b        $c$d$b$a$b$c$b$a$x
+              $e        $f$g$h$g$b      $c  $d$b$i$b$d$a$d$b$x
+            $e$h      $g$e$j$h$j$b          $h  $b$c$b$i$d$b$x
+          $e$h$k$h    $k$g$e$g$f$b$a$b$c$b$d$i$k$h$i$h$a$c$a$x
+        $f$e$k$h$i$l$i$h$k$e$f$g$f$b  $c$b$d$i$d$k  $h$c$b$x
+        $e$h$k$i$l$d  $l$h$j  $g$j$b$a$b$c$b$a$m$i$a$k$a$x
+        $e$k$h$i$m$d$m$i$h$j$f  $g$b$f$b    $m$d$i$n$x
+        $e$k$h$i$l$m$l$i$k$g$f$e$g$f  $b$i$b$a$n  $x
+        $e$k$h  $i$m  $l$h$k$e  $f$g$e$f$h$b$d$m$n$l$i$x
+        $j$k$h$i$l$d  $m$l$k$j$e$j$h$f  $k$h$k  $g$f$l$i$x
+        $j$k$h$i$m  $i$h$k  $g$e  $f$k  $n$h$m$k$g$j$m$l$x
+        $f$k$h$l$m$i$l        $k      $h  $n$k$d$h$e$d$l$x
+        $f$k$h$l    $m$d      $i$h  $k$h$n  $k$d$h$e$m$i$x
+        $g$k  $i$l$m$d        $m$n    $k    $d$m$k$e$l$i$x
+        $h$f$k$h$i$m  $d      $l$n  $k    $l$k$i$k$e$i$h$x
+        $h$f$k  $i$l$m      $l$i$k              $h$e$h  $x
+        $h$g$f$k$h$i$l    $i  $h$k  $h$g$j$h$i$h  $e$i  $x
+        $h  $f$k  $h$i      $h    $e$f$h$e$f$h$n$h$e$i$m$i$x
+          $h$g$f$h$m$l$i$h    $e    $j$h$e$j$h$n$j$h$m$d$i$x
+          $h  $f$k$h      $f$j        $h$j  $n$j$h$i$d$m$i$x
+            $h  $f$j                  $h$j$f$g$h  $i$l  $i$x
+            $h  $g$f$j              $f$h$f$g$h      $n  $h$x
+              $h  $g$f  $j        $f$h  $f$h  $n$h$k$i$m$d$m$x
+              $h      $g  $f    $g$h  $g$h$k$x  $k$n    $l$m$i$x
+                $h                      $k      $l$d$i$h$n$i  $l$x
+                $k  $h  $f$j  $f$h  $k  $h  $m$k    $d$h$n  $m$l$x
+                $h$k                  $h    $i$k$m$d  $n  $k$l  $x
+              $h  $j$f$h$k          $h$f$g  $k      $m$k    $i$h$x
+            $h$g$f$g$j  $f$h$k    $g$f$j$g$f$g$k$m  $d$k  $h  $x
+            $g$j$e$f$g$f$j$h$k$g$k$h$j$g$f$e$j$h  $l$k  $h  $x
+          $g$j$h$e  $f$g  $k  $f$k$h$g$f$e$j  $h$k  $x
+          $g$j$h$j$e  $f$g$k  $h$k  $f$e$j  $f$h$x
+          $j$h  $j$e      $k  $g$k  $j    $f$h  $x
+          $j$h  $j$e      $k  $j$k  $j  $g$h    $x
+          $h$g$h$j  $e    $k  $j$k  $f$h          $x
+          $g$j$h$g$j      $k  $j$k  $h  $g  $h    $x
+          $f$e$j$h$g      $k  $h$k  $h$f  $g  $h  $x
+        $g$j$e  $j$h      $k  $h$k  $j  $f  $g$h    $x
+        $f$j$e  $j  $g$h  $k  $h$k  $j    $f$g$h    $x
+      $g$f$e    $j  $f$g$h$k  $h$k  $j    $f  $h    $x
+      $g$j$e    $j  $f  $g$h$k$h$k  $j$e$j  $f$h$g$h$x
+      $f$j$e  $j    $f  $g$h    $k$j$e  $j  $f$h$f$h  $x
+    $g$f$e    $j  $f    $g$h    $f$e    $j  $f$g$f$h  $x
+EOC

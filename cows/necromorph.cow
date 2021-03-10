@@ -1,0 +1,62 @@
+# Necromorph (Dead Space)
+# by /u/mkmcPixels - https://www.reddit.com/r/DeadSpace/comments/dgwm8m/necromorph_pixel_art/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;181m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;138m  ";
+$d = "\e[48;5;95m  ";
+$e = "\e[48;5;124m  ";
+$f = "\e[48;5;89m  ";
+$g = "\e[48;5;235m  ";
+
+$the_cow = <<EOC
+                                  $t                                              $a$x
+                                    $t                                            $a$x
+                $a$x                  $t                                      $a$b    $a$x
+                $a$b$x                  $t                                  $a  $b  $a    $x
+                $b  $a$x                  $t                             $c$a  $d$b$c  $a    $x
+              $d$a$b$c$a$x                                          $a$c  $d        $c  $a  $e$x
+              $a  $d  $c  $a  $x                      $a$x      $b$a$c  $d  $x        $d  $e    $x
+            $d$a  $d    $c    $a  $x                  $c$x$b        $c$x                $d  $e    $x
+            $e$d  $a$x      $d$c      $a$x      $a$x$c$b            $x                  $d$e$d$c$e$x
+            $e$d$e$a$x          $d$b    $a  $x  $c$b      $c$b    $x      $f$c$a    $x    $e$c$e    $x
+          $e      $d$x              $b        $c$b  $c$b$d  $a$b  $a$x  $f$c    $a    $x      $e  $c$e$x
+          $e$c$e  $x                  $b            $d$c$d$c  $a$d$c$a$b$f$d  $c    $a$x      $d$c  $e$x
+          $e$c$e$d$x                  $b        $c$b$d$a  $c$a  $c$f  $b$c$d      $c$d$x        $e$c$e$x
+        $e    $d$x                      $b    $c$d  $a    $c$d    $b    $c  $b  $d  $b$x        $e      $x
+        $e      $x                      $b  $d    $a    $c$d  $f    $b    $d$c    $b$c$x          $e    $x
+        $e      $x                      $b$d  $a$d    $c      $d$f$b      $e$b  $d  $e$x          $e    $x
+      $e  $c$e$x                      $d$c  $a  $d  $a      $d      $f  $x$b$a$b$e$b$d$x          $e    $x
+      $e$c  $e$x                  $b$f$d$a    $c$f$a        $c    $f    $x$b$x$b$a$b$a$x            $e    $x
+      $e$c$e  $x                $d  $b$d$a  $c$f$d$c$a    $d  $c$f  $c$a$x    $b$x                  $e    $x
+      $e$c$e$x          $a$x$b  $d$a$b  $c$f    $a  $c  $d$b$f  $d  $a    $x                          $e  $x
+      $e    $x          $d$b  $d$c$a  $b$c$b  $d$c$a$d  $a$b  $f  $d  $a  $x                          $e  $x
+    $e      $x          $b    $c$a    $x  $b$d$c  $d$a  $b  $f$d$b$d$a$f  $x                          $e  $x
+    $e    $x            $b$f$b  $a  $x    $d  $c$b  $g    $b$d$f$b$f$b    $x                            $e$x
+    $e    $x          $b$f    $b$x        $b$d  $g$b  $e  $g$d$c$x$b  $f$a$x                            $e$x
+    $e    $x          $b$d$f$a$x          $b$a$g$b$e$g    $e$d$x  $d  $a  $x                            $e$x
+    $e    $x          $d  $a  $x          $d$a$g$e$g$b$e$b$d$x    $b$f$d$a$x                            $e$x
+    $e    $x            $d$c  $x        $b$d  $e$b$e$g  $e$b$x    $b  $f    $x
+    $e    $x            $c      $x      $b  $a$e$g$b$e$g$e$b$x  $a$d$b  $f$c$a$x
+      $e  $x              $d$c$a  $x    $b$a  $g$e$g  $e$x$e$x      $b  $d$a    $x
+      $e  $x              $d  $a  $x      $b  $g  $b$e$b$x$e$x        $d$c    $e    $x
+      $e  $x                $d  $a  $x    $b$d$a$g$e$g$e$x              $e          $b$x  $b  $e  $x
+        $e$x                $e$d$c$a  $x  $b  $d$a$e$g  $e$x                $b  $e$b    $e  $b$x
+        $e$x                $e    $c  $x  $b    $d$b  $e$b$e$x                $b            $e  $x
+                              $e    $b  $x  $b    $e  $g  $e$x                  $b              $e$x
+                              $e      $b$e  $b$e$b  $g$e$b  $c$x                  $b$x$b    $e$x$b$x
+                              $b$e$b        $d$b$e$f$g  $e$d$c  $x                $e$b$x$b$e    $x
+                              $b          $e$d  $b  $f  $d$e$d$c$a$x                $e$x  $b  $e  $x
+                                $b  $e  $b  $e$d  $a$x  $d$e$d$a  $x                        $b  $e  $x
+                                  $b$x$b$e$b    $a  $x  $b$d$a      $x                        $e$c$e$x
+                                  $e$x  $b$c$e$d$a  $x    $b$d$a      $x                      $b$e    $x
+                                    $e$x$b  $c$e$a$x        $d  $a    $x                        $b$c$e  $x
+                                          $b  $e  $x        $b$d  $a  $x                          $e$c$e$x
+                                        $b$d$b$c$e  $x        $b      $x                            $e    $x
+                                        $d    $b$c$e  $x      $b  $d$a  $x                            $e  $x
+                                        $b$a  $d$b$e    $x    $b$d$a    $x                            $e  $x
+                                      $b  $a    $x$b  $e  $x  $b$d  $a$x                                $e$x
+EOC

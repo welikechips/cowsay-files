@@ -1,0 +1,57 @@
+# Link in shorts (Legend of Zelda: Breath of the Wild) - true color
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;145;88;22m  ";
+$b = "\e[48;2;255;179;91m  ";
+$c = "\e[48;2;190;132;32m  ";
+$d = "\e[48;2;215;126;75m  ";
+$e = "\e[48;2;160;85;71m  ";
+$f = "\e[48;2;0;185;255m  ";
+$g = "\e[48;2;121;61;78m  ";
+$h = "\e[48;2;177;92;81m  ";
+$i = "\e[48;2;36;61;102m  ";
+$j = "\e[48;2;20;22;31m  ";
+$k = "\e[48;2;37;42;50m  ";
+$l = "\e[48;2;172;159;143m  ";
+$m = "\e[48;2;54;92;135m  ";
+$n = "\e[48;2;28;37;85m  ";
+$o = "\e[48;2;84;121;163m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                    $a$x
+              $b$x    $c    $a$x
+              $d$x  $c      $a  $x
+          $d$b  $x$c      $a$c$a$x
+          $d$e$d$x$c  $b$c    $b$d$x
+          $b$d$x  $c$b    $c$b$d$x
+        $b  $x      $b    $c$f$a$x
+        $b$d$x        $b  $c$d$a$c$x
+      $b  $e$d$b  $d$g$d  $c$b  $a$x
+      $b$d        $b$h$b          $x
+                $e$b$h$b    $d$b    $x
+                  $d$h$b$d      $b    $x
+                  $b  $h$b$d  $x  $d$b  $x
+                  $b    $h$g$x  $b    $x
+                  $b      $d$x$b    $x
+                $g$c$g  $h$b    $x
+                $i$j$k$g$h$k$b$x
+              $g$l$g  $k$h$k$i$x
+              $i  $j$k  $h$m  $x
+            $i    $j  $k$m      $x
+            $m  $i$n$x  $m$o    $x
+            $i  $n$x      $i$m  $i$x
+            $d  $e$x        $b    $x
+              $e  $x          $b$d$x
+              $d$e$x            $b$d$x
+                $e$x            $d  $x
+                $e$x              $d$x
+                $e$x              $b$d$x
+              $e$d$x              $b  $x
+            $d    $x              $b  $x
+EOC

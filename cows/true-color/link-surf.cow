@@ -1,0 +1,60 @@
+# Shield-surfing Link (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;0;114;54m  ";
+$b = "\e[48;2;1;78;37m  ";
+$c = "\e[48;2;145;88;22m  ";
+$d = "\e[48;2;190;132;32m  ";
+$e = "\e[48;2;215;126;75m  ";
+$f = "\e[48;2;255;179;91m  ";
+$g = "\e[48;2;1;61;29m  ";
+$h = "\e[48;2;177;92;81m  ";
+$i = "\e[48;2;135;84;48m  ";
+$j = "\e[48;2;77;52;47m  ";
+$k = "\e[48;2;86;86;93m  ";
+$l = "\e[48;2;113;113;113m  ";
+$m = "\e[48;2;179;179;189m  ";
+$n = "\e[48;2;124;125;134m  ";
+$o = "\e[48;2;59;91;134m  ";
+$p = "\e[48;2;27;37;85m  ";
+$q = "\e[48;2;35;61;103m  ";
+$r = "\e[48;2;146;87;18m  ";
+$s = "\e[48;2;85;0;20m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t      $a      $x
+                    $a          $b    $x
+                  $c$a$d  $b$a$b    $x
+                $d  $c$d    $b    $x
+                $d$c$e$f$d    $f$e$x
+                  $c$f    $d$f$e$x$g  $f  $e  $x
+                    $f      $e$b  $g  $f$e  $f$e$x
+                $a  $b$f  $e$f$a$b$g  $e$x$f$e$f$x
+        $e$x  $f  $a  $b$a  $e$a$b  $g$x
+      $e$f$e$f      $a$b  $a$b$g  $b$x
+      $f$e$f    $x    $g$b  $a  $g$b$x
+        $f$e$x          $g$b$d$b    $x
+                        $a      $g$b$x
+                $a      $h$b$a  $b$x
+              $f  $a    $b$h$d$h  $x
+            $f      $a$g$b      $g$b$x
+            $f        $a$g$b$g  $b$g    $x
+            $i$j$i  $x  $g  $b    $g  $x
+            $i$j$i  $x      $g$b  $f  $x
+              $j  $x            $e$f  $x    $k$x
+              $j  $x            $e  $f$x
+              $j  $x          $i  $j$i$x$k$x              $l  $x
+            $j$m  $n$x        $i  $j$i$l$x    $l    $x  $l  $k$x
+      $n$m    $o  $m        $n$j    $l$x    $l      $k$x$k  $x
+    $n$m$o                  $n  $j$l  $x    $l  $k    $x
+    $k$p$q$n  $o    $m  $o$q$p  $l  $k$x      $k  $l$k  $l$x  $k$x
+      $k  $p$k$q$r$q  $n$p$s  $l  $k    $x  $k$l  $k  $l  $x
+        $k      $p  $r$p$s  $l        $k    $l  $k  $l  $x
+          $k          $p  $l  $k$l  $k  $l    $x$k$x$l$x
+              $k        $l  $k  $x$k  $x  $l$x
+EOC

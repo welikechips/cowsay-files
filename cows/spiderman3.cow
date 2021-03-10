@@ -1,0 +1,74 @@
+# Spiderman
+# by @ConkerPixels - https://twitter.com/ConkerPixels/status/1157049305414492160
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;159m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;18m  ";
+$d = "\e[48;5;124m  ";
+$e = "\e[48;5;196m  ";
+$f = "\e[48;5;160m  ";
+$g = "\e[48;5;20m  ";
+$h = "\e[48;5;88m  ";
+$i = "\e[48;5;203m  ";
+$j = "\e[48;5;52m  ";
+$k = "\e[48;5;233m  ";
+$l = "\e[48;5;248m  ";
+$m = "\e[48;5;234m  ";
+$n = "\e[48;5;17m  ";
+$o = "\e[48;5;21m  ";
+
+$the_cow = <<EOC
+    $a$x      $t
+                $t
+      $a$x        $t
+        $b$x        $t                                        $c  $d$e$c        $x
+          $a$x              $e$f$e$d  $x                $c    $g  $c  $e$c  $g  $c        $x
+                          $e$f$e    $d$h$x          $d$g    $c        $e$c            $g$c    $x
+            $a$x        $e$i  $e    $h$d  $x    $f$e$f$e  $g$c          $d$x          $c    $d  $x
+              $b$x      $e$i$f$e  $f$e$d  $x  $d$e$i$f$e  $g$c      $x                $d  $x  $d  $x
+                $a$x    $f$e$f$e$f$e  $d  $x$j$d$f$e  $f$d$g$c  $x                    $d$x        $d$x
+                        $k$f    $e  $j$k$d$j  $h$e      $g$c$x
+                  $a$x  $b$j$f  $e$k$l$k$d$j  $h$d$e  $g$c$x
+                    $b$x$b  $f$e$k$b$l$j$d$j$d  $h$d$g$c$x
+                      $a$j$b$f  $k$b$j$d$j  $h  $j  $c$x
+                          $e$f$e    $d  $j$h$d  $j$g$x
+                        $a$e$f  $e  $d$j$d  $h$d  $c$x
+                          $b$f$e$h$d$j$d$j$d$j$h$d$m$x
+                        $e$f$l$h$j    $d$k$d$k$j    $x
+                      $f$i$f$e$d    $j$d$j$k  $d$j  $x
+                      $e$i$f  $l$h$j      $k  $j  $m$x            $c        $x
+                      $e  $f$e  $b$j$m$d  $k$j$k$j$m$x        $c              $x
+                      $f$e$f$e  $d$l$j$m$d$k$m$j  $m$j$x    $c                $x
+                      $e$f      $h$g$c$m$j    $m  $j$m$x  $c          $g      $x
+                        $e  $f$d  $g$l$m$j  $m  $j  $m$j$c    $n$c$g$o  $g    $x
+                          $d$h$d  $g$c$b$m  $j  $m$j  $n$c    $n$c$g  $d    $j$x
+                          $g$o$g  $c    $l$j    $m$n  $c      $n$g$d$f$e$d    $x
+                            $c            $j  $n      $c    $n  $g$e$f$e  $d  $x
+                              $c$g  $c    $l$n                    $e$i$f  $h  $x
+                                $c$g  $c    $b$n                  $e$i  $e$d  $x
+                              $c$n$c$g  $c  $n$l$n              $x$f$i  $e$d  $x
+                          $c      $n$c  $g$c  $n              $x    $e$i$e$d  $x
+                        $c          $n$c        $l$n      $x        $e$i$e$d  $x
+                      $c$g  $c      $n  $d$e      $b$n$x              $f$e$d  $x
+                      $c            $n  $c$e$c  $d$e$a$x              $f  $h  $x
+                      $c            $n$c  $x$c      $d$x                $e$d  $x
+                      $c          $g  $c$d$x  $c$g$c  $a$x              $e$d  $x
+                        $c    $g    $d  $h$d$x  $c$g$c  $b$x            $e$d  $x
+                          $g$o  $g$e  $d  $h  $x  $c    $x$a$x          $e$d  $x
+                              $e  $i  $e  $h$d$h$x  $c    $x              $h  $x
+                                  $e$i  $f$e$d    $x  $c    $b$d$x        $d$j$x
+                                      $f$i$e  $d  $h$l$c$g$c  $l$x      $d$e$d  $x
+                                          $e    $b$h$b$c      $x        $d$e$d  $x
+                                              $e$l$b$d  $c    $x          $d  $h  $x
+                                                  $e$d    $x                $h$d  $x
+                                                    $e$d$h$d  $x              $d    $x
+                                                      $h$d    $x                $d  $x
+                                                        $e$d  $x
+                                                        $f$d$x
+                                                      $e  $h$x
+                                                    $e  $d$x
+                                                    $e  $x
+EOC

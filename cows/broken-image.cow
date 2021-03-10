@@ -1,0 +1,44 @@
+# Broken Image
+# by Unknown
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;243m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;250m  ";
+$e = "\e[48;5;28m  ";
+$f = "\e[48;5;46m  ";
+$g = "\e[48;5;27m  ";
+$h = "\e[48;5;196m  ";
+$i = "\e[48;5;51m  ";
+$j = "\e[48;5;201m  ";
+$k = "\e[48;5;18m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+
+
+          $a                  $b$x
+          $a$c                $b  $x
+          $a$c$d              $b$c$b$x
+          $a$c$d    $e  $d    $b$c  $b$x
+          $a$c$d  $e$f$e$a$d  $a      $x
+          $a$c$d  $e    $a$d      $c$a$x
+          $a$c$d    $a  $d        $c$a$x
+          $a$c$d          $g    $a$c$x
+          $a$c$d$h$d      $g$i$g$a$c$x
+          $a$c$d$j$h$d    $g  $k$c  $x
+          $a$c$d$j  $h$d  $a  $c    $a$x
+          $a$c$d$j    $h$d$c    $d$c$a$x
+          $a$c$d$a    $c        $d$c$a$x
+          $a$c$d    $c      $d    $c$a$x
+          $a$c                      $a$x
+          $a  $x          $a          $x
+
+
+
+EOC

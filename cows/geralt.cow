@@ -1,0 +1,65 @@
+# Geralt of Rivia (The Witcher)
+# by Charc0al (original art for cowsay) - https://www.reddit.com/r/PixelArt/comments/gn6thq/oc_geralt_of_rivia_limited_palette/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;250m  ";
+$b = "\e[48;5;245m  ";
+$c = "\e[48;5;239m  ";
+$d = "\e[48;5;253m  ";
+$e = "\e[48;5;242m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;223m  ";
+$h = "\e[48;5;94m  ";
+$i = "\e[48;5;180m  ";
+$j = "\e[48;5;137m  ";
+$k = "\e[48;5;52m  ";
+$l = "\e[48;5;237m  ";
+$m = "\e[48;5;233m  ";
+$n = "\e[48;5;167m  ";
+
+$the_cow = <<EOC
+                                    $t
+                                      $t                  $a$b$c    $b  $d$x
+                    $b$c$a$x            $t            $a  $b$e  $c    $b$a  $d$x
+                    $b$f$e$x              $t        $d$b        $c    $e$b  $a$x
+                      $c  $x                      $a$d$a$b      $c$e  $b$a    $d$x
+  $e$f$e$x              $f$c$x                    $d  $a  $b$a$b  $e  $b$a    $d$x
+  $c  $b$x              $c  $b$x                  $d  $a  $b$a  $b$e$b$a$b$a$d  $a$x
+  $e$c  $x                $c  $x                $a$d    $a$b    $e  $b$a    $d    $x
+    $b$f$b$x              $c  $e$x              $a$d  $a$g  $b$e    $b      $d    $x
+      $h  $x                $c$e  $x            $a$d  $a$g    $i  $j$h$k$i  $a$d  $x
+        $h$j$x              $c  $e  $x          $a$d  $g      $i  $j  $k$g  $a$d  $x
+        $h  $x                $c  $e$x          $g$a$d  $g    $i  $j  $k$i$g$d$a$i$x
+          $h$j$x                $c  $e$x        $i  $d    $g  $i    $j$k$i$g$d$j$g$x
+          $h  $j$x              $c    $x        $i$j$d  $j$g  $i$j$g$j$h$j$h$d$i  $x
+            $h  $x                $c  $e$x      $d$j$d$i$j$h  $j    $l$h    $g$i$a$x
+            $h  $j$x              $c  $e$x      $d$g$d$g$i$h    $i$h$m  $h$i$g  $d$x
+              $h    $x              $c  $e$a$b$c$a$c$d$g$i  $g$i$g$j$h$k$h$j$a$b$a$x
+                $h$b$c$x            $b$f$c  $b$a  $c$d$b$j$i$g$i$g$j$h$k$h  $a$e$d$x
+                $b$c  $x            $c    $f$c$f$d$b$a$b$i  $j$i$g$j$h  $k$j$b$e$d$x
+                $c$h  $x          $a$c  $f  $c$b$d$a$c$b  $j$b$j$g$h$c$h  $e$a$b$d$x
+                    $h  $x      $c  $a$f$c$b  $c$a$b$f$c$e  $b  $c    $e$b$e$c$e$a$b$c$x
+                    $j$h$c$x$b$c$a$b$a$e$c  $b$e$a$b$c  $e  $f$h    $f  $e  $c$b$a$b$e$f$c$e$x
+                    $b$c  $f$c$a$d$b$c      $e$f$b$e  $f$c$e$f$c$f    $c      $b$d$b  $c        $x
+                    $a$c$f  $d$b$c$b$c    $f  $e$b$e$b$f$m$c        $f$c$f  $c$b$d$b$f  $c    $e$c$b$x
+                  $a$f  $b$e$d$a$c  $f        $e$b  $e$c$m$f$c$e$c$e  $f  $m$c$e$a$c$f$c$f$c    $e$b  $a$x
+              $a$c$b  $f$e  $b$c  $f            $e$b  $c  $f      $m$f  $m$f$m$e$b$c$f          $c  $e$b  $a$x
+          $a$c$b$x    $f$b  $c$f    $m$f      $m$b$a  $e$c$f  $m          $f  $b$f      $m$f$m$f$c    $e$b  $a$x
+        $a$f$x      $b$c  $f    $c  $f        $m$c$a$b$c$f$c      $f$c$m$f    $c$f    $m$f    $c$f  $c    $b$e$b  $x
+      $c$e$x      $a$b$f$c  $f$c    $f$c$m  $f    $b$a$c  $m$f$c  $f$m$f$m$f  $c$f      $m$f    $c    $f$c      $b  $x
+              $e$b  $c$f  $c$f  $c$e$c$f          $c$a$b  $c$m      $f  $c$f$m$f            $c  $f    $c  $f$c      $a$x
+            $b$f  $c$b$e$f$c$f$c$f$e  $m$f    $c$m  $a$c$f$c  $f      $c      $m$f$e$f    $c$f$c$m$c$f$c$f$c$e$c    $b$a$x
+            $a$c            $f$c$m$c$e$f      $m$f$e    $c      $f  $c        $e$f$m$f$c$f$c$f  $m$f  $c$f$c$f$c$f$c$b$a$x
+            $b$e$f  $c$f$c$f        $e$c$f  $m$f$e$b    $e$c  $f$c            $e$c$e$f$m$c$f$c$f  $c    $f    $c$e$f$b$x
+            $e  $f$c      $f        $e  $c$m$c$e  $f$e$a$e  $f$c              $e$b$a$e$m  $f$e$f      $c$f      $c$e$c$x
+          $a$c$f$e$f  $c  $b$f$c    $m$c$e$c    $e$b$e  $f$e$a$b      $a$e    $b$f$c    $f$m  $e  $c  $f$m$f$c$f  $e    $x
+          $b$c    $f  $c$b$f$c    $m  $c$e$c    $e$c  $e$c$e$b$n$d  $n$b$e    $c$e$c$f        $m  $e$b$c$f  $m$f$e$f$c  $x
+          $c  $f  $e$f  $c  $b$m    $f  $b$e  $c  $b$e    $b$e$b$e  $b$e$b$e    $c    $f        $m  $e$b  $f    $c  $f$c$b$x
+          $f      $c$f  $c$e$m  $f        $b  $e$c$b  $e$b$a$e$b      $e$a$b$e    $c    $f      $c$m    $b$c$f$c    $f$c$e$x
+        $a$c$f      $c  $m    $c  $f  $e$f$c$e  $f$c  $e  $c$f$c$b  $c$f$c$e  $c            $f  $c$e$m    $f$e$f        $c$x
+        $a$b$f          $m    $e$c  $e  $b$c$m$f  $c  $e    $b$c$f  $c$b$e        $c  $f$c      $e  $m      $c$m$f      $c$b$x
+        $a  $e$c$f  $e$c$m    $e      $c$e  $c      $a$e  $c    $e  $c  $f  $e$c$e$c    $f$c$e$b$e  $m      $e$f  $m$f  $b$a$x
+        $b$f$b$e$c    $m      $b$e$b  $c  $b$f$c$e$a$b$c  $f    $c  $f        $e    $c      $b      $m      $c  $f  $e  $a  $x
+EOC

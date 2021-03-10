@@ -1,0 +1,43 @@
+# The Cheat (Homestar Runner)
+# by Unknown - https://www.pinterest.com/pin/354095589426022970/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;178m  ";
+$c = "\e[48;5;226m  ";
+$d = "\e[48;5;229m  ";
+$e = "\e[48;5;220m  ";
+
+$the_cow = <<EOC
+                      $t
+                        $t
+                          $t
+                            $t
+            $a$x    $a  $x
+            $a  $x$a  $x                          $b              $x
+            $a          $b                          $c      $d  $b$x
+              $a      $e      $c                            $d  $b$x
+          $a        $e$a  $e  $c          $a$c$a$c        $d  $b$x
+              $a  $e  $a  $e  $c          $a$c$a$c    $d    $b$x
+                $a  $e      $c                    $d      $b$x
+                $a  $e$a$e  $c            $b          $d$b$x
+                $b$e        $c    $b      $c$d        $b$x
+                $b$a$e      $c  $b$c          $b$d      $b$x
+              $b$e$a  $e    $c                $b  $d      $b$x
+            $b  $e          $c                    $d      $b$x
+            $b$a  $e        $c                      $d    $b$x
+          $b$e$a  $e  $b$e  $c                      $d    $b$x
+          $b$e      $b$e    $c                      $d    $b$a$x
+        $b$e    $a  $b$e  $c                        $d  $b  $e$b$x
+        $b$e$a$e$a$b$a$e$c                          $d  $b$a$e$a$x
+      $b$e      $b$a$e  $c                          $d  $b$e  $a  $x
+      $b$a  $e$b$a    $e  $c                        $d  $b  $e    $b$x
+      $b      $a    $e      $c                        $d  $b        $x
+              $b$e    $a$e  $c                        $d    $b$x
+            $b$a$e        $c                            $d  $b  $x
+          $b  $e  $a  $e$c$a$c                          $d    $b$x
+          $a  $e  $a  $c      $b              $c        $d    $b$x
+          $a    $b      $a  $b$x              $b                $x
+EOC

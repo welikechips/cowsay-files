@@ -1,0 +1,60 @@
+# Foghorn Leghorn
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;196m  ";
+$c = "\e[48;5;88m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;220m  ";
+
+$the_cow = <<EOC
+                              $t                                $a    $x
+                                $t                          $a  $b  $a    $x
+                                  $t                      $a$b    $a$b    $a$x
+                                    $t                  $a$b    $a$b  $a$b  $a$x
+                                      $t                $a$b$a        $x$a  $x
+                                        $t                $a$c$a$c$a$x
+                                          $t            $a$c$a$d$a$d$a$x
+                        $a  $x                        $a$c  $a$d$a$d$a$x    $a    $x
+                      $a$d  $a$x                    $a          $d$a  $x$a  $e    $a$x
+                        $a$d  $a$x                $a$e      $a          $e          $a$x
+                          $a$d  $a$x            $a  $e        $a$e$a  $e            $a$x
+                    $a  $x$a  $d  $a$x        $a$c$a$e  $a  $e                        $a$x
+                  $a$d  $a$d  $a$d$a$x      $a$c    $a$e  $a  $e          $a        $e$a$x
+                    $a$d  $a$d    $a$x  $a  $c      $a$e  $a$c$a          $x        $a  $x
+                  $a$d$a$d        $a$x$a$c      $a  $b$a$e  $a$c  $a$x
+                  $a      $d      $a$x  $a$c  $a$b      $a$e  $a          $x
+                        $a$d      $a$x$a$d$a$c  $a          $e          $a$x
+                        $a$d      $a  $d    $a  $c      $a        $e$a  $x                          $a$x
+                          $a$d    $a$d          $a$c  $a$d        $a$x                            $a  $x
+                            $a$d    $a$d          $a  $d          $a$x                    $a      $b$a$x
+                              $a$d    $a  $d  $a  $d              $a$x                $a  $b      $a$x
+                            $a  $d        $a  $d                  $a$x          $a    $b    $a    $x
+                          $a$d$a  $d          $a  $d              $a$x      $a  $b      $a  $x            $a  $x
+                        $a$d    $a$d              $a$d          $a$x      $a$b        $a$x              $a$b$a$x
+          $a      $x    $a$d      $a$d                          $a$x    $a$b        $a$x          $a    $b$a$x
+        $a$d      $a$x  $a$d      $a$d                          $a$x    $a$b      $a$x$a          $b    $a$x
+          $a  $d    $a$x$a$d      $a  $d                $a  $d  $a$x      $a$b    $a  $b              $a$x
+              $a$d    $a  $d        $a  $d            $a$d        $a$x      $a$b$a$b            $a    $x
+                $a$d    $a$d  $a$d  $a$d$a$d        $a$d            $a              $b    $a    $x
+            $a  $d$a$d        $a$d  $a$d  $a$d$a$d$a$d                      $a$d$a$d$a    $x
+      $a    $d                $a  $d$a$d    $a$d$a$d            $a      $d    $a    $d$a$x$a      $x
+    $a$d$a$d    $a  $d    $a  $d  $a  $d                    $a  $d      $a  $d    $a$d$a  $b      $a$x
+  $a$d  $a$d  $a$d                $a$x$a$d                $a$d              $a$d    $a$d$a$b        $a  $x
+  $a$d$a  $d$a$x$a                $x  $a$d                $a$d                $a$d    $a      $b        $a    $x
+    $a$x$a$d$a$x                      $a$d                $a$d        $a$d    $a$d    $a$d$a$x$a  $b        $a$x
+          $a  $x                        $a$d      $a        $d  $a$d    $a$d          $a  $x      $a        $x
+                                          $a$d$a    $e    $a    $d$a$d  $a$d          $a$x
+                                            $a$e                $a$d$a    $d          $a$x
+                                          $a$e      $a    $e      $a  $d$a$d        $a$x
+                                          $a  $e  $a$e              $a$d$a$d      $a$x
+                                        $a        $e  $a        $e    $a$d      $a$x
+                                      $a$e          $a  $d      $a$e  $a$d    $a$x
+                                      $a$e$a$e$a    $x  $a$d    $a$e  $a$d  $a$x
+                                      $a      $x        $a  $d  $a$e  $a$d$a$x    $a  $x
+                                                        $a$d      $a$e$a  $d$a    $e$a$x
+                                                        $a$d      $a$e$a$d      $a  $x
+EOC

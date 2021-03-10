@@ -1,0 +1,106 @@
+# Larry David (Seinfeld, Curb Your Enthusiasm)
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;224m  ";
+$b = "\e[48;5;230m  ";
+$c = "\e[48;5;252m  ";
+$d = "\e[48;5;188m  ";
+$e = "\e[48;5;255m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;250m  ";
+$h = "\e[48;5;251m  ";
+$i = "\e[48;5;181m  ";
+$j = "\e[48;5;187m  ";
+$k = "\e[48;5;180m  ";
+$l = "\e[48;5;217m  ";
+$m = "\e[48;5;174m  ";
+$n = "\e[48;5;138m  ";
+$o = "\e[48;5;173m  ";
+$p = "\e[48;5;131m  ";
+$q = "\e[48;5;137m  ";
+$r = "\e[48;5;246m  ";
+$s = "\e[48;5;244m  ";
+$u = "\e[48;5;95m  ";
+$v = "\e[48;5;237m  ";
+$w = "\e[48;5;238m  ";
+$y = "\e[48;5;249m  ";
+$z = "\e[48;5;243m  ";
+$A = "\e[48;5;235m  ";
+$B = "\e[48;5;236m  ";
+$C = "\e[48;5;52m  ";
+$D = "\e[48;5;94m  ";
+$E = "\e[48;5;239m  ";
+$F = "\e[48;5;109m  ";
+$G = "\e[48;5;245m  ";
+$H = "\e[48;5;248m  ";
+$I = "\e[48;5;234m  ";
+$J = "\e[48;5;58m  ";
+$K = "\e[48;5;145m  ";
+$L = "\e[48;5;232m  ";
+$M = "\e[48;5;101m  ";
+$N = "\e[48;5;102m  ";
+$O = "\e[48;5;247m  ";
+$P = "\e[48;5;240m  ";
+$Q = "\e[48;5;216m  ";
+$R = "\e[48;5;144m  ";
+$S = "\e[48;5;242m  ";
+$T = "\e[48;5;59m  ";
+$U = "\e[48;5;241m  ";
+$V = "\e[48;5;233m  ";
+$W = "\e[48;5;179m  ";
+
+$the_cow = <<EOC
+          $t                                                                                        
+            $t                            $a$b  $a    $c$x                                          
+              $t                    $d$a$b    $e$b    $a  $f$c$x                                    
+                $t              $g$a  $e        $b$e$b$a  $f    $x                                  
+                  $t          $h$a      $b$e$a$b      $a$f        $x                                
+                            $g$f$a$f        $a          $f            $x                            
+                          $h$i$f$j$k        $i$l$f                      $x                          
+                        $g$i  $k    $m    $k      $l$f            $l$f    $x                        
+                        $i  $k                  $i$l      $f$l$f  $l$f      $c$h$x                  
+                      $g$k  $m$k$i$f    $l$f        $l                    $j  $c$h$x                
+                      $i$n$k  $i$f$l$f            $a$f  $l$i$l        $i$l$j  $g$h$g$x              
+                    $h$k$n$i    $k      $l$k$f$l  $f    $l        $i  $k$i  $j$h$c$h$x              
+                  $g$c$n$m$f$a$i  $m$o$p$o$q$k$m$k    $l        $k        $i  $h$c  $g  $x          
+                $r$c$h$n  $s$u  $v$w$u  $q$p$q  $k$i$f  $a$f  $l$k  $m$k  $i$j$h$c  $g$c$y$x        
+                $r$y$z$n  $u$w$A$B$A$C  $u$D  $E  $u$n$k$i  $l  $k$o  $k    $i$h  $c  $h$y$F$x      
+                $G$y$w$H$u$B  $A  $w$I$J$q$p$v$C$v$B$v$u$q$n$i  $k$o$m$k  $i  $h$g    $y$K$x        
+                $r$i$u$H$E$I$x$L$A$E$A$u$k$q$C$v$B  $A$v$E$u$M$k  $m$k    $i  $h$y$g$y  $x          
+                $N$K$M$O$P$v$B$I$w$A$v$m$f$q$v  $A$I$L$I$w$u$v$u  $n$k    $i$h  $y$g  $y  $x        
+                $O$K$n  $u      $E$v$E$l$f$q$B$u$w$B$x$A$v$E  $u$q$o$q    $i$h  $g$y    $x          
+                $s$n$k$n$k$q$p$u  $C$p$f$Q$o$u$p$u      $p$u  $q$o$k  $n$u$n$h$g    $H$x            
+                  $p$R$n$q$p$u    $D$m$l  $m$D$q      $m$k$q$n$o$k      $i$q$y$g  $y$H$F$x          
+                  $p$q$p  $u      $q$m$k$l$k$p  $o$q    $p$m$k          $i$n$H$g  $K$n$x            
+                  $q$p$u$D$u$p$q$p$q$o$m$l$k$p$o$q  $p$u$o$k            $i$R$n$R$K$h$y$x            
+                  $q$p$u  $p$q$p$D$u$p$o  $m$q  $k$m$o      $m$k      $n$j$n$q$p$q$H$O$S$x          
+                  $q$p$u$p$q$p$D$J$C$w$u$E$u$o$p$m$k  $o              $q$i$q$p  $u$s$E$x            
+                  $q$p$u$p  $u$D$J$C  $J$v$C$u$p$o$m$k$m$o        $q$o$n  $p$o$u  $z$x              
+                  $u$p      $u  $p$u    $q$p  $q$p$o                $m$k$n$D$q$p$T$E$x              
+                  $q$u$p  $u$D$p$q$u    $q$m$o$m$o                  $k  $m$D$p$u$P$x                
+                  $m$u              $p$u$q$o                    $q$o$k  $m$p$q$z$v$x                
+                  $u            $w$C$u  $q$o      $q$o          $q    $o$k$o$q$U$x                  
+                    $u      $J$C  $V$C    $D$q  $o$q$o            $q  $k$W$p$n$z$x                  
+                    $u    $D$J$u$p$u$p    $u$C$u$q$o          $q$o$q  $k    $w  $x                  
+                    $u  $D  $u  $D$E$D$u  $q$o$q$u$p$o      $q      $D$o  $u$B$x                    
+                      $D            $u  $D$u$p$o  $p$q$o  $q    $p  $u  $M$z$x                      
+                      $P$J$D    $u  $p    $u$p  $o$q$p$q    $p  $u$p  $u$s$S$x                      
+                        $J$D  $u$p      $o  $q  $p          $u$D$u$q  $E$U$x                        
+                          $J$D$u    $p    $o      $q$p$u$p$u$J$u$q    $x                            
+                          $u$J    $D$u$p            $u  $D  $u$q      $x                            
+                          $u  $C    $J$D      $u$J$C$J$D  $p$q$o    $n$x                            
+                          $u  $J$C$I  $C          $J$D$u$p$q$o    $q  $x                            
+                          $u  $D$J$C  $J$D$J$C$J$D$u  $p$q$o  $m    $w$A$x                          
+                        $E$u    $D  $J$D$u      $p$q    $o      $q  $A    $x                        
+                      $B$I$u        $D  $u$p    $q    $o        $q  $V$B$v  $x                      
+                  $E$v$V  $u          $D$u  $p    $q    $o      $q$u$L$B$v  $B$x                    
+          $U$P    $w$A$L  $u        $D$u    $p      $q$o  $q      $v$V$v$w$B  $v$x                  
+  $P    $E$P    $w$B$V$x$I$u              $p        $q          $u$x$V$v        $E$v$x              
+$U$E$w$P$T  $P  $w$A$x  $A$u              $p          $q      $P$x$L$B$v      $w$v$w$v$w$B$x        
+$w$P  $T$P    $v$A$L$x  $V$B$u          $p          $q    $u$A$L  $I$B$w  $v  $w$v$E$B$v$w  $B$I$x  
+$w$E$P  $T$P$w$v$V$x$L$V  $I$v$u          $p    $q  $p$u$B$L$V    $B$v  $w$B$w$v  $E$P$A$v$w$v$w  $I$x
+$v$B$E$T$P$E$w$V$x$I  $A$V    $E$u              $w$A$V          $A$w  $v$E$v$w$B$w$v$E  $B$v$w      $x
+EOC

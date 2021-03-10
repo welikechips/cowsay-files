@@ -1,0 +1,56 @@
+# Darth Vader
+# by Dalbo - https://thiagodalbo.artstation.com/projects/KaRJwy
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;253m  ";
+$b = "\e[48;5;233m  ";
+$c = "\e[48;5;237m  ";
+$d = "\e[48;5;243m  ";
+$e = "\e[48;5;246m  ";
+
+$the_cow = <<EOC
+                $t                                  $a$b$c  $d  $x
+                  $t                        $a        $b  $e$b  $e$a$x
+                    $t                  $a    $e    $a$b  $e$b    $e$a  $x
+                      $t              $a  $e  $b    $a$b  $e$b        $e$a$x
+                        $t          $a  $e  $b      $a$b  $e$b        $c$e$a$x
+                                    $a  $e$b        $a$b  $e$b          $c$a$x
+                                  $a  $e  $b        $a$b  $a$b            $e$a$x
+                                  $a  $e$b          $a$b  $a$b            $e$a$x
+                                  $a$e  $b          $a$b  $a$b            $e$a$x
+                                  $a$e  $b          $e$b  $a$b            $e$a$x
+                                $a  $e$b            $e$b  $a$b              $e$a$x
+                                $a$e  $b            $c$b  $a$b              $e$a$x
+                                $a$e  $b            $c$b  $a$b              $e$a$x
+                                $a$e$c$b                  $a$b              $e$a$x
+                                $a$e$c$b  $a    $c  $b    $c$b$c      $a$b  $e$a$x
+                                $a$e$c$b$a$c        $b$c                $a$b$e$a$x
+                                $a$e$c$a$c$b        $c      $b        $c  $a$c$e$x
+                              $a$e$c  $b        $c$b            $c$a$b    $a$c$e$a$x
+                              $a$e$c$b  $a$b    $c$b  $a$c$b      $c$a$b    $c$e$a$x
+                              $a$e$c$b  $a$b  $c  $b              $c$a$b    $c$e$a$x
+                            $a$e$c$b    $a$b  $c$b    $a$c$b      $c$b        $c$e$a$x
+                            $a$e$c$b      $a$b    $a$c$b    $c$b    $c$b      $c  $a$x
+                            $a$e$b    $c$b  $c  $a$c$b$a  $b  $c    $b  $a$b    $c$a$x
+                          $a$e$c$b    $c  $b  $c  $b  $a  $b    $c$b  $c$a$b    $c$e$a$x
+                          $a$e$b        $a$c$b      $a$b  $c$b      $c$a$c$b      $c$a$x
+                          $a$c$b        $a$c$b    $a$b      $c$b    $c$a$b        $c$a$x
+                        $a$e$b            $a$c$b  $c$b      $a$b    $a$b            $e$a$x
+                        $a$c$b            $a$c$b$c$b  $c$b    $a$b  $a$b            $c$a$x
+                          $b                $a$b      $c$b$c$b    $c$b                $x
+                                $b          $c$b  $c$b$c$b$c$b$c$b$c$b          $x
+                                  $c  $b      $a$b              $a$b        $x
+                                $c    $b          $c          $b              $c    $x
+                            $c    $b                                            $c        $x
+                      $c      $b                                                        $c        $x
+                  $c      $b                                                              $c          $x
+              $c  $b                                                                            $c        $x
+            $c$b  $e$d$a    $d        $a  $b  $d        $e        $b                                  $c      $x
+        $c  $b$e    $d$b$a  $e$d      $a      $d        $e    $b        $e$d        $b    $d    $b          $c  $x
+      $b    $e      $d  $b  $d$e$d    $b  $a    $d    $e    $a  $b      $e    $d    $b  $d          $b        $c$x
+    $b$d  $b  $e      $d$b  $e$d$e$d    $b    $a$d    $e  $a          $e          $b    $e  $d      $b  $e$b  $c  $x
+    $b$d$c$b  $e      $d$b  $e  $d      $b      $d  $e    $b  $a    $e          $a  $b$e          $b  $c$e  $b      $x
+  $b$d  $c$b  $e      $d$b  $e    $d    $b      $d  $e  $b        $a$e          $a  $e          $b    $c$e    $b    $x
+EOC

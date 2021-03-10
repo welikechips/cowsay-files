@@ -1,0 +1,70 @@
+# Firefox (Mozilla Firefox)
+# by Grifuz - https://www.deviantart.com/grifuz/art/Firefox-icon-Pixel-style-253864542
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;27m  ";
+$b = "\e[48;5;75m  ";
+$c = "\e[48;5;153m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;250m  ";
+$f = "\e[48;5;124m  ";
+$g = "\e[48;5;208m  ";
+$h = "\e[48;5;33m  ";
+$i = "\e[48;5;223m  ";
+$j = "\e[48;5;25m  ";
+$k = "\e[48;5;196m  ";
+$l = "\e[48;5;226m  ";
+$m = "\e[48;5;214m  ";
+
+$the_cow = <<EOC
+              $t
+                $t
+                  $t
+                    $t                  $a                    $x
+                                    $a  $b  $c  $d        $c  $a      $x
+                                $a  $b      $d                $b      $a  $x
+                            $a  $b      $c      $d        $c      $b      $a  $x
+                          $a  $b        $c      $d        $c      $b    $d$e$b$a$x
+              $f$g$x    $a  $b              $c      $d$c      $b          $d  $b$a$g$x
+              $f$g$x  $a  $h        $b  $f  $c                $b            $d$i  $j$g$x
+            $f$g  $f$a    $h        $g$k  $f$b  $c        $b                $a$d$l$d$j$g$k$x
+            $f$g    $f$a$h        $g$k$g$f$b                              $d$b$j$i  $d$g  $k$x
+            $k    $g$m          $g$k$g  $b                                  $d  $j$l  $d$g$k$i$x
+            $k  $g$m$g          $k  $g$b                                      $i    $l    $k$i$x
+            $k$g$m$g                    $b                                        $i  $m$l    $i$x
+            $g$m$g                    $k$g$b                                      $l$i  $l    $i$x
+          $g                          $k    $g    $f$b                $h          $l  $i  $l    $x
+          $g    $k$g$k      $g        $k  $g    $m$f$h                  $a    $h$a  $l  $i  $l  $x
+        $f$g    $k          $g            $d    $c$j$h                  $a          $l    $i$l  $x
+        $g    $k            $g          $d    $c$j$h                      $a        $m$l  $i$l  $g$x
+        $g    $k          $g                $j  $h              $a    $h$a          $m  $l$i$l  $g$x
+        $g  $k          $g                $j$h            $a$h    $a            $d$a$m    $i$l$m$g  $x
+        $g  $k  $g$k  $g      $m          $h              $a                    $i$l$i$m  $i$l$m$g  $x
+        $g  $k  $g$k  $g    $m$g  $k$g  $m$h              $a                    $i$l$i$l$m$l  $m$g  $x
+        $g  $k  $g        $m$k    $f$j    $h                $a                  $i$l          $m$g$k$x
+        $g  $k  $g$k$g    $k      $f$h                        $a                $i$l$m$l    $m    $k$x
+        $k$g$k  $g        $k      $g$h                          $a              $l  $m$l    $m    $l$x
+        $k      $g      $k        $g  $h                        $a              $l  $m  $l$m  $k$l$m$x
+        $k      $g      $k        $g    $h          $g    $d$h$a                $m$l  $m$l$m  $l  $m$x
+        $k      $g        $k      $g                      $l$d$h$a            $l$m$l  $m      $l$m$x
+        $k      $g          $k  $g                          $d$h  $a          $m  $l  $m          $x
+        $f$k        $g              $k  $g              $j$a                $m                  $x
+          $k        $g                $k            $f$j$a                $g$m                $k$x
+          $k          $g                $f        $j  $a                $j$g$m                $k$x
+          $f$k        $g                  $j      $a          $j        $g  $m                $k$x
+            $k          $g                      $j                $g    $m                $g$k  $x
+            $f$k        $g                        $j            $g  $m                      $k$g$x
+              $f$k        $g                                          $m                  $l$i$x
+                $k            $g                                    $m  $g  $m          $l  $i$x
+                $f$k              $g                                      $m            $l  $x
+                  $f$k              $g                                $m              $l  $x
+                    $f$k              $g                          $m    $g$m          $x
+                      $f$k              $g                                      $m  $x
+                          $f$k              $g                              $m$f$k$x
+                            $f$k                  $g                    $m      $x
+                              $f$k                        $g          $m      $x
+                                  $f$k                    $g        $m    $x
+                                      $f$k                $g          $x
+EOC

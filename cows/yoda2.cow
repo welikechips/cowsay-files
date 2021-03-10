@@ -1,0 +1,59 @@
+# Yoda (Star Wars)
+# by Z-Studios - https://www.deviantart.com/z-studios/art/Form-IV-Ataru-Yoda-combo-681176531
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;77m  ";
+$b = "\e[48;5;151m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;71m  ";
+$e = "\e[48;5;247m  ";
+$f = "\e[48;5;65m  ";
+$g = "\e[48;5;22m  ";
+$h = "\e[48;5;251m  ";
+$i = "\e[48;5;234m  ";
+$j = "\e[48;5;245m  ";
+$k = "\e[48;5;59m  ";
+$l = "\e[48;5;239m  ";
+
+$the_cow = <<EOC
+                $t
+                 $t
+        $a  $x    $t
+      $a$b$c$a$x   $t
+      $a$b$c$a$x    $t
+      $a$b$c$a$x     $t
+      $a$b$c$a$x      $t
+        $a$c$a$x       $t
+        $a$c  $a$x      $t
+        $a$b$c$a$x       $t
+        $a$b$c$a$x        $t
+          $a$c$a$x         $t
+          $a$c  $a$x
+          $a$b$c$a$x    $d    $x
+          $a$b$c$a$x$e$f  $d    $e$x  $d$f$x
+          $a$b$c$a$f$g$h$f  $d    $f  $g$x
+            $a$c$a$g  $e$f  $d  $f$g  $x
+            $a$c  $a$g$f$g$i$g  $i$g  $x
+            $a$b$c$a$g$f    $d  $f$x
+            $a$b$c$a$g  $f$d    $f$x
+              $a    $e$g  $f    $i$h$x
+              $e$c$h$i  $g  $i  $j$e$h$x
+              $f$d  $c$i      $e$h$j$h$x
+              $f$d$g$h$i    $h$c  $h$j$x
+              $g      $c    $e$c$h  $x
+              $h$d  $f$h$c$h      $e$x
+              $j$g  $f$k$h$e$h$e$j$e$x
+              $j$d  $f$k$e$j      $e$x
+                  $j$k  $e$j$k$j$h$e$x
+                  $j$k  $j$k$j  $e$h$x
+                    $e$i  $j    $e$h$x
+                    $e$i  $j$e  $j$h  $x
+                    $j$i  $j$e    $h  $x
+                    $j$i  $j$e$h$e$h  $x
+                  $e$j$i  $j$e$h      $x
+                  $e$i    $j$e  $h      $x
+                  $j$g$k    $e    $h    $x
+                $f$g$f  $g$l  $g$f$g  $f$x
+EOC

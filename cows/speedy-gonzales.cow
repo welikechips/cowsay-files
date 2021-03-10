@@ -1,0 +1,72 @@
+# Speedy Gonzales (Looney Tunes)
+# by Unknown - https://www.pinterest.com/pin/450360031482324866/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;136m  ";
+$b = "\e[48;5;178m  ";
+$c = "\e[48;5;220m  ";
+$d = "\e[48;5;52m  ";
+$e = "\e[48;5;130m  ";
+$f = "\e[48;5;234m  ";
+$g = "\e[48;5;173m  ";
+$h = "\e[48;5;231m  ";
+$i = "\e[48;5;216m  ";
+$j = "\e[48;5;94m  ";
+$k = "\e[48;5;88m  ";
+$l = "\e[48;5;124m  ";
+$m = "\e[48;5;196m  ";
+$n = "\e[48;5;240m  ";
+$o = "\e[48;5;244m  ";
+$p = "\e[48;5;147m  ";
+$q = "\e[48;5;66m  ";
+
+$the_cow = <<EOC
+          $t                    $a            $x
+            $t              $a  $b$c      $b  $a  $x
+              $t          $a$b$c              $b  $a  $x
+                $t      $a$b$c                      $b$a$x
+                  $t    $a$c                          $b$a$x
+                      $a$b$c                            $b$a$x
+                      $a$b$c                              $b$a$x
+                    $a$b$c                                $b$a$x
+                    $a$b$c                                $b  $a$x
+                  $a$b$c                                    $b$a$x
+                $a$b  $c                                    $b  $a$x
+                $a$b$c                                      $b  $a$x
+              $a$b  $c                                      $b  $a$x
+              $a$b    $c  $b            $a$d$b      $c    $b    $a$x
+            $a$b                    $a$e$d$a$b                  $a$x
+          $a  $b                $a$e$f$d$e  $d    $e$a$b        $a$x
+          $a  $b            $a  $e$f    $d$f  $d$a$b          $a    $x
+        $a    $b          $a$e  $d$f            $d    $e$a$b  $a    $x
+        $a      $b      $a$e$g$h$g$e$f  $e$g$h$g$e$a  $b    $a      $x
+      $a    $g  $a      $e$g$h    $g$e  $g$h    $g$e$a  $b$a$g  $a    $x
+      $a  $g$i  $g$e$a$e$g  $h$f  $g      $f  $h$g  $e$a$e$g$i  $g$a  $x
+      $a  $i      $g        $h$f  $e      $f  $h$e$g      $i      $a  $x
+      $a  $i    $e  $g          $e$f      $e$g          $e  $i    $a  $x
+      $j$a$g$i    $g$e  $g$e$d  $e$d$f  $d$e$d  $e$g$e  $g$i    $g$a$j$x
+      $j$a$e$g    $e$d$e$g    $d$e$g$d  $g$e$d$g    $e$d$e$g    $e$a$j$x
+        $j$a$e$d    $j$d$e  $g$e$d$e$g  $e$d$e$g$e  $d$j$d    $e$a$j$x
+          $j$a        $j$d$e      $d      $e      $d$j$a        $j$x
+            $j    $a    $j$d  $e    $g  $e    $d  $j$a    $j    $x
+                $j            $k              $j            $x
+                    $j      $l$m$l$k$m  $k$m  $l$j      $x
+                        $l  $m  $l$k$l  $k$l$m  $l  $x
+                      $l  $m  $l$n$o$n  $o$n$l$m  $l  $x
+                      $h$l    $n$o$p$o  $p$o$n$l    $h$x
+                      $h  $p$n  $p$h      $p$n  $p$h  $x
+                      $h  $p$n$o$p$h      $p$o$n$p$h  $x
+                        $e  $n$o$h          $o$n$e  $x
+                        $g  $n$p$h$p      $h$p$n$g  $x
+                      $g  $e$n$p$n$q      $n$p$n$e$g  $x
+                    $e$g$e$d$n  $p$h      $p$n  $d$e$g$e$x
+                    $d    $x  $p$h$q$h  $q$h$p$x  $d    $x
+                          $f  $p$h$q$p  $q$h$p$x
+                  $f      $x  $p$h  $x  $h  $p$x
+          $f      $x            $p  $x  $p  $x
+        $f$x                    $e  $x  $e  $x
+        $f$x    $e$g      $e$x  $g$e$x  $e$g$x  $e$g      $e$x
+          $f$x$e$g                $e$x  $e$g                $e$x
+EOC

@@ -1,0 +1,67 @@
+# Beetlejuice
+# by /r/Sbe16 - https://www.reddit.com/r/PixelArt/comments/9es9q8/oc_beetlejuice_done_as_part_of_stream/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;151m  ";
+$b = "\e[48;5;108m  ";
+$c = "\e[48;5;251m  ";
+$d = "\e[48;5;255m  ";
+$e = "\e[48;5;248m  ";
+$f = "\e[48;5;235m  ";
+$g = "\e[48;5;238m  ";
+$h = "\e[48;5;138m  ";
+$i = "\e[48;5;253m  ";
+$j = "\e[48;5;231m  ";
+$k = "\e[48;5;223m  ";
+$l = "\e[48;5;180m  ";
+
+$the_cow = <<EOC
+            $t
+              $t                $a  $x
+                $t                $a  $b$x$a$x
+                  $t    $a$x$a    $b      $x$a$x
+                          $b  $a$b$c$d  $c$b  $x
+                          $a$b  $c$d      $c$b  $x
+                        $a$b    $d$e$c$d$c$e$b  $x
+                      $a$x$a$b$c$d$f  $d$f  $b  $x
+                            $b$c$d$g$h$d$h$g$b  $x
+                            $a  $e$c$d    $c$b  $x
+                          $a  $b  $c        $b  $a$x
+                            $b$x$b$e$c$g$c$b$x$b$x
+                          $a$x    $a$c    $i$a$x
+                                $i$j$g    $j$i$x
+                              $i$j    $g  $j  $f  $i$x
+                            $f  $j$i$e$g  $e$j  $f  $i$x
+                          $f      $i$j$f  $j$i$f      $x
+                        $j  $i$f    $j$f  $j  $f    $i$x
+                        $f$j  $i$f  $i$e$f$e$j$f  $i$j$i$x
+                        $f  $j  $f    $j$f  $j$f  $j$i$f$x
+                        $f  $i$j$i$f  $j$f  $j$f$i$j$f  $x
+                        $i$f  $j  $f  $j$f  $j$f$j$i$f  $x
+                        $j$i$f$i$j$f  $j$f  $j$f$j$f  $j$f$c$x
+                    $f  $j  $f  $j$i$f$j$e$f  $j  $f  $j$f  $c$x
+                  $f      $j$f  $i$j$f  $j$f  $i$j$f  $j$f  $j$f$x
+        $k$x        $i$f          $j$f  $j$f    $j$f  $j$f$c$j$f  $x
+    $k    $x  $f    $j$i$f$i$j$f  $j$i$f$j$f      $j$f$j$c$j$c$f  $j$i$f$x        $k$x
+      $k    $g    $f  $j  $i$j$i$f$i$j$f$j$e$f    $j$f  $j$c$f    $j$f  $x    $l  $k$x$k$x
+        $k  $l  $g  $f  $i$x$i$j$f  $j$f  $e$f      $e$f$i$x$f  $j$i$f  $k$l  $k      $x
+          $l    $g  $f  $x  $i$j$f  $j$f  $e$f      $j$e$f$x    $i$f  $i  $k      $x
+              $g$f    $i$x    $f          $e  $f    $e$f  $x
+                              $f          $j$e  $f  $e$f  $e$x
+                              $f          $i$j$e  $j  $f    $x
+                              $f                    $j$f    $x
+                              $i  $f  $j$f  $e$i$f  $i  $f  $x
+                              $i$j$f  $j$f            $j$f  $x
+                              $i$j$f  $j$f    $i$e$f  $i$f  $x
+                              $i$j$f  $j$f    $i  $f  $i$f  $x
+                              $f                            $x
+                              $i$g  $e  $f          $e$g    $x
+                                $f  $j$i$f  $x$f    $j$f    $x
+                                $f  $j$f  $g$x$g$f  $j$f    $x
+                                $f  $j$f  $x    $f  $j$f  $g$x
+                                $f  $j$f  $x    $f  $j$f  $x
+                              $g$f$c  $f$g$x    $f  $j$f  $x
+                              $f  $j$f  $x      $f  $j$f  $x
+EOC

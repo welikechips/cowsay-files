@@ -1,0 +1,121 @@
+body {
+  margin: 0 0;
+  background: #222;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+h4 {
+  margin: -1rem 0 0.6rem 1rem;
+}
+
+.margin {
+  margin: 0.6em;
+}
+
+iframe pre {
+  color: white !important;
+}
+
+a[href] {
+  color: #0FF;
+}
+
+.btn-convert {
+  margin-top: -2em;
+  width: 250px;
+  padding: 20px;
+}
+
+.converter-options {
+  display: flex;
+}
+
+.converter-options .option {
+  margin: 0 2em 0 0;
+}
+
+.option .row {
+  margin-bottom: 0.5em;
+}
+
+.cow-tile {
+  margin-top:1em;
+  margin-right: 0.5em;
+  padding-bottom: 2em;
+  display: block;
+  overflow: hidden;
+  width: 300px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  /* display: table; */
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.wrapper:hover {
+  overflow: visible;
+}
+
+.relative-position-box {
+  float: left;
+  position: relative;
+  width: 330px;
+  height: 100%;
+}
+
+img.sizer {
+    float: left;
+    width: auto;
+    transform-origin: top left;
+    transform: scale(4, 4);
+    -ms-transform: scale(4, 4);
+    -webkit-transform: scale(4, 4);
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; /* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+ */
+}
+
+.max-height-box {
+  position: absolute;
+  float: left;
+  width: 340px;
+  max-height: 200px;
+  overflow:hidden;
+}
+
+img.cow-img {
+  height: 400%;
+  image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+  image-rendering: -moz-crisp-edges;          /* Firefox                        */
+  image-rendering: -o-crisp-edges;            /* Opera                          */
+  image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+  image-rendering: pixelated; /* Chrome */
+  image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+  -ms-interpolation-mode: nearest-neighbor;   /* IE8+ */
+}
+
+.label {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  /* margin-top: 10px; */
+  margin-left: 20px;
+  margin-bottom:20px;
+}

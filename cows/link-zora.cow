@@ -1,0 +1,58 @@
+# Link with Zora armor (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;25m  ";
+$b = "\e[48;5;253m  ";
+$c = "\e[48;5;145m  ";
+$d = "\e[48;5;243m  ";
+$e = "\e[48;5;24m  ";
+$f = "\e[48;5;173m  ";
+$g = "\e[48;5;215m  ";
+$h = "\e[48;5;236m  ";
+$i = "\e[48;5;239m  ";
+$j = "\e[48;5;240m  ";
+$k = "\e[48;5;17m  ";
+$l = "\e[48;5;234m  ";
+$m = "\e[48;5;51m  ";
+$n = "\e[48;5;30m  ";
+$o = "\e[48;5;121m  ";
+
+$the_cow = <<EOC
+              $t                      $a      $x
+                $t                  $b$c$a      $x
+                  $t              $d$c$d$c$a    $x
+                    $t            $d    $c$a  $e  $x
+                      $t          $c$d$c$f$a$e      $x
+                                  $e$c$f$g$f$a$e  $h$c$d$c$x
+                                  $e  $g    $e$a  $h$c$d    $x
+                                    $i$d$f  $d$e$h$j  $c    $e$a$x
+                                  $i  $d$h$a$c$a$j$h$j$h  $e$a  $d$x
+                                  $d  $h$e$a      $j$h$x    $c  $i$x
+                                  $k    $x$e$a    $e  $x    $i$h$d$x
+                                  $e$k$x    $k    $e  $x  $h$l$h  $x
+                                $c$e$c$x  $i$k  $e$a$e$x        $h$x
+                                $d$c$d$x$i$x$e$a  $c  $x
+                                $d  $x$i$j$m$j  $c$d$c$d$x
+                              $d  $x$i$x$h$a    $c$d  $c$x
+                              $c  $i$x$j      $c$d$c$d  $x
+                            $c$h$l$x$a  $j  $c$d    $c  $x
+                            $l$h  $x$a  $c$d$c$d  $x
+                            $n$l$x  $d$c$d$i  $k$x
+                          $n$x          $i    $k$x
+                      $b$c$x            $k  $i$d$x
+                      $c$d$x            $k$i$x$c$a$x
+                    $d$x                $i  $x$e$a$h$x
+        $b$c$x  $b$c$x                  $i  $x  $h    $x
+    $b$x$b$d$b$d$c$d$x                $i$d$x    $h$l$h$x
+    $b$d$c$x$b  $d$x                  $d$k$x    $h$l$x
+    $b$d$x$b$o$d  $x                  $k$e$x
+        $b$o$d$x$d  $x                $e$h$x
+    $b  $c$d$x$c  $d$x                $h  $x
+    $b$x$d$x$c$d$x                  $h$l$h$x
+    $c$d  $x$c  $d$x                $l$h$x
+
+
+EOC

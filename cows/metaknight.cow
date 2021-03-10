@@ -1,0 +1,56 @@
+# Metaknight
+# sprite from Super Smash Flash 2 - http://ch3ts.blogspot.com/2011/06/characters-in-super-smash-flash-2.html
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;244m  ";
+$b = "\e[48;5;247m  ";
+$c = "\e[48;5;254m  ";
+$d = "\e[48;5;60m  ";
+$e = "\e[48;5;25m  ";
+$f = "\e[48;5;69m  ";
+$g = "\e[48;5;53m  ";
+$h = "\e[48;5;94m  ";
+$i = "\e[48;5;221m  ";
+$j = "\e[48;5;103m  ";
+$k = "\e[48;5;235m  ";
+$l = "\e[48;5;95m  ";
+$m = "\e[48;5;89m  ";
+$n = "\e[48;5;167m  ";
+$o = "\e[48;5;229m  ";
+$p = "\e[48;5;131m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t        $a$b            $a$x
+                  $a    $b  $c  $b$c  $b  $a$b  $x
+                  $a$b  $c$a$b$c$b$c  $b  $c    $b$x
+                    $a$c  $b  $c  $b$c  $b$c  $b  $x
+                    $a$b$c  $a$b$d$e      $a$b  $x
+                      $a$b  $d  $f        $e  $a$x
+                    $g    $d$e$f$b              $x
+          $h$d$x  $d      $e$f$a$b$c  $b$c    $b  $d  $x  $d$i$x
+          $h$d      $j  $i$f$a$b$c      $b$c    $b  $j$d  $j$i$x
+          $h$d$j        $i$f$a$c        $b$c      $b$j      $i$x
+            $h$j      $i$e$a$b$c          $b$c      $b$j  $i$x
+            $h$d$j    $i$e$a$b$c$k  $c    $b$c  $k  $b$j$d$i$x
+              $h$d$j$i$l  $a$b$c$k  $h$i$c$b$h$i$k  $b$d$i$e$b  $x
+          $a    $h$i  $l  $a$b$c$k  $h$i$k  $h$i$k  $b$i$e$a$c  $b$x
+        $a$b  $c$b  $d$e  $a$b$c  $k              $c$b$e$a$b$c    $b$x
+      $a$b  $c      $b$e  $a$b  $c    $k      $c  $b$k$a$b$c      $b$x
+      $a$b  $c    $a$c$b$e  $a$b  $c      $b$c    $b$k$a$b$a$c    $b$x
+      $a$b  $c  $a$h    $i  $e$a$b  $c    $b$c  $m  $g$k$a$b$c    $b$x
+        $a$b  $c$b$h$n  $o$i$g  $a$b  $c$b$c  $g$m$p$m  $a$c    $b$x
+          $b    $h$i$n  $h  $m  $g$a  $b    $g$m$p  $m    $b    $x
+                $h$i  $h  $i$h$o  $i$d    $g$m$p  $m  $p  $m$x
+                $h      $i$h$i$o$i$x        $k  $m  $p  $m$k$x
+                    $k$h$i      $h$x            $k        $x
+                      $h    $i$h$o$i    $x
+                      $h$x  $h$i$h$o$h$x
+                            $h$i  $h$o$x
+                            $h    $i$o$i$x
+                            $h$x  $h  $o$i$x
+                                      $h$i$x
+EOC

@@ -1,0 +1,68 @@
+# Altair (Assassin's Creed)
+# by Unknown - https://www.pinterest.com/pin/148759593925101571/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;252m  ";
+$b = "\e[48;5;244m  ";
+$c = "\e[48;5;238m  ";
+$d = "\e[48;5;240m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;235m  ";
+$g = "\e[48;5;94m  ";
+$h = "\e[48;5;243m  ";
+$i = "\e[48;5;160m  ";
+$j = "\e[48;5;137m  ";
+$k = "\e[48;5;88m  ";
+$l = "\e[48;5;52m  ";
+
+$the_cow = <<EOC
+                      $t
+                        $t              $a    $x
+                          $t          $a$b$a$b$a$x
+                            $t        $a  $b$a$b$a$x
+                              $t    $a  $b$a$b$a$b$a$x
+  $b$x                              $a$b$a  $c$b$c$b$x
+  $b$x                              $a$b$a$c      $b$x
+  $d$b$x                          $a  $b$a$c$e  $b$x
+  $d$b$x                          $f$a$b$c  $e$c$b$x
+    $d$b$x                    $f  $g$b$a$d$c  $d$a$b$x
+    $d$b$x                  $f$g  $a  $b$a$d$c$d$b$a$d$a$x
+      $d$b$x              $f$g$a$d$f$h$a$b$a$d$a  $d$b$a$x
+      $d$b$x                $a  $b$c  $d  $a$d$a$d$b$a    $x
+        $d$b$x              $a  $b$c  $b  $d    $b$a  $b$a$x
+        $d$b$x              $a  $b$f$a$f  $b  $d$a  $b$a  $x
+          $d$b$x          $a  $b  $f$a    $f  $d$a  $b  $a$x
+          $d$b$x          $a  $b$f$b    $a    $f  $a$b  $a  $x
+            $d$b$x        $a$b  $x$b  $a      $d$a$f  $b$a  $x
+            $d$b$x      $a  $b  $x$b    $a$i        $a$b$a  $x
+              $d$b$x$d$x$a$b  $x    $b$i$c$g$c$g    $i$b$a$g  $x
+              $d$b$x$d$a  $b$x      $f$g$b$f$b$f    $g$b$g$f  $x
+                $b  $d$j$a$b$x      $f  $k$l$k$l    $f$b$f$d$a$x
+                $b$d$f  $j$x        $f$i$k$l$k$l    $i$x$a$f  $x
+              $d  $e$j  $f$x        $k  $i        $l$k$x$f$a$d$a$x
+                  $j$e$j$x          $a  $k        $l$a  $x$f$d$f$g$x
+                    $j$b$x        $a    $b$a$i  $a$f$l$a$x$f$g$a$x
+                      $b$x        $a    $b$a$i  $a$f$l$a$x$f$g$d$x
+                                  $a    $b$a$i  $b$a$f$l$x  $f$g$a$x
+                                  $a    $b$a$i$k$b$a$f$l$a$x    $a$x
+                                $b$a  $b$a$i  $f$b$a$b$f$l$x    $d$x
+                                $b$a  $b$a$i$k$f$b$a$b$a$f$x      $a$x
+                                $a$b$a$b$a$i$k$f  $b$a$b$a$x
+                                $a$b$a$b$a$i$k$f  $b$a$b$a$x
+                                $a  $b  $a$i$k$f  $b$a$b  $x
+                              $a    $b  $a$i$a$x$f$b$a$b  $a$x
+                              $a      $b$a$i$f$x$f  $b  $a  $x
+                              $a            $f$x$f  $b$a    $x
+                                $a        $f$x  $c$f$b$a    $x
+                                $f$a      $f$x  $c$f$b$a  $x
+                                $c$f  $a$f$x      $c$f$b$x
+                                $c  $f  $x        $c$f  $x
+                                $c  $f$x          $f$c$f$x
+                                $c  $d$x          $d$c  $x
+                              $c  $f$x              $f$c  $x
+                              $c  $d$x              $d$c  $x
+                            $d  $c$f$x              $f$c$d  $x
+                          $c    $f  $x              $f    $c  $x
+EOC

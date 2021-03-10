@@ -1,0 +1,58 @@
+# Solid Snake (Metal Gear Solid)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/PixelArt/comments/6arpxo/ocmetal_gear_solid/
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;237m  ";
+$e = "\e[48;5;60m  ";
+$f = "\e[48;5;233m  ";
+$g = "\e[48;5;131m  ";
+$h = "\e[48;5;173m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;216m  ";
+$k = "\e[48;5;223m  ";
+$l = "\e[48;5;239m  ";
+$m = "\e[48;5;61m  ";
+$n = "\e[48;5;74m  ";
+$o = "\e[48;5;153m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                $a$b$x
+                $t        $c$a  $b  $x  $a  $d$e$x
+                  $t    $c$a$b  $a$b  $a$x    $d$e  $x
+                      $c$a$b$a  $b  $a$b$d    $e$x  $e$x
+                      $f$a  $d  $b$d$e$b$x      $e$x
+                  $a$f$a  $d  $e    $d$x        $e$x
+                $a$f  $a$g$a          $x        $e$x
+                $a$f  $a$h$g$a$i$h$j$g$a$d$x  $e$x
+                $a  $f  $g$h$j    $k$h$a  $d$x
+              $f$a    $f  $g$k$j  $k$g$a  $d  $x
+            $a  $f$a$d  $f$g$j      $g$a$e      $x
+          $a  $d  $f$a$d  $f$h$i  $j$a  $d  $e  $x
+        $a$f    $d  $f$a$d$f  $g  $f  $d  $e$a$x
+        $f$l  $m$f$d$a$f              $d  $e$a$x
+        $f$l$n    $f$d$a  $d$f      $a$d$e$a$m$x
+          $l$m$n  $f$a$d    $a    $f$a$e$a$l$n$x
+            $l$m$n  $f$a  $d    $a  $x$a$l  $n$x
+        $f$a$l  $m$f$d$f  $a$d      $x$a$l  $n$x
+      $f$d  $a$f  $a  $d$f  $a$d$a$x  $a$l$m$n$x
+    $f$a$d$a  $l$f$a    $d$f$a  $x    $a$l$m$n$x
+    $f$a    $l$a$l$f  $a$n  $a  $x    $l    $x
+    $a$l  $m  $n$m$l$f$l$m$n  $x    $a$m  $n$x
+      $a$l$m  $n$m$a$f$l  $m$n  $a$x$a  $m  $x
+      $a$l$n    $a$f      $l$m$a$d$a$d$o$a$x
+        $a$l$m$n$f        $a  $d    $a$d$o  $x
+        $a$l  $m$x$f      $l$a    $d        $o  $x
+          $f$l$a$f$x      $f$l$a    $d$l$x  $d  $o  $x
+          $f$a  $f$x        $f$l    $a  $x      $d  $x
+          $f$l$a$f$x  $f    $a$f$a  $l    $x
+          $f  $a$f$x  $f$a      $l    $f$a$d$x
+        $f$l  $a$f$x$f$a      $l    $f$a    $x
+      $f      $a$f$x$f$a$f$x$f$l    $f$a$f  $x
+EOC

@@ -1,0 +1,47 @@
+# Ant enemy (Banjo Kazooie)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;52m  ";
+$b = "\e[48;5;131m  ";
+$c = "\e[48;5;174m  ";
+$d = "\e[48;5;94m  ";
+$e = "\e[48;5;218m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;188m  ";
+$h = "\e[48;5;231m  ";
+$i = "\e[48;5;136m  ";
+$j = "\e[48;5;233m  ";
+$k = "\e[48;5;160m  ";
+
+$the_cow = <<EOC
+                                  $t
+                                    $t
+                                      $t
+                                        $t
+                                              $a  $x$a      $x          $a  $x
+                          $a  $x            $a$b  $a$c    $b$a  $x    $a$c  $a$x
+                        $a$d$b$a$x  $a$x    $a$d$a$c$e$f  $e$c$b$a    $b$f  $b$a$x
+                  $a            $x$a$b$a$x  $a  $c$g$c$e$f    $e$c$f$d$c$f$e$c$a$x
+                $a$c$f  $a  $c$a    $d$a$x$a  $b$f$h  $c  $f      $c$b$f  $c$g$a$x
+              $a$c$f$d$c$f  $a  $c$a$d$a$x$a  $c$f$h    $g$c$e$f  $e$c$f$e$c$h$a$x
+              $a$f$c$a    $c$f  $a$c$a      $d$f  $h      $g$c  $f  $c$f$c$g$h$a$x
+            $a$c$f$a$f    $a  $c$f$a$c$f$c$d$c$f    $h      $i$h$c$f$c  $h$i$h$a$x
+            $a$f$c$a$f      $a      $f    $d$c$f    $h      $i$j  $c  $i$j$i$g$a$x
+          $a$c$f$a$f      $a$c$f    $a$c$a$d$c$e$f    $h    $i$j  $i$g$i$j$i$a$x
+          $a$f$c$a$c$f    $a$f$c$a  $b$a$f$a$c    $e$f  $h    $i  $h$g$h$i$h$a$x
+        $a$c$f$a  $c  $f  $a$f$a$c$b$a  $f$a$d$c$k$g$c$e$f  $h    $g$f$g$h$g$a$x
+        $a$f$c$a  $d$c  $a$c$f$a$b$a    $f$a  $c$k$g$h$g$c$f              $c$a$x
+        $a$f$a$x  $a  $b$a$f$c$a  $d$a  $f$a  $d$c$k$h  $g$c$e$f          $a$x
+      $a$f$c$a$x  $a      $f$a$x$a$d$a  $f$a$x$a$d$c  $h    $g$c$e$f  $e$c$a$x
+      $a$f$a$x  $a$d$a$x$a$f$a$x$a  $x$a$f$a$x  $a  $b$c$g$h  $g$c      $a$x
+      $a$f$a$x  $a  $x$a$f$c$a$x$a  $x$a$f$c$a$x$a      $b$c    $a      $x
+    $a$f$c$a$x  $a  $x$a$f$a$x  $a$x    $a$f$a$x$a  $x  $a      $x
+    $a$f$a$x    $a$x  $a$f$a$x  $a$x    $a$f$a$x  $a$x
+    $a$c$a$x          $a  $x            $a$c$a$x
+    $a  $x            $a  $x              $a  $x
+    $a  $x            $a$x                $a  $x
+    $a$x              $a$x                  $a$x
+EOC

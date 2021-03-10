@@ -1,0 +1,81 @@
+# Dale Gribble (King of the Hill)
+# by Mauri Helme - https://www.youtube.com/channel/UCas7DqhT9pKI3_L0dY2HhTw
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;203m  ";
+$c = "\e[48;5;124m  ";
+$d = "\e[48;5;196m  ";
+$e = "\e[48;5;253m  ";
+$f = "\e[48;5;137m  ";
+$g = "\e[48;5;223m  ";
+$h = "\e[48;5;130m  ";
+$i = "\e[48;5;173m  ";
+$j = "\e[48;5;242m  ";
+$k = "\e[48;5;102m  ";
+$l = "\e[48;5;231m  ";
+$m = "\e[48;5;180m  ";
+$n = "\e[48;5;94m  ";
+$o = "\e[48;5;208m  ";
+$p = "\e[48;5;214m  ";
+$q = "\e[48;5;166m  ";
+$r = "\e[48;5;237m  ";
+$s = "\e[48;5;58m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                    $a    $x
+              $t              $a  $b    $a  $x
+                $t        $a  $c$d      $b  $a$x
+                  $t    $a$c$a    $d        $b$a$x
+                        $a  $e    $a$d        $b$a$x
+                      $a  $d$a    $d          $b$a$x
+                    $a$d$c    $d                $a$x
+                  $a$c  $a    $c      $a      $c$a$x
+                    $a  $f    $a      $f  $a$c$a  $x
+                      $a$g    $f      $g  $a$h  $i$a$x
+                      $a$g                $a$c$h  $a$x
+                    $a                    $f$a$c$h$a$x
+                    $a$j  $a$g$a$j  $a$g      $a  $x
+                    $a$k  $a$g$a$k  $a$g    $f$l$a$x
+                      $a  $g    $a  $g          $a$x
+                      $a$g$f    $g  $l$g    $f$a$x
+                      $a$g                  $a$x
+                        $a$g$f    $g        $a$x
+                        $a$g              $a$x
+                          $a$g      $f$g  $a$x
+                            $a    $f  $g  $a$x
+                                $a$f$g      $a$x
+                            $a    $f$g    $a$m$a  $x
+                          $a$m$f$a$g    $a$f  $m$a    $x
+                        $a  $f  $a  $g  $a$f  $a$f$m  $a  $x
+                      $a$f$n$a  $l  $a  $n$a$f$a$f    $m  $a$x
+                    $a$m$f  $n$a$l    $a$f$n$a$f          $m$a$x
+                    $a$f      $n$a$l$a$f    $n$f          $m$a$x
+                  $a$m$f        $a$l$a$f                    $m$a$x
+                  $a$f    $n$f    $a$f                      $m$a$x
+                  $a$f    $a$f    $a$f                $n$f  $m$a$x
+                  $a$f  $n$a$f    $a$f                $a$f  $m$a$x
+                  $a$f  $n$a$n$f  $a$f  $a      $f    $a$n$f  $m$a$x
+                  $a$f  $n$a$n$f$a$f  $a$f    $m$a$f  $a$n$f  $m$a$x
+                    $a      $n$f$a$f  $a$n$f    $a$f  $a          $x
+                    $a$g$m$a$n$f$a$f  $a$n$f    $a$f  $a$g      $a$x
+                    $a$g$m$a$n$f$a$f  $a$n    $f$a$f$n$a$g    $l$a$x
+                    $a$g$m$a$n  $a$f    $a      $f  $n$a$m$g  $l$a$x
+                    $a$g$m$a$n  $a$f                $n$a$m$g  $l$a$x
+                    $a$g$m$a$n  $a$f                $n$a$m$g  $l$a$x
+                    $a$g$m$a$n$a$n$f                $n$a$m$g  $l$a$x
+                    $a$g$m$a$n$a$n$f                $a$m$g    $a$x
+                    $a$g$a$n  $a$n  $f            $a$g      $l$a$x
+                  $a$g  $a$n  $a$n  $f          $a$g      $m$a$x
+                  $a$g$m$a$n$a$n      $f        $a$g    $m$a$x
+                  $a$g$m$a$n$a$n  $a  $n  $f  $a$g    $m$a$x
+                  $a$g$a$n  $a$n$a$o$p$a      $g    $m$a  $x
+                  $a$g$a$n    $a$q$o$a    $n$r$g  $m$a$n$a$x
+                  $a$g$a$n    $a$q$a$l  $g$a$e$a$m$a$n$f$a$x
+                  $a$g$a$n    $a  $l$g      $a    $n$f  $a$x
+                  $a$g$m$a$n  $a$g        $m$a$n  $f$a  $x
+                  $a$g$m$a      $m$g    $m$a        $s$a$x
+EOC

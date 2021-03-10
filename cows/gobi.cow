@@ -1,0 +1,60 @@
+# Gobi (Banjo Kazooie)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;172m  ";
+$e = "\e[48;5;153m  ";
+$f = "\e[48;5;255m  ";
+$g = "\e[48;5;63m  ";
+$h = "\e[48;5;18m  ";
+$i = "\e[48;5;26m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                  $t          $a              $x
+                        $a    $b  $c      $b  $a$x                        $a        $x
+                      $a$b$c                $b  $a$x                  $a  $b$c    $b$a  $x
+                      $a$c  $b$c            $b$a  $x                $a$b$c            $b$a$x
+                      $a$b          $c    $b$c  $b$a$x            $a$c                  $b$a$x
+                    $a$b$a$e        $b$c  $b$c      $a$x        $a$c                    $b$a$x
+                  $a$b  $a  $e$a$f  $b$c  $b$c      $b$a$x    $a$b$c                    $b  $a$x
+                $a$b$a      $e$a$f  $b$c  $b$c        $a$x    $a$c                        $b  $a$x
+                $a  $b$c  $b  $g$e  $b$c  $b  $c      $b$a$x$a$b$c                        $b  $a$x
+                $a$c            $b  $c    $b$a$c    $b  $a    $b  $c                      $b    $a$x
+              $a$c                      $b  $a$b          $a    $b  $c                      $b  $a$x
+            $a$c                        $b  $a  $b        $a$b  $a$b  $c                    $b  $a$x
+          $a$b$c                      $b      $a    $b    $a$c  $b$a$b$c                      $b  $a$x
+          $a$c                          $b    $a  $h$a    $c      $b  $c                        $b$a$x
+        $a$b$c                          $b      $a$h    $b$c        $b$c                          $b$a$x
+        $a$c                  $b$c      $b    $c$b$a$i$h  $c                                      $b$a$x
+        $a$c    $b$c          $b$c      $a$b$c    $b$i  $h$c                      $b$c              $b$a$x
+        $a$c  $b  $c        $a$b$c    $b$a$b$c      $i  $h$c                      $b$c              $b$a$x
+        $a$c              $b$a$c      $b$a$b  $c    $i  $h$c                      $b$c              $b$a$x
+        $a$c            $b$a$b$c    $b$a  $b  $c    $i  $h$c                    $b  $c              $b$a$x
+      $a$b$c          $b$a$b$c      $b$a$x$a$b  $c$b$i  $h$c    $b$c            $b$a$b$c            $b$a$x
+      $a$c          $b$a  $b$c      $a$x  $a$b    $h$i  $b$c    $b$c            $b$a$b$c            $b$a$x
+      $a$b$c      $b$a  $b$c        $a$x  $a$b    $h    $a$c    $b  $c      $b      $a$c            $a$b$a$x
+        $a            $b$c  $b$a$c$b$a$x    $a$h      $b$a$c    $b                  $a$b$c        $b$a$b$c$a$x
+                  $a$b$c  $b$a      $x      $a$h      $b$a$c    $b                $a$b$a$b          $a  $b$c$a  $x
+                  $a$b    $a$x              $a$h    $b  $a$b$c  $b            $a  $b  $a  $b      $a$x  $a$c  $b$a$x
+                  $a      $x                  $a    $b    $a$c    $a$b  $a    $b      $a$x$a$b    $a$x  $a$b$c  $a$x
+                                                  $a        $c    $a      $b        $a$x  $a$b    $a$x    $a$b    $a$x
+                                                  $a$b    $a$b$c  $a$x    $a$b      $a$x  $a$b$c$b  $a$x    $a      $x
+                                                  $a$b    $a  $c  $b$a$x    $a$b    $a$x  $a$b$c  $b$a$x          $a$x
+                                                  $a$b  $a$x$a$c    $a$x    $a$b    $a$x  $a$b$c  $b$a$x
+                                                $a$b    $a$x$a$c    $a$x    $a$b    $a$x  $a$c    $b$a$x
+                                              $a$b      $a  $b$c    $a$x  $a$b      $a    $b$c    $a$x
+                                            $a$b        $a$b$c    $b$a$x  $a$b      $a$b$c      $b$a$x
+                                          $a$b        $a$b$c        $b$a  $b      $a$b$c          $a$x
+                                          $a  $b      $a$c$b$c      $b$a$b      $a$b$c  $b$c      $b$a$x
+                                        $a$b$a$b    $a$b$c$b$c    $b  $a$b      $a$b$c  $b$c    $b  $a$x
+                                        $a$b$a$b    $a$b  $a$b        $a$b      $a$b    $a$b        $a$x
+                                        $a                $x$a                          $x$a        $x
+EOC

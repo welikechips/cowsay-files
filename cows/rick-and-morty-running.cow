@@ -1,0 +1,65 @@
+# Rick and Morty
+# by unknown - https://www.uihere.com/free-cliparts/minecraft-rick-sanchez-morty-smith-pixel-art-pixel-1725916
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;117m  ";
+$b = "\e[48;5;223m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;116m  ";
+$f = "\e[48;5;180m  ";
+$g = "\e[48;5;130m  ";
+$h = "\e[48;5;160m  ";
+$i = "\e[48;5;87m  ";
+$j = "\e[48;5;251m  ";
+$k = "\e[48;5;228m  ";
+$l = "\e[48;5;238m  ";
+$m = "\e[48;5;94m  ";
+$n = "\e[48;5;31m  ";
+$o = "\e[48;5;24m  ";
+
+$the_cow = <<EOC
+           $t
+            $t
+             $t        $a$x
+               $a$x      $a$x
+                 $a  $x$a    $x$a$x
+                 $a            $x
+           $a  $x$a    $b    $a$x
+             $a      $b$a$b    $x$a$x  $b  $x
+             $a    $b    $a      $x  $b    $x
+               $a  $b  $c$d$b$c$d$x    $e  $x
+             $a    $b  $d  $b$d  $x    $d  $x
+           $a      $b  $f  $b  $f$x     $d  $x                         $g        $x
+                 $a$b        $f$b$x      $d  $x                      $g            $x
+               $a  $b    $c    $b$x       $d  $x                   $g                $x
+                 $a  $b  $c$h$c$b$x        $d  $x                $g        $b        $g$x
+                 $a$x  $b      $x  $d          $x                $g      $b            $x
+                           $d                  $x                $g    $b$i$b$d    $b$d    $x
+                     $j$d            $x                          $g    $b    $c$d  $b$c$d  $x
+                 $d  $j  $d    $e  $x                            $g    $b    $d    $b$d    $x
+           $d    $j    $d  $e       $x                             $g  $f$b          $f$b$x
+       $d  $j      $x   $d $e        $x                              $g$b                $x
+       $d  $x           $d $e         $x                                 $b      $f    $x
+        $d  $x          $d$e           $x                                  $b        $x    $b$x
+         $d  $x        $d$j$e           $x               $b    $k              $x            $b  $x
+          $d  $x      $d$j  $e           $x            $b      $k                $x        $b    $x
+         $d  $e$x  $d  $j    $e           $x         $b    $x      $k              $x    $b    $x
+     $d  $j  $d$b$d$j         $e           $x      $b    $x       $k         $x$k    $b      $x
+   $d$j        $d$j            $e      $b  $x    $b    $x        $k         $x   $k  $b  $x
+   $l    $j                  $l $e $b    $m      $b$f$m  $x     $k         $x
+         $l$j              $l$x $m   $k  $m                $x  $k         $x
+           $l    $j      $l$x   $m             $x      $m  $x $k         $x
+                 $l      $x    $m        $x            $m  $x$k          $x
+           $c  $x              $m    $x                $m  $x$n      $o  $x
+           $c  $d  $x         $m    $x     $j    $x    $m  $n      $o      $x
+         $c    $d  $m$x      $m    $x    $j    $n  $x  $m$n    $x      $o    $x
+       $c    $x  $d$m  $x    $m    $x    $j  $x$n    $x$n    $x          $o    $x
+       $c$x        $m    $x $m    $x     $j$x    $n        $d$x            $o    $x
+                     $m          $x                $n    $d  $x$c    $x      $o    $x
+                       $m       $x                   $n$x$d$c      $x          $o    $x    $j$x
+                         $m    $x                        $c      $x              $o    $x$j  $x
+                                                                                   $o  $j    $x
+                                                                                     $j    $x
+EOC

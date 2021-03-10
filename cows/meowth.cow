@@ -1,0 +1,56 @@
+# meowth
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;166m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;226m  ";
+
+$the_cow = <<EOC
+          $t                                                                          
+            $t                                                                        
+              $t                                                                      
+                $t                                                                    
+                  $t              $a$x        $b    $x                                
+                                $a$c$a$x  $b  $a    $b$x                              
+                                $a$c$a$x$b$a          $b$x                            
+                                $a$c$a$b$a    $b  $a    $x                            
+              $a  $x      $a      $d$b$a    $b      $a  $b$x                          
+              $a$c$a$x$b$a$c  $b$a$d$b$a  $b        $a    $x                          
+              $a$c$a$x$a$c    $d$a$d$b$a  $b          $a  $x    $a    $x              
+              $b$a$c$b$a$c$d$c$d$b  $d$b$a    $b      $a  $b$a  $d  $a$x              
+      $a          $c$a  $c  $d  $c$a$d          $a  $b$a    $d  $a  $x                
+    $a              $c$b  $d$c  $d$a$d              $a  $d  $a  $x                    
+    $a    $b    $a  $c  $a$c$d    $a$d                    $a$x      $b$a  $b$x        
+    $b$a  $b      $a$d$c$a  $d  $a$b$d      $a    $d    $a  $x    $a$c  $d$a  $x      
+      $a  $b    $a$c      $b$a  $d      $b$a$d            $a  $x$a$c$d$b        $x    
+      $b$a  $b$a$c    $d                $a$d              $a          $b      $a$x    
+        $b$a    $c  $d                $b$d              $a  $b$d      $a$b$a$b    $x  
+          $b$a$c    $b$a  $d          $a$d                    $a      $b  $a$b  $a$x  
+            $a$c  $b$d    $a$d        $b$d        $a$d  $a    $x$a$b      $a$b  $a$x  
+    $a        $c  $d        $a$d                  $a$d    $a$x    $a$b  $a  $b  $a$x  
+  $a$c  $d  $a$c  $d                      $a  $c$a$d    $a$x        $a    $b    $a$x  
+    $a          $c  $d              $a          $d    $a$x            $a$b    $a$x    
+              $a$c    $a$d    $a      $b    $a  $d  $a  $x            $a$d  $b$a$x    
+                $a$c  $d$a  $c$a    $b  $a$d  $c$a  $d$b$a$x          $a$d  $a  $x    
+              $a$d$a  $c$d      $a      $d$c$d$c$d$a$d  $a$b$x      $a$d    $a$x      
+          $a$d  $a$x  $a    $d        $a$c$d$c$d  $a  $d  $a$b$x  $a  $d  $a  $x      
+        $a$c$a  $x  $a$c  $d$a            $d        $a$d$b$d$a$b$a$d      $a$x        
+        $a  $x    $a$c$d  $b$d$a$x$a$b$d$a  $d          $a$d  $a  $d  $a  $x          
+                $b$c$d$b$d  $b$a  $d      $a$d        $a$d    $b$a      $x            
+                $a$d$a$d$b$d$a$d    $a$d    $a  $d  $a  $d    $a  $b  $a$b$x          
+                $a$d  $a    $d    $b$a$d        $a  $b$d      $a$b  $a$b$a$x          
+                  $a$d            $a  $b$d                  $a$b        $a$x          
+                    $b$a$d    $a  $x  $a$d                  $a$b      $a$x            
+                        $b$a  $x      $b$a$d              $a$d$b      $a$x            
+                                        $a  $d        $b$a  $d      $a$x              
+                                          $a  $d$a      $x$a$d    $a$x                
+                                  $b$a    $d      $a$x      $a    $x                  
+                              $a  $c$d$b    $d  $a  $x                                
+                            $a$d$b            $a$b$x                                  
+                            $a$b$a$b$a$b$a    $b$x                                    
+                              $a        $b$x                                          
+EOC

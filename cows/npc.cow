@@ -1,0 +1,51 @@
+# NPC Wojak
+# by Charc0al
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;248m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t              $a                      $x
+                $t        $a  $b                      $a  $x
+                        $a$b                              $a  $x
+                      $a$b                                    $a$x
+                    $a$b                                        $a$x
+                  $a$b                                            $a$x
+                $a$b                                              $a$x
+                $a$b                                              $a$x
+                $a$b                                              $a$x
+              $a$b                                                  $a$x
+              $a$b                                                  $a$x
+              $a$b                                                  $a$x
+            $a$b                                                    $a$x
+            $a$b                                                      $a$x
+            $a$b                                                      $a$x
+          $a$b                                                        $a$x
+          $a$b                                                        $a$x
+            $a$b  $a  $b              $a  $b                        $a$x
+            $a$b  $a  $b  $a$b        $a  $b                        $a$x
+          $a$b            $a$b                                      $a$x
+          $a$b            $a$b                                    $a$x
+          $a$b          $a$b                            $a$b      $a$x
+          $a$b          $a$b                            $a$b      $a$x
+          $a$b          $a$b                            $a$b    $a$x
+          $a$b          $a$b                            $a$b    $a$x
+            $a$b      $a            $b                  $a$b  $a$x
+            $a$b      $a            $b                $a$b    $a$x
+              $a$b                                  $a$b      $a$x
+              $a$b                                $a$b$a$b    $a$x
+                $a$b$a                  $b      $a$b  $a$b    $a$x
+                $a$b                            $a$b  $a$b    $a$x
+                $a$b                        $a  $b              $a$x
+                  $a$b                    $a$b                  $a$x
+                    $a$b                $a$b                    $a$x
+                      $a                $b              $a$b      $a$x
+                            $a$b                          $a$b    $a$x
+                          $a  $b                          $a$b      $a$x
+                        $a$b                                $a$b      $a$x
+EOC

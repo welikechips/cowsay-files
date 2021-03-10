@@ -1,0 +1,66 @@
+# Mr. Peanutbutter (Bojack Horseman)
+# by Benjiro (Nicolás Morrone) - https://www.youtube.com/watch?v=YTuvd5vpZ2k
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;240m  ";
+$d = "\e[48;5;172m  ";
+$e = "\e[48;5;221m  ";
+$f = "\e[48;5;94m  ";
+$g = "\e[48;5;230m  ";
+$h = "\e[48;5;160m  ";
+$i = "\e[48;5;52m  ";
+
+$the_cow = <<EOC
+    $t                    $a    $x$a      $x$a        $x
+      $t                $a$b  $c$a$x      $a$b    $c$b$a  $x
+        $t              $a$b$c  $a        $b    $c  $b$c$a  $x
+          $t          $a$b$c  $b$a$d    $a$b  $c  $b$c$b  $a    $x
+            $t        $a$c  $b  $a$d$e  $a$b$c  $b$c$b    $a$d$f$a  $x
+                      $a$c$b  $a$d$e    $d$a$c$b$c$b      $a$f$d  $f$a$x
+                    $a  $b  $a$d$e        $d$a$c$b      $a        $d$f$a$x
+                  $a$d  $a  $d$e            $d$a          $d$e  $d$a      $x
+                $a$e$a$e                              $a$e            $f$d$a$x
+                $a$e$a$f    $d$e          $d$f        $e$d$a$e        $f$d  $a$x
+              $a$e$d$a$d$e                            $f$e$d$a$e      $d      $a$x
+              $a$e$a$d$e$a      $d$e      $d$a      $d$e  $d$a$d$e    $d      $a$x
+              $a$d$a$e$a$g    $e$a$d$e  $d$a$g    $e$a$d$e$d$a$d$e      $d      $a$x
+                $a$d$a$g$a  $g  $e$a$e  $a$g$a  $g  $e$a$e  $d$a$e      $d      $a$x
+                $a$d$a$g$a  $g  $a$e    $a$g$a  $g  $e$a$e  $d$a$e      $d        $a$x
+                $a  $d$a$e  $a  $e      $d$a$g    $e$a$d$e  $d$a$e      $d        $a$x
+                $a  $d$a    $d$e          $d$a      $d$e    $d$a$e      $d        $a$x
+              $a      $d  $e                                $d$a$e      $d      $a$x
+      $a          $d$e                                      $d$a$d$e      $d    $a$x
+    $a$d$f        $a$e                                      $d  $a$e      $d  $a$x
+    $a$f$a$f$a  $f$a$e                                      $d  $a$d$e    $d$a$x
+    $a$f$a$f$a  $f$a$e                $d$f$e                $d    $a$e    $d$a$x
+      $a  $f$a$f$a$e                    $d$f$e              $d    $a$d$e  $a  $x
+    $a$d$a$f  $a$e  $f$e              $f$e$d$e              $d      $a$e$d$a  $x
+    $a$e$d$a  $d$e      $f$e        $d$a$e                $d        $f$a  $f$a$x
+    $a$e  $d$f$e  $f$e            $d$a$e                  $d  $f    $d$f    $a$x
+      $a$e  $f$d$e            $d$a  $e                    $d  $f$d      $f  $a$x
+        $a$e$d$f$d$e    $d$a    $d$e                  $d  $f  $d        $f$a$x
+          $a  $h$a        $d$e                            $f$d          $f$a$x
+        $a$h$i$h  $a$d  $e      $d  $a$f$e      $d$e$d$e$d$f$d          $f$a$x
+        $a$h$i$h$a$d$e    $d  $a    $d  $e      $f$d$e$f  $d            $f  $a$x
+        $a$h    $a            $d        $e        $f  $d$f$d          $f    $a$x
+        $a$i$h$i$a$x        $a$f$d$f  $e                $f$d          $f    $a  $x
+          $a    $x            $a$f$e                $d$f$d          $f    $a$b  $a$x
+                              $a$d$e            $d  $f$d            $a    $b    $a$x
+                              $a$d  $e            $d        $f$a    $b        $a    $x
+                            $a  $d$e              $d    $f$a  $b        $a    $b  $a  $x
+                          $a  $b$a$d$e            $d$f$a  $b      $a      $b$c$b      $a$x
+                        $a$b$a$b$a$d$e        $d  $a  $b      $a  $b  $a$c        $b    $a$x
+                      $a$b$a$b$a$b$a$e        $a  $b      $a  $b    $a$b$c          $b  $a$x
+                    $a$b  $a$c$a$b$a$d$e    $a$b      $a  $b        $a$b$c          $b    $a$x
+                  $a$b  $a$b$c$b$a$b$a$d$e$a$b    $a  $b$c$b        $a$c              $b  $a$x
+                $a$b    $a$b$c  $a$b  $a  $b  $a  $b$c      $b      $a$c              $b  $a$x
+                $a$b  $a$b$c    $b$a$b      $a$b$c            $b    $a$c              $b  $a$x
+                $a$b  $a$b$c      $b$a$b  $a$c                $b    $a$c      $b$a          $x
+              $a$d$a$b$a$c            $a  $c                  $b    $a$b$c$b$a  $b        $a$x
+              $a$e  $a  $c                                    $b    $a$b$a  $b  $a          $x
+            $a$d$e  $d$a$b$c                                  $b    $a  $b  $a  $d      $f$a$x
+EOC

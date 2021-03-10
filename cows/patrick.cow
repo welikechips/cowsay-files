@@ -1,0 +1,62 @@
+# Patrick (SpongeBob SquarePants)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;52m  ";
+$b = "\e[48;5;203m  ";
+$c = "\e[48;5;210m  ";
+$d = "\e[48;5;217m  ";
+$e = "\e[48;5;234m  ";
+$f = "\e[48;5;254m  ";
+$g = "\e[48;5;250m  ";
+$h = "\e[48;5;22m  ";
+$i = "\e[48;5;134m  ";
+$j = "\e[48;5;70m  ";
+$k = "\e[48;5;54m  ";
+$l = "\e[48;5;112m  ";
+$m = "\e[48;5;90m  ";
+
+$the_cow = <<EOC
+          $t
+            $t              $a  $x
+              $t          $a$b$c$a$x
+                $t      $a$b  $c$d$a$x
+                  $t    $a$b$c  $d$a$x
+                      $a$b  $c  $d  $a$x
+                      $a$b$c    $d  $a$x
+                    $a$b  $c      $d  $a$x
+                    $a$b$c        $d  $a$x
+                    $a$b$c          $d$a$x
+                  $a$b  $e  $c  $e  $c$a$x
+                  $a$b$c              $d$a$x
+                  $a$b$a$f    $e$f    $c$a$x
+                $a$b  $a$g$e$f$e$g$e$f$c$a$x
+                $a$b$c$a$g  $f$e$g  $f$c$a$x
+              $a$b  $c  $a    $b$a    $c$a$x
+              $a$b$c$a$c                $d$a$x
+            $a  $b$c  $a            $b$c  $d$a$x
+          $a$b  $c    $a          $b  $c    $d$a$x
+        $a$b  $c        $a$c    $a$b$c        $d$a$x
+      $a$b  $c          $a        $b$c          $d$a$x
+      $a$b$c  $a$b$c                    $b  $c    $d$a$x
+    $a$b$c    $a$b  $c                  $b  $a$b$c$d$a$x
+    $a$c      $a$b    $c    $b  $c      $b    $a$b$c  $a$x
+  $a$c      $a$b    $c                      $b$a$b$c    $a$x
+  $a$c      $a$b  $c                        $b$a  $b$c  $a$x
+  $a$c    $a  $b    $c                      $b$a  $b$c  $a$x
+  $a$c  $a$x$a$b      $c                  $b  $a$x$a$b$c$a$x
+    $a  $x  $a$b          $c  $a  $c      $b  $a$x  $a  $x
+            $h      $b                $c$h      $x
+            $h$i$j  $h                  $j    $h$x
+            $k$i  $k$l  $k$i      $l      $k$i$m$x
+            $k$i  $k$l    $k$i  $k$l      $k$i$m$x
+            $h$i$l        $j$h  $j  $l        $h$x
+            $h              $x  $h              $x
+              $a$b  $c    $a$x    $a$b  $c  $a$x
+                $a$b$c  $a$x        $a$b$c  $a$x
+                $a$b$c  $a$x        $a$b$c  $a$x
+                  $a    $x            $a    $x
+
+EOC

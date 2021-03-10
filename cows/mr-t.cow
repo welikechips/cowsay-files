@@ -1,0 +1,63 @@
+# mr-t
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;130m  ";
+$d = "\e[48;5;172m  ";
+$e = "\e[48;5;215m  ";
+$f = "\e[48;5;255m  ";
+$g = "\e[48;5;187m  ";
+$h = "\e[48;5;243m  ";
+$i = "\e[48;5;184m  ";
+$j = "\e[48;5;58m  ";
+$k = "\e[48;5;17m  ";
+$l = "\e[48;5;142m  ";
+$m = "\e[48;5;226m  ";
+$n = "\e[48;5;24m  ";
+$o = "\e[48;5;18m  ";
+
+$the_cow = <<EOC
+          $t
+            $t          $a    $x
+              $t        $a    $x
+                    $b  $a    $b  $x
+                  $b$c$d$a    $c$e$b$x
+                $b$c    $a    $c  $e$b$x
+              $b$c      $b$a$b$c      $b$x
+              $b$c              $e$c  $b$x
+              $a$c              $e$c  $a$x
+              $a$c      $a$c$a$c    $b$a$x
+              $a$b  $a    $c$a    $b  $a$x
+            $b$a$b$f$a$f$c    $f$a$f$b$a$b$x
+            $b$a$b$c      $e$d$c    $b$a$b$x
+            $b$a$b$c    $b    $c  $d$b$a$b$x
+            $b$a$b$c  $a        $c$d$b$a$g$x
+              $a        $c    $a        $h$x
+              $a      $b$a    $c$a      $h$x
+          $b    $i$a                $j$k$b  $x
+      $b  $c  $k$i$l$b            $l$i$k$c  $b  $x
+    $b$c      $k$j$i$j$c  $b$c$l$j$i$l$k$c      $b$x
+    $b$c    $b$k  $l$i$j$l    $j$i$l$j$k$b$c    $b$x
+    $b$c    $b$k  $l$i$j$l    $j$i$l$j$k$b$c    $b$x
+    $b$c  $b$a$k  $j$l$i$j$m$j$i$l$j$n$a  $b$c  $b$x
+    $b$c    $b$a$k$n$j$l$m    $l$b$n$k$a$b$c    $b$x
+    $b$c    $a  $k        $m$k        $a  $c    $b$x
+    $j$l$m$l  $a$k$o                $k$a$j$l$m$l$j$x
+    $j$l$m$l  $a$k$o    $n$o$n$o    $k$a$j$l$m$l$j$x
+  $b$c        $a$k$o  $n  $o$n  $o  $k$a$c        $b$x
+  $b$c      $b$a$k$o$n            $o  $a$b$c      $b$x
+    $b      $x$a$k$o                $k$a$x$b      $x
+              $a$k  $o          $k    $a$x
+              $a$k      $a      $o  $k$a$x
+              $a$k$n  $k$a$x$a$k$o  $n$a$x
+              $a$k$n  $k$a$x$a$k$o  $n$a$x
+              $a$k$n  $k$a$x$a$k$o  $n$a$x
+              $a$k$n  $k$a$x$a$k$o  $n$a$x
+              $a          $x$a          $x
+            $a$b        $a$x$a$b        $a$x
+            $a            $x$a            $x
+EOC

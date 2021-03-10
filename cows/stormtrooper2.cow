@@ -1,0 +1,55 @@
+# Storm Trooper (Star Wars)
+# by Unknown - https://xtremeretro.com/wp-content/uploads/2018/02/Star-Wars-Jedi-Knight-II-Jedi-Outcast-Activision-Raven-Software-2002-GameCube-GC-Macintosh-Windows-PC-Xbox-Stormtrooper-Pixel-Art-Xtreme-Retro.png
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;254m  ";
+$c = "\e[48;5;248m  ";
+$d = "\e[48;5;242m  ";
+$e = "\e[48;5;236m  ";
+$f = "\e[48;5;235m  ";
+
+$the_cow = <<EOC
+          $t                        $a                    $x
+            $t                  $a  $b                    $a  $x
+              $t              $a$c  $b                        $a  $x
+                $t          $a$c  $b                              $a$x
+                  $t      $a$d$c$b                            $c$b  $a$x
+                          $a$d$c$b                              $c$b$a$x
+                        $a$d  $c  $b                            $c  $b$a$x
+                        $a$d      $c$b                          $c  $b$a$x
+                      $a$d          $c$b                          $c$b  $a$x
+                      $a$d$e$d        $c$b                        $c  $b$a$x
+                      $a$d$e  $d          $c$b                    $c  $b$a$x
+                      $a$d$e  $d            $c$b                  $c  $b$a$x
+                      $a$d  $e$d              $c$b                $c  $b$a$x
+                      $a    $d                $c$b                $c  $a  $x
+                      $a          $d            $c$b            $a        $x
+                    $a$b$c$a                                          $b  $a$x
+                  $a$b$c$d$c  $d  $a                            $b      $c$e$a$x
+                  $a$e$d    $c$a  $d              $c  $b        $a  $b  $c$e$a$x
+                  $a$e$d      $a              $d  $c$b$a            $b$c$d$e$a$x
+                  $a$e$d  $a$d  $a          $d  $c  $b  $a        $b  $c$d$e$a$x
+                    $a$d  $a  $d  $a    $c  $d$c$d    $b    $a  $b    $c$d$a$x
+                  $a  $d  $a    $d  $c        $d  $c$b$d$b          $c$d  $a  $x
+                $a$b  $d    $a  $d$c      $d      $c$b$c$d  $b      $c$b$d$b  $a$x
+              $a$b$d$a  $d                $c$d    $c$b  $c  $d    $c$b  $d$b  $c$a$x
+            $a$b$d$a$b    $d          $c    $d    $c$b    $c    $b    $c$d$a$b$c$a$x
+            $a$d$a$c$b      $d        $c    $d  $a      $b            $c$d$b$a$c$a$x
+            $a$d$a$d$c$b$a$b  $d        $c    $a$e      $a$b        $c$d$b$a$b$c$a$x
+            $a$d$a$d  $a$b$a$b  $d        $c$a              $b      $c$d$a$b$a$c$a$x
+              $a$d$a$d$c$a$b$a$b  $d    $a  $c  $d    $c$b  $a  $b$c$d$a$b$a$c$a$x
+                $a  $d  $c$a$b$a$b  $d$a$d  $c  $d    $c$b      $a$c$d$b$a$c  $a$x
+                    $a$d  $c$a$b$a$b  $d      $c  $d  $c$b      $c$d$b$a$c  $a$x
+                      $a$c$d$c$a$b      $d    $c  $d  $c$b    $c$d$b    $c$a$x
+                        $a$c$d  $c$b      $d    $c$a    $b  $c$d$c$b  $c  $a  $x
+                          $a  $c$d  $c$b    $d  $c$a$f$a$b  $c$d$b  $c  $a$c  $a              $x
+                        $a      $c$d  $c$b$c  $d$a$f    $a$d  $c$b$c  $a$d  $a$d  $b          $a  $x
+                    $a  $d  $a$f$a$c$d  $a    $d$a$e$f$e$a$c$a    $c$a$d$a  $d  $c$b              $a$x
+          $a        $c$d    $a$f  $a$c  $a    $d$a$e$f$e$a$c$a    $c$a  $e$a$d  $c$b            $c$b$a$x
+      $a  $b      $a$c$d    $a$f    $a  $d$b$d$a            $d    $a$b$a$e$a$d  $c$b              $c$b$a$x
+    $a$b        $a$c  $d      $a$f  $e$f$a      $f      $a        $d$b$a$e$a$d  $c$b              $c$b$a$x
+  $a$b          $a$c$d          $a$f$e    $f          $a  $d      $b  $a$e$a$d  $c$b                $c$b$a$x
+EOC

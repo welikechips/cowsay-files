@@ -1,0 +1,67 @@
+# Link with soldier armor (Legend of Zelda: Breath of the Wild) - true color
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;230;220;206m  ";
+$b = "\e[48;2;207;30;49m  ";
+$c = "\e[48;2;172;172;185m  ";
+$d = "\e[48;2;139;26;37m  ";
+$e = "\e[48;2;113;113;126m  ";
+$f = "\e[48;2;71;71;80m  ";
+$g = "\e[48;2;130;113;102m  ";
+$h = "\e[48;2;172;159;143m  ";
+$i = "\e[48;2;215;126;75m  ";
+$j = "\e[48;2;145;88;22m  ";
+$k = "\e[48;2;255;179;91m  ";
+$l = "\e[48;2;190;132;32m  ";
+$m = "\e[48;2;0;185;255m  ";
+$n = "\e[48;2;121;61;78m  ";
+$o = "\e[48;2;177;92;81m  ";
+$p = "\e[48;2;11;120;218m  ";
+$q = "\e[48;2;36;61;102m  ";
+$r = "\e[48;2;54;92;135m  ";
+$s = "\e[48;2;28;37;85m  ";
+$u = "\e[48;2;79;75;69m  ";
+$v = "\e[48;2;120;112;102m  ";
+$w = "\e[48;2;76;41;54m  ";
+
+$the_cow = <<EOC
+            $t
+        $a$x  $t
+        $a$x    $t
+      $a  $x      $t      $b    $x
+      $a$c$x$c$x    $t    $b  $d$b$x
+    $a$c$e$x$c$x      $t    $d        $x
+    $a$c  $f$c$x            $e$d    $x
+      $e$c$e  $x        $g$c  $a$e$d$x
+      $e$c$e$x        $g$h$g$c  $e  $x
+    $e  $c$x          $h$g$h$g$c$e  $x
+        $e$f$x        $g$h$g    $c  $x
+      $e$c$e$x          $g$i  $j$i  $c$x
+      $f$c$f$x          $i$k  $l$m$j$f$e$x
+        $n$x        $e$f$j$k  $l$e$c$e$x
+        $n$x      $e  $o$j$e  $l$c$e$c  $x
+        $o$x    $e$f$e$o$h$a  $p$e$c  $e  $x
+      $i$k$x      $e$f$h$o$a$b$p$e$c$e$c  $x
+      $k$n$e$f$e$q  $e$d  $o$a$p$f  $c$r  $x
+        $q$e$f$e  $s  $h$d$a$o  $n  $q$c  $r$x
+        $q$x  $e  $s$x$h  $a  $p$f$c  $e$c  $x
+        $q$x          $n$l$n  $o$c    $x
+        $q$x          $h  $a$n$o$n  $x
+        $q$x        $n$h$n  $p$o$e$n$k$x
+        $n$x        $u$p$h$p$v$o$c  $x
+        $o$x      $e$u  $p$u$v$l$e$c  $x
+        $o$x      $f$j      $l  $c$e  $x
+        $n$x      $e$f  $w  $x$n  $c  $x
+        $n$x        $s      $x$r    $q$x
+        $n$x          $q$s  $x  $r  $q$x
+        $n$x        $e  $q$s$x$c    $q$c$x
+        $n$x          $f$e$w  $x$e      $x
+        $n$x          $f      $x$e      $x
+        $n$x            $f  $x    $e  $x
+        $n$x            $e$f$x    $c  $x
+        $c$x            $f$e$x    $e  $x
+        $e$x          $e  $f$x    $c  $x
+EOC

@@ -1,0 +1,64 @@
+# Ghostbusters
+# by Grady Fike - https://www.gradyfike.com/illustrations
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;94m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;223m  ";
+$d = "\e[48;5;137m  ";
+$e = "\e[48;5;180m  ";
+$f = "\e[48;5;255m  ";
+$g = "\e[48;5;251m  ";
+$h = "\e[48;5;248m  ";
+$i = "\e[48;5;243m  ";
+$j = "\e[48;5;88m  ";
+$k = "\e[48;5;60m  ";
+$l = "\e[48;5;67m  ";
+
+$the_cow = <<EOC
+                            $t
+                              $t
+                                $t
+                                  $t      $a    $x
+                $b    $x                $a        $x                                        $b      $x
+              $b        $x            $a$c$a    $c$a$x                $a    $x            $b          $x
+            $b          $x            $a$c        $a$x              $a        $x          $d      $b    $x
+            $b  $e      $b$x          $a$c        $a$x            $a$e    $a$e$a$x        $d        $b  $x
+            $b$e        $b$x          $c  $b$c$b$c  $x            $a$e        $a$x        $b$d$b$d  $b$d$x
+            $b$e$b$e  $b  $x          $a$c        $a$x            $a$e$b$e$b$e$a$x      $d            $b$x
+            $e  $f$e  $f$e$x            $c        $x              $e            $x        $b  $d      $x
+            $e            $x        $b  $c        $b  $x          $a$e        $a$x        $d        $a$x
+              $e        $x          $b  $g$c    $g$b  $x    $b      $e  $d$e  $b  $x        $d  $a  $b      $x
+        $b      $e    $b$x        $h$i$h$g$e    $g$h$i$h$x  $b        $e    $b    $x          $a    $g$b      $x
+        $b  $h$g$e    $i$x      $h  $i$h$g$b    $g$h$i$h  $x$b    $i$g$e    $g$i$b$x        $g$b    $g$i$h$b  $x
+        $b$i  $g$b$e  $g$i$x    $j$h$i$h  $g    $h  $i$h  $x$b  $h$i$g$e    $g$i$h$x      $h$g$b$g  $h$i$h  $b$x
+        $h  $i$h$g$b  $g$i$h$x  $h  $i$h    $g$h    $i$h  $x$b$h  $i$g$b$e$b$g$i$h  $x  $h$i$h$g  $h  $i$h    $x
+      $h    $i$h  $g  $h$i$h$x  $h  $i$h        $j$h      $x$h    $i$h$g$b$g$h$i$h  $x$j$h$i$h$g$h    $i$h    $x
+      $j$h    $i$h  $g$h$i$h$x  $h                $k$h    $x$j$h$i$h    $g$h    $i$h$x$h  $i$h        $i$h      $x
+      $h  $b$h$i$h      $i$h$x  $h              $k$h      $x$h  $i$h        $j$h$i$h$x$h            $j$h$i$h    $x
+      $h  $b$h$i$h      $i$h  $x$h          $b$k  $h      $x$h  $i$h                $x$h                $i$h    $x
+      $h      $i$h          $l$x$h  $b    $k$b      $h  $l$x$h  $b$h                $x$h                      $l$x
+      $l$h  $b  $h          $l$x$l$h$b      $k$b    $h  $l$x$l$h$b$h              $l$x$l$h$b$h                $l$x
+        $b$i$b      $h        $x    $b$k    $h      $x      $l$h$b$h          $k$h$l$x  $h$b    $k  $b$h      $x
+        $b$h  $b  $k  $h$b  $h$x    $b$k  $g    $b$g$x      $h  $b$g$b$g    $k    $h$x    $b  $k  $b    $h  $x
+        $b$g$b$g$b$k  $b    $x      $b$g        $b$g$x      $h  $b$g$b$g    $k    $h$x    $g$k  $b    $g$b$g$x
+        $b$g$b$i  $g$k$b$k$x          $h        $b$h$x      $h  $b$h$b$h      $k  $h$x    $k  $g        $b$g$x
+        $b$h$b$h      $k    $x        $h            $x      $b  $x$h            $k$b$x  $k  $h          $b$h$x
+          $h              $k  $x      $h  $x    $h  $x      $b  $x$h  $x    $h  $k$b$x  $k$h                $x
+            $h  $x    $h  $x$k$x      $h  $x    $h  $x      $b  $x$h  $x    $h  $k$b$x$k$x$h  $x      $h  $x
+            $h  $x    $h  $x  $k$x    $h  $x    $h  $x      $b  $x$h  $x      $h$k$x      $h  $x      $h  $x
+            $h  $x    $h  $x          $h  $x    $h  $x      $b$x  $h  $x      $h  $x      $h  $x      $h  $x
+            $h  $x    $h    $x        $h  $x    $h  $x            $h    $x    $h  $x      $h  $x      $h  $x
+            $h  $x      $h  $x        $h  $x    $h  $x              $h  $x    $h    $x    $h  $x      $h  $x
+            $h  $x      $h  $x        $h  $x    $h  $x              $h  $x      $h  $x    $h  $x      $h  $x
+            $h  $x      $h  $x        $h  $x    $h  $x              $h  $x      $h  $x    $h  $x      $h  $x
+            $h  $x      $h  $x        $h  $x    $h  $x              $h  $x    $h    $x    $h  $x      $h  $x
+            $h  $x      $h  $x        $h  $x    $h  $x              $h  $x  $h    $x      $h  $x      $h  $x
+            $h  $x    $h    $x        $h  $x    $h  $x            $h    $x$b$h  $x        $h  $x      $h  $x
+            $h  $x    $h  $x          $h  $x    $h  $x            $h  $x  $b  $x          $h  $x      $h  $x
+            $h  $x    $h  $x          $h  $x    $h  $x            $h  $x    $b$x          $h  $x      $h  $x
+            $h  $x    $h  $x          $h  $x    $h  $x            $h  $x    $b$x          $h  $x      $h  $x
+            $b      $x$b      $x  $b      $x    $b      $x        $b      $x  $b$x    $b      $x  $b      $x
+EOC

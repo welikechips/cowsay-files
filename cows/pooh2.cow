@@ -1,0 +1,67 @@
+# Winnie the Pooh
+# by Unknown - http://friendship-bracelets.net/alpha_pattern.php?id=28840
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;166m  ";
+$b = "\e[48;5;220m  ";
+$c = "\e[48;5;52m  ";
+$d = "\e[48;5;234m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;124m  ";
+$g = "\e[48;5;204m  ";
+$h = "\e[48;5;196m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                      $a    $x
+              $t                  $a$b    $a$x
+                $t              $a$b        $a$x
+                  $t          $a$b    $a  $b$a$x
+                              $a$b    $a  $b$a$x
+                              $a                $x
+                            $a  $b              $a      $x
+                          $a$b                          $a  $x
+                        $a$b                                $a$x
+          $a      $x  $a$b                                $c  $a$x
+        $a$b      $a  $b                                      $a$x
+      $a$b          $a$b                            $a$b      $a$x
+      $a$b                                          $a$b      $a$x
+      $a$b  $a$b                                    $a$b        $a$x
+      $a$b    $a    $b                $c$b          $a$b    $c  $b$a  $x
+      $a$b  $a  $b                  $c$b              $a$b  $c  $b    $a$x
+      $a$b                          $c$b                $a  $d  $b      $a$x
+        $a$b                                          $a  $d  $e$d$b    $a$x
+          $a  $b                                    $a$b  $d      $b    $a$x
+              $a    $b                    $c  $b            $d  $b$a$b  $a$x
+                $a$b                      $c  $b                  $a$b  $a$x
+                $a$b                                              $a$b  $a$x
+                  $a$b                                            $a$b$a$x
+                  $a$b                            $a$b          $a$b  $a$x
+                    $a$b                        $a                $b$a$x
+                    $f$a$b                          $a  $g    $a$b$a$x
+                    $f$h$a$b                            $a    $b  $a$x
+                    $f$h  $f    $b                            $a  $x
+                      $f$h      $f      $b                $a  $h$f$x
+                      $f        $h      $f    $b      $a  $f  $h$f$x
+                    $f$h        $f$h          $f          $h    $f$x
+                    $a$h          $f$h                        $f$x
+                $a  $b  $h        $f$h                    $f  $x
+              $a$b        $h      $f$h                      $f$x
+          $a  $b            $h  $f$h                        $f$x
+    $a    $b                $h$f$h                          $f$x
+  $a$b                  $a  $f$h                            $f$x
+  $a$b              $a  $h                            $f      $x
+    $a$b        $a  $f  $h                        $f  $b  $a$f$x
+      $a        $b      $f  $h              $f    $b      $a$x
+          $a$b              $f              $b            $a$x
+          $a$b                                            $a$x
+          $a$b                                            $a$x
+          $a$b    $a    $b                              $a$x
+            $a$b$a$b    $a$b                            $a$x
+            $a  $b        $a$b                        $a$x
+              $a$b          $a$b                    $a$x
+              $a$b            $a$b              $a    $x
+                $a$b          $a$b        $a    $b$a$x
+EOC

@@ -1,0 +1,43 @@
+# "Don't Tread On Me" (no step on snek)
+# by calebprue - https://www.teepublic.com/t-shirt/1762636-8-bit-dont-tread-on-me-retro-gaming-tee
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;184m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;124m  ";
+$d = "\e[48;5;149m  ";
+$e = "\e[48;5;35m  ";
+$f = "\e[48;5;28m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                      $a$b  $a$x
+                          $b      $x
+                    $c$b    $a$b$a$b  $x
+                                  $a  $b$x
+                                      $b  $x
+                                      $a  $x
+                                        $b  $x
+                            $b              $x
+                          $b  $a$b  $a$b    $x
+                          $a  $x      $b      $x
+                          $b    $x    $b        $x
+                          $b  $a$b  $a$b  $x$a  $x
+                        $b    $a$b                $x
+                        $a$b  $x      $a  $b$a$b  $x
+                        $a  $b$x            $a  $b$x
+                        $b      $a$b  $x  $b      $x
+                        $b  $a  $b$a$b        $a  $b$x
+                      $b  $a  $b  $a  $b      $a$b$a$x
+                    $a    $x      $b  $x    $b      $x
+                    $b    $x                $a  $b  $x          $a$x
+            $d$x$e  $b    $a$x            $b    $a$b  $x      $a  $x
+        $e        $f$e$b$a$b    $a$b  $a  $b    $d$b$a$b  $a    $x
+    $d$e    $f    $e$f  $b      $a$b    $a$b  $e      $b      $e$d$x
+      $e        $x    $d  $e$b  $a$b      $e                      $d$x
+                                    $e  $x    $d$x    $d$x    $e$x
+EOC

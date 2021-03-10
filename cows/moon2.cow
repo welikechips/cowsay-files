@@ -1,0 +1,67 @@
+# The Moon (Legend of Zelda: Majora's Mask)
+# by wanyo - https://www.deviantart.com/wanyo/art/Moon-Zelda-Majora-s-Mask-640178306
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;229m  ";
+$b = "\e[48;5;58m  ";
+$c = "\e[48;5;235m  ";
+$d = "\e[48;5;239m  ";
+$e = "\e[48;5;233m  ";
+$f = "\e[48;5;124m  ";
+$g = "\e[48;5;202m  ";
+$h = "\e[48;5;103m  ";
+$i = "\e[48;5;234m  ";
+$j = "\e[48;5;237m  ";
+
+$the_cow = <<EOC
+            $t                                      $a        $b  $x
+              $t                                $a      $b          $c$d  $x
+                $t                            $d$a    $b    $c$e          $d$c$x
+                  $t                    $a    $d$a  $b    $c$e              $d  $c$b$x
+                    $t              $a            $b    $c$e                      $c$b    $x
+                                $a        $d$a  $b    $c  $e                        $c$b    $x
+                              $a        $d$a    $b  $c  $e      $f      $e              $a$c$b$x
+                            $a          $d$a  $b    $e$c$e    $f$g    $f  $e            $a$c$b$x
+                          $d$a  $d$a  $b    $a$b  $c  $e    $f$g$a$g  $f$g$f$e        $a$b  $c$b$x
+                        $a        $d$b      $a$b  $c  $e    $f$g  $e  $g  $f$e  $a  $c  $b  $d  $x
+                    $a              $b            $c  $e    $f  $g$e  $g  $f$a  $b    $c  $d    $c$x
+                  $a  $b            $a  $b      $c$e        $f$g        $a  $b  $c$b$d      $e  $d$x
+                $a$b        $c$b              $c      $e      $f$g  $a  $b        $d$c  $d    $c$d  $x
+              $a  $b    $c        $b      $c$b      $c  $e      $b      $c  $d      $e$d            $x
+              $a$b  $c              $b  $c$b              $c$b$c                $d    $c$e$c$d    $e$h$x
+            $a$b  $c$e      $c        $e$b    $a    $b$c$b  $e            $c    $d$c$d$e$c    $d$e$c$h$x
+            $a$b$e                    $c$b  $a        $b$c$e                  $c  $e          $d$e$c$d$x
+          $a$b$e                        $b$c$a        $b$c  $b  $d    $e          $d          $e$d    $h$x
+          $a$b$e                        $a$b$a      $b    $c  $b  $c  $d$e                $d$c$d$e$d$h  $x
+        $a$b$e          $f      $e      $a  $c$a  $b    $d$c              $e    $c  $e      $d      $h  $x
+        $a$b$e        $f$g  $f$g$f$e  $b$a  $b          $d$c      $e  $c  $e$c$e$c      $e    $d    $h  $x
+        $a$e        $f$g$a$g      $f$e$b$a$b$c$b      $h$d$c  $e            $c  $e$c      $e  $d$c$d  $h  $x
+        $b$e        $f$g  $e  $g  $f$e$a$b$c$a$c$b  $h$d  $c$e          $c$e$c  $e$d$c  $e    $c$e$d    $h$x
+        $b$e        $f$g$f$e  $g$f  $a$b$c$a  $c  $d    $c  $e        $c$e$c$d  $c$e    $c$e    $d  $c$d$h$x
+        $a$e        $f  $g        $a$b  $c$a$b$c            $d$e    $c    $e$c    $e    $c$e$c$d  $c  $d$h$x
+          $b$e        $f$g      $a$c$b$c$a  $b$c            $d$c$e$c    $d  $e$c$e  $d$e  $b  $d  $c$d    $x
+          $a$e          $f    $a$c$b  $e$a  $c  $e    $c  $d$e  $c      $d$c$e  $c$i$d$h$e$b$c  $d    $c$d$x
+            $a$e            $a$b$c$b$e$a  $c  $e        $c$e$c    $d  $c    $e$d$h$c$i$d$e  $b$c  $d  $c$d$x
+            $a$b$e        $a  $b$c$e  $a  $c$e            $c    $d    $e$c$e$d  $h  $c$e    $a$b$c  $d  $h$x
+            $a$b    $a      $c$b$e    $b$a$c$e        $c    $d      $c$e  $i$d    $h$c$e      $a$b$c  $d$h$x
+            $a  $b$a$b$a$b  $c$e      $b$c    $e    $c$b    $d    $c$e  $d$h$i$d    $e  $d  $e$a  $c  $d$x
+            $a      $b$a$b  $e          $b$c      $b      $c$e      $b$d    $h$e    $c$h$e$d$e$a  $c$d$h$x
+            $a$b$a    $b    $e              $b      $e$c      $e$i  $b  $d  $h$e  $d$c$d$h$e  $a  $c$d$h$x
+            $a$b  $a  $b  $e$b$e      $c  $e$b    $c$e        $d  $i$a$b$d    $e  $d$c  $d$e$a  $c$d  $h$x
+              $a$b$a  $b        $e  $c  $b  $e$c      $e$j$a  $b$d  $i$b$d  $e$d$h$e$d$c$e$a$e$b$c$d$h$x
+              $a    $b    $e    $b$c$e$c$b  $c$e      $j  $a  $b  $d$e      $d      $e$a  $b  $e$d  $h$x
+                $a  $b$e$b$e      $c$e$c$b$c$e  $j$b    $j$b$a$b    $e    $b$d  $a    $c$b  $c$d  $h$x
+                  $a$b$e$b$e      $c  $e      $j  $a  $b  $e$b$a$b$e$b  $e$b$a    $c$b  $c  $d    $h$x
+                    $a$b  $c$e    $c$b$e$d$e  $a$j$a  $b  $e      $b      $a    $c$b  $c$d      $h$x
+                    $a$b  $c  $e  $c$b$d  $e    $a$e$a  $e$b  $e$b$a  $e$a    $c$b$c      $d  $h$x
+                      $a$b  $c$e  $c$b  $c$d$e          $a  $b$e$a  $e$a  $c  $b$c$d  $c  $d$h$x
+                        $b    $c$e$c  $b$e  $c$e    $a$e$a    $b$e  $a  $c$b$c  $d        $h$x
+                          $c$b$c  $e$c    $b$c  $e  $b$a$e$a  $e  $a$e$c$b$c  $d  $c  $h  $x
+                            $b  $c$b  $c$b      $c  $e        $a  $b$e$c  $d    $c  $h  $x
+                                $b$c$b  $c  $b    $a          $b    $c$e$d      $h  $x
+                                    $c$b$c$b$d  $c  $b$a  $b    $c  $d      $h  $x
+                                          $c$b$c$d  $c          $d    $h  $x
+                                                $c$d            $h  $x
+EOC

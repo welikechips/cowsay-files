@@ -1,0 +1,244 @@
+GIMP Palette
+Name: Bash Ordered
+Columns: 18
+#
+  0   0   0	Solid Black
+  0  12  95	Untitled
+  1  21 135	Untitled
+  1  31 175	Untitled
+  3  40 215	Untitled
+  4  51 255	Untitled
+  0  95   1	Untitled
+  0  95  96	Untitled
+  0  95 135	Untitled
+  0  95 176	Untitled
+  0  95 215	Untitled
+  0  95 255	Untitled
+  0 135   1	Untitled
+  1 135  95	Untitled
+  0 135 135	Untitled
+  0 135 175	Untitled
+  0 135 215	Untitled
+  0 135 255	Untitled
+  0 175   1	Untitled
+  0 175  95	Untitled
+  0 175 135	Untitled
+  0 175 175	Untitled
+  0 175 215	Untitled
+  0 174 255	Untitled
+  0 215   1	Untitled
+  1 215  96	Untitled
+  0 215 135	Untitled
+  0 215 175	Untitled
+  0 215 215	Untitled
+  0 215 255	Untitled
+  5 249   0	Yoshi Green
+  4 249  95	Untitled
+  2 250 135	Untitled
+  3 251 175	Untitled
+  3 252 215	Untitled
+  2 252 255	Untitled
+ 95   8   0	Mahogany
+ 95  17  95	Untitled
+ 95  25 135	Untitled
+ 94  35 175	Untitled
+ 95  43 216	Untitled
+ 95  52 255	Untitled
+ 95  95   0	Brown-green
+ 95  95  95	Untitled
+ 95  95 135	Untitled
+ 95  95 175	Untitled
+ 95  95 215	Untitled
+ 95  95 255	Untitled
+ 95 135   0	Untitled
+ 95 135  95	Untitled
+ 95 135 135	Untitled
+ 95 135 175	Untitled
+ 95 135 215	Untitled
+ 95 135 255	Untitled
+ 95 175   0	Klungo Dark
+ 95 175  95	Untitled
+ 95 175 135	Untitled
+ 95 175 175	Untitled
+ 94 175 215	Untitled
+ 95 175 255	Untitled
+ 95 215   0	Untitled
+ 95 215  95	Untitled
+ 95 215 135	Untitled
+ 95 215 175	Untitled
+ 95 215 215	Untitled
+ 95 215 255	Untitled
+ 96 249   0	Untitled
+ 96 250  95	Untitled
+ 96 250 135	Untitled
+ 95 251 175	Untitled
+ 95 252 215	Untitled
+ 95 253 255	Untitled
+135  15   0	Blood
+134  22  95	Untitled
+135  30 135	Untitled
+135  37 176	Untitled
+135  46 215	Untitled
+135  54 255	Untitled
+135  95   1	Dark Brown
+135  95  95	Red Brown
+135  95 135	Untitled
+135  95 175	Untitled
+135  95 215	Untitled
+135  95 255	Untitled
+135 135   1	Untitled
+135 135  95	Untitled
+135 135 135	Untitled
+135 135 175	Untitled
+135 135 215	Untitled
+135 135 255	Untitled
+135 175   0	Dark Lime
+135 175  95	Untitled
+135 175 135	Untitled
+135 175 175	Untitled
+135 175 215	Sanchez blue dark
+135 175 255	Untitled
+135 215   0	Untitled
+135 215  96	Untitled
+135 215 135	Untitled
+135 215 175	Untitled
+135 215 215	Untitled
+135 215 255	Untitled
+135 249   1	Untitled
+135 250  95	Untitled
+135 251 135	Untitled
+135 251 175	Untitled
+135 252 216	Untitled
+135 253 255	Untitled
+175  22   1	Untitled
+175  28  95	Untitled
+175  34 135	Untitled
+175  41 175	Untitled
+175  49 215	Untitled
+175  57 255	Untitled
+175  95   0	Mud Brown
+176  94  95	Lipstick
+175  95 135	Untitled
+175  95 175	Untitled
+175  95 215	Untitled
+175  95 255	Untitled
+175 135   0	Ross Brown
+175 135  95	Med Brown
+175 135 135	Untitled
+175 135 175	Untitled
+175 135 215	Untitled
+175 135 255	Untitled
+175 175   0	Untitled
+175 175  95	Untitled
+175 175 135	Untitled
+175 175 175	Untitled
+175 175 215	Untitled
+175 175 255	Untitled
+175 215   1	Untitled
+175 215  95	Untitled
+175 215 135	Untitled
+175 215 175	Untitled
+175 215 215	Sanchez green
+175 215 255	Sanchez blue
+175 250   1	Klungo Green
+175 251  95	Untitled
+175 251 136	Untitled
+175 251 175	Untitled
+176 253 215	Untitled
+175 254 255	Untitled
+215  30   0	Untitled
+215  35  95	Untitled
+215  39 135	Untitled
+215  46 175	Untitled
+215  52 215	Untitled
+215  60 255	Untitled
+215  95   1	Untitled
+215  95  94	Untitled
+215  95 135	Untitled
+215  95 175	Untitled
+215  95 215	Untitled
+215  95 255	Untitled
+215 135   1	Tangerine
+215 135  95	Skin shadow
+215 135 135	Eraser Pink
+216 135 175	Untitled
+215 135 215	Untitled
+215 135 255	Untitled
+215 175   0	Pika Shadow
+215 175  95	Untitled
+215 175 135	Light brown
+215 175 176	Untitled
+215 175 215	Untitled
+215 175 255	Untitled
+215 215   0	Untitled
+215 215  95	Untitled
+215 215 135	Untitled
+215 215 175	Untitled
+215 215 215	Untitled
+215 215 255	Untitled
+215 251   0	Lime
+215 251  95	Untitled
+215 252 135	Untitled
+215 252 175	Untitled
+215 253 215	Untitled
+215 254 255	Rick Hair
+255  37   0	Untitled
+255  42  95	Untitled
+255  45 135	Untitled
+255  51 175	Untitled
+255  57 215	Untitled
+254  64 255	Untitled
+255  95   0	Untitled
+255  95  95	Untitled
+255  95 135	Untitled
+255  95 175	Untitled
+255  95 215	Untitled
+255  95 255	Untitled
+255 135   0	Hobbes Orange
+255 135  95	Untitled
+255 135 135	Untitled
+255 135 175	Untitled
+255 135 215	Untitled
+255 135 255	Untitled
+255 175   0	Bright Orange
+255 175  95	Untitled
+255 175 135	Skin med
+255 175 175	Pink
+255 175 216	Untitled
+255 175 255	Untitled
+255 214   0	Untitled
+255 215  95	Untitled
+255 215 135	Untitled
+255 215 175	Skin light
+255 215 216	Light Pink
+255 215 255	Untitled
+254 251   1	Yellow
+255 252  94	Untitled
+255 252 135	Chalk Yellow
+255 253 175	Untitled
+255 254 215	Flourescent Yellow
+255 255 255	Pure White
+  8   8   8	Fake Black
+ 18  18  18	Pitch
+ 28  28  28	Charcoal
+ 38  38  38	Ash
+ 48  48  48	#236
+ 58  58  58	#237
+ 68  68  68	#238
+ 78  78  78	#239
+ 88  88  88	#240
+ 98  98  98	#241
+108 108 108	#242
+118 118 118	#243
+128 128 128	#244
+138 138 138	#245
+148 148 148	#246
+158 158 158	#247
+168 168 168	#248
+178 178 178	#249
+188 188 188	#250
+198 198 198	Sanzhez gray
+208 208 208	#252
+218 218 218	#253
+228 228 228	#254
+238 238 238	Lightest Gray

@@ -1,0 +1,80 @@
+# Captain America
+# by Gustavo Viselner - https://deskgram.net/explore/tags/GustavoViselner
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;20m  ";
+$b = "\e[48;5;18m  ";
+$c = "\e[48;5;17m  ";
+$d = "\e[48;5;67m  ";
+$e = "\e[48;5;130m  ";
+$f = "\e[48;5;216m  ";
+$g = "\e[48;5;173m  ";
+$h = "\e[48;5;234m  ";
+$i = "\e[48;5;88m  ";
+$j = "\e[48;5;235m  ";
+$k = "\e[48;5;252m  ";
+$l = "\e[48;5;246m  ";
+$m = "\e[48;5;52m  ";
+$n = "\e[48;5;103m  ";
+$o = "\e[48;5;102m  ";
+$p = "\e[48;5;24m  ";
+$q = "\e[48;5;247m  ";
+$r = "\e[48;5;146m  ";
+$s = "\e[48;5;241m  ";
+$u = "\e[48;5;243m  ";
+$v = "\e[48;5;19m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                  $a    $b$c$x
+                $t              $a$b      $c  $x
+                  $t          $a$b    $d$c      $x
+                              $a$b  $d$b$d$c    $x
+                              $a$b  $d    $c    $x
+                              $a$b$c  $b$c      $x
+                              $a$b$e  $b$e  $c  $x
+                              $e$b$c  $f$b$c  $e$x
+                                $g$f    $g    $x
+                                $g$f  $g      $x
+                                $e$g$f$g    $e$x
+                                $h$e$g    $e$h$x
+                                $b$h$e    $h$c$x
+                  $c      $x$i$b    $h    $b$c  $i$x$c      $x
+                $i$c$b  $j  $i$b    $h    $b$c  $i$j  $c    $i$x
+              $c  $i$b  $j  $i$b    $h$k$h$b    $i$j  $c  $i$c  $x
+              $c    $b$i$j$i$h        $k$h        $i$j$i$c      $x
+              $c  $b    $j$i$h  $k      $l    $h  $i$j$c$b$c    $x
+              $b    $c$b$j$i  $h    $k$l  $h    $i  $j$c  $b  $c$x
+              $h  $b$c$j$i$b  $i  $h$k$h$l$h$i  $b  $i$j$c$b$h  $x
+              $m  $h  $j$i$b      $k$h$b$h$l$b      $i$j$h  $m  $x
+              $m      $i$b        $h$b    $h$b      $c$i$m      $x
+            $k    $m  $c$b                        $c    $m  $n    $x
+            $k  $n    $c                                $n$k$n    $x
+            $k  $n    $x$c$i  $c                $m  $c$x$n$k  $n  $x
+            $k  $n    $x$c$i  $c  $k$i    $k$c  $m  $c$x$n  $k$n$i          $x
+          $h  $n    $x  $k$i  $k    $i    $k$n  $m  $n$x  $n$i            $m  $x
+          $h      $x    $k  $i$k    $i    $k$n  $m$n  $x  $i    $k        $o$m$x
+        $b  $c$h  $x      $k$i$k    $n$i$k  $n  $m$n$x  $i  $k      $i    $o  $m$x
+      $b    $c  $h$x      $k$i  $k  $n$i$k$n  $m  $n$x  $i  $k  $i        $m$o$m$x
+      $b  $c    $x        $k$i  $k$n$i  $m$n  $m  $n$x$i  $k  $i    $p  $q$m  $o$m$x
+      $b  $c    $x        $k$i  $k$n$i  $m$n  $m  $n$x$i  $k  $i    $p  $q$p$m$o$m$x
+      $b$c      $x        $k  $i$k$n$i$m  $n  $m$n  $i    $k  $i  $p    $q$p$m$o$m$x
+      $b$c    $x        $i      $n    $m$n    $m$i      $k  $i    $k$q    $o$m  $o$m$x
+    $b  $c    $x        $j    $i    $r  $s$i    $j  $i  $k  $i  $p  $q  $o  $c$m$o$m$x
+    $b  $c  $x        $c$j          $s    $j        $i  $k  $i  $p    $q$o$c  $m$o$m$x
+    $i      $x        $c$j  $c                    $j$i  $k  $i  $p    $o  $c  $m$o$m$x
+    $i$m$i$x          $c  $b        $c$b$c          $i  $k  $i  $p    $u$o$c  $m$o$m$x
+    $i$m$i$x        $c    $b        $c$b      $c    $m$i$k  $m  $c  $u    $c  $m$o$m$x
+    $i$m$x            $c$b          $c$b        $c  $m  $q  $m  $c  $u$c  $u$c$m$o$m$x
+    $i  $f  $x        $c$b          $c$b          $c$m  $q  $m    $c$u$c  $u$m  $u$m$x
+    $i$f$j$f$x        $c$v$b      $c      $b      $c$b$m  $q  $m  $q$c      $m$u$m$x
+    $i$f    $x        $c$v$b    $c          $b    $c$b$m  $q  $m    $c      $m$u$m$x
+      $j  $f$x        $b$v$b    $c  $x    $b      $c$b$m  $q  $m    $c    $m  $u$m$x
+                      $b  $v$b$c    $x    $b      $v$c  $m  $q  $m          $u$m$x
+                      $b  $v$b$c  $x        $b    $v$c  $m    $q    $m    $u$m  $x
+                      $b  $v$b$c  $x        $b    $v$c  $x$m      $q$u    $m  $x
+                      $b  $v$c    $x        $b    $v$c  $x  $m              $x
+EOC

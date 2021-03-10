@@ -1,0 +1,56 @@
+# Dark Link (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;234m  ";
+$c = "\e[48;5;60m  ";
+$d = "\e[48;5;103m  ";
+$e = "\e[48;5;237m  ";
+$f = "\e[48;5;240m  ";
+$g = "\e[48;5;197m  ";
+$h = "\e[48;5;233m  ";
+$i = "\e[48;5;236m  ";
+$j = "\e[48;5;59m  ";
+$k = "\e[48;5;249m  ";
+$l = "\e[48;5;244m  ";
+$m = "\e[48;5;17m  ";
+$n = "\e[48;5;94m  ";
+$o = "\e[48;5;52m  ";
+
+$the_cow = <<EOC
+            $t
+              $t
+                $t      $a      $x
+                      $a          $b    $x
+                    $c$a$d  $b$a$b    $x
+                  $d  $c$d    $b    $x
+                  $d$c$e  $d    $f$e$x      $b  $x
+                    $c$e$f$g$e$f$e$x$b  $c  $h$b  $x
+                      $f    $e  $h  $b  $c$i$h$e$b$x
+                  $a  $h$f  $e$c$a$h$b  $i$x$e$h$e$x
+          $a$b$x$c  $a  $h$a  $i$a$h  $b$x
+        $b$f$a$c      $a$h  $a$h$b  $h$x
+        $f$b  $c  $x    $b$h  $a  $b$h$x
+          $b$f$x          $b$h$f$h    $x
+                          $a      $b$h$x
+                  $a      $i$h$a  $h$x
+                $c  $a    $h$i$j$i  $x
+              $c      $a$b$h      $b$h$x
+              $c        $a$b$h$b  $h$b    $x
+              $e$a$e  $x  $b  $h    $b  $x
+              $e$b$e  $x      $b$h  $c  $x
+                $b  $x            $i$c  $x    $e$x
+                $a$b$x            $i  $c$x
+                $b  $x          $a  $b$a$x$e$x              $f  $x
+              $a$k  $l$x        $a  $h$a$f$x    $f    $x  $f  $e$x
+        $l$k    $c  $k        $l$b$h  $f$x    $f      $e$x$e  $x
+      $l$k$c                  $l  $h$f  $x    $f  $e    $x
+      $f$m$c$l  $c    $k  $c  $m  $f  $e$x      $e  $f$e  $f$x  $e$x
+        $f  $m$f$c$n$c  $l$m$o  $f  $e    $x  $e$f  $e  $f  $x
+          $e$f    $m  $n$m$o  $f        $e    $f  $e  $f  $x
+            $e    $f    $m  $f  $e$f  $e  $f    $x$e$x$f$x
+                $e        $f  $e  $x$e  $x  $f$x
+EOC

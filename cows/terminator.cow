@@ -1,0 +1,72 @@
+# The Terminator w/ shotgun
+# by /u/Sbe16 - https://www.reddit.com/r/PixelArt/comments/9gkibo/oc_terminator_i_made_as_part_of_my_latest_live/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;216m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;209m  ";
+$e = "\e[48;5;167m  ";
+$f = "\e[48;5;251m  ";
+$g = "\e[48;5;223m  ";
+$h = "\e[48;5;233m  ";
+$i = "\e[48;5;244m  ";
+$j = "\e[48;5;196m  ";
+$k = "\e[48;5;173m  ";
+$l = "\e[48;5;237m  ";
+$m = "\e[48;5;131m  ";
+$n = "\e[48;5;234m  ";
+$o = "\e[48;5;241m  ";
+$p = "\e[48;5;238m  ";
+$q = "\e[48;5;94m  ";
+$r = "\e[48;5;137m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t                $a      $x
+                    $t            $a  $b$c$b$a$x
+                      $t          $a  $d$e$f$g$x
+                        $t        $a$h        $x
+                                  $a$i$j$h$g$h$x
+                                  $a$b$i$f$g  $x
+                                  $a$b  $g    $x
+                                    $k$b$g  $c$x
+                                  $l$k      $x$m  $c$x
+                              $l  $n$k      $m  $c$l      $x                                                        $n$x
+                          $l    $n  $k    $i$l    $n  $l    $x                                  $l                  $o$l$x
+                        $l$n  $p  $n$i      $m  $c$p$n  $l          $x        $i$l    $i$n    $l  $o$l$o  $l  $i      $l$x
+                      $l$n  $p$n  $o$i      $l  $n  $p$n  $l$n$l                  $n$l  $n                              $x
+                      $l$n$p$n    $o$i    $m  $c$p$n  $p$n$l$n    $l            $n    $l  $n                            $x
+                    $l  $n  $i$p  $o$i    $l    $n$i$p$n                                              $x    $i$l$x
+                    $n      $p$n  $p$i  $m  $c$n  $p$n                        $q    $n      $i$x            $l$x
+                    $n$l$n    $p$n  $i  $l    $n  $p$n      $x    $n      $q      $n    $l    $x            $l$x
+                      $l  $n    $p$n$o  $n      $p$n    $x            $q            $n$l$n$x  $l  $x    $l  $x
+                      $l$n        $p$o$m  $c$n$p$n      $x        $a$q            $x$n$l$x        $l    $x
+                      $l$n        $p$o$l    $n$p$n    $x          $a  $q        $x
+                      $l$n          $m  $c$o  $n      $x            $a  $q    $x
+                    $l$n    $i$a  $n$l    $o$l$n      $x              $a  $q$x
+                  $l  $n    $a$n  $m  $c$o  $i$n$a  $n$x
+                  $l    $n  $a$n  $l    $o  $l$n    $x
+                $l$n      $x$n$m  $r$n$o    $i$n    $x
+                $l  $n    $x$m$r$l  $n$o    $l$n    $x
+              $l    $n  $x  $l  $n    $o    $i$n    $x
+              $l  $n    $x$n        $o      $l$n$a  $x
+            $l  $n    $x$n          $q$i$f$q$n  $a$n  $x
+          $l  $n    $x  $n      $i$q  $i  $q$i$n$a$n  $x
+          $n      $x    $n        $l        $n    $l  $x
+      $o$n        $x      $l      $a$l    $a$l  $n      $x
+      $o$n  $g$n  $x    $l        $a$l  $a$l      $n$x$n$x
+      $o$n$g    $x      $l    $a$n          $l    $n$x$n$x
+      $o$n$g$x          $l        $a$n    $l        $n$x
+    $o  $n$x            $l        $n      $l        $x
+    $o$n$x              $l      $n          $l      $x
+    $o$n$x              $a      $n  $x  $n    $a    $x
+    $o$n$x              $a$l  $a$n  $x    $n  $l      $x
+                        $l      $n  $x    $n  $a$l    $x
+                        $l      $n$x      $n    $l    $x
+                        $l    $a$n$x      $n    $l    $x
+                        $l    $n  $x      $n    $l    $x
+                        $l    $n  $x        $n  $a$l  $x
+EOC

@@ -1,0 +1,73 @@
+# Bomberman
+# by u/mrbrownjeremy - https://www.reddit.com/r/PixelArt/comments/5o53dt/oc_bomberman/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;229m  ";
+$b = "\e[48;5;220m  ";
+$c = "\e[48;5;236m  ";
+$d = "\e[48;5;160m  ";
+$e = "\e[48;5;176m  ";
+$f = "\e[48;5;133m  ";
+$g = "\e[48;5;209m  ";
+$h = "\e[48;5;231m  ";
+$i = "\e[48;5;95m  ";
+$j = "\e[48;5;180m  ";
+$k = "\e[48;5;137m  ";
+$l = "\e[48;5;60m  ";
+$m = "\e[48;5;189m  ";
+$n = "\e[48;5;223m  ";
+$o = "\e[48;5;219m  ";
+$p = "\e[48;5;62m  ";
+$q = "\e[48;5;68m  ";
+
+$the_cow = <<EOC
+        $t                                                                                      $a$x      $b$x
+          $t                                                                            $a$x  $a  $b$x$b$a$b$x
+            $t                                                                          $a$x  $a  $b  $a$b$x
+              $t                          $c        $x                                  $a$b$x$a$b$d$a$b$x$b$x
+                $t                    $c  $e      $f$c$x                                $b$a  $b$d  $g$b    $x
+                  $t                $c$e            $f$c$x                              $b$a$b$g$d      $b  $x$b  $x
+                    $t            $c$h  $e            $f$c$x                            $b$a  $g$i$d      $b  $x
+                      $t        $c$h      $e          $f  $c$x                            $a$b$i  $j$i$d    $x
+                        $t      $c$h      $e          $f  $c$x                            $i  $k$j$k$i$c$d$b  $x
+                                $c$e$h  $e          $f    $c$x                          $i$k  $j$i  $c$d  $b  $x
+                                $c$e    $c  $e      $f    $c$x                          $i$j$i$c    $d  $b    $x
+                                $c$e  $c$h  $c$e  $f      $c$x                      $l  $c    $x
+                                $c$e  $c$h  $c$e  $f    $c$x                      $m$h$c      $x
+                                  $c$e$c                  $x                $l    $c          $x
+                                  $c  $h                  $c$x          $l$m  $h$m    $c      $x
+                            $c    $h                      $m$c$x    $l$h$m$h$l$c            $l$x
+                        $c  $h                $c    $h  $m    $c$x$l$h        $c              $l$x
+                    $c  $h                    $c    $h  $m      $l$h          $m$c              $x
+                  $c$h              $k      $c    $h    $m      $l$h          $m$c              $l$x
+                $c$h        $k      $j      $c    $h      $m    $l$h          $m$c              $l$x
+              $c$h      $k    $j      $n  $c    $j$i$h    $m  $l$m$h        $m$c                  $l$x
+            $c$h      $k$j      $n        $c  $n$j  $k$h    $m$l$h$m$c$m    $c                    $l$x
+              $h  $k  $j  $n            $c    $n$j    $k$h  $m$c$m$l$c                              $x
+      $c    $x$h$k$j  $n                $c    $n  $j  $k$h    $c$l  $c                              $x
+      $c              $n                $c    $n    $j$k$h    $c$l  $c                              $x
+      $c                $n              $c    $j$n  $j  $k$h  $m$c$l$c                            $x
+              $h$i$n$i$c  $n            $i$c  $i$n    $j$k$h  $m$c$l$c                            $x
+              $h$k$n$i$c  $j$n            $c  $i$n      $k$h  $m  $c$l$c                        $x
+              $h$k$n$i$c  $i$n            $c    $n      $j$k$h$m  $c$l  $c                      $x
+              $h$k$n$j$c  $i$n            $i$c  $n      $j$k$h  $m  $c$l$c                    $x
+              $h$k$n  $i$c  $n            $k$c  $n      $j$k$h  $m  $c                    $x
+              $h$j$k$n$i$c  $n              $k$c$n      $j$k$h  $m$c$e$h  $o$c        $x
+              $h  $k$n$j$c  $j$n                        $j$k$h  $m$c$e$h$o$e    $f$c$x
+                $h$k$n  $i$c$j$n                        $j$k$h  $m$c$f$e      $f  $c$x
+                $h$k$n  $k$c$j$n                      $j$k$h    $c$h$c$f$e  $f  $c$x
+                $h$j$k$n                            $c  $h    $c$m$h  $c$f    $c$x
+                $h  $k$n                        $c  $h    $m$c$m$h  $c        $x
+                  $h$k  $n                  $c  $h      $m$c$m$h  $c    $x
+                  $h  $i$k$n          $c    $h      $m  $c$m$h  $c    $x
+                    $h  $i$c          $h        $m    $c$h    $c    $x
+                      $h                $m      $c    $p$h  $c    $x
+                          $h      $m    $c      $q      $c      $x
+                              $c          $h$c$q        $p$c  $x
+                                      $c$h$m$c$q          $p$c$x
+                                    $c$h$m  $c$q          $p$c$x
+                                  $c$h  $m$c$q            $p$c$x
+                                $c$h  $m$c  $q            $p$c$x
+EOC

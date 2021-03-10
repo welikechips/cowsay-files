@@ -1,0 +1,33 @@
+# Snoopy (Peanuts)
+# by Unknown - https://www.brik.co/blogs/pixel-art/snoopy-1-pixel-art
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;231m  ";
+
+$the_cow = <<EOC
+                        $t
+                          $t
+                            $t
+                              $t
+                                $t
+                                  $t
+
+
+              $a          $x                      $a      $x
+            $a$b          $a  $x                $a$b      $a  $x
+              $a      $b      $a$x            $a$b          $a  $x
+              $a$x$a$b        $a  $x        $a$b                $a      $x
+            $a$b$a$b            $a$x      $a$b                          $a$x
+            $a$b$a$b            $a  $x    $a$b$a$b$a$b      $a$b          $a$x
+          $a$b  $a$b              $a$x    $a$b$a  $b$a$b  $a$b              $a$x
+          $a$b          $a$b        $a$x  $a$b$a    $b$a$b                    $a$x
+        $a$b            $a    $b      $a    $b$a    $b$a$b                    $a$x
+      $a$b            $a$b  $a$b          $a$b$a    $b$a$b                    $a$x
+      $a$b$a$b$a  $b  $a  $b$a        $b  $a$b$a    $b$a$b                  $a    $x
+      $a  $b$a$x$a$b  $a$b                  $a$b$a  $b$a$b                  $a    $x
+        $a    $x  $a  $x$a                      $b    $a                        $x
+                                                $a    $x
+EOC

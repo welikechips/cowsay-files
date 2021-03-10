@@ -1,0 +1,70 @@
+# The Scout (Team Fortress 2)
+# by Ultrabananabuddy - https://www.deviantart.com/ultrabananabuddy/art/TF2-Pixel-The-Round-Up-374953611
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;66m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;238m  ";
+$e = "\e[48;5;173m  ";
+$f = "\e[48;5;221m  ";
+$g = "\e[48;5;223m  ";
+$h = "\e[48;5;210m  ";
+$i = "\e[48;5;52m  ";
+$j = "\e[48;5;197m  ";
+$k = "\e[48;5;253m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                                $a      $x
+              $t                  $a          $b  $a$c$a  $x
+                $t                $a$d            $a$c$a$b$a$x
+                  $t              $a$d            $a$b$a$d$a$x
+                    $t              $a$d          $a$b$a$d$a$x
+                            $a        $d          $a$b$a$d  $a$x
+                            $a$d$b    $d          $a    $d  $a$x
+                              $a$d    $a          $c    $a    $x
+                                $a    $d    $e  $a$f    $a  $x
+                                    $a$e$a$c$e$g$a$f$a$f$a$x
+                                    $a$g        $a$f    $a$x
+                                  $a$g          $e$a    $x
+          $a$x                      $a$g      $e  $d$e$a$x
+      $a    $x                    $a  $g    $e  $d$a$e  $a  $x
+    $a$c$b$a  $x              $a$x$a$g    $e$d  $a$e      $a      $x
+    $a$d  $c$b$a  $x          $a    $d      $e$a$e      $a  $b    $a  $x
+      $a  $d  $c$b$a  $x            $a$e  $a    $e    $a$b  $a    $b$d$a$x
+        $a    $d  $c$b$a  $x$a$x    $a    $x    $a$e$a$d$a    $h  $a  $d$a      $x
+        $a$i  $a  $d  $c$b$a  $x$a  $x            $a$d$a$g    $a$h    $a$d$b    $a  $x
+        $a$i      $a  $d  $c$d$a$b  $a  $x        $a  $g        $a$j$h  $a$d$b      $a$x
+          $a$i      $a    $d  $a$c  $b  $a  $x    $a$g      $e  $a$j      $a$d        $a$x
+            $a$i  $a$g$a$i$a  $b$c      $b$a$x    $a$g    $e    $a$j        $a$d      $a$x
+              $a  $i$a$e$a$i$a$b    $c  $a$b$a    $g    $e    $a$j            $a$d      $a$x
+              $a$e$a        $d  $b      $a$b    $a$g    $e    $a$j              $a$d    $a$x
+              $a$e  $a$c  $a$d      $b$a$b    $a$g    $e    $a$j                $a$d      $a$x
+                $a  $k$c    $a$d      $a      $g    $e    $a$j                    $a$d    $a$x
+                  $a$k  $a                  $g    $e    $a  $j                    $a$d    $a$x
+                    $a$k$a$e    $g              $e    $a$i$a  $j                    $a$d  $a$x
+                      $a  $e        $g      $e      $a    $i$a  $j                  $a$d    $a$x
+                          $a  $e        $g$e      $a$e  $a$i$a$j$a$j                $a$d    $a$x
+                              $a      $e      $a  $x$a  $i$a  $j$a$j                  $a$d  $a$x
+                                      $a      $x$a$x  $a  $x  $a    $j                $a$d  $a$x
+                                                  $a  $x          $a$j                $a$d  $a$x
+                                                                    $a$j            $a      $x
+                                                                    $a$j      $a        $x
+                                                                    $a                  $x
+                                                                    $a                $b$a$x
+                                                                  $a            $b      $a$x
+                                                                  $a$b                  $a$x
+                                                                $a$b                    $a$x
+                                                            $a  $b                      $a$x
+                                                        $a  $b                        $d$a$x
+                                                    $a  $b                          $d  $a$x
+                                                $a  $b        $d      $b        $d    $a$x
+                                            $a  $b      $d                          $a  $x
+                                        $a  $b      $d                        $a      $x
+                                      $a$b    $d                        $a    $d  $a$x
+                                    $a$d                          $a    $d      $a$x
+                                    $a$d                    $a    $d          $a$x
+EOC

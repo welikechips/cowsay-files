@@ -1,0 +1,72 @@
+# Jack Sparrow (Pirates of the Caribbean)
+# by The-Russian-Gestapo - https://www.deviantart.com/the-russian-gestapo/art/Jack-Sparrow-sprite-sheet-150403744
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;88m  ";
+$c = "\e[48;5;160m  ";
+$d = "\e[48;5;95m  ";
+$e = "\e[48;5;203m  ";
+$f = "\e[48;5;159m  ";
+$g = "\e[48;5;227m  ";
+$h = "\e[48;5;250m  ";
+$i = "\e[48;5;173m  ";
+$j = "\e[48;5;216m  ";
+$k = "\e[48;5;231m  ";
+$l = "\e[48;5;130m  ";
+$m = "\e[48;5;238m  ";
+$n = "\e[48;5;196m  ";
+$o = "\e[48;5;244m  ";
+$p = "\e[48;5;188m  ";
+$q = "\e[48;5;242m  ";
+$r = "\e[48;5;145m  ";
+$s = "\e[48;5;247m  ";
+$u = "\e[48;5;255m  ";
+$v = "\e[48;5;237m  ";
+
+$the_cow = <<EOC
+            $t
+              $t                        $a    $b      $x
+                $t                    $c$d$e$f$c      $b$x
+                  $t                $b$a$d$e  $g$e  $b$e  $x
+                    $t            $b$e$a$d$e  $h$e    $b$c$x
+                      $t        $b  $e$a$e$b$e        $c$b  $x
+                              $a$b$e$d$a$b$e        $b      $x
+                              $a$e  $d$e$c$e          $c$b    $x
+                              $a$b  $d$c                    $b$x
+                              $a$b  $e$c  $b              $c$b$d$x
+                              $a$b        $d$a  $i      $a$d$b$d$x
+                              $a$b  $a  $i    $j$a$i  $a$i  $a$d$x
+                              $d$a  $d$a$i$k  $a$j$i$l$k$a$i$a  $x
+                            $a  $d$g$a$i  $m    $j$i$l$m  $i$d$a$x
+                          $a    $d$g$a$i  $j      $i$l$i$j$i$d$a$x
+                          $a$f$a$d$g$a$i$j        $i$l$i$j  $d$x
+                          $a$g$a$d$g$a$i$j      $l    $i$j$a$d$x
+                        $a$n$a    $g$a$i$j    $a      $j  $a$d$x
+                        $a$x$a  $g  $a$i$j  $a$l$i  $j$a  $d  $x
+                            $a$d$g$a    $j  $a$i$l  $j  $a$d  $x                                                  $j    $x
+                          $a$d  $g$a$d  $a$j    $a  $j  $a  $d  $o    $x                                        $j  $i$l$x
+                          $a$d$a      $d$a  $j$i$j    $a  $d$a  $m$o      $p  $x                    $p        $j    $i$l$x
+                    $q$m        $a$d$a  $d$i$a        $i$a$d$m$a  $o      $p$k$p$x              $p          $j    $i$l  $x
+                  $p        $m    $d$a    $i  $a$i$a$i    $a$m  $a$o        $k  $p$x          $p  $i      $j  $i  $l  $x
+                $p$k        $p  $o  $a$o$a$i$a$i$a$i  $j  $i$a$m$a$o        $r$k  $p  $x    $p    $i$j      $i$l    $p$x
+                $k          $p  $m$o$d  $o$c$j$c$j        $i$m  $o            $p$k  $p$x  $p  $l  $j        $i$l$i$j$l$j      $l$x
+              $p$k            $p  $o  $a$o    $i  $j    $i$k$m$o              $r$k  $p  $x$p  $l$j  $i  $j  $l  $i$j    $i    $l$x
+              $p$k            $p$r$q$o          $i    $j$i$k  $m$o              $k    $r$p    $l$j  $i$l  $i          $l        $x
+              $p$k            $p$r$m$q$o        $k  $i    $k  $m$o              $r$k$r  $p$k$p$l  $j  $l    $i        $l$x
+            $p  $k            $p$r$m$q$o          $k    $i$k    $m$o            $r$k$r$p$k    $p$l      $i      $l$i  $j$l  $x
+            $p$k              $p$r$m$q$o            $k          $m$q$o          $r$k            $p        $i      $l$i  $j$l$x
+            $p$k              $p$r$m$q$o            $p$k        $p$m$q$o        $p$k            $p        $l$i  $l  $i  $j$l$x
+            $p$k              $p$r$m$q  $o            $p$k      $p$m$q$o      $q$p$k          $p        $i    $l$x$l$i$j$l$x
+            $p$k            $p  $r$q    $o            $p$k      $p$m$q  $o    $q$k            $p        $l    $x  $l$j  $x
+            $p$k            $p  $r$q      $o            $p$k    $p$m$q    $o$q  $p$k        $p          $x
+            $r        $k    $p$r$m$q      $o            $p  $k$p    $m$q  $p$q  $p                $r  $x
+            $r$p    $r  $k  $p$r$q            $o    $q  $p          $m$q        $p              $r$x
+          $p$k            $p  $r$q                $p$q  $p          $m$q        $x  $p      $x
+          $p$k            $p  $r$q                      $p          $m$q      $x
+        $r$k              $p  $x$m$q                      $p          $m$q    $x
+        $p  $k          $p    $x  $m$q                    $p          $m$q$p$q  $x
+        $p  $k        $p    $r$x    $m$q              $p$q  $p        $m$q      $x
+EOC

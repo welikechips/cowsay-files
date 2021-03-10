@@ -1,0 +1,60 @@
+# Stormtrooper (Star Wars)
+# by dayahpathi - https://www.deviantart.com/dayahpathi/art/STORM-TROOPER-PIXEL-ART-668731315
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;250m  ";
+$d = "\e[48;5;244m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                      $a                      $x
+                $t                  $a$b$c                  $b$a$x
+                  $t              $a$b$c  $b              $c  $b$a$x
+                                $a$b$c  $b                  $c  $b$a$x
+                                $a$c$a  $b                  $a  $c$a$x
+                            $a  $d$a  $c$a  $b          $a  $c$a  $d$a  $x
+                          $a  $d$a  $d$a  $c$b          $c$a  $d$a  $d$a  $x
+                          $a      $d$a  $d$a  $b      $a  $d$a  $d$a      $x
+                          $a          $d$a  $c$a      $c$a  $d$a          $x
+                          $a$b$a          $d$a          $d$a          $b$a$x
+                          $a$b$c$a      $d$a$c          $a$d$a      $b  $a$x
+                          $a$b$c  $a            $c  $a            $b    $a$x
+                          $a$b$c  $b  $a      $b      $a      $b        $a$x
+                        $a    $c$b    $a    $b          $a    $b      $a    $x
+                      $a  $b$a$b    $a  $b    $a      $b    $a  $b    $a$b$a  $x
+                    $a  $b$d$c$a$b$a    $b  $a          $b    $a  $b$a$c$d$b$a  $x
+                  $a  $b$d$c$b  $a    $b  $a    $b  $a    $b  $a    $b  $c$d$b$a  $x
+                $a  $b$d$c$b    $a    $b$a  $b          $a  $b$a    $b    $c$d$b$a  $x
+              $a  $b$d$c$b    $a    $b          $d  $b          $a    $b    $c$d$b$a  $x
+            $a  $b$d$c$b    $a        $b      $d$a  $d$b      $a        $b    $c$d$b$a  $x
+          $a  $b$d$c$b    $a    $d  $a$b    $d  $a  $d  $b    $a$d  $a    $b    $c$d$b$a  $x
+        $a  $b$d$c$b    $a    $d  $c$a  $b$d$a$d$a  $d$a$d$b$a  $c$d  $a    $b    $c$d$b$a  $x
+      $a  $b$d$c$b    $a        $c  $a  $b$d              $b$a  $c  $a        $b    $c$d$b$a  $x
+    $a  $b$d$c$b    $a    $d  $a      $b      $a      $b      $a      $d  $a    $b    $c$d$b$a  $x
+  $a  $b$d$c$b    $a    $d  $a$b          $a  $d      $a  $b          $a$d  $a    $b    $c$d$b$a  $x
+  $a  $b$c$b    $a    $d      $a$b      $a$d  $c      $d  $a$b      $a$d      $a    $b    $c$b$a  $x
+$a      $b    $a    $d    $a  $c$a      $d$b              $d$a      $c$a  $d    $a    $b    $a      $x
+$a        $b$a    $d  $a      $b                                      $a      $d  $a    $b$a        $x
+$a              $d$a      $b                                              $a      $d$a              $x
+  $a          $d$a      $c$b                                              $c$a      $d$a          $x
+    $a          $x    $a$c$b                                              $c$a$x    $a          $x
+                      $a$c    $b                                      $c    $a$x
+                      $a$c  $b      $a                          $b      $c  $a$x
+                      $a$c  $b  $a    $b                      $a    $b  $c  $a$x
+                      $a$c  $b$a  $b$c$a$b  $a          $b  $a$c$b$a  $b$c  $a$x
+                      $a$c  $a  $b  $c$a$b  $a$c      $a$b  $a$c$b  $a  $c  $a$x
+                      $a$c$a  $c$a$b$c$a$b  $a$c      $a$b  $a$c$b$a$c$a  $c$a$x
+                      $a    $b$c$a$b$c$a$b  $a$d$c  $d$a$b  $a$c$b$a$c$b$a    $x
+                      $a  $d$b$c$a$b$c$a$d$b$a$d      $a$b$d$a$c$b$a$c$b$d$a  $x
+                      $a$d  $b$c$a$b$c$a$d$b$a          $b$d$a$c$b$a$c$b$d  $a$x
+                      $a$d  $b$c$a$b$c$a$d$b              $d$a$c$b$a$c$b$d  $a$x
+                    $a    $d$b$c  $b$c$a$d  $a          $d  $a$c$b$c  $b$d$a    $x
+                    $a$d$b$a  $b      $d                      $b      $a  $b$d$a$x
+                    $a$d$b$d$a                                          $d$b$d$a$x
+                    $a$d$c$d$a$d$c$b$a$b    $a$b$c  $b$a$b    $a$b$c$d$a$d$c$d$a$x
+EOC

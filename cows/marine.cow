@@ -1,0 +1,45 @@
+# Marine (Enter the Gungeon)
+# sprite from Enter the Gungeon (PC/Console game)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;17m  ";
+$b = "\e[48;5;19m  ";
+$c = "\e[48;5;67m  ";
+$d = "\e[48;5;88m  ";
+$e = "\e[48;5;234m  ";
+$f = "\e[48;5;167m  ";
+$g = "\e[48;5;242m  ";
+$h = "\e[48;5;178m  ";
+$i = "\e[48;5;221m  ";
+$j = "\e[48;5;130m  ";
+$k = "\e[48;5;238m  ";
+$l = "\e[48;5;250m  ";
+$m = "\e[48;5;241m  ";
+
+$the_cow = <<EOC
+                    $t
+                      $t
+                        $t
+                          $t            $a                $x
+                                      $a$b                $a$x
+                                    $a$b$c          $b      $a$x
+                                  $a$b$c            $b        $a$x
+                                  $a$b$a                $b    $a$x
+                                  $a  $d                $a$b  $a$x
+        $e                        $a  $d$f              $a$b  $a$x
+      $e$g$h                $e$g  $a  $d$f              $a$b  $a$x
+      $e$g$h              $e$g    $a$b$a  $f$i  $j$f$a  $b    $a$x
+      $e$k$j          $e$g    $k$j$a$b$c$b$i      $j$b$c  $b  $a$x
+      $e            $g      $k$e  $a$b$c$b$i      $j$b$c  $b$a$x
+      $e$g$l      $g      $k$e  $x  $a    $i      $j$a    $b$a$x
+        $e$l        $e$k  $e$h  $e$a$c  $a              $c$b  $a$x
+          $e            $k$g$e    $b  $a$c  $b$a$c$b  $a$c$b    $a$x
+                        $e$k$e$m  $e$a                  $e  $a  $x
+                          $e  $m  $e  $a    $c$a$c$a  $e$m  $e$x
+                            $e    $x$e$b      $c$b    $e$m  $e$x
+                                      $e$m              $e  $x
+                                      $e$m$e          $m$e$x
+                                      $e    $x      $e    $x
+EOC

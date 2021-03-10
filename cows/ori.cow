@@ -1,0 +1,57 @@
+# Ori (Ori and the Blind Forest, PC/Console game)
+# by Unknown, edited and converted by Charc0al -  - https://www.ebay.com/itm/Ori-Perler-Bead-Pixel-Art-/223984438704
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;240m  ";
+$b = "\e[48;5;109m  ";
+$c = "\e[48;5;195m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;236m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                          $a  $x
+              $t                      $a$b$a$x
+                $t                  $a$c$a$x                      $a    $x
+                  $t              $a$c$b$a$x                  $a  $d$c$a$x
+                                $a$c$b  $a$x  $a  $x        $a$c$d  $a$x
+                        $a$x  $a$c  $b  $a$x$a$d$a$x      $a$c$d  $c$a$x
+                      $a  $x  $a$c  $b$a$x$a$d$c$a$x    $a$c$d    $c$a$x
+                    $a$c$a$x$a$c  $b  $a  $d$c  $a$x    $a$d    $c  $a$x
+                    $a$c$a  $c    $b$a$x$a$d$c$a$x    $a$c$d    $c$a$x
+                  $a$c  $a  $c  $b  $a  $d  $c$a$x  $a$c$d    $c  $a$x
+                  $a$c$a$x$a$b  $a      $d$c$a$x  $a$c$d      $c  $a$x
+                  $a$b$a  $b$a  $b    $a$d$c$a$x  $a$d      $c  $b$a$x
+                  $a$b$a$b$d        $b$a$d$c$a$x$a$d      $c    $a$x
+                  $a  $b$d          $b$a$d$c$b$a$d      $c    $b$a$x
+                  $a$b$d                    $b$d      $c    $b  $a$x
+                $a$c$d      $b    $d      $b$d    $c      $b  $a$x
+                $a$c$d    $b$e    $d      $b$d  $c      $b  $a$x
+                $a$b$d  $b$e      $d          $c  $b    $a  $x
+                $a$b$d  $b$d$e  $d          $c    $a    $x
+                $a$d    $b$d$e  $d        $b  $a  $x
+              $a$d      $b$e  $d      $c    $a$x
+              $e  $c$d          $c        $b$a                $x
+              $a$b$c                $b$c  $a  $c    $d        $a      $x
+                $a$b$c        $b  $a  $b$c    $b  $c      $d          $a$x
+                  $a              $b    $c      $a      $c    $d        $a$x
+                      $a    $b  $a$c      $d    $c$a$x  $a  $c$d      $c$a$x
+                $a    $b$c$b    $a$c  $d          $c$a$x    $a$c$d  $c    $a$x
+            $a  $b$c    $b    $a    $d              $c$a$x    $a$c$d$c  $b$a$x
+          $a$b$c      $b  $a  $x  $a  $d              $a$x    $a$c$d$c$b  $a$x
+        $a$c        $b  $a$x        $a  $c$d            $a$x  $a$b$a  $b$a$x
+      $a$c        $b  $a$x        $a$c$b$a$c$d  $c$d      $a$x  $a$x  $a$x
+    $a$c  $b    $c$b$a$x        $a$c      $b$c    $d        $a          $x
+    $a$c$b$a  $b  $a$x        $a$c      $b  $a$b$c  $d      $b$a$b  $c  $a  $x
+    $a    $x  $a$b$a$x        $a$c    $b  $a    $b$c  $d    $c$b$a    $b$c$d$a$x
+              $a  $x          $a$c  $b  $a$x    $a$b$c        $b$a$x  $a  $c$d$a$x
+                              $a$c    $a$x        $a$b$c      $b$a$x      $a$c$d$a            $x
+                                $a$c    $a$x        $a$b  $c  $b$a$x        $a$c      $d      $a$x
+                                  $a$b  $a  $x        $a  $b$c    $a$x        $a  $c      $d  $a$x
+                                $a$c    $b$a$x            $a$d    $a$x            $a            $x
+                              $a$c    $b$a$x              $a$c$d    $a$x
+                              $a        $x                $a$c  $d  $a$x
+                                                          $a          $x
+EOC

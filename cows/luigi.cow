@@ -1,0 +1,56 @@
+# luigi
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;29m  ";
+$b = "\e[48;5;115m  ";
+$c = "\e[48;5;184m  ";
+$d = "\e[48;5;72m  ";
+$e = "\e[48;5;178m  ";
+$f = "\e[48;5;234m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;216m  ";
+$i = "\e[48;5;223m  ";
+$j = "\e[48;5;239m  ";
+$k = "\e[48;5;94m  ";
+$l = "\e[48;5;55m  ";
+$m = "\e[48;5;98m  ";
+$n = "\e[48;5;249m  ";
+$o = "\e[48;5;141m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t    $a      $x
+                  $a$b  $c$b$a$x
+                $a$b  $d$c  $a$x
+              $a$b$d  $e$f        $x
+            $a$b$d  $f              $x
+            $a$d  $f  $g  $h$g$f  $x
+          $a$d  $f  $h$g$f$i$f$x
+          $j$i  $f  $i$g$f$i$f$x
+          $j$h$i$f  $i            $k$x
+          $j$h$i$f    $i$f$h$i  $h$k$x
+            $j$h  $f$i$f    $h  $f    $x
+            $f$k$h  $i    $f      $x
+            $f$k$h  $i      $h$k$x
+                $k$h  $i  $h$k$x
+              $a  $k$h    $k$x
+          $a$d    $l$k    $l  $x$j    $x
+        $a$d  $b$d$a$m$l$d$b$l  $g    $j$x
+        $a$d$b  $j    $m$l$d$b$l  $g  $j$x
+        $a$d$b$j$n$g  $j$l$d$b  $l$n  $j$x
+        $a$d$j$n  $g    $j$l$d  $l  $j$x
+          $a$j$n    $g  $j$g$l  $g$l$x
+            $a$j$n    $j$g  $o  $g$l$x
+              $l$j    $m$o      $m$f  $x
+            $f$l  $m  $o      $m$f$k  $f$x
+          $f$k$l$m$o$l$m      $f$k    $f$x
+        $f  $k$l$o$m  $l    $m$f$k  $f  $x
+        $f$k  $l$m    $l$x  $l$f$k  $f  $x
+        $f$k  $l$m$l  $x      $f$k$f  $x
+        $f$k  $l  $x            $f    $x
+          $f  $x
+EOC

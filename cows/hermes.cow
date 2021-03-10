@@ -1,0 +1,71 @@
+# Hermes Conrad (Futurama)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/futurama/comments/4mrql2/futurama_pixel_art_edition/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;151m  ";
+$b = "\e[48;5;107m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;77m  ";
+$e = "\e[48;5;52m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;145m  ";
+$h = "\e[48;5;255m  ";
+$i = "\e[48;5;235m  ";
+$j = "\e[48;5;130m  ";
+$k = "\e[48;5;172m  ";
+$l = "\e[48;5;153m  ";
+$m = "\e[48;5;22m  ";
+$n = "\e[48;5;88m  ";
+$o = "\e[48;5;28m  ";
+$p = "\e[48;5;179m  ";
+$q = "\e[48;5;229m  ";
+$r = "\e[48;5;161m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t
+                  $a$x
+                $b$x  $c$x
+      $b$x    $a  $x    $c$x
+        $b$x$d    $a$x$c  $e$x      $e$f$x
+          $b$d$g$h  $a$c    $e$x$e$f$x
+          $b$d$h$i$h$a  $e$c  $e$f  $x
+          $b  $h  $d  $a  $e$c$e    $f$x
+            $b  $d  $a  $e$c$e  $f$e$f$x
+        $c    $b    $e$j  $e$j  $e$f$e$f$x
+            $c$b  $c$j$k$j$e$k    $j$x$e$x
+          $c      $e$j$k            $j$x
+          $c$e$c$e  $j$k                $x
+        $c$x$c$e$c  $j$k$h$i$h  $j  $h  $x
+              $c$i    $c$l    $h$i$c$l$i$x
+            $e$j    $k  $l      $j  $l  $x
+            $e$j      $k$j      $k  $j$x
+              $e$j$k            $j  $k  $x
+            $c  $e$j$k                    $x
+          $m  $c$e$j$k    $c      $x
+      $c  $m  $c  $e$j$k$n    $c$k$m$c$x
+      $m$c$m  $c    $e$j$k      $c$m$i$x
+      $m$c$i$m$o$c$i$c$p$q    $c$i$m$i$x
+    $m    $i$o  $i    $p$q    $i  $m$i$m$x
+    $m    $i$o    $i  $p$q    $i  $m$o$m$x
+    $m    $o  $m$o$i  $p$q    $i  $m$o  $x
+    $m  $o        $i  $p$q    $i$o$m$o  $x
+    $m  $o    $m$o  $i$p$q    $i$o$m$o  $x
+    $m  $o    $m$o  $i$p  $q  $i$o$m$o  $x
+    $m  $o    $m$o  $i$p  $q  $i$o$m$o  $x
+    $m    $o  $m$o  $i$p  $q  $i$o$m  $o$x
+    $m    $o  $m  $o  $p  $q  $o  $m  $o$x
+      $m  $o  $m  $o  $p  $q  $o  $m  $o$x
+      $m  $o  $m  $o  $n  $r  $o  $m$k  $x
+      $e$j$k  $m  $o  $m$o  $m$o  $e$k  $x
+  $j$e$j  $k  $m    $o$m$x$m  $o  $j$k$x
+    $j  $k  $m          $x$m      $x
+          $m      $o    $x$m  $o  $x
+          $m      $o    $x$m  $o  $x
+          $n      $r  $x  $n  $r    $x
+          $n      $r  $x  $n  $r    $x
+EOC

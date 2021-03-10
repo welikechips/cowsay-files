@@ -1,0 +1,70 @@
+# Jesse Pinkman (Breaking Bad)
+# by Gustavo Viselner
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;216m  ";
+$d = "\e[48;5;136m  ";
+$e = "\e[48;5;32m  ";
+$f = "\e[48;5;220m  ";
+$g = "\e[48;5;178m  ";
+$h = "\e[48;5;173m  ";
+$i = "\e[48;5;24m  ";
+$j = "\e[48;5;66m  ";
+$k = "\e[48;5;18m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t            $a            $b$a  $x
+                $t          $a          $b$a      $x
+                  $t        $a        $b$a    $c  $x
+                            $a      $b$a    $c    $x
+                            $a    $b$a    $c      $x
+                            $a  $b$a    $c        $x
+                            $a$b$a    $d$c    $e$c$x
+                            $a$b$a  $c$d$c        $x
+                      $f      $a  $c              $x
+                  $f    $g    $a  $c            $x
+                $f  $g$f$g$f  $a$h    $c        $x
+              $f    $g$f$g  $f  $h      $x
+              $f          $g  $f  $g    $f$x
+              $f  $i$a  $f    $g$f        $x
+            $f  $i$j$a      $f$g          $f$x
+              $i$j  $i$a      $g        $a  $x
+              $k$i  $k  $a    $g        $a  $i$x
+              $k$i  $k  $i$a  $g        $a  $k$i$x
+              $i$j  $i  $j$a  $g  $f$g  $a  $j$i  $x
+              $i$j  $i  $j$a  $g  $f$g  $a  $i  $k$i$x
+            $i$k$i  $k  $i$a  $g  $f$g  $a$j$i$j  $k$i  $k$x
+            $i$k$i  $k  $i$a  $g$f  $g  $a$i$k$i$j$i$j$i$k  $i  $k  $i  $k  $i  $k  $a  $c          $x
+            $j$i$j  $i  $j$a  $g$f  $g$a  $i$k$i$k  $i$j$i  $j  $i  $j  $i  $j  $i  $a  $x$c      $x$c  $x
+          $j$i$j  $i  $j  $a  $g$f  $g$a  $j$i$j$k  $i  $k  $i  $k  $i  $k  $i  $k  $a  $x  $c    $x
+          $i$k$i  $k  $i$a    $g$f  $g$a  $j$i$j  $i$j$i$k  $i  $k  $i  $k  $i  $k  $a  $x
+          $i$k$i  $k  $i$a    $g$f  $g$a  $i$k$i  $k  $j$i  $j  $i  $j  $i  $j  $i    $x
+          $j$i$j  $i  $j$a  $g  $f  $g$a  $i$k$i$x    $i$k  $i  $k  $i  $k  $i  $x
+          $i$j  $i  $j  $a  $g$f    $g$a  $j$i$j$x
+        $i$k$i  $k  $i  $a  $g$f    $g$a  $i$j$x
+        $i$k$i  $k  $i  $a  $g$f    $g$a  $k$i$x
+        $j$i$j  $i  $j$a    $g$f    $g$a  $k$i$x
+        $j$i$j  $i  $j$a    $g$f  $g  $a  $i$j$x
+        $i$k$i  $k  $i$a  $g$f    $g  $a  $i$j$x
+        $i$k$i  $k  $i$a  $g$f    $g  $a  $k$x
+        $j$i$j  $i  $j$a  $g$f    $g$a    $k$x
+        $i$j  $i  $j$a    $f      $g$a    $i$x
+        $k$i  $k  $i$a    $f      $g$a  $i  $x
+        $k$i  $k  $i$a    $f    $g  $a  $i$k$x
+        $i$j  $i  $j$a    $f    $g  $a  $k$x
+      $j$i$j  $i  $j$a    $f  $g    $a  $i$x
+      $i$k$i  $k  $i$a  $f    $g    $a  $i$x
+      $i$k$i  $k  $i$a  $f    $g    $a  $i$x
+      $j$i$j  $i  $j$a  $f    $g      $a  $x
+      $j$i$j  $i  $j$a  $f    $g      $a  $x
+      $a      $k  $i$a  $f      $g    $a  $x
+      $a        $k$a  $f          $g  $a  $x
+      $a        $i$a  $f  $g      $f  $a  $x
+      $j$c      $i$a  $f          $k  $a  $x
+EOC

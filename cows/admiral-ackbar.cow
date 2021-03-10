@@ -1,0 +1,73 @@
+# Admiral Ackbar (Star Wars)
+# by @starwarspixel - https://twitter.com/starwarspixel/status/766938558875705344
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;131m  ";
+$c = "\e[48;5;174m  ";
+$d = "\e[48;5;217m  ";
+$e = "\e[48;5;224m  ";
+$f = "\e[48;5;52m  ";
+$g = "\e[48;5;173m  ";
+$h = "\e[48;5;222m  ";
+$i = "\e[48;5;59m  ";
+$j = "\e[48;5;250m  ";
+$k = "\e[48;5;246m  ";
+$l = "\e[48;5;94m  ";
+$m = "\e[48;5;136m  ";
+$n = "\e[48;5;62m  ";
+
+$the_cow = <<EOC
+          $t                                                                                      
+            $t                                                                                    
+              $t              $a                  $x                                              
+                $t          $a$b          $c$d$c  $a$x                                            
+                  $t      $a$b          $c      $d$c$a$x                                          
+                        $a$b        $c  $b$e$c  $d  $c$a$x                                        
+                      $a$b      $c      $e  $c$d$c$d$c  $a$x                                      
+                    $a$b          $c  $d$c$e  $d    $c$d$c$a$x                                    
+                  $a$b        $c      $d    $c$d          $c$a$x                                  
+                $a$b          $c    $e  $d$e    $d          $c$a$x                                
+                $a$b        $c$b$c$b$d$e  $d  $e    $d      $c  $a$x                              
+              $a$f$b        $c  $e    $d$e    $d  $e  $d    $c  $a$x                              
+              $a$f$b          $c$d  $e  $d  $e    $d  $e  $d$c    $a$x                            
+            $a$f  $b        $c$b  $d    $e  $d$e    $d$e$d$e$d$c  $a$x                            
+            $a$f  $b          $c$b  $d$c$d      $e    $d  $e$d  $c  $a$x                          
+            $a$f    $b      $c$b$c$b  $d$c$d      $e          $d  $c$a$x                          
+            $a$f        $a      $c  $b$c$b$c  $d      $e      $d    $c$a  $x                      
+              $a$f    $b  $f  $c        $b$d$c$d        $e    $d    $c  $b$a$x                    
+              $a$f  $b        $f$b$c        $d  $c$d$c$d  $e    $c    $b  $a$x                    
+                $a$b            $f$b$c  $d$c$d$c  $b$c  $d$e  $c$e$c$b      $a$x                  
+                $a$b  $g$b$a    $b$f$c      $b$c$b$f$b$a$b$c          $b$a$b$a$x                  
+                $a$b$h$g$a    $i$j$b$f$c      $b$f$b$a  $b$c$e    $c  $a    $x                    
+                $a$b$h  $g$a    $i$b  $f$c$b$c$f$b$a    $c    $e  $b  $a$b$a$x                    
+                  $a$g      $a    $b$c  $f$b$f$b            $a      $b  $a$x                      
+                  $a$b  $g  $b      $f$b            $a      $b        $a$x                        
+                    $a$b          $f  $b  $a        $b                $a$x                        
+                      $a$b      $f  $b$a$b          $f  $b  $f$b$f  $b  $a$x                      
+                        $a$b                          $f$b  $f$b$f  $b  $a$x                      
+                        $a$f    $b  $f$b            $f$b$f$b$f$b$f  $b  $a$x                      
+                        $a$f  $b$f$b              $f$b$f$b  $f$b$f$b$f$a$x                        
+                        $a$f  $b$f  $b  $f$b    $f$b  $f$b      $f$b$f$a$x                        
+                      $a$k$a  $b  $f    $b$f    $b  $f$b        $f$b$f$a$x                        
+                    $a$j  $k  $a$f  $b$f  $b      $f  $b        $f$b  $a$x                        
+                  $a$l$a$j  $k$a$f  $b    $f      $b$f$b  $f$b  $f$b  $a$x                        
+                $a$l    $a$j  $k$a$f      $b      $f$b    $f$b      $a$m$a  $x                    
+              $a$l        $a$j  $k$a$f$b        $f$b    $f$b      $a$m      $a  $x                
+            $a$l            $a$j$k  $a$b    $f    $b    $f$b    $a$j$a$l$m      $a$x              
+          $a$l                $a$j$k  $a$b    $f$b    $f$b      $a$j$a$l$m        $a$x            
+        $a$l                    $a$j$k  $a$f  $b  $f  $b  $f$b$a$k$j$a$l$m        $a  $x          
+      $a$l$m$l                    $a$j$k  $a$b  $f  $b    $f$b$a$k$j$a$l$m          $a  $x        
+    $a  $l$m    $l    $m$l$m$l      $a$j  $k$a$f  $b      $f$b$f$a$j$a$l$m          $a$j$a$x      
+    $a$k$a$l$m    $l  $m      $l      $a$j    $a$b      $f$b$f    $a$l  $m            $a$j$a$x    
+    $a$j  $a$l$m  $l  $m        $l$m    $a$j    $a$b  $f  $b$f    $a$l  $m$a        $m$a$j$a$x    
+  $a$k$j    $a$l        $m        $l$m    $a$j    $a  $b      $f$a  $l  $a$n$j$n$j$n$a  $j  $a$x  
+  $a$k$j    $a$m$l        $m        $l  $m  $a$j      $a        $k$a$l  $a$n$k$j$n$k$a$m$a$j$a$x  
+  $a$k$j      $a$l          $m        $l$m    $a$j                $a$l  $m$a    $k$n$a$m$a$j  $a$x
+  $a$j  $k$j  $a$l$m  $l      $m        $l$m    $a$j        $a    $l  $m    $l  $a    $m$a$j  $a$x
+$a$k$j  $k$j    $a$m  $l      $m          $l  $m  $a$j    $k    $a$l$m        $l      $m$a$k$j  $a$x
+$a$j    $k  $j  $a$m  $l          $m        $l$m    $a$j    $k$a$l  $m                  $a$k$j  $a$x
+$a$j      $k  $j$a$m  $l          $m          $l$m    $a$j$k  $a$l  $m                  $a$k$j  $a$x
+EOC

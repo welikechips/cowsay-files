@@ -1,0 +1,63 @@
+# Ezio Auditore (Assassin's Creed Brotherhood)
+# by Charc0al (original art for cowsay) - https://www.reddit.com/r/PixelArt/comments/ga3ws4/ezio_w_limited_palette_oc_wip/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;255m  ";
+$b = "\e[48;5;251m  ";
+$c = "\e[48;5;245m  ";
+$d = "\e[48;5;234m  ";
+$e = "\e[48;5;95m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;137m  ";
+$h = "\e[48;5;180m  ";
+$i = "\e[48;5;88m  ";
+$j = "\e[48;5;52m  ";
+$k = "\e[48;5;124m  ";
+$l = "\e[48;5;239m  ";
+$m = "\e[48;5;160m  ";
+
+$the_cow = <<EOC
+          $t
+            $t            $a    $x
+              $t        $a        $x
+                $t      $a  $b$a    $x
+                      $a  $b  $a      $x
+                      $b    $c$a      $x
+                      $b$c  $b  $a    $x
+                      $c$b  $c$b    $a$x
+                      $c$d  $b$d  $a    $x
+                    $b$d  $e$f$g$d  $c$a$x
+                    $b$d  $e$h  $g$d$a    $x
+                    $i$d    $g  $d  $i$a    $x
+                $b$i$j$d          $b$j$a  $c  $b  $x
+              $a$k$j  $l$b$d  $b  $l$i$a$c$b          $x
+            $c$m$k$i$j$l$c$b$c$l$f$i$k$j$b      $c$b$c$l$x
+            $b$k  $i$j  $f$b$f$c$i$k$m  $j$b$c$b  $c$l$a$x
+          $b    $i    $j$f$l$f$c$i$k$m$j$l$c$b  $c$l$b$a$x
+          $c  $b  $i    $l$f$c$i$k$j  $l$c$b$l$c$l$b  $a$f$x
+          $b$l$c$b  $k$i$l$f$c$i$j$l  $c  $l$b$c$l$b$l  $f$x
+          $b$l$c    $b$k$j$l$j$d$l$b$a$l$c  $l$c$d$l$c  $j$x
+            $c$l$c$b$c$l$i$l$d$f  $c$b$l$c$l$c$l$d$c$b$a$j  $x
+            $c$l  $b  $c$l$d$f$l$d$f$d$l  $c$l$d  $b  $a$j$i$x
+            $c$l$b$l$b$d  $f  $d$f$d              $b  $a$i$k$x
+            $b$l$b  $d$f    $d$b$c$d              $c$b  $a$k$x
+            $c$l  $d$f  $d  $c$l  $c  $f  $d      $c$b  $a$i$x
+            $c$l$d$f  $d$l    $c$b    $c$l$d      $l$c$b  $a$m$x
+            $c$l$f  $d$c$f$b            $c$l$d    $l$c  $b$a$k$x
+            $b$l$f$d$c$i$b$c$b            $c$f$d  $l$c  $b$a$i$x
+          $b$c$l$d$k$b$d$b$d$c$a$i$j  $i$j$i$j$d    $l$c  $a  $k$x
+          $b$c$l$j$b$d$l$d$c$d$c$b$i  $j$i  $j$d      $l$c$b$a$k$x
+          $c  $l$c  $b$d$l$d$b$c  $j  $d              $c$b$a$b$a$k$x
+          $f$c$f$l$c$d  $f$d  $l$d$f$d    $j$d        $f$c$a$b$a$k$x
+        $f$c  $f$d$c$b$d$l$d$b$c$f$d                  $f$c    $a$i$k$x
+        $f$c$l$f  $b$d$l      $b$d  $f$d  $f$d        $c    $b$a$i$k$x
+        $f$l$c$f$c$l$f$c$d  $c  $f$d    $k$i$d        $l$b$f$c$b$a$k  $x
+      $f$c  $l$b$i$c$l$f$l$f$j$c$j  $d$c$f$d  $c$f$d    $b$f$c  $b$k  $x
+      $f$c$l$c$b$c  $l$c$l$c$b$c$b    $f$d$l  $d$l$d  $j$d$f  $b$c$m$k  $x
+      $b$l$f$b          $d$b  $c$b      $c$d        $j  $d$c$l$b$a$k  $i$x
+    $b$l  $b$l$b        $f$b            $c$d$f$d  $j      $f$c$d$b$i  $x
+  $l$a$b$c$d$x$b        $c$b        $d$f$c  $d$f  $j        $f$b$a$b$x
+  $b$c    $x  $b              $c  $d$c$b      $l  $j        $f  $i$x
+EOC

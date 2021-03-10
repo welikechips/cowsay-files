@@ -1,0 +1,64 @@
+# oscar-error
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;251m  ";
+$d = "\e[48;5;246m  ";
+$e = "\e[48;5;238m  ";
+$f = "\e[48;5;34m  ";
+$g = "\e[48;5;28m  ";
+$h = "\e[48;5;22m  ";
+$i = "\e[48;5;52m  ";
+$j = "\e[48;5;88m  ";
+$k = "\e[48;5;160m  ";
+$l = "\e[48;5;94m  ";
+
+$the_cow = <<EOC
+            $t 
+              $t            $a      $x
+                $t      $a  $b  $c  $a  $x
+                    $a  $d$a$c$a  $d$c$a    $x
+                $a  $d$c$b$a  $e  $a$d$a$d$e$a  $x
+              $a$d$c$b      $c  $d$a  $d      $e$a$x
+              $a$d  $c$b          $c  $d    $e  $a$x
+              $a$c$b$d  $c$b    $c      $e  $d  $a$x
+              $a$d$c$b  $d        $e    $d    $e$a$x
+                $a$d  $c$b    $c      $d    $e$a$x    $a$x
+                $a      $d              $a    $x    $a$x
+              $a$f$g$h  $a$i    $a    $i    $a$x
+                $a$f  $h$i$b    $i    $b    $i$a$x    $a  $x
+                $a$g$f$i$b  $e$a$b$h$b  $e$a$b$i$a$x
+              $a$f        $b$a  $g$h  $b$a  $h$a$x
+              $a  $g$f      $g      $h        $a$x
+            $a$h$g$f    $h$a                $h  $a$x      $a    $x
+              $a  $f  $g$a                  $h$a$x      $a$g$a$g$a$x
+                  $a$f  $g$a  $j$k  $j$a  $h$a$x        $a$f$h$f$h$a$x
+                    $a$f            $g$h  $a$x        $a  $g$h$f$h$a$x
+              $a    $f  $g  $h          $a$h$a  $x  $a$g$f$h$f  $g$a$x
+            $a$f    $a$f  $g  $h      $g    $f  $a$x  $a$g$f  $g$a$x
+          $a$f      $g$a  $g            $h  $a$f  $a  $h$a$g  $h$a$x
+          $a$f$g$f$g$f$g$h$a$h        $a    $e$a$f      $g$h$a  $x
+        $a$f$g$h$f$h$f$a              $e  $d  $a$h$f  $g$h$a  $x
+        $a$g$a$g$a$g$a$d$b            $c$d  $e$a  $h  $a  $x
+          $a  $g$a$g$a$b$d$c    $b$d$c  $d$e  $a      $x
+            $a      $b$e$d  $c$b$e$d  $c$d$e  $a$x
+            $a$e$c$b  $e$d  $c$b$e$d  $c$d$e  $a$x
+            $a$e$c$b  $e$d  $c$b$e$d  $c$d$e  $a$x
+            $a$e$c$b  $e$d  $c$b$e$d  $c$d$e  $a$x
+            $a$e$c$b  $e$d  $c$b$e$d  $c$d$e  $a$x
+            $a$e$c$b  $e$d  $c$b$e$d  $c$d$e  $a$x
+            $a$e$c$b  $e$d  $c$b$e$d  $c$d$e  $a$x
+            $a$e$c$b  $e$d  $c$b$e$d  $c$d$e  $a$x
+            $a$e$c$b  $e$d  $c$b$e$d$l$c$d$e  $a$x
+            $a$e$c$b  $e$d  $c$b$e$d  $c$d$e  $a$x
+            $a$e$c$b  $e$d  $c$b$e$l$d$c$d  $e$a$x
+            $a$d$c$b  $e$d$l$c$b$e$d$l$c$d  $e$a$x
+            $a$e$c  $b  $e$c    $b$e$c  $d$e  $a$x
+              $a  $d$c$b$c  $l$c    $l$d$e$a  $x
+                  $a  $d  $l    $d    $a  $x
+                      $a              $x
+EOC

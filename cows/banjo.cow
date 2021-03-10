@@ -1,0 +1,62 @@
+# Banjo (Banjo Kazooie)
+# by 2bitart - https://2bitart.tumblr.com/post/156383644985/banjo-kazooie
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;172m  ";
+$c = "\e[48;5;94m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;238m  ";
+$g = "\e[48;5;216m  ";
+$h = "\e[48;5;75m  ";
+$i = "\e[48;5;21m  ";
+$j = "\e[48;5;227m  ";
+$k = "\e[48;5;246m  ";
+$l = "\e[48;5;178m  ";
+$m = "\e[48;5;240m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                    $a      $x
+                $t      $a    $x$a  $b      $a$x
+                  $t  $a$c$b  $a  $b        $c$a$x
+                      $a$b$d  $a$b  $c    $a  $x
+                        $a$d$b        $c  $a  $x
+                      $a$c$b      $c$e  $b$e  $a$x
+                      $a$c$b      $e  $a$b$a$e$a$x  $a    $x
+                    $a$c    $b  $c$e  $a$b$a$e$a    $k$f  $a$x
+                    $a$c      $g$d$g$e$h$b$h$d    $a$f    $a$x
+                    $a$c    $g$d                  $g$a    $x
+                    $a$c    $d      $g$d            $a$g$a$x
+                    $a$c    $d      $a$d            $b$g$a$x
+                $a  $c      $b$d    $g$a$d        $g$b$a$x
+            $a  $i$a  $c      $b  $g    $a$g      $b$a$x
+          $a$i  $a$i  $a    $c  $b          $a      $x
+          $a$i  $a    $i    $a                $i$a$x
+          $a$i$a$c$b$a  $h  $i$b$g    $f$g$f$g$b$a$x
+          $a  $c$b      $h  $i$d      $f$d$f$d$b$i$a$x
+          $a$c$b        $h  $i$d        $e$d  $b$i$a$x
+          $a$b        $a$h  $i$g$d      $e$d$g$b$i$c$a$x
+          $a$b        $a$h$i$b$d            $b  $i$c$a$x
+          $a$b      $a$i  $b  $g$d          $b$i$c  $a$x
+          $a$c$b  $a  $i$c$b  $g$d        $g$b$i$c  $a$x
+          $a$c  $d$c$a$c  $b    $g        $b$a$c$g$c$a$x
+        $a$d        $a  $j        $k      $l$a$g    $a$x
+        $a$d          $a$m  $j$m  $k$a  $k$m$a$g    $a$x
+        $a$d      $c$g$a$l$j      $k      $l$a$c  $g$a$x
+        $a$g$d    $g$c$a$l$j        $l      $a$c$g  $a$x
+          $a$d      $a$l  $j      $l$a$l    $a$g  $a$x
+            $a        $l  $j      $a$l      $a    $x
+                      $a                        $x
+                      $a$c  $b  $c$a$c      $a$x
+                      $a$c  $b  $a  $c      $a$x
+                    $a$c    $b  $a  $c        $a    $x
+                    $a$g    $c$d    $a  $g    $c$b  $a$x
+                    $a$g  $d  $b$d  $b$d$a$g$d  $c$g  $a$x
+                    $a$g  $d  $b$d  $b$d$a$g$d  $c$g  $a$x
+                      $a                                $x
+EOC

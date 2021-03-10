@@ -1,0 +1,66 @@
+# Bokoblin (Legend of Zelda: Breath of the Wild)
+# by Unknown - http://pixelartmaker.com/art/d09aae6f73cd0a1
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;187m  ";
+$b = "\e[48;5;160m  ";
+$c = "\e[48;5;88m  ";
+$d = "\e[48;5;230m  ";
+$e = "\e[48;5;124m  ";
+$f = "\e[48;5;101m  ";
+$g = "\e[48;5;136m  ";
+$h = "\e[48;5;166m  ";
+$i = "\e[48;5;178m  ";
+$j = "\e[48;5;25m  ";
+$k = "\e[48;5;45m  ";
+$l = "\e[48;5;231m  ";
+$m = "\e[48;5;173m  ";
+$n = "\e[48;5;209m  ";
+$o = "\e[48;5;235m  ";
+$p = "\e[48;5;52m  ";
+$q = "\e[48;5;91m  ";
+$r = "\e[48;5;165m  ";
+$s = "\e[48;5;215m  ";
+
+$the_cow = <<EOC
+                          $t
+                            $t
+                              $t
+                                $t                  $a$x  $b          $c        $x
+                                  $t              $a  $d$c      $b$e$c$e          $x
+                                    $t      $b    $a  $d$b      $c$e$b            $e$x
+                                          $b        $a$b          $c$e$c            $e$x
+                            $b    $x    $b$e  $b        $e  $b      $c    $b      $c$e  $x
+                    $b$x  $b$f    $b$x$b  $c  $e        $c  $b        $c$b$f      $b$c$e  $b$x
+                      $b  $f  $g$f  $b$c$b    $c        $b  $c    $b    $f  $g$f    $b      $x
+                      $h  $g  $i$g$f  $j$c  $b            $c$k  $j$b  $f  $g$i$g      $h  $b  $x
+                        $h  $i    $g  $j$k$l$c  $m  $n$c  $k$l$k$j$b  $g  $i        $h  $b      $x
+                          $h  $i      $j$k  $m  $o$m$o$n  $k  $j$e    $i          $h  $e$b  $c$b$x
+                            $h        $e$j  $m$o  $m$o  $n$j  $e    $b$h            $c$e  $b$c  $x
+                                      $e    $m    $n      $p$d$n$e$c  $a$c              $e  $b$c  $x
+                                        $e$n$a$q          $p  $n$c$b$e  $a$c$b  $e$c$x$c$e  $b  $c$x
+                                          $n$p$q  $r    $p  $n$c        $d  $b$e  $c$x  $c$e  $b$d  $x
+                                        $e  $n$q$r    $p  $n$a$b      $a$d  $a$e  $c$x    $c$a$d    $x
+                                      $e$b$e  $a$n      $d$c$b$a      $b  $e    $c  $x      $a  $d    $x
+                                    $e$b  $p$e$b  $x      $b    $e            $c  $x        $a$d        $x
+                              $p$x  $e$b$p      $b$x    $c$a$b  $c              $a$x          $a$d      $x
+      $h    $x            $h    $p  $e$b$p  $d$a$x    $c$b  $a                    $b$x        $a  $d      $x
+    $p$a    $h              $c  $p    $a$p$x        $c$b    $e$c$a$d      $a$c$e$b    $x      $a      $d$e  $x
+  $p$a  $s$a  $c  $h      $p        $x$d$x        $c$b    $e  $c$d$a      $d$c$e$b  $c$b$x      $c$e$b      $e$x
+  $p$a$s$a$s$a$c$p  $h  $p      $x              $b      $e  $c  $a    $d$a$x$c$e  $b  $c$b$x    $c$e$b        $e$x
+  $p$a$s$a$s$a$p$c  $p        $x              $b      $e  $c  $x$a$d  $a$d$x  $c$e$b    $c$x  $c$e$b  $c$b$c$b$e$x
+  $p$a$s$a$s$a$c$p          $x                $b    $e  $c  $x  $d$a      $x  $c$e  $b    $x$c$e$b  $x$c$b$c  $b  $x
+  $p$a  $s$a  $p          $x                    $b  $e$c  $x      $a$d  $a$x    $c$e  $b  $a$d$b  $x  $c$e$b$x$a$d$b$x
+    $p$a    $p    $x                              $b$e$c  $x      $d$a  $d$x      $c$e$b  $c  $b$x    $a$d$b$x  $c  $x
+      $p        $x                                $b$e$c  $x      $a    $x        $c$e$b    $x          $c$x
+                                                $b  $e$c  $x      $a  $x            $c$b    $x
+                                              $b    $c  $x                          $c$b    $x
+                                        $a  $b    $c  $x                          $c  $b    $x
+                                          $e      $c$x                            $c  $e$b    $x
+                                                                                    $c$e    $b  $x
+                                                                                      $c$e  $b    $x
+                                                                                      $c$a$d$b$a$d$x
+                                                                                        $c    $e  $x
+EOC

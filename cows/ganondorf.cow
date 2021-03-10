@@ -1,0 +1,80 @@
+# Ganondorf (Legend of Zelda)
+# by Igor Wolski - https://www.behance.net/gallery/16878251/Link-vs-Ganondorf-pixel
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;209m  ";
+$b = "\e[48;5;215m  ";
+$c = "\e[48;5;202m  ";
+$d = "\e[48;5;71m  ";
+$e = "\e[48;5;166m  ";
+$f = "\e[48;5;65m  ";
+$g = "\e[48;5;221m  ";
+$h = "\e[48;5;95m  ";
+$i = "\e[48;5;23m  ";
+$j = "\e[48;5;231m  ";
+$k = "\e[48;5;243m  ";
+$l = "\e[48;5;240m  ";
+$m = "\e[48;5;88m  ";
+$n = "\e[48;5;236m  ";
+$o = "\e[48;5;197m  ";
+$p = "\e[48;5;109m  ";
+$q = "\e[48;5;238m  ";
+$r = "\e[48;5;131m  ";
+$s = "\e[48;5;246m  ";
+$u = "\e[48;5;239m  ";
+$v = "\e[48;5;52m  ";
+$w = "\e[48;5;235m  ";
+$y = "\e[48;5;167m  ";
+$z = "\e[48;5;210m  ";
+
+$the_cow = <<EOC
+                          $t                                        $a  $x
+                            $t                              $b    $a$b    $a  $x
+                              $t                        $a$c    $a      $c    $a$x
+                                $t                    $a$c$d    $c$a  $c  $e    $x
+                                  $t                $a$d    $f    $a  $b  $a$c$x
+                                    $t            $b  $f      $a$b  $a$c$e  $x
+                                                  $c  $a$f  $a$e  $c  $f$b$g    $x
+                                                  $h$i$c$f$a$c$j$i$e  $h$b$k      $x
+                                                  $l$i$f  $i    $d$f$m$g$k$l  $n  $x
+                                              $l  $n$d$f      $d  $a$m$b$k$l  $n$o$x
+                                          $g$l$n    $i  $f  $d$f  $c$m$b$k$l$n  $k    $x
+                                          $g$n      $i        $c$a$m$g$k$l$n  $k$p  $k  $l$x
+                                          $b$n      $c$f  $d$a$m$h  $g$k$l  $k        $l$k$p$x
+                                            $g$n    $c  $a$m  $h$n$g$k$l    $k    $l  $b$g  $k$x
+                                      $k$p  $l$g$n  $q$n          $g$k$l$b$l        $b$l$k$p$g$k$x
+                                  $k$g$k    $l$g$n$q  $n        $b$k$l    $r$n    $b$k$b$l  $k$g$k$x
+                                $k  $g$l  $b$l$b$q      $n      $b$k$b  $r$n    $r$n$l$k$b$l  $k$g$x
+                              $k  $l$b$l$b$l  $b$q        $n    $r$b$l$n    $r  $n  $l  $k$b$l  $b$l$x
+                            $n$l  $b  $l$b$l  $b  $g$s$q      $r  $l  $n$r  $n  $r$n$l  $k$b    $l$p$x
+                            $r$b  $l$b$l  $b  $l$k  $b  $r    $n$r$b$r  $n      $r$n  $l  $b$l  $k  $x
+                              $r$l    $r$n  $r$s$l  $k    $n  $u      $n          $r    $b$l      $k$x
+                              $r$n      $r$n$r$s$n$l$k  $p$k$l$s      $l    $n  $r$n    $l$n      $o$x
+                              $r$n  $r  $n$r$b$s$n$l$k      $l$s    $n$l$k$l$n  $r$n        $l$o  $n$l$x
+                                $r  $n  $r$s    $n$l  $k  $l  $s    $n$l$k  $n    $r$n          $l      $x
+                                  $n    $r$s    $n$l          $s    $n$l$k  $n    $r$n      $l$b$g    $l$x
+                              $l      $r$l$s    $n$b    $g  $l$s    $n$l    $n      $r$n  $b  $k      $b$x
+                            $l$b$g  $l$n$l  $b    $k$b$k    $g    $s  $n$l  $n          $b$l$k  $b    $g    $x
+      $n$d$x              $l$b$l$k  $b$l$r$b$k    $l$b$k  $p$k    $b$s$n$l  $n          $b$l  $b$l$k    $p$k  $x
+    $f$n$d$x              $b$l$k  $p$l  $r$l$b$l  $b$l$k  $p$k$g$b$k$b$n$l  $n        $r$l  $b$l    $k    $p$k$x
+    $f$d  $x      $n$x  $l    $k    $l$n$b$l$b$l  $b$l$k    $g$k      $b$l$n          $r$l$b$l          $k    $d$n$x$n$x
+  $u$f$d$x      $f$d$x  $l          $n  $b$l$b$l  $b$l  $k  $g$k$b$k  $b$n            $r$n$r$n$l          $f$d$u$v$f$d  $n    $x
+  $u$f$d$x$n$d$x$f$d  $x$l  $b$g  $n    $b  $h$l  $b$l    $k  $b  $l  $b$n          $r$n$r$n      $l    $f$n$u  $d$u$f$u$f$d$n$x
+    $f    $n$d$x$f  $q$l$j$b$l    $r  $n$b$l$b$l  $g$l      $b$h  $l$b$n          $o$r$n$r$n        $l  $n$d$u$f$d  $u$d$u$f$d$x
+    $u$f    $n$d$n  $q$l      $k$l$n  $r$b$l$b$l  $g$l    $g$l      $b$n          $o$r$n$r$n          $l  $f$d$u$f  $d$u$f$u  $x
+    $u$f$u$f$n$d$n  $q  $n$l$k$p$l$n  $r$b$l$h$b$l$g$l    $g$b$l    $b$r$n      $o$n$o$x$n$r$v$n        $f$u$f$d$u$f  $d$u  $v$x
+      $f$u$f  $d$n        $l$k  $l$n    $b$l$b$h$l$b$l      $h$b$l  $r$n$r  $n  $o  $b$x  $r$n$v$n    $u  $f$u$f$d$u$o$u  $w$o$x
+        $u  $f$d$n$f$n$q$n$l    $n    $v$b$l$h$l  $b$l      $b$h$l$n$r$n    $r$o$r$n$x    $o$n  $v  $n$u              $o$u$w$o$x
+        $u  $f    $d$n$q  $l  $n    $v$n$r$n$l    $b$l      $h$l$n  $r$n      $o$n$l$y$x    $o$n  $v$n$u      $o$u    $w  $o$x
+          $u  $f$d$n  $q  $l$n  $v  $n$o$x$r$n  $l$b$l      $n      $r$n    $o$n  $y  $l$x    $o  $n      $u    $o$w    $o$x
+            $u  $d$v    $n    $v  $o  $x  $r$n$r$n  $r$n  $r$n    $r$v$n  $o$n  $v    $l  $x      $r$o$n    $u    $w$o  $x
+              $u  $o  $r      $n  $x  $y$n  $r$n    $r$n  $v$r  $n$r$v$n      $r    $v$n$l  $x          $o  $n$v$o  $x
+                                  $l  $v$l$n$r$n$v  $r$v    $o  $r$v$n      $r    $v$n      $l$x
+                                $l    $n$y$l$n$r$n  $r$n$o  $r  $v$n    $r      $v$n            $x
+                              $l    $b$l$v$y$l$n$r$n$r$n$r  $v  $n  $r    $o$v  $n    $r$n        $x
+                            $l$b$g  $l  $n$y$z$l  $r    $v  $n$r      $o  $v  $n        $r  $o$r$n  $x
+                        $b    $n    $b$l  $v$y$z  $l$v  $n$r      $o  $n  $v$n          $r$n    $r  $o$x
+                        $n    $l  $b$l$k$l$n$v$y  $z  $v    $r    $n  $l  $n    $r$n$r  $n            $x
+EOC

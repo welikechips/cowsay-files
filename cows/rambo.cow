@@ -1,0 +1,68 @@
+# John Rambo
+# by /r/Sbe16 - https://www.reddit.com/r/PixelArt/comments/9jfp5d/oc_john_j_rambo_i_made_last_night_on_stream/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;237m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;88m  ";
+$d = "\e[48;5;131m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;180m  ";
+$g = "\e[48;5;137m  ";
+$h = "\e[48;5;59m  ";
+$i = "\e[48;5;234m  ";
+$j = "\e[48;5;79m  ";
+$k = "\e[48;5;29m  ";
+$l = "\e[48;5;236m  ";
+$m = "\e[48;5;244m  ";
+$n = "\e[48;5;95m  ";
+$o = "\e[48;5;179m  ";
+
+$the_cow = <<EOC
+            $t
+              $t              $a        $x
+                $t          $a        $b  $x
+                  $t        $c      $b$a  $x
+                    $t      $c        $a$b$c      $x
+                            $d$e  $d$e$a    $c$x  $c$x
+                            $f$e      $b  $a  $c  $x
+                            $f$e      $b  $a$x$c    $x
+                              $f    $g$b$a$b$a$x  $c$x
+                              $g      $b        $x$c  $x
+                            $h$g      $b    $x      $c  $x
+                        $a$f$h$f    $h$e$a$i$f$x
+                    $f  $a$e  $h$e$h$e  $a$e  $f$x
+                  $f$e$f$a$f$e  $j$e    $a$e  $f  $x
+                $f$e  $f  $a$e  $k$e  $f$a$e  $f$e$f$x
+                $f$e  $f$e$a$f$e      $a  $e      $f$x
+              $f  $e$f$e  $a  $f$e$f$a  $f$e  $f$e$f$x                                $i$x
+              $f      $e  $a            $f$e  $f  $g$x                                $i  $x
+            $f    $e$f$e  $a          $f$a$e$f$g      $x                              $i$x$i$x
+          $f    $e    $g$f$a            $i$f$g          $x              $i  $x    $a  $i    $x
+        $f$e$f  $e  $f$g  $i              $g            $x        $a            $i            $x
+        $f$e    $f  $x  $g$i  $a      $i  $g$x  $g    $a              $i              $x
+      $f$e$f  $e  $x    $a  $h$a$i  $l$a$l$h    $a  $i                        $x
+      $f  $e        $i          $m  $h$m      $h$i    $a        $i    $x
+        $f      $e    $i$f$e  $f  $a  $m      $h$a          $i  $g$x
+      $i$a  $f        $m$f$e  $f$a$i$a$i    $a      $i  $f$i$f  $i$m$x
+      $i  $a        $f$i$g$f  $a  $i      $h  $i  $x$n$g  $i$f  $g  $x
+      $i  $m$a          $i    $a$i              $x  $i  $m$x$f  $i$m$x
+        $i$a        $x$a$i  $h$l$n$g  $a$i$a  $x  $n$g  $x      $g    $x
+            $a$x      $i  $h$i          $a$i  $x  $i  $m$x      $i  $m$x
+              $a$h        $i$l  $n$g  $a    $x    $n$g  $x      $g$o  $x
+                    $i    $l    $i    $a    $i$x  $i  $m$x      $i  $m$x
+                    $a          $i$n$g  $a  $i$a$x$g$o  $x    $g$o  $x
+                  $i$a    $i$a  $i        $a$i$a$x$i  $m$x    $i  $m$x
+                $l$i$l$a    $l  $i$a$n$g  $a  $i$a$g$o  $x  $g$o  $x
+                $l$i$a        $i            $a  $i    $m$x
+                $l$i$a        $i      $g$o  $a$i$g$o  $x
+              $l$i$a    $l  $i  $x$i    $a  $g$o  $a$x
+              $l$i$a    $l$i    $x  $i  $l$a      $i$a$x
+            $l$i$a      $l$i  $x    $i    $a      $i$a$x
+            $l$i$a      $i  $x        $i  $l$a      $i$a$x
+            $l$a      $i  $x          $i    $a      $i$a$x
+              $a    $i    $x            $i  $l$a      $i$x
+            $l$a    $i  $x                $i  $a      $x
+EOC

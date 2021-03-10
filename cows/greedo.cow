@@ -1,0 +1,76 @@
+# Greedo (Star Wars: Episode IV)
+# by @starwarspixel - https://twitter.com/starwarspixel/status/765098105851215872
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;59m  ";
+$d = "\e[48;5;65m  ";
+$e = "\e[48;5;66m  ";
+$f = "\e[48;5;238m  ";
+$g = "\e[48;5;233m  ";
+$h = "\e[48;5;17m  ";
+$i = "\e[48;5;104m  ";
+$j = "\e[48;5;231m  ";
+$k = "\e[48;5;55m  ";
+$l = "\e[48;5;239m  ";
+$m = "\e[48;5;23m  ";
+$n = "\e[48;5;122m  ";
+$o = "\e[48;5;131m  ";
+$p = "\e[48;5;95m  ";
+$q = "\e[48;5;101m  ";
+$r = "\e[48;5;113m  ";
+$s = "\e[48;5;180m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                                    $a      $x
+              $t                        $a  $x  $a$b  $c  $a$x
+                $t                $a    $c$a    $b      $c  $a$x
+                  $a    $x        $a$c    $b$a  $b      $c  $a$x
+                $a$c    $a$x        $a$c  $b    $a$b      $c$a$x
+              $a$c$b$c    $a$x        $a$c$b  $a  $b      $c$a$x
+              $a$c$b    $c$a$x  $a      $c$b    $c$b        $a  $x
+              $a$c$b      $a        $b  $c$b      $c$b  $a$b    $a$x
+              $a$c$b      $c$b                              $a$b  $a$x
+                $a$b        $c$b            $c$b        $a$b$a$b$a    $x
+                  $a$b$c$b  $d  $b    $c  $b$c    $b$c$b      $a      $x    $a  $x
+                    $a$b    $d  $b$d    $e$c$e$c$b$c  $b        $a$b$a  $x  $a    $x
+                      $a$d$b$e$b  $d$e  $c$b$c      $b$c$b$a  $b$a      $x  $a$c  $a$x
+            $a$x    $a$d          $c      $e$c$e$b$c  $b$c$b  $a          $x  $a  $c$a$x
+          $a$b$a$x  $a$e  $d    $b$c$e$c    $e$c  $b$c$b        $a            $b$a$c$a$x
+          $a$b$a$x  $a$d$e    $d  $e$c  $b$c    $b$d  $c$b        $a          $b  $c$a$x
+          $a$b$a$x  $a$e    $c$e  $b$c$e$c$e$c      $f$c$f  $b  $a$b$a      $b$a$b$c$a$x
+          $a$e$b$a$x$a$e                    $c$f  $c$e  $b  $c$b      $a    $b$a$b$c$a$x
+            $a$e$a    $c$e  $c  $e    $d    $f$e      $b$e$b  $c$b  $a          $b$c$a$x
+            $a$b    $e  $c        $e  $c$d    $e  $b$d  $b$e$b  $f$b  $a      $c$b$c$a$x
+            $a$e$b  $e  $c            $d$e$d$c$b$c$g        $b    $a$b  $a    $c$b$c$a$x
+            $a$e$b  $c$e$c  $h$i$j$i$c  $e$d$c$b  $g$h$g$i$g  $b$f$b$a$b$a  $b$c$b$c$a$x
+            $a$e$b$e$c    $g$h$k$j$i  $e      $b$l$h  $g$i  $g$b      $a    $b      $a$x
+              $a$e  $c    $h$l$i$l$k$h$c$d  $c$b$g$h  $i    $b  $f$b  $a      $b  $a$x
+                $a$b$c  $l  $j$l$k$l  $c$d$c  $b$h  $j  $l  $g$b    $a      $b$a$b$a$x
+              $a$b  $c  $l  $h$l  $h$g$c$d  $f$b$h        $g  $b$f  $b$a      $b$a$x
+              $a$e$b$a$c  $h    $l$h$g$c$e$f$c$b$g          $b$f  $b    $a$b$a  $x
+              $a  $e$a  $c$d$g$h  $g$c  $e$c$d$f$b          $f      $b$a$b$a$b$a$x
+                  $a$e$a  $d  $g  $c  $d$e$d  $f              $c$f  $b  $a    $x
+                  $a$e$a  $e  $d$c$d  $e    $d$c  $f  $c$f$c$f        $b$a$x
+                    $a$x  $a$e      $d$e    $d$c$f                    $b$a$x
+                          $a$e              $d    $c  $f          $b$f$a$x
+                            $a$e$d$e        $d  $c$f                $b$a$x
+                            $a$e    $d$e$d$e$d  $f                  $a$x
+                              $a$e            $c$d$c  $f          $a  $x
+                                $a$e$d$e$d$e    $f$c$f$c$f      $a    $m$x
+                                  $a$d$e      $f  $c  $f      $a    $m    $a$x
+                                  $a$d  $e$d$c$f$d$c  $f    $a    $m      $a$x
+                                $a$n  $a$c  $d$c    $b$c$a      $m$e    $m  $a  $x
+                              $a  $n  $a$c    $b  $e$b$a      $m  $e    $m    $l$a        $x
+                      $a      $o$p$n  $a$e$b      $e$a    $m$e$m$e    $m$e$m  $l          $a  $x
+                  $a  $o      $p  $n  $a    $e    $a$m  $e          $m$e    $m$l          $q  $a    $x
+              $a  $n$o      $p  $o$n        $a    $n$m    $e              $m  $l            $q      $x
+          $a  $n$r$o        $p  $o$m$n            $e    $m$e              $m$s$l$o$l          $q    $x
+        $a$n$r  $n$o        $p$o  $m  $n          $e                    $m  $s$o  $l          $e    $x
+      $a$r  $n$r$n$o    $p    $o    $m  $n    $e    $n            $e$m  $e  $s$o  $l$s$l        $e  $x
+    $a$r    $n  $o      $p  $o    $p  $e  $m  $e            $m      $e      $s$o  $l$s$o$l        $e$x
+EOC

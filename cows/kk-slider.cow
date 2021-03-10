@@ -1,0 +1,60 @@
+# KK Slider (Animal Crossing)
+# by - https://kandipatterns.com/patterns/characters/kk-slider-from-animal-crossing-3999
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;244m  ";
+$d = "\e[48;5;88m  ";
+$e = "\e[48;5;124m  ";
+$f = "\e[48;5;196m  ";
+$g = "\e[48;5;166m  ";
+$h = "\e[48;5;208m  ";
+$i = "\e[48;5;226m  ";
+$j = "\e[48;5;136m  ";
+$k = "\e[48;5;94m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t
+                $t                    $a      $x
+                  $t                $a$b  $c  $a$x
+                        $a              $b    $c$a$x
+          $a    $x  $a  $b    $c        $a  $b  $a$x
+        $a$b    $a  $b            $c        $a$c$a$x
+      $a$b                            $c      $a$b$a$x
+    $a$b    $a$b                        $c  $a    $x
+    $a$b    $a$b                        $c  $a    $x
+    $a$b  $a$c$b                          $c$a    $x
+      $a$c$a$c  $b                        $a  $c$a$x
+      $a$c$a$c  $b      $a    $b          $a  $c$a$x
+      $a$c$a  $c$b    $a        $b        $a$c$a  $x
+        $a$x$a$c$b  $a    $c    $a$b      $c$a$c$a$x
+              $a$c$b$a$c  $b    $c$b      $c    $a$x
+              $a$c$b    $a        $b        $c  $a$x
+              $a$c$b  $a$b$c$a  $b            $c$a$x
+                $a$c$b                  $a        $x
+                  $a  $b                $a      $c$a$x
+                      $a$b              $a$c$a  $c$a$x        $a$x$a$x
+                    $a$c$a$c$b            $a    $c$a$x        $a$d  $x
+                  $a$c  $a  $c$b        $c  $a$c$a$x      $d    $e  $d$x
+                $a$b$c$a$d  $a$c$b  $c    $a    $x  $a  $d$e        $d$x
+                $a$b  $a$f$g  $a$c    $a  $g$d  $a  $c  $a$e$d        $x
+                $a$b  $c$a    $g$a    $g  $h$d$a$c$a$b$c$a$d$x  $a$x$a$x
+                $d$a$b$c    $a$h$a  $g$h  $f  $a$b$c$b$c$a$x
+                $d$h$a$b  $c$a$h$g$a  $h$f$h$d$a$b    $c$a$x
+                $d$h$a$b$c$a  $h$e$h  $f$h$i$d$c$a      $x
+                  $d$h$a    $e        $h$d  $a      $x
+                  $d$h$f$g      $f$h$i$d$c  $a$x
+                  $d$i$h$f      $h$d  $c    $a$x
+                    $d$i        $d$c$a$c$b$c$a$x
+                    $d          $c$b$c$a$b$a$j$x
+                    $k    $j$a$c$b    $a  $k$j$k$x
+                    $k      $j$a  $b$a$c$a$k    $x
+                  $k  $j  $k  $j  $a$c$a  $j$k  $x
+                  $k            $a$c    $a$k    $x
+                                $a        $x
+EOC

@@ -1,0 +1,61 @@
+# robin2
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;216m  ";
+$d = "\e[48;5;173m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;160m  ";
+$g = "\e[48;5;124m  ";
+$h = "\e[48;5;214m  ";
+$i = "\e[48;5;136m  ";
+$j = "\e[48;5;172m  ";
+
+$the_cow = <<EOC
+          $t
+            $t        $a$x
+              $t  $a  $x  $b$a    $x
+                $a  $b$a$b$a  $x
+                $a          $b  $x
+                $a$c  $a        $b$x
+                $a$c    $a$c$a$x$a$x
+                $a$c$a$c  $a$c$x
+              $d  $a$e$a  $e$a$x
+              $d  $a$e$a  $e$b$x
+                $d$c$a$c$d$a$c$x
+                  $d$c        $x
+                    $d$c    $x
+                    $a$d$c$x
+                  $a$b  $a$x
+              $b          $a  $x
+          $f$b                $a  $x
+      $b$a$g$f  $a$b          $f  $a$x
+      $b$a$b$g$f      $h    $f    $b$x
+      $b$a$b  $g$f            $h$b  $x
+      $b$a$b  $g$f    $h    $f$b$h$b$x
+      $b$a$b  $g  $f              $b$x
+      $b$d$b  $i$g$f  $h    $f  $d$c$x
+    $b$i$d$c$b$i$g  $f          $d$c$x
+    $b$i$d$c  $i  $g$f          $d$c  $x
+    $b$i$d$c  $i  $j$h$j$h$j$h  $d$c  $a  $x
+    $b$i$d$c  $i  $j$h$j$h$j$h  $i$d$a$b$a$x
+    $b$a$b  $c$i  $a$b          $i$b  $a$x
+    $b$a$b    $i  $a$b          $i$b  $a$x
+    $b  $a$b  $i  $a$b          $i$b  $a$x
+    $b  $a$b  $i  $g$f$a$b    $f$i$b  $a$x
+    $b  $a$b    $i$g$f  $b  $f  $i$b$a$b$x
+    $b  $i$a$b    $g$f  $g$f    $b  $a$b$x
+    $b  $x  $b$a  $f    $g$f    $a$b$a$b$x
+      $b$x  $b  $a$f    $g$f    $b$a$b  $x
+                $g$f  $x$g$f  $x  $i$a$x
+                $g$f  $x$g$f  $x
+                $g$f  $x$g$f  $x
+                $g$f$x  $g$f$x
+                $g$f$x  $g$f$x
+              $g$f  $x$g  $f$x
+              $g$f$x  $g  $f$x
+EOC

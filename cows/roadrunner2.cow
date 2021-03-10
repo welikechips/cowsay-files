@@ -1,0 +1,68 @@
+# Roadrunner (Looney Tunes)
+# sprite from Road Runner's Death Valley Ralley (SNES) - https://www.spriters-resource.com/fullview/28235/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;104m  ";
+$c = "\e[48;5;147m  ";
+$d = "\e[48;5;61m  ";
+$e = "\e[48;5;129m  ";
+$f = "\e[48;5;91m  ";
+$g = "\e[48;5;54m  ";
+$h = "\e[48;5;231m  ";
+$i = "\e[48;5;214m  ";
+$j = "\e[48;5;220m  ";
+
+$the_cow = <<EOC
+                        $t
+            $a  $x        $t
+          $a$b$c$a$x        $t
+      $a    $b$c$a$x          $t                $a      $x
+    $a$b$c$d$b  $c$a$x          $t            $a$e      $a    $x
+      $a$b$c$d$b$c$a$x                  $a$x$a$e$f      $e    $a$x
+      $a  $b$c$d$b$c$a$x              $a$e$a$e$f    $a      $e$a$x
+    $a$c$d$b        $c$a$x            $a$e$a$f  $a  $x      $a  $x
+    $a$b$c$d  $b      $c$a$x          $a$e$f  $a$x
+      $a  $b$c$d$b      $c$a$x          $a$f  $a$x
+        $a$d$b            $c$a$x          $a$f  $a$x
+      $a$b$c$d  $b          $c$a$x          $a$g$a    $x
+        $a$b  $c$d  $b      $c$a$x            $a$e$h  $a$x  $a  $x
+          $a  $b            $c$a$x          $a$f  $h    $a  $i$a$x
+              $a$d$b        $c$a$x          $a$f  $g$h$a  $i$j$a$x
+            $a$b$c$d$b      $c$a$x        $a$i$j            $i$a$x
+              $a$d$b          $a$x      $a$i$j$i      $a$i  $a$x
+                $a  $b$d$b    $a$x        $a$i          $a  $x
+                    $a$d$b    $a$x          $a    $d  $a$x
+                      $a$b    $a$x                $a$d$a$x
+                    $a$b$d$b  $a$x                $a$b$a$x
+                    $a$d$b    $a$x                $a$b$a$x
+                      $a$d$b  $a$x                $a$b$a$x
+                    $a$c$b    $a$x                $a$b$a$x
+                      $a$b    $a$x                $a$b$a$x
+                        $a$d$b$a$x                $a$b$a$x
+                        $a$c$b$d$a$x              $a$b$a$x
+                          $a$b  $a$x              $a$b$a$x
+                            $a$b$d$a$x          $a$d$b$a$x
+                              $a$b$d$a          $g$b  $a$x
+                                $a$e$f$g  $e  $f$g$b  $a$x
+                                  $a$g  $e$f  $g  $b$d$a$x
+                                  $a$b$d$f$g    $b$d$a$x
+                                $a$b$d          $a  $x
+                              $a$j$d  $a        $x
+                              $a$i  $a$x
+                              $a$i  $a$x
+                                $a$i$a$x
+                                $a$i$a$x
+                                $a$i$j$a$x
+                                  $a$i$a$x
+                                  $a$i$a$x
+                                  $a$i$j$a$x
+                                    $a$i$a$x
+                                    $a$i$a$x
+                            $a    $x$a$i$j$a$x        $a      $x
+                          $a$j  $i$a$i    $j$a        $j      $a$x
+                        $a$i                                    $a$x
+                          $a                                      $x
+EOC

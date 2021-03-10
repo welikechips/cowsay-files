@@ -1,0 +1,75 @@
+# Luke Skywalker
+# by /u/Sbe16 - https://www.reddit.com/r/PixelArt/comments/9dd75i/oc_luke_skywalker_i_did_on_my_latest_stream_join/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;153m  ";
+$b = "\e[48;5;136m  ";
+$c = "\e[48;5;94m  ";
+$d = "\e[48;5;216m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;137m  ";
+$g = "\e[48;5;187m  ";
+$h = "\e[48;5;173m  ";
+$i = "\e[48;5;102m  ";
+$j = "\e[48;5;230m  ";
+$k = "\e[48;5;59m  ";
+$l = "\e[48;5;235m  ";
+$m = "\e[48;5;239m  ";
+$n = "\e[48;5;144m  ";
+$o = "\e[48;5;237m  ";
+$p = "\e[48;5;180m  ";
+$q = "\e[48;5;248m  ";
+
+$the_cow = <<EOC
+          $t                                                                                  $a  $x
+            $t                                                                            $a      $x
+              $t                                                                      $a      $x
+                $t                                                                $a      $x
+                  $t      $b      $x                                          $a      $x
+                        $b$c  $b    $x                                    $a      $x
+                      $b$c$b$c  $b  $x                                $a      $x
+                      $c  $d$e$b$d$c$b$x                          $a      $x
+                      $b$d$f$e  $f$d$c$x                      $a      $x
+                      $b$d$e    $d  $c$x                  $a      $x
+                    $b$c$d  $e  $d$b$x                $a      $x
+                        $c$d      $c  $x          $a      $x
+                  $g  $c  $d$h    $x          $i    $a$x
+              $g  $j  $g$j$d  $h  $g$x$e  $i  $k  $x
+          $g  $j$g$j    $g$d  $h$j$d$e    $k  $x
+        $g$j  $g    $j    $g$h$d$e  $d$e$d$x
+      $g$j  $g$j    $g  $j$d    $e  $d    $x
+      $g$j        $g$j  $g$d      $e$d  $x
+      $g$j      $g$j  $g$l    $j    $d  $x
+        $g$j    $g$j$g$l  $m$g$j  $g$d$c$x
+        $g    $n$g  $l  $m$g$j  $g  $c$l$g$x
+          $g  $n$g  $l$m  $j    $g  $l  $g$x
+            $g$n$g$l$m  $j    $g    $l  $g$x
+            $g  $n$m    $j    $g  $n$l  $g$x
+          $g$j  $g$m  $g$j  $g    $n$m  $g$x
+          $g$j    $n$g      $n$g  $n$g    $x
+          $g$j    $g$n        $g        $x
+        $g$o  $g      $k  $n    $x
+        $o    $l$o    $k  $m$n  $x
+        $l            $k  $m$l$o$x
+        $l  $g  $n    $m  $l    $m$x
+      $g$j        $g$n    $g  $l$m$x
+      $g$j          $n    $g  $l  $x
+    $g$j$f$p      $g  $n  $g  $q$x
+    $g$o$p$f$p      $f$n    $g  $x
+    $o$l$p$f$p      $f$p$n  $g  $x
+      $l$p  $f$p      $f$p    $o$g$x
+          $p$f$p      $f$p    $x
+          $p  $f$p    $f$p    $x
+            $p$f$p      $f$p    $x
+            $p  $f$p    $f$p    $x
+              $p$f$p    $f$p    $x
+              $p  $f$p    $f$p    $x
+                $p$f$p    $f$p    $x
+                $p$f$p  $f$p      $x
+                  $f$c    $f$p$f$x
+                  $c$f    $c$f$c$x
+                  $c        $f  $x
+                $f        $c    $x
+EOC

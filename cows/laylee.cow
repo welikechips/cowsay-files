@@ -1,0 +1,62 @@
+# Laylee (Yooka Laylee)
+# by /u/TDWP_FTW - https://www.reddit.com/r/YookaLaylee/comments/34jl06/full_body_sprites_of_yooka_laylee/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;183m  ";
+$c = "\e[48;5;173m  ";
+$d = "\e[48;5;141m  ";
+$e = "\e[48;5;61m  ";
+$f = "\e[48;5;216m  ";
+$g = "\e[48;5;52m  ";
+$h = "\e[48;5;252m  ";
+$i = "\e[48;5;203m  ";
+$j = "\e[48;5;209m  ";
+$k = "\e[48;5;231m  ";
+$l = "\e[48;5;95m  ";
+$m = "\e[48;5;167m  ";
+$n = "\e[48;5;155m  ";
+$o = "\e[48;5;28m  ";
+$p = "\e[48;5;244m  ";
+$q = "\e[48;5;211m  ";
+
+$the_cow = <<EOC
+                    $t                                                    $a$x
+                      $t                      $a$x                      $a$b$a$x
+                        $t                    $a$x                    $a$b$c$d$a$x
+                          $t                $a$b$a$x                  $a$b$c$d$a$x
+                            $t              $a$b$e$a$x              $a$b$c    $d$a$x
+                              $t            $a$b$e$a$x              $a$b$c    $d$a$x
+                                $t          $a$b$e  $a$x          $a$b$c  $f$c  $b$a$x
+                                            $a$b$e  $a$x        $a  $d$c  $f  $c$b$a$x
+                                            $a$b$e  $a$x    $a  $d$e  $b$c  $f  $c$b$a$x
+                                            $a$b$d$e$a      $d$b    $d$e$c  $f    $b$a$x
+          $a  $x                            $a$d  $a$d      $b$e    $b$d$a$c  $f  $b$a$x
+      $a  $b  $a$x                          $a    $d      $b$e        $b$d$a$c$f    $b$a$x
+    $a$b  $a  $b$a$x  $a$x              $g        $d    $b$e  $h    $e  $b$a$c  $f  $b$a$x                  $a  $x
+    $a    $c  $a$b$a  $b$a$x          $g$i    $j  $g$d  $e  $h$k    $h$e  $b$a$c$f$d$a$x        $a$x    $a  $b  $a  $x
+      $l$c      $a$d$a$e$a$x        $g$m$i  $j      $g$d$e$h$k  $n  $k$h$e$b$a$c$f$d$a$x      $a$b$a$x$a$b  $a  $b  $a$x
+      $l$c$f$c    $a$d$a  $x        $g$m$i  $j  $m$g$j$g$e$h$k$n$a$h$n$h$e$b$a$c$d$a$x        $a$e$d$a$d$a  $c  $a  $b$a$x
+      $l$f  $c  $a$d$a$e$a$x        $g$m  $i  $j$m$g$j$g$e$h$k$n$a  $o$e$b$d$a$c$d$a$x        $a  $e$d$a$c          $a$b$a$x
+        $l$c  $a$d$a$d$a$d$a$x      $g$m    $i  $j  $i$g$e$h    $o$e  $b  $d$a$c$e$a$x      $a  $b  $a$c      $f    $c$a  $x
+        $l$c$a$e$a$c$a$d$a$d$a  $x    $g$m      $i  $g$d$b$e      $b  $e  $d$a$e$a$x      $a$b  $a  $b$a$c  $f        $l$x
+          $a$e$a$c  $a$d$a  $d  $a  $x  $g          $d$b    $a          $d$b$a$e$a$x    $a$b$a$b$a$c$a$d$a$c$f      $l$x
+          $a$e$a$c  $a$e$a$c$a  $e  $a    $e      $d$a      $h$l$h$p  $a$b$d$a  $x  $a  $b$a  $d$a$c  $a$e$a$c$f  $l$x
+          $a$e$a$c    $a$e$a$c  $a  $e  $a          $h$l$k  $l      $h$a$b$e$a$x$a  $d  $a$c$a$d$a$c  $a$e$a$c$f$l$x
+          $a$e$a$c$f$c$a$e$a$c      $a      $e$h$l$p$l$q$l$k$q$l$k$h$e$a$d$a    $e  $a  $c$a$d$a$c      $a$e$a$f$l$x
+            $a$x$l$f  $c$a$e$a$c$f$c      $a$e$l$p$l$q      $k  $e  $a  $e$a$e  $a  $c    $a$e$a$c$f  $c$a$e$a$l$x
+                  $l$f$c$a$e$a$f    $c    $a  $e$d$h$k  $q$k$d$e$a  $e  $a$e$a  $c        $a$e$a$c$f  $c$a$e$a$x
+                    $l  $a$e$a$l$f  $c    $a$c$a  $d        $a  $e        $a$c      $f$c$a$e$a$c$f      $a$e$a$x
+                          $a$x  $l  $c        $a$e$a        $e      $d  $e$l$c  $f    $c$a$e$a$f    $l  $x$a$x
+                                    $l  $c      $a$e            $d  $b$d$e$l$f          $a$e$a$l    $x
+                                        $l      $a$e    $c      $d$b    $d$e$l$f    $l  $x$a$x
+                                                  $a$e$c    $f    $d$b  $d$e  $l    $x
+                                                  $a$e$c  $f        $b$d  $e  $a$x
+                                                    $a$c    $f      $d  $e    $a$l$x
+                                                      $a  $c      $e        $a$c$l$x
+                                                          $a                $c$l$x
+                                                            $l$c  $l$x  $l$c  $l$x
+                                                              $l  $x      $l  $x
+EOC

@@ -1,0 +1,50 @@
+# Meatwad (Aqua Teen Hunger Force)
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;52m  ";
+$c = "\e[48;5;124m  ";
+$d = "\e[48;5;88m  ";
+$e = "\e[48;5;167m  ";
+$h = "\e[48;5;254m  ";
+$i = "\e[48;5;173m  ";
+
+$the_cow = <<EOC
+        $t
+          $t
+            $t                      $a    $x
+              $t                  $a  $b$a  $x
+                $t        $a        $c    $b$a    $x
+                    $a    $d$c                $d$b$a      $x
+                  $a$c                            $d  $b$a  $x
+                $a$c            $e  $c                  $d$a$x
+                $a$c            $e$c                      $b$a$x
+              $a$c                                $e$c    $d$b$a$x
+            $a$c                                  $e$c        $b$a$x
+            $a$c                                              $d$b$a$x
+          $a$c  $e  $c                                      $e$c    $a$x
+          $a$c  $e  $c                                  $e      $c  $b$a$x
+        $a$c                                                        $d$a$x
+      $a$c                                                            $a$x
+      $a$c                                                            $d$a$x
+        $a$c                                                          $d$a$x
+        $a$c                                                            $b$a$x
+        $a$c$e$c                                                  $e  $c$d$a$x
+        $a$c$e$c                        $a  $d$c                        $b$a$x
+        $a$c                        $a    $c    $d      $c            $d$b$a$x
+          $a$c                      $a$c      $d$a$h  $d$c  $d    $c  $b  $a$x
+          $a$c                    $d$a$c  $d  $a  $h  $d  $a$h  $d$c  $d$b$a$x
+          $a$c  $e$c            $a    $c    $d$h      $c$d$a$h  $d$c  $d$b$a$x
+          $a$c  $e$d$c          $a$h$a$c    $d$h    $b$c$d$h  $d$c    $b$a$x
+            $a$c                $a    $c      $d    $c  $d$h  $d  $e$d$b$a$x
+              $a$c                  $a  $c                $d  $c$e$i$b$a$x
+                $a$c$e$c              $a  $c    $d$c              $d$b$a$x
+                $a$c$e$c                $a        $c            $d$b  $a$x
+                $a$d$c                    $d$c$d$c      $e$c  $d$b  $a$x
+                  $a$d$c                  $d$i$c      $e$i$c$d$b  $a$x
+                    $a$d  $c              $d$e$c        $d  $b  $a$x
+                      $a                                        $x
+EOC

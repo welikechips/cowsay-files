@@ -1,0 +1,59 @@
+# Mr. Resetti (Animal Crossing)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;28;28;28m  ";
+$b = "\e[48;2;216;172;4m  ";
+$c = "\e[48;2;252;216;1m  ";
+$d = "\e[48;2;170;170;153m  ";
+$e = "\e[48;2;131;132;131m  ";
+$f = "\e[48;2;96;100;101m  ";
+$g = "\e[48;2;184;135;0m  ";
+$h = "\e[48;2;135;68;0m  ";
+$i = "\e[48;2;94;42;0m  ";
+$j = "\e[48;2;205;198;189m  ";
+$k = "\e[48;2;57;65;126m  ";
+$l = "\e[48;2;252;254;253m  ";
+$m = "\e[48;2;86;103;175m  ";
+$n = "\e[48;2;174;128;69m  ";
+$o = "\e[48;2;149;90;40m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t                      $a          $x
+                    $t              $a    $b  $c      $a    $x
+                      $t          $a$b  $c      $b$d    $c  $a$x
+                        $t      $a$b  $c  $b    $e$f    $d$c  $a$x
+                              $a$b  $g$b  $c  $b$e$f$h$f$d$b  $c$a$x
+                            $a$g    $c    $a  $b$e$f    $d$c  $b  $a$x
+        $a  $x  $a        $x$a$b    $a    $i  $a$b$e    $a    $c    $a$x
+      $a$b$c$a  $f  $e    $a$c$a    $i    $h  $i$a      $i    $a    $c$a$x
+      $a$b$a$f$e      $f    $a$i    $h  $a  $h  $i      $h    $i    $a$x
+        $a$f$e$a  $f$e$a    $i    $h    $a      $h              $a    $x
+      $a$e  $a$b$c$a  $x  $a$i    $h        $a    $h          $a      $x
+      $a$e  $a$g$b$c  $a$x$a$i    $h                                $a$x
+      $a$e  $f$a$g$b$c  $a$i    $h          $a    $h  $a      $h$a    $x
+      $a$e$f$a$x$a$g$b$c  $a$i  $h                          $i$a      $x
+    $a$e$f$a$x    $a$g$b$c  $a$i$h                          $i        $a$x
+    $a$e$f$a$x      $a$g$b$c  $a$h          $i      $h        $i  $a  $x
+    $a$f$a$x          $a$g$b$c  $a$h                $i  $h    $a  $h$a$x
+    $a$f$a$x          $a  $g$b$c  $a$h        $i    $h    $a  $i    $a$x
+    $a$f$a$x          $a$i$a$g$b$c  $a$h              $a  $i  $h    $a$x
+      $a$x            $a$i  $a$g$b$a    $h                          $a$x
+                      $a$i    $a  $i    $a$h          $a  $h        $a$x
+                      $a$i    $a$i      $a  $h                      $a$x
+                      $a$j  $a$h  $i  $a$b  $a$h              $i    $a$x
+                    $a$k$j$a$h        $a$b$c  $a$i            $j  $k$a$x
+                    $a$k$j$l  $h    $a  $g$c    $a$j          $l  $k$m$a$x
+                    $a$k$j$l    $h$a$k$m$a$g$b$a$l              $k$m  $a$x
+                    $a$m$k$l    $a$l$k$m  $a  $k                $m$a    $x
+                    $a$m  $a  $l$k  $m  $k  $m$a      $m      $a  $n    $a$x
+                  $a      $n$o$a  $m$a  $m$a  $n  $o  $a$m$a  $o$n$a  $n$a$x
+            $a$x$a$n$a$n$o$a  $o$n$a$n  $a$n$o$a  $n    $a$n$o$a  $o$n$a$n$a$x$a$x
+          $a$n$a  $o$a  $n$o$a$n$a    $o$n$a  $o$n$a$o$a    $o$a$o$n$a$n$o$a  $n$a$x
+        $a$n  $o$a    $n$a  $o$n$a$o$n$a$o$a$n$a$n$o$a$n  $o$a$o$a  $n$a    $o$n  $a$x
+        $a$o  $a$o$n$a$o$n$o$a$o$n$a$o$a  $n$o$a$o$a$n$o  $a$o$a$o$n$o$a$n$o$a$o  $a$x
+          $a  $x$a  $x$a    $x$a  $x$a$x  $a  $x$a$x$a        $x$a    $x$a  $x$a  $x
+EOC

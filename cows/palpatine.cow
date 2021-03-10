@@ -1,0 +1,75 @@
+# Emperor Palpatine (Star Wars)
+# by Gustavo Vilsener - https://dribbble.com/shots/2434401-Star-Wars-Episode-VI-Return-of-the-Jedi
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;96m  ";
+$b = "\e[48;5;232m  ";
+$c = "\e[48;5;53m  ";
+$d = "\e[48;5;92m  ";
+$e = "\e[48;5;68m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;60m  ";
+$h = "\e[48;5;138m  ";
+$i = "\e[48;5;180m  ";
+$j = "\e[48;5;224m  ";
+$k = "\e[48;5;167m  ";
+$l = "\e[48;5;160m  ";
+$m = "\e[48;5;210m  ";
+$n = "\e[48;5;55m  ";
+$o = "\e[48;5;241m  ";
+$p = "\e[48;5;237m  ";
+$q = "\e[48;5;103m  ";
+
+$the_cow = <<EOC
+                  $t                $a$f        $b                $a    $c  $b              $f        $e$x
+                    $t              $a$f        $b              $a$c        $f$c$b          $f        $e$x
+                      $t            $a$f        $b            $a$b            $c$b          $f        $e$x
+                        $t          $a$f        $b          $a$b  $h        $b$c  $b        $f        $e$x
+                          $t      $a$f        $b            $a$b$i$j$i$h$i$j$b  $c$b          $f        $e$x
+                            $t    $a$f        $b          $a$b  $j            $b$c  $b        $f        $e$x
+                                  $a$f        $b          $a$b  $k$l$h$j$h$l$k$b$f$c$b        $f        $e$x
+                                  $a$f        $b          $a$b  $k$m$j    $m$k$b$f$n$b        $f        $e$x
+                                $a$f        $b            $a$b$h$i  $j    $i  $b$f$n  $b        $f        $e$x
+                                $a$f        $b          $a$c$b$h$i$h$j    $h$i$b$f$n  $b        $f        $e$x
+                                $a$f        $b          $a$c$b$h  $j$i    $j$h$b$f$n  $b        $f        $e$x
+                                $a$f        $b          $a$c$b  $h$j        $o$b$f$n  $b        $f        $e$x
+                              $a$f        $b            $a$c$b  $h$o$i    $o$h$b$f$n  $b          $f        $e$x
+                              $a$f        $b            $a$c$a$b$h  $o    $h$o$b$f$n  $b          $f        $e$x
+                              $a$f        $b          $a$c  $a$b  $h      $o$b  $f$n    $b        $f        $e$x
+                              $a$f        $b        $a$c  $a  $b    $h$o  $b    $f  $n    $b      $f        $e$x
+                            $a$f        $b        $a$c    $b    $a$b  $o$b$p  $b  $f  $n    $b      $f        $e$x
+                            $a$f        $b      $a$c    $b  $a  $b  $o$b$o$b  $p$b  $f$n      $b    $f        $e$x
+                            $a$f        $b      $a$c  $a    $b    $o$b    $o$b  $p  $n        $b    $f        $e$x
+                            $a$f        $b    $a$c  $b                              $n            $b$f        $e$x
+                          $a$f        $b    $a$c    $b                      $n  $b$n    $c  $n      $b$f        $e$x
+                          $a$f        $b    $c    $b                        $c$n        $c    $n    $b$f        $e$x
+                          $a$f        $b    $a$b                            $c$n      $d$c$b    $c$n  $f        $e$x
+                          $a$f        $b  $a$c$b                          $c  $n    $d  $c$b    $c$n    $f      $e$x
+                        $a$f        $b  $a$c  $b                          $c  $n    $d  $c$b    $c  $n  $d$f      $e$x
+                        $a$f        $b$c    $b                            $c  $n    $d  $c$b      $c$n    $d$f    $e$x
+                        $a$f        $a$c  $b                              $c  $n    $d  $c$b      $c$n      $d$f  $e$x
+                        $a$f    $a$c    $b                                $c  $n    $d  $c$b      $c  $n      $d$f$e$x
+                      $a$f    $c    $b                                    $c  $n    $d  $c$b        $c  $n      $d  $x
+                      $a$f$c    $b                                        $c  $n    $d  $c$b          $c$n          $d  $x
+                      $c    $b                                          $c    $n      $d$c  $b          $c  $b      $n  $d  $x
+                    $j  $b                                              $c      $n    $d$c  $b                    $n    $b$j  $x
+                $j      $b                                            $c        $n    $d$c  $b                            $j      $x
+            $j          $b                                        $c          $n        $c    $b                          $j          $x
+            $m$j  $b  $j$b                                    $c            $n          $c    $b                          $j$b  $j  $m$x
+            $m  $b    $m$b                        $n  $d            $n      $d        $n$c      $b                        $m$b    $m  $x
+              $g  $b                          $a  $n          $d        $c$n  $d        $c      $b                              $g  $x
+            $a$f  $g$b                        $n  $c        $n          $c$n          $d  $c    $b                            $g$f  $a$x
+          $g$f      $a$b                      $n$c            $n        $c  $n              $c  $b                          $a$f      $g$x
+        $g$f          $q$b                    $c    $b  $c    $n        $c  $n                $c  $b                      $q$f          $g$x
+      $f                $q$b                  $c    $b  $c    $n        $c  $n                $c    $b                  $q$f                $x
+    $f                    $q$b                $c  $b      $c    $n  $c        $n              $c    $b                $q$f                    $x
+  $f                        $q$b              $c  $b      $c    $n  $c        $n              $c    $b              $q$f                        $x
+$f                            $q$b            $c  $b        $c    $n$c  $b$c    $n            $c    $b            $q$f                            $x
+  $f                            $q$b        $c    $b        $c    $n$c$b  $c        $n        $c    $b          $q$f                            $x
+    $f                            $a$b    $a$c    $b  $c$b    $c      $b  $c$b$c        $n  $c      $b        $a$f                            $x
+      $f                            $a$b  $a$c    $b  $c$b      $c    $b  $c  $b$c        $n$c      $b      $a$f                            $x
+        $f                            $g$b$a$c    $b  $c$b        $c  $b  $c  $b      $c  $n$c      $b    $g$f                            $x
+          $f                            $g$a$c    $b  $c$b        $c  $b  $c  $b          $n$c    $b    $g$f                            $x
+EOC

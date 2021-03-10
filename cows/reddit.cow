@@ -1,0 +1,53 @@
+# Reddit Alien
+# by Unknown
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;247m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;209m  ";
+
+$the_cow = <<EOC
+          $t                                                  
+            $t                                                
+              $t                      $a      $x  $a    $x    
+                $t                    $a$x    $a    $b  $a$x  
+                  $t                  $a$x      $a$b$c$b$a$x  
+                                    $a$x          $a$b  $a$x  
+                                    $a$x            $a  $x    
+                                    $a$x                      
+                        $a                      $x            
+            $a    $x$a  $c                      $a  $x$a    $x
+          $a$c  $b$a$c                              $a$b$c  $a$x
+          $a$c$b$a$c                                  $a$b$c$a$x
+          $a$b$a$c                                      $a$b$a$x
+          $a  $c        $d      $c      $d      $c        $a  $x
+            $a$c        $d      $c      $d      $c        $a$x
+            $a$c        $d      $c      $d      $c        $a$x
+            $a$c                                          $a$x
+            $a$c                                          $a$x
+              $a$c                                      $a$x  
+              $a  $c          $a          $c          $a  $x  
+                $a  $c                              $a  $x    
+                    $a  $c                      $a  $x        
+                        $a    $c          $a    $x            
+                      $a  $c  $a          $c  $a  $x          
+                    $a$c$a$c                  $a$c$a$x        
+                    $a$c$a$c                  $a$c$a$x        
+                  $a$c  $a$c                  $a$c  $a$x      
+                  $a$c  $a$c                  $a$c  $a$x      
+                  $a$c  $a$c                  $a$c  $a$x      
+                  $a$c  $a$c                  $a$c  $a$x      
+                  $a$c  $a$c                  $a$c  $a$x      
+                    $a$c$a$c                  $a$c$a$x        
+                      $a  $c                  $a  $x          
+                          $a$c              $a$x              
+                          $a$c              $a$x              
+                          $a$c              $a$x              
+                      $a      $c          $a      $x          
+                    $a$c    $a$c          $a$c    $a$x        
+                    $a$c      $a$c      $a$c      $a$x        
+                    $a                              $x        
+EOC

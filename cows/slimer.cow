@@ -1,0 +1,60 @@
+# Slimer (Ghostbusters)
+# sprite from Ghostbusters (mobile) - https://www.spriters-resource.com/mobile/ghostbusters/sheet/28224/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;22m  ";
+$b = "\e[48;5;28m  ";
+$c = "\e[48;5;70m  ";
+$d = "\e[48;5;112m  ";
+$e = "\e[48;5;154m  ";
+$f = "\e[48;5;178m  ";
+$g = "\e[48;5;226m  ";
+$h = "\e[48;5;131m  ";
+$i = "\e[48;5;217m  ";
+$j = "\e[48;5;234m  ";
+
+$the_cow = <<EOC
+                  $t
+                    $t                  $a  $b      $x
+                      $t              $a$b  $c      $b  $x
+                        $t          $a$b$c          $d$c$b    $x
+                          $t      $a$b$d  $e  $d$c$d$e  $d  $b$x
+                $b  $x          $a$b$c$e  $c  $e    $c$f    $b$x
+              $b$e  $a$x      $a  $b$d$e$c$f    $c  $f$g    $f$b$x
+            $b$e  $d$a$x    $a$b      $c$f$g    $b  $g  $a$g$f$b$x        $a    $x
+        $b    $e  $d$a$x  $a$b  $c    $b$g  $a$g$f$b$f$g    $f$b$x      $a$e    $a$x
+      $a$e  $a$d  $b$a$x$a  $b$c$d  $c$b$f$g    $f$c$b  $f  $c$b$x    $a$c$e    $a$x$a    $x
+      $a$e    $b  $d$b$a$e$a$b$c$e  $d$b  $g  $f$c$e  $d$b  $c$d$b$x$a$b$c$e  $a$x$a$c$e  $a$x
+      $a$d$e$d$b        $e$a$b$c$e  $d$b      $c$b  $c  $b$c  $d$b$a$b    $d    $a  $e    $a$x
+    $a$e$d$b          $d$e$a$b$c  $d$c$d$e      $d  $e$a    $c$d$b$e    $b        $e    $a$x
+    $a$e  $b      $a  $b        $c  $b$d    $e$d$c$a  $h  $g$c$a$b$e  $d$b      $a      $x
+    $a$b$e$a$b  $a$x$a$b      $c    $b$g$h      $g  $f$g$f$g$f$b              $a$x
+        $a  $b  $a  $b    $c$d  $c$b$a$b$g$d$g$f$g  $f$g$a$b$f$c$b      $a    $x
+          $a$b$c$a$b    $c$d  $e$c$e$a  $f$a$f$a$f  $a    $h        $a  $x
+          $a$b$c$b      $c$d  $e$c$e$a                $h          $i  $h$x
+            $a$b$c$b  $c$d    $e$d  $c$a          $h                $i  $h$x
+              $a$b$c$b$c  $d$e$d$c$b  $a        $h        $i    $h    $i  $h$x
+              $a$b  $c$b$c  $e$d$c$b$a$j$a    $h        $i        $h  $i    $h$x
+            $a$b$a$b  $c$b$c$e$d$c$a  $j  $a$h          $i          $h$i    $h$x
+            $a$d  $a$b    $d$e$d$c$a$j    $h            $i                  $h$x
+          $a$b$e  $d$a$b$c$d$e$d$c$a$j    $h    $a    $h  $i              $h$x
+          $a$b$e  $d$c  $d  $e$d$c$a$j      $h$j$a  $b  $h  $i            $h$x
+          $a$b$d    $c  $d  $e$d$c$a  $j        $a  $c  $a$h  $i        $h$x
+          $a$b$d    $c  $d  $e  $c$a  $j      $a    $c  $a$x$h          $x
+          $a$b$c$d$c      $d  $e$c$a                $e  $a$x  $h      $x
+          $a$b  $c        $d  $e$c$a                $e  $a$x
+          $a$b  $c        $d  $e$d$a                  $e$a$x
+            $a$b  $c    $b$d    $e$a                    $f  $x
+            $a$b  $c    $b$c$d  $e$a                    $g  $f$x
+              $a$b  $c    $b$d      $a                $f  $g$f$x
+              $a$b    $c  $b$c$d    $a    $f  $a    $f$g  $f$b$x
+                $a$b    $c$b  $c$d    $a$b$g  $f      $g  $b$d$b$x
+                  $a$b          $c$d    $b$g  $f$g  $f$b  $d  $b$x
+                  $a$b            $c$d    $b  $f$g  $b$d$e  $b$x
+                    $a$b            $c$d    $b      $e  $d$b$x
+                      $a  $b          $c  $d  $e    $d$b$a$x
+                          $a      $b                  $a$x
+                                  $a                  $x
+EOC

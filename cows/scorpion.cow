@@ -1,0 +1,69 @@
+# Scorpion (Mortal Kombat)
+# by Unknown - https://www.pinterest.com/pin/303852306086505898/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;136m  ";
+$c = "\e[48;5;255m  ";
+$d = "\e[48;5;226m  ";
+$e = "\e[48;5;220m  ";
+$f = "\e[48;5;214m  ";
+$g = "\e[48;5;172m  ";
+$h = "\e[48;5;180m  ";
+$i = "\e[48;5;223m  ";
+$j = "\e[48;5;178m  ";
+
+$the_cow = <<EOC
+          $t
+            $t              $a        $x
+              $t          $a            $x
+                $t        $a            $x
+                  $t      $b$a  $b$a    $x
+                          $c$b  $c$b$a  $x
+                          $b$d  $b$d  $a$x
+                          $e    $d    $a$x
+                          $e$f  $e$d$a  $d  $x
+                          $f      $a      $d          $x
+                        $e  $a          $d$e$d          $x
+                      $e  $a          $d  $e  $d    $g  $x
+                    $e  $a          $d$e        $d$g$h  $x
+                    $e  $a        $d$e        $d$g$h    $x
+                  $e  $a          $d$e        $g$h    $i$x
+                  $e  $a        $e          $a  $b$h$i  $x
+                  $f$e$a        $e        $a  $b$x$h  $i  $x
+                  $f$e$a        $e      $a  $b$x  $h  $i  $x
+                $a$g$f$a      $e$f    $e$a$b$x      $h$i  $x
+              $a  $g$f  $a    $f    $e$a  $x        $h  $i$x
+            $a$i$h$a$g$f$a    $g$f    $a$x          $h  $i$x
+      $j$a$i  $a$h$a$x$g$a    $g  $f  $a$x          $h  $a  $x
+      $j$a$e  $a  $x  $g$a    $g    $f$a$x        $h  $a$d  $x
+      $j$a$h$a  $x    $a                $x        $a    $d  $x
+      $j$a$h$x        $g  $f    $e  $d  $x        $h$a$d$e  $x
+                      $g      $f  $e    $x        $h$a$d$e$x
+                      $a                $x      $a  $d$e$x
+                      $a$e$d    $a        $x    $e$a$e$f$x
+                    $a  $e$d$e$d$a        $x    $e$a$f$x
+                    $a  $e$d$e$d$a        $x$i$a$e  $f$x
+                    $a  $e$d$e$d$a          $i$a$f  $x
+                  $a    $f$e  $d$a          $i$a    $x
+                $a      $f$e  $d  $a          $x
+                $a      $f  $e$d  $a          $x
+                $a      $g$f  $d  $a          $x
+                $a      $g$f  $d$e$d$a        $x
+                $a      $g$f  $d$e$d$a          $x
+                $a      $g  $f  $e  $a          $x
+                $a      $g    $f  $e$a          $x
+                $a        $g  $f    $x$a        $x
+                $a          $g$f  $e$x$a        $x
+                $a        $x$g  $f$d$x$a          $x
+              $d$a      $x    $g    $x  $a        $x
+              $e$d$a    $x                $a$d    $x
+              $e$f$d$a    $x              $e    $d  $x
+              $f$d$a$d$a    $x            $f$e    $f$x
+                $a$f  $d$a  $x            $f      $a$d$x
+                $g  $f  $d$a$x              $a    $f$d$x
+                  $g$f$e$a  $x              $g    $f$d$x
+                  $g$e  $a  $x                $g  $e  $d$x
+EOC

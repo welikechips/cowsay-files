@@ -1,0 +1,67 @@
+# Iron Man
+# by Gustavo Viselner - https://deskgram.net/explore/tags/GustavoViselner
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;124m  ";
+$b = "\e[48;5;220m  ";
+$c = "\e[48;5;178m  ";
+$d = "\e[48;5;88m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;52m  ";
+$g = "\e[48;5;235m  ";
+$h = "\e[48;5;136m  ";
+$i = "\e[48;5;196m  ";
+$j = "\e[48;5;94m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t                $a        $x
+                    $t            $b$c$d    $c  $x
+                      $t          $b$c$d$a  $c  $x
+                        $t        $b        $c  $x
+                          $t      $b        $c  $x
+                                  $c$e  $c$e  $c$x
+                                  $b        $c  $x
+                                  $b      $c    $x
+                                  $a$b    $c  $d$x
+                                  $a  $c    $d  $x
+                            $d  $f$d$a$b  $c$d$f$d$f  $x
+                  $d    $x$d    $f$a$d$a    $f  $d$f    $x$f    $x
+                $d$a    $d  $a  $f$g$a$f      $g$d    $f  $d    $f$x
+                $a      $d$a$f  $g  $a$d  $f  $g  $f  $d$f$d    $f$x
+                $a        $f      $g            $f      $d      $f$x
+                  $h    $f    $d$f$d$f$d$f$d$f            $h    $x
+                  $b  $h$f  $d$f$d          $f$d$f        $h$b$h$x
+                  $b  $h$f$a$f$d      $i    $d$f$d$f      $h$b$h$x
+                $b  $h    $f$a$d    $i$e    $i$d$f      $h  $b$h  $x
+                $b  $h$j$b$h$a$d    $i$e    $i$d  $f  $h  $j$b$h  $x
+                $b  $h$j$b  $h$a$d  $i$e    $i$d$f  $h$b$h$j$b  $h$x
+              $b  $h  $j$b$h$b$a$d    $i    $d      $b$h  $j$b  $h  $x
+              $b  $h$j$x$b  $h  $a$d              $h  $b$h$x$j$b$h  $x
+              $b  $h$j$x$b$h$b$h$f$a$d          $f$h$b$h  $x$j$b$h  $x
+            $d$h    $j$x  $h    $f                $h    $x  $j$b$h  $d$x
+            $d$f$d$f$x    $f$h  $f$a$d      $f    $h  $f$x    $f$d$f$d$x
+            $h$f$d$f$x    $f  $h$f$a$d        $f  $h$f  $x    $f$d$f$h$x
+          $a$d$h  $f$x      $f                        $x      $f$h  $d$f$x
+          $a$d  $f$x        $b$f    $a$d    $f$d$f  $h$x        $d    $f$x
+        $a$d  $f  $x        $f$b$f  $a$d      $f  $h$f$x        $d      $f$x
+        $a$d  $f$x          $b$f                    $h$x          $d    $f$x
+        $a$d$f  $x          $f$b$f  $a$d        $f$h$f$x          $d    $f$x
+        $a$d$f$x            $f      $a$d      $f      $x            $d  $f$x
+      $a$d$f  $x            $a  $f                $d  $x            $d    $f$x
+      $a$d$f$x              $a        $d          $f  $x              $d  $f$x
+      $a$d$f$x            $a          $d        $f      $x            $d  $f$x
+    $a$d$f$x              $a$f  $a    $d        $f      $x              $d$f  $x
+    $a$d$f$x              $a$d  $f  $a  $d    $f  $d  $f$x              $d$f  $x
+    $a$f  $x              $d$f  $d  $f$a$d  $f$d  $f  $d$x              $d$f  $x
+    $a$f  $x              $f      $d  $f    $d  $f      $x              $d$f  $x
+    $a$f    $x            $f      $d  $f    $d  $f      $x            $d  $f  $x
+      $f  $x$f$x        $f$h$f  $d    $x    $d    $f  $h$f$x        $d$x$d$f$x
+      $f  $x            $f$h$b$f$d    $x    $d    $f$b$h$f$x            $d$f$x
+      $d$f$x            $f$h$b  $d    $x    $d    $b  $h$f$x            $d$f$x
+        $d$f$x          $f$h$b  $d  $x        $d  $b  $h$f$x          $d$f$x
+                        $f$h$b$h$d  $x        $d  $h$b$h$f$x
+                        $j$h$b$h$d  $x        $d  $h$b$h$j$x
+EOC

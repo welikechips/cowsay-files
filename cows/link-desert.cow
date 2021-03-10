@@ -1,0 +1,58 @@
+# Link with desert gear (Legend of Zelda: Breath of the Wild)
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;136m  ";
+$b = "\e[48;5;94m  ";
+$c = "\e[48;5;161m  ";
+$d = "\e[48;5;88m  ";
+$e = "\e[48;5;30m  ";
+$f = "\e[48;5;215m  ";
+$g = "\e[48;5;173m  ";
+$h = "\e[48;5;178m  ";
+$i = "\e[48;5;39m  ";
+$j = "\e[48;5;23m  ";
+$k = "\e[48;5;235m  ";
+$l = "\e[48;5;237m  ";
+$m = "\e[48;5;95m  ";
+$n = "\e[48;5;52m  ";
+$o = "\e[48;5;131m  ";
+$p = "\e[48;5;253m  ";
+$q = "\e[48;5;145m  ";
+$r = "\e[48;5;243m  ";
+$s = "\e[48;5;239m  ";
+
+$the_cow = <<EOC
+                    $t                            $a$x
+                      $t                          $a$b$a$x
+                        $t              $b$x    $c$b$a$x
+                          $t              $a    $b$d$b  $x
+                            $t          $a      $b  $x
+                                      $a      $b$a$b$x
+                                      $a$e  $a  $e$f$g$x
+                                      $a$f    $a$f$g$x$h  $x
+                                        $f    $a$i$b$h  $j$e  $h$e$j$k$x
+                                        $b$f  $a$g$j$h$e            $j  $x
+                                        $a$l$g$a$j$g$e$h$e$d        $e$a$j$x
+                                      $g  $m$g$f  $j$e  $d    $h$d    $j  $k$x
+                                      $h  $a$m$f  $e  $d$h  $d$h$d$h$a$n$j  $x
+                                    $j$g$o    $m$g$e  $h$d$h$a$d$h$a$d$a$j  $x
+                                  $j$a$m$o$x  $o  $h$e$d$i$d  $c$d  $i$n$j$b$x
+    $p$x                          $a$o$x      $o$g$e  $h$d$h$a$d$h  $n$a$j  $x
+    $p  $x  $p$x                $a$m  $x      $a$h$j$e$d$h$a$d$h$d$a  $n$j  $x
+    $q$p  $r$p  $x              $o  $x      $a$b$i$k$j$e$d    $a$n    $j  $k$x
+    $r$q$p  $q$p  $q$x      $a  $o  $x    $q$b$a$h$d$j$a$j$n        $j$b$j$x
+      $r$q      $r  $q      $r$a    $x  $b$a$q$d    $a$j                $x
+          $r  $s            $r$a  $x  $a  $d$n  $d$n$d  $k$j  $b$j  $k$x
+            $s      $x    $r$x      $d    $n  $x      $d$c  $d  $x
+                                  $d    $n$d$n$x        $c    $d  $x
+                                  $d  $n$d$n$x            $c$h  $d$c$x
+                                  $a  $n  $x                $a  $h$c$x
+                                    $b$a$o$x                $d$a    $d$x
+                                      $b  $x                      $a$h$x
+                                      $a$n$x                      $h  $a$x
+                                      $o$b$x                      $g  $b$x
+                                    $a  $b$x                      $h  $a$x
+EOC

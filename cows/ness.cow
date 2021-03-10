@@ -1,0 +1,72 @@
+# Ness (Earthbound)
+# by Naruto[NU] - https://www.spriters-resource.com/custom_edited/earthboundcustoms/sheet/24917/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;102m  ";
+$b = "\e[48;5;248m  ";
+$c = "\e[48;5;52m  ";
+$d = "\e[48;5;160m  ";
+$e = "\e[48;5;203m  ";
+$f = "\e[48;5;88m  ";
+$g = "\e[48;5;53m  ";
+$h = "\e[48;5;62m  ";
+$i = "\e[48;5;56m  ";
+$j = "\e[48;5;234m  ";
+$k = "\e[48;5;173m  ";
+$l = "\e[48;5;98m  ";
+$m = "\e[48;5;216m  ";
+$n = "\e[48;5;94m  ";
+$o = "\e[48;5;137m  ";
+$p = "\e[48;5;136m  ";
+$q = "\e[48;5;18m  ";
+$r = "\e[48;5;221m  ";
+$s = "\e[48;5;25m  ";
+$u = "\e[48;5;250m  ";
+$v = "\e[48;5;187m  ";
+$w = "\e[48;5;101m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t          $a$b$x
+                    $c            $x
+                $c  $d$e$f$e  $d$f$c  $x
+              $c$f$d$e$d$e      $d  $f$c$x
+            $c$f$d$e  $d$e      $d$e  $d$c$x
+            $c$f$d$e  $d$e$d    $e$d$e  $c$x
+          $c$f$d$e    $f$d        $f$d$e$d$c$x
+          $c$f$d      $f$d        $f$d  $f$c$x
+          $c$g              $c              $x
+        $g  $h      $i      $g$j    $k  $j  $x
+      $g$l  $h          $g  $k$j  $k    $j  $x
+      $g  $l  $h$g      $j$k  $m      $j$k$x
+          $g    $j$k  $j$m          $j$k$j$x
+              $j$k  $m    $j    $m  $j$k$j$x
+                $j$k  $m$k  $m      $j$k  $j$x
+              $j    $k$m          $j$k  $m  $j$x
+          $j  $n  $j    $k        $j$k$m    $j$x
+        $j$o$n  $j$p$q$p$j        $k$m  $j  $x
+      $j$o$n    $j$r$s$r$s$p$j    $m  $j$x
+    $j$o  $n  $j$q$r$s$r$s$p$j  $k$m$j$x
+    $j$o$n    $j$p$j$r$q$r$j$k    $j$x
+    $j$n      $j        $p$j$k  $j$x
+    $j$n    $j  $n  $j$q$j      $p$j$x
+    $j$n  $j$n  $j  $p$r    $p$r$q$j$x
+      $j$n  $j  $r$q  $s    $q    $p$j$x
+        $j    $q$s$p$r$p  $r    $p$q$j$x
+            $j$p  $s  $q$s        $p$j$x
+            $q$j  $p$r    $p  $r  $j$x
+            $q  $j                $q$x
+          $q      $s    $q  $s    $q  $x
+          $q        $s$q      $s    $q  $x
+            $q    $s  $q    $s  $q    $x
+            $k$q      $x  $q      $a$x
+          $a$u    $a$x      $a$u  $a$j  $x
+          $j        $x    $j$f$a  $f    $j$x
+        $j$f        $j$x  $j$f            $j$x
+        $j$f  $v$w$f$j$x  $c$w$v    $w$v$w$c$x
+        $c$w  $c  $w$c$x    $c            $x
+          $c        $x
+EOC

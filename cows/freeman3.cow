@@ -1,0 +1,68 @@
+# Gordon Freeman (Half-life series)
+# by Maksim Eremita - https://www.artstation.com/artwork/Jl4AgA
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;94m  ";
+$b = "\e[48;5;180m  ";
+$c = "\e[48;5;223m  ";
+$d = "\e[48;5;235m  ";
+$e = "\e[48;5;252m  ";
+$f = "\e[48;5;255m  ";
+$g = "\e[48;5;246m  ";
+$h = "\e[48;5;95m  ";
+$i = "\e[48;5;242m  ";
+$j = "\e[48;5;88m  ";
+$k = "\e[48;5;239m  ";
+$l = "\e[48;5;237m  ";
+$m = "\e[48;5;208m  ";
+$n = "\e[48;5;222m  ";
+$o = "\e[48;5;236m  ";
+$p = "\e[48;5;166m  ";
+
+$the_cow = <<EOC
+                $t
+                  $t            $a        $x
+                    $t        $a            $x
+                      $t      $a$b  $c$a$c$a$x
+                        $t    $a$b$c      $x
+                              $d  $e  $d$e  $x
+                              $c$b$f  $b$f  $x
+                              $c$b  $c$b$c$x
+                                $b$c$a    $x
+                                $b$a$c  $a$x
+                            $g$h$b$c$a    $g$x
+                          $g$h$d  $b$c  $d$h$i$x
+                      $i  $g$j$d          $j$g$i$x
+                    $d$i  $k$g$j$d      $j$i$g$i$d$x
+                  $d    $i$l$k$g$m  $n$m  $g$k$i$d  $x
+                  $d    $i  $l$k$m$n$m$n$m$k$l$i$d  $x
+                $g  $d  $i    $l$m  $n$m  $l$i  $d$g$x
+                $g$k  $o$k$i  $p$m          $i$k$o$g$x
+                $i$k$l$o$k    $p            $k  $o$i$x
+                $g$i$l$x$k  $m  $i  $g    $m  $k$o$i$x
+                $i  $k$x$p  $m  $i$l    $g$m    $l$k$x
+                $i  $x  $p    $m$i$l$k$l$i$m    $l$k$x
+              $d    $x    $p  $m$o$k    $o$m  $x$d    $x
+              $k$d  $x    $p  $l  $o    $l$k$m$x$d  $k$x
+              $k    $x    $l  $k  $l    $i$k  $x$k    $x
+              $m$k$i$x    $o  $l$k    $i  $k$o$x$p  $k$x
+              $m$k$i$x    $l  $o$k    $i$k$o$l$x$p  $k$x
+              $p$k$x      $l    $o        $l$k$x  $p$i$x
+              $p$k$x      $l  $k$l        $k  $x  $m$i$x
+  $i$x        $p$i$x      $o  $l$k    $i  $k$o$x  $m$k$x
+    $j  $x    $k$i$x      $m  $o$k    $i$k$o$m$x  $l$k$x
+        $j  $x$k$i$x      $p  $m$o        $m$p$x  $k  $x
+            $j  $d  $x    $o  $p$k        $p$o$x$d    $x
+                $d    $x  $o$l$o$l        $o$l$x  $d  $x
+                $d  $j  $x$p$o$l$x      $l  $m$x  $d$x
+                  $d  $x$j  $o$l$x      $l$o$m$x$d$x
+                          $p$j  $x      $o$p$m$x
+                          $p  $m$j  $x  $p  $m$x
+                          $l$p$m$x  $i$x$p  $k$x
+                          $l$p$m$x    $i$p  $k$x
+                          $l$p$m$x    $i$p  $k$x
+                          $l$p$m$x$i  $x$p  $k$x
+                          $p  $m$x      $p  $m$x
+EOC

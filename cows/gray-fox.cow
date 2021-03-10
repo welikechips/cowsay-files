@@ -1,0 +1,63 @@
+# Gray Fox (Metal Gear Solid)
+# by /u/Onceyougowalrus - https://www.reddit.com/r/PixelArt/comments/6arpxo/ocmetal_gear_solid/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;231m  ";
+$b = "\e[48;5;189m  ";
+$c = "\e[48;5;147m  ";
+$d = "\e[48;5;60m  ";
+$e = "\e[48;5;161m  ";
+$f = "\e[48;5;174m  ";
+$g = "\e[48;5;223m  ";
+$h = "\e[48;5;202m  ";
+$i = "\e[48;5;234m  ";
+$j = "\e[48;5;216m  ";
+$k = "\e[48;5;221m  ";
+$l = "\e[48;5;54m  ";
+$m = "\e[48;5;95m  ";
+$n = "\e[48;5;131m  ";
+$o = "\e[48;5;215m  ";
+$p = "\e[48;5;173m  ";
+$q = "\e[48;5;61m  ";
+$r = "\e[48;5;196m  ";
+$s = "\e[48;5;74m  ";
+
+$the_cow = <<EOC
+              $t                                                                                                                              $a  $x
+                $t                                                                                                                        $a  $b  $x
+                  $t                                                                                                                  $a  $b  $x
+                    $t                                                                                                            $a  $b  $x
+                      $t                                                                                                      $a  $b  $x
+                        $t          $a    $b$c$d$x                                                                        $a  $b  $x
+                          $t      $a    $b    $c$d$x                                                                  $a  $b  $x
+                                $a      $b$e$d$b$c$d$x                                                            $a  $b  $x
+                                $a      $b$c  $d$c$d$x                                                        $a  $b  $x
+                                $b$c  $b      $d$c$d$x                                                    $a  $b  $x
+                          $f$g$x$b        $c    $d  $x                                                $a  $b  $x
+                    $g$x$g$x    $b$c  $b$c  $d  $c$d$x                                            $a  $b  $x
+                          $f$g$x$c$a$h$c  $d$c  $d$i$x                              $h  $x    $a  $b  $x
+                              $f$j$k$h$d  $c    $d$i$l$m$n  $m    $i    $b  $n    $h$k  $h$a  $b  $x
+                              $n  $a  $c  $d$c  $i$l$o    $p  $m$n$l  $q$a$b$p$o$p$k$h$a  $b  $x
+                            $o$p  $r$b$c$r$c    $i$q$o      $p$m$n$l$q$l$b    $o$p$h  $b  $x
+                          $p$o  $p$l$c$d$c    $i$q  $o    $p  $n$p$i    $l$i  $p$o$p$h  $x
+                          $p$o    $s$l$c  $i  $l  $q    $p$n$m$x        $i      $n  $p$x
+                            $p$o$p$s  $l        $q    $l$i    $x      $i      $x
+                              $n    $p$s      $q$s  $l    $i$x        $i  $x
+                                $o$p  $q$i$q$l      $q  $l$i  $x
+                                $l$o$p$s$i$q    $l          $i$x
+                              $q$l$s  $q  $i$l  $q    $i  $q$l$x
+                            $q  $l$s$q    $i    $q$s$l  $q$s  $q$m$x
+                        $q    $l$q$l$s$q  $i      $s$q$l$q  $s$o  $p$x
+                      $o  $q$l$q$l  $s$q$l$x      $i  $l    $o  $p$n$x
+                    $o    $p$q  $l$i$q$b$q$l$x        $i  $l$o  $p$n$x
+                  $o    $p  $l  $i$x$a$b$q$l$x        $i$l  $o$p  $n$x
+                $i  $o$p  $l  $i$x  $a$b$q$l$x          $i$l$q$s$l$x
+              $i$q  $l$p$l  $i$x      $a$q$l$x            $i$q  $l$x
+            $o  $p$l    $i  $x        $a$c$l$x            $i$n  $p$x
+          $o  $p  $l  $i$x            $a$c$l$x              $p$o$p  $x
+        $q  $l      $i$x              $c$n$l$x              $o$l  $p  $x
+    $q  $l  $q  $l$i$x              $n    $x                $l  $q  $l$x
+    $q$l        $i$x            $p    $n$p  $x              $l$q$l    $x
+EOC

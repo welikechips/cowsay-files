@@ -1,0 +1,76 @@
+# Ash Williams (Evil Dead)
+# by /u/Sbe16 - https://www.reddit.com/r/PixelArt/comments/gdhzr7/oc_i_made_ash_williams_from_the_evil_dead_3/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;94m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;223m  ";
+$d = "\e[48;5;251m  ";
+$e = "\e[48;5;216m  ";
+$f = "\e[48;5;173m  ";
+$g = "\e[48;5;241m  ";
+$h = "\e[48;5;39m  ";
+$i = "\e[48;5;32m  ";
+$j = "\e[48;5;137m  ";
+$k = "\e[48;5;26m  ";
+$l = "\e[48;5;231m  ";
+$m = "\e[48;5;246m  ";
+$n = "\e[48;5;88m  ";
+$o = "\e[48;5;236m  ";
+
+$the_cow = <<EOC
+          $t                                                          $a$b$x
+            $t                                                  $a      $b$x
+              $t                                $c  $a$x  $a            $b$x
+                $t                          $a$c  $a                    $b$x
+                        $a          $b      $a                          $b$x
+        $d            $a          $b        $a$e$a              $x
+        $b                                  $x$f      $b$x
+                                                  $b  $f  $x
+                            $b      $x              $f      $x
+                          $b          $x              $f      $x
+                        $b    $c$b  $c$x              $f      $x
+                        $b  $e$g$c  $g$x            $e$f    $x
+                        $b$e  $c      $x          $e  $f    $x
+                          $b$c        $x        $f$e  $f  $x
+                        $b  $f$c    $f$x    $c  $f$e  $f$x
+                            $f      $x  $h$c    $f    $x
+                        $i  $f        $i$h$c    $f$e$f$x
+                        $h$i$f$e  $f$i$h  $c$e$f    $x
+                    $j$k$h  $i$e$f$i  $h  $c  $f  $k$x
+                  $a  $e  $h$i$e$i$h  $k$h  $c$f  $k$x
+                  $a  $h$e$h  $i$h    $c$h  $f$e$k  $x
+                $k$a    $h    $i$h    $c$k$h$e$k    $x
+                $k$i$a    $h  $i$h  $i$c  $h  $k  $x$k$x
+                $k  $i$a    $h$i$h  $i$e$f  $h  $k$x
+                  $k$i  $a    $i$h$i$h$c    $e$h  $x
+                  $k  $i  $a$g$l$h    $c    $e$k  $x
+                    $k  $i  $j$g$a$h  $e      $x$k  $x
+                    $k$i$h  $i$a    $h  $c$e  $x    $k$x
+                    $k$i$h    $i$a    $h$c$e$x      $k$x
+                    $k$i$h    $e$f$a    $e  $x        $k$x
+                    $k$i  $h  $f  $i$a    $h$x
+                    $k$i    $h  $f$h$i$a    $x
+                  $k  $i      $h    $f  $a  $x
+                  $k    $i  $h$i$h$f$e$f  $a  $x
+                $k    $i  $h    $e        $a  $x
+                $k  $b$a                      $b$x
+              $k    $b          $g$l$m$b      $x
+              $k    $j$b        $g$b$g$b    $j$x
+              $d  $g$j$a$j      $a$j      $a$j  $x
+              $d  $g$a  $j      $a$j        $a  $x
+            $g$n    $j          $a$j      $a$j  $x
+          $g$x$n    $j  $a$j    $a$j  $a  $j      $x
+          $g$x$n$m  $j    $a            $j        $x
+        $g$x$n  $m$g$j        $a        $j        $x
+        $g$x$n  $g  $j        $a        $j        $x
+        $n$g$n      $j        $a  $x$a    $j      $x
+        $n          $j      $a    $x  $a  $j        $x
+        $o$b      $o$j      $a    $x  $a  $j        $x
+          $d$g  $o  $j      $a    $x  $a  $j        $x
+          $d$g  $x  $j      $a  $x      $a  $j      $x
+          $d$g  $x  $j      $a  $x      $a  $j      $x
+        $d$g  $x    $j      $a  $x      $a  $j      $x
+EOC

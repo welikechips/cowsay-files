@@ -1,0 +1,57 @@
+# sam-fisher2
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;40m  ";
+$c = "\e[48;5;239m  ";
+$d = "\e[48;5;59m  ";
+$e = "\e[48;5;137m  ";
+$f = "\e[48;5;180m  ";
+$g = "\e[48;5;223m  ";
+$h = "\e[48;5;242m  ";
+$i = "\e[48;5;65m  ";
+$j = "\e[48;5;246m  ";
+$k = "\e[48;5;252m  ";
+$l = "\e[48;5;108m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                  $a  $b$a$x
+                $t          $c$d$a$c$b$a$b$x
+                  $t      $d    $a  $c$a  $x
+                          $c$a$d    $e$a$x
+                          $d$f$g    $f$x
+                        $a$h$e$f$g    $x          $a$c              $d          $x
+                    $c$d$i$h$f$d$g  $f$x          $c    $d$h$d  $a$c            $x
+                  $d$j    $d$f$d$h$g$f$x      $c$j$k  $j$x$a$c  $x
+                $c$h$j    $d$c    $d  $x    $d$h$j$k$j  $x
+                $h$c    $d$c    $d$i$d$j$x$j$h$c$j$h$j$c$x
+              $d$l$a$c  $h$j  $k$j$h$a$j$k  $d$a$d    $x
+              $c$l$i$d$h$j$k$j$h$j$h  $k  $h$d$a      $x
+              $i  $h$i$h$j$d$c$d$h  $j    $c    $x
+              $d$i        $c        $d  $c$a$c  $x
+            $c  $a$d$a$c  $i$c$a    $c$a    $d$a$x
+            $i$l$i$d$h$c  $a  $c$a$x$a    $c  $a$x
+            $d$i  $d$c$d$c$a$d$c  $x  $a$c$d$c$x
+          $c    $d      $i$a$c  $a$x    $a    $x
+          $i  $c$a$d  $c$i$d$c$a$x        $a$x
+          $a  $i$h$d  $l$d$c$d$c$x
+          $c        $d$c$i$a$c$x
+          $h    $j$c  $d  $c$x
+          $d$j    $h$j    $c  $x
+          $c$h$j$h$d$j$k$j  $c$x
+          $c$h  $d  $k$j    $d  $x
+          $h$j    $h$c$d  $c$h$j$d$x
+          $j  $k$j  $d$a  $d$j      $x
+          $k      $h$c$a  $d$h$j$k$j$c$x
+        $d$j$k  $h$d$x$a$c  $d$h$j    $x
+        $j$k  $j  $d$x  $a  $c  $h$j  $h$x
+        $j$k$j    $c$x    $a$c$a$d$h$j  $x
+      $c$k  $j$k$h$a$x      $c$a$d$h$j    $x
+      $c$j  $k$j$x          $a$c$d$h  $j  $x
+      $c$j$k  $j$x            $a$c  $h  $k$x
+EOC

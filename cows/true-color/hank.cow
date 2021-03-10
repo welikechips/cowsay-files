@@ -1,0 +1,78 @@
+# Hank Hill (King of the Hill) - true color
+# by Mauri Helme - https://www.youtube.com/channel/UCas7DqhT9pKI3_L0dY2HhTw
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;38;38;38m  ";
+$b = "\e[48;2;119;67;17m  ";
+$c = "\e[48;2;147;102;61m  ";
+$d = "\e[48;2;239;186;136m  ";
+$e = "\e[48;2;254;220;172m  ";
+$f = "\e[48;2;205;152;102m  ";
+$g = "\e[48;2;187;135;85m  ";
+$h = "\e[48;2;255;255;255m  ";
+$i = "\e[48;2;204;204;204m  ";
+$j = "\e[48;2;215;95;1m  ";
+$k = "\e[48;2;255;135;0m  ";
+$l = "\e[48;2;255;175;0m  ";
+$m = "\e[48;2;69;67;68m  ";
+$n = "\e[48;2;102;102;102m  ";
+$o = "\e[48;2;136;136;136m  ";
+$p = "\e[48;2;0;103;202m  ";
+$q = "\e[48;2;34;136;237m  ";
+$r = "\e[48;2;66;170;255m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                $a                $x
+                $t            $a$b            $c  $a$x
+                  $t        $a$b                  $c$a$x
+                          $a$b    $a              $b$a$x
+                          $a$b  $a$d          $e  $a  $x
+                          $a$b$a$d        $f  $d  $e$a$x
+                          $a$b$a$d                  $a$x
+                          $a$b$a$d$a      $d  $a      $x
+                          $a$b$a  $f  $a$f$a  $f  $a$f$a$x
+                          $a  $f$d$a$d$a$d$a$f$a$d$a$d$a$x
+                          $a$f  $d  $a    $d    $a    $x
+                            $a$f$d        $g    $d$e$a$x
+                            $a$f  $d$f  $d        $e$a$x
+                            $a$f  $d      $g      $d$a$x
+                            $a$f    $d              $a$x
+                              $a$f$g$d      $f  $d  $a$x
+                              $a$f  $g$d            $a$x
+                              $a$f  $d      $g    $a$x
+                              $a$f    $d      $f  $a$x
+                          $a  $h$a$f      $d    $a$h$a  $x
+                      $a  $h      $a            $h      $a  $x
+                  $a  $h                                    $a  $x
+                $a$h                                            $a$x
+              $a$h                                                $a$x
+            $a$i$h                                                  $a$x
+          $a$i$h                                                      $a$x
+        $a$i$h                                                        $a$x
+        $a$i$h                                                          $a$x
+      $a$i  $h                                              $i$h        $a$x
+      $a$i  $h    $i$h                                      $a$i$h        $a$x
+      $a$i$h      $a$h                                      $a$i  $h      $a$x
+    $a$i  $h    $i$a$i$h                                      $a$i    $h  $a$x
+    $a$i  $h    $a$i  $h          $a    $h                    $a$i  $a      $x
+    $a$i    $h  $a$i  $h        $a$j$k$l$a$h                  $a    $d  $e$a$x
+    $a  $i  $h  $a$i  $h        $a        $h                  $a$f  $d  $e$a$x
+    $a$f$a        $i  $h      $a$d    $e  $a$h                  $a$f$d    $a$x
+    $a$f$d  $e$d$a$i    $h  $a$e$d  $a    $h                    $a$f  $d  $e$a$x
+    $a$f$d  $e$d$a$i    $a  $e$d          $a$h                  $a$f  $d  $e$a$x
+    $a$f$d      $a$i$a  $e  $d      $a      $h                  $a$f  $d  $e$a$x
+  $a$f  $d  $f$a$e$a$e  $d        $f      $a$h                    $a$f$d  $e$a$x
+  $a$f  $d  $a$d            $f    $a      $h                      $a$f$d  $e$a$x
+  $a$f  $d              $f    $a  $i      $h                    $i$a$f$d  $e$a$x
+  $a$f    $d        $f    $a  $i    $h                          $a$f  $d    $a$x
+    $a$f  $d  $f      $a  $i    $h                            $i$a$f$d      $a$x
+    $a$f          $a  $i    $h                                $i$a$f$d    $f$a$x
+      $a$f    $a  $i      $h                                $i$a$f  $d    $a$x
+        $a      $i      $h                                  $i$a$f$d    $f$a$x
+              $a$i      $h                                $i  $a$f$d    $a$x
+              $a$i        $h                              $i$a  $f$d  $f$a$x
+EOC

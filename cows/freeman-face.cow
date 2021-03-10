@@ -1,0 +1,81 @@
+# Gordon Freeman (Half-life)
+# by Jesus Alejandro Torrealba Flore - https://www.pixilart.com/art/gordon-freeman-v2-pixel-art-46ceb360af76a06
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;235m  ";
+$c = "\e[48;5;180m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;137m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;95m  ";
+$h = "\e[48;5;230m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;65m  ";
+$k = "\e[48;5;243m  ";
+$l = "\e[48;5;234m  ";
+$m = "\e[48;5;52m  ";
+$n = "\e[48;5;88m  ";
+$o = "\e[48;5;238m  ";
+$p = "\e[48;5;131m  ";
+
+$the_cow = <<EOC
+          $t                $a$x    $a$b$a$x    $a$x
+            $t                $a$b                    $x
+              $t            $a$b      $a    $b$a$b    $a$b    $x
+                $t      $b          $a$b  $a$b$a$b$a$b  $a$b    $x
+                  $t  $b        $a$b    $a$b  $a$b  $a$b$a$b      $x
+                    $b  $a$b$a    $b  $a$b  $a      $b  $a  $b        $x
+                  $b  $a$b$a                $b    $a$b      $a$b    $a$x
+                $b  $a$b  $a                    $b$a  $b    $a$b        $x
+              $b  $a$b  $a$b  $a                $b$a    $b  $a  $b        $x
+            $b      $a  $b  $a$b$a                      $b    $a  $b        $x
+          $b      $a$b    $a$b  $a                      $b  $a$b$a  $b        $x
+            $b  $a$b    $a                                $b    $a  $b        $x
+          $b    $a  $b    $a                              $b    $a  $b      $x
+          $b  $a$b$a                                        $b  $a$b          $x
+          $b  $a$b$a                                        $b$a  $b        $a$x
+          $b  $a$b          $a                        $b        $a$b        $x
+          $b  $a$c  $b      $a                    $b  $c    $b    $a$b      $x
+          $b  $a$d$c    $b      $a            $b    $c    $d  $b  $a  $b    $a$x
+            $a$b$d  $c    $e                      $c    $d    $b$a$b        $a$x
+            $a$b$d  $c                                  $d    $b            $x
+            $b  $d  $c                                  $d      $b    $a$b    $x
+            $b  $d  $c                                  $d      $b    $a$b  $x
+          $b    $d  $c                                  $d      $b      $a$b$x
+            $b  $d  $c                                  $d      $b      $a$b$x
+            $b$d    $c$e  $c                        $e$c$d        $b        $c$x
+            $b$d    $c    $e  $c            $e      $c  $d        $b      $a$c$x
+            $b$d  $c          $e  $c      $e$c            $d      $b    $a$c$d$x
+            $b$d$c                                          $d      $b$a$b$d  $x
+            $b$c$f    $g$c          $g$c            $g$f$g  $c$d    $a$g  $d  $x
+            $a$c$g  $f      $c    $g$c$g$c  $f              $g$c$d$a$g  $c$g$d$x
+            $a                  $g$c    $g  $a              $c  $a$d$g$d$g$c$x
+            $a$x$h$c$i$j$a$j$i$d$a          $c$i  $j$a$j$i$c$a  $d$h$g$d$g$c$x
+            $a$x$h$d$c$i$j$i$g  $c$a    $d$c  $g$i  $j$i$c$d$a$d  $h$c$g$d$x
+            $a$x$h$d$c$g      $c  $a$c$g$a$c    $g      $c$d$a$d  $h$c  $d$x
+            $a$x$h$d$c  $g  $c  $a$h$c  $a$c    $g    $c  $d$a$d  $h$c  $x
+              $a$d  $c          $a$h$c  $a$d  $c        $d  $a$d$h  $c$x
+              $a$x$d          $a$c$h$c    $a$d              $a$d$h  $x
+                $a            $c  $h$c      $a              $c$d  $h$x
+                  $d$g      $c    $h$c        $g          $c  $d    $x
+                    $d$c        $h$c                          $d    $x
+                    $d  $c    $h  $c          $g$c            $d    $k  $x
+                    $d  $c  $h$g$h$c        $g$c  $h$c      $d    $l$m$k    $x
+                      $d$c$h$c  $g$c      $l$g$c  $h  $c    $d    $l$m      $k$x
+                    $k$d$c$h$c$f  $g  $f      $c    $h  $c  $d  $l  $m        $k  $x
+                $k  $m$c  $f        $l  $f        $c    $h$c$d  $l  $m$n  $m      $k$x
+              $k$m    $c  $f  $g$f$l      $f        $c      $d$l    $o$m$n  $m    $k  $x
+            $k$m        $f  $c$d$c                $f  $c  $d$l      $o$m$n    $m  $k    $x
+          $k$m          $f$c  $g$d          $c      $f  $c$d$l        $m  $n    $m  $k  $x
+        $k  $m          $f  $c  $l$c        $l$c    $g$f$d$l  $o$l    $m    $n    $m$k  $x
+      $k  $m  $n  $m    $f  $g$c  $f        $c      $g$f$l    $o    $l  $m  $n  $m$k    $x
+    $k    $m$n      $m  $n$f  $g$c  $l    $c      $g$f  $l  $o      $l  $m$n    $m$k    $x
+  $k      $n        $m    $f  $g  $l  $f  $l$c  $g$f  $l    $o      $l  $m$n  $m$k      $x
+  $k    $n          $m    $l$f      $l  $f          $l      $o      $l  $m$n  $m$k      $x
+$k      $n    $p$n  $m    $l  $f        $l$f      $l    $o          $l$m$n  $m$k    $f  $x
+$k$a$k  $n  $p$n    $m    $l    $f  $l  $f    $l$o$l$o  $l$o    $l    $n  $m$k    $f    $x
+$k$a$k  $n  $p$n    $m    $l            $o                    $l    $n  $m$k    $a$f    $x
+EOC

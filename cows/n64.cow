@@ -1,0 +1,46 @@
+# N64 Logo
+# by Charc0al
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;226m  ";
+$b = "\e[48;5;34m  ";
+$c = "\e[48;5;19m  ";
+$d = "\e[48;5;160m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                $a  $x
+                $t          $a          $x
+                  $t      $a              $x
+                          $b$a          $c$x
+                          $b    $a  $c    $x
+                          $b      $c      $x        $a  $x
+              $a  $x      $b    $c        $x    $a          $x
+          $a          $x$b      $c        $x  $a              $x
+        $a              $b    $c          $x  $b$a          $c$x
+        $b$a          $d$b    $c          $x$b      $a  $c    $x
+        $b    $a  $d      $b$c  $a  $c    $b          $c      $x
+        $b      $d        $b$a          $b            $c      $x
+        $b        $d      $a              $b          $c      $x
+        $b        $d      $b$a          $c$b          $c      $x
+        $b          $d    $b    $a  $c      $b        $c      $x
+        $b          $d    $b      $c          $b      $c      $x
+        $b            $d  $b      $c            $b    $c      $x
+        $b            $d  $b      $c              $b  $c      $x
+        $b              $d$b      $c                $b$c      $x
+        $b      $c$b    $d$b      $c                          $x
+        $b      $c$b              $c      $d$c                $x
+        $b      $c  $b            $c      $d  $c              $x
+        $b      $c  $b            $c      $d    $c            $x
+        $b      $c    $b          $c      $x$d    $c          $x
+        $b      $c    $b          $c      $x    $d  $c      $x
+          $b    $c    $x$b        $c      $x        $d$c$x
+              $b$c$x    $b        $c      $x
+                          $b      $c      $x
+                          $b      $c      $x
+                            $b    $c    $x
+                                $b$c$x
+EOC

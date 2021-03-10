@@ -1,0 +1,58 @@
+# Bane (Christopher Nolan Batman Series)
+# by manxana - http://pixeljoint.com/pixelart/71834.htm
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;237m  ";
+$b = "\e[48;5;242m  ";
+$c = "\e[48;5;234m  ";
+$d = "\e[48;5;223m  ";
+$e = "\e[48;5;137m  ";
+$f = "\e[48;5;180m  ";
+$g = "\e[48;5;235m  ";
+$h = "\e[48;5;101m  ";
+$i = "\e[48;5;144m  ";
+$j = "\e[48;5;187m  ";
+
+$the_cow = <<EOC
+                            $t
+                              $t                    $a                $x
+                                $t                $a    $b      $a    $c$x
+                                  $t            $a            $b$a      $c$x
+                                    $t        $d            $a  $b$a      $c  $x
+                                          $d                  $a  $b    $a$c$e$c$x
+                                        $d                    $a  $b    $a  $c$e$c$x
+                              $a      $f$d                      $a  $b$a$g$a$c$e  $c$x
+                    $a        $c$a    $d                        $a  $b$a$g    $c$e$c$x
+              $a    $c$a  $b$c$b    $f$d                          $a      $g  $c$e  $c$x
+          $a$c$a    $c$b    $c$b    $f$d                          $a  $b$a$g    $c$e$c$x
+        $a  $c$a$b  $c$b    $c$b$a$b$d                              $a$b$a      $c$e$c$x
+      $a    $c$b    $c$a    $c$a  $f$d                  $e$d        $a$b    $a  $c$e  $c$x
+    $a    $b  $c$b$a$c$a    $c$a  $f$d                    $f$d  $f  $a$b    $a  $c$e  $c$x
+    $a    $b  $c$a    $c$g  $c$g$a$f$d        $f  $d        $e$d$f  $a$b$a$g    $c$e  $c$x
+  $a    $c$a    $c$g    $c$g$a$c$a$f$d        $f  $d          $a$f  $a$b$a$g    $c$e  $c$x
+  $a  $b$a  $c$a$g    $a$c        $f$d        $f    $d    $e  $d$a$f$a$b$a$g    $c$e  $c$x
+  $a  $b$a    $g  $a$c  $x        $a          $d$f  $d      $e  $a$e$a$b$a$g    $c$e  $c$x
+  $a        $g  $c  $x          $a$b        $a  $f  $d          $e$a  $b$a$g    $c$e  $c$x
+  $a    $c        $x            $a$b  $a    $b$a$e$f  $a  $d$f    $a  $b$a  $g  $c$e  $c$x
+  $a  $c$a$g    $c$x            $a$b  $a    $b$a$d      $f$a    $f  $a        $g$c$e  $c$x
+    $a    $g$c  $g$c$x          $a$b$a        $b$a$d      $e  $a    $e$c$b  $a$c$e$c  $x
+    $c$a  $c$a$g    $c$x          $c$a        $b$a$d    $e$a  $c  $a$e$c$b  $a$c$a$c$x
+      $c  $a$g  $c      $x    $c  $d$c  $a      $b$a$d  $e  $d$c  $e  $c$a  $c      $x
+      $c$a    $c$a$g    $c    $d    $e$c$a          $f  $d    $f$e  $c$a    $c$e  $c$x
+        $c$a$c$a  $c    $d        $e    $c$a          $f      $e  $c$b  $a  $g  $e$c$x
+  $h              $c$d            $e$d$e$c$a            $c$f$e  $c$b  $a  $g    $c  $x
+$h                  $c$d        $e$d  $e  $c$a            $c    $b  $a  $g        $c$x
+$d$a  $h      $i      $c$d  $f$e$d  $f$e  $c$a                  $b$a$g            $c$x
+$d    $a$i              $c$d      $f  $e    $c$a  $g$b  $g$a  $b$a$g$b$g$b$g    $c$e$c      $x
+$d      $a$i$j$i    $j$i  $c$d  $f  $e        $c$a  $g$b$g$a    $g  $b$g$a$g$a$g$c$e        $c  $x
+$d        $a$i$j        $i  $c$f  $e    $f$e    $c$a  $g  $a  $g$b$g$b$g$a$g$a$c  $e            $c$x
+$d        $a$i$j    $i$j  $i$c$e      $f$e$d$f$e  $c$a        $g    $a$g$a$g  $c$e                $c$x
+$d          $a$j  $c  $i$j  $i$c$e  $f$e$d$f$e      $c  $a  $g  $b$g          $c$e                  $c$x
+$d$f$d      $a$j$i$c$a$c$i$j$i  $c$e  $f$e    $d$e      $c$a$g  $a$g$b$g$a$g  $e                      $c$x
+$d      $f  $a$j$i$c$a  $c$i$j$i  $c$e        $d$f$e    $c$a$g      $a$g$a$g$c  $e    $d    $f$e$f$e  $c$x
+$d    $f    $a$j$i$c$a    $c$i    $c$d    $e  $d$f  $e    $c  $g          $c$a$c$e  $d  $f$d$f      $e  $c$x
+$f$d$f  $e  $a$i  $c$a$b$a$c$i      $c$d      $e  $f    $e    $c        $a      $c$e$d    $e$d$f$e$f  $e$c$x
+$d$f  $e    $a$i  $c$a$b  $a$c$i      $c$d      $f      $e$f$e    $c$a          $c$e  $d  $f$e$d$f$e$f$e$c$x
+EOC

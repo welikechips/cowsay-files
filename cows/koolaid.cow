@@ -1,0 +1,49 @@
+# Kool-Aid man
+# by Unknown - https://www.youtube.com/watch?v=eKQezK77yu
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;252m  ";
+$c = "\e[48;5;160m  ";
+
+$the_cow = <<EOC
+        $t                            $a      $x        $a    $x
+          $t                      $a  $b      $a$x  $a  $b    $a  $x
+            $t                $a  $b          $a$x  $a$b        $a$x
+              $t          $a  $b        $a      $x  $a$c$b  $c  $a$x
+                      $a  $b      $a    $b  $a$x  $a  $c        $a$x
+                  $a  $b      $a  $b        $a$x$a$x$a$c        $a$x
+              $a  $b      $a  $b            $a$x$a$x$a$c        $a$x
+            $a$b      $a  $b        $a          $x$a  $c        $a$x
+        $a            $b        $a  $b        $a  $x$a$c$a        $x
+      $a$b    $a$b          $a  $b              $a  $x$a$c      $a$x
+      $a$b  $a$b        $a  $b                    $a  $c    $a    $x
+      $a$b$a    $b  $a  $b                    $c$b  $a$c    $a  $x
+      $a$b$a    $b$a$b              $a    $b$c  $b$a$c    $a  $x
+      $a$b$a      $b      $c$b  $c$a        $c  $a$c      $a  $x
+      $a$b  $a  $b    $a    $c            $a$c  $a$c    $a  $x
+        $a$b  $a$c  $a        $c    $a  $c      $a$c    $a  $x
+        $a$b  $a$c  $a$c            $a    $c      $a        $x
+          $a$b  $a$c    $a  $c        $a  $c            $a  $x
+            $a$b$a$c    $a    $c$a  $c                      $a$x
+        $a        $c      $a  $c  $a  $c                    $a$x
+      $a  $c$a    $c              $a  $c    $a  $c          $a$x
+      $a$c$a$c$a  $c              $a$c    $a      $c        $a$x
+      $a    $c    $a$c$a$c                  $a  $c          $a$x
+        $a          $c$a  $c    $a      $c$a  $c            $a$x
+                $a$c  $a                    $c              $a  $x
+                  $a$c$a$c$a              $c              $a$c$a  $x
+                  $a$c        $a        $c              $a$c    $a$x
+                    $a$c$a    $c                      $a  $c    $a$x
+                      $a$c    $a$c                $a  $x$a$c    $a$x
+                    $a$c        $a$c          $a    $x$a  $c    $a$x
+                    $a$c        $a$c      $a    $x    $a$c  $a  $x
+                  $a  $c      $a            $x        $a$c$a$c  $a$x
+                $a$c  $a$c  $a  $x                    $a$c        $a$x
+                $a$c        $a$x                        $a$c      $a$x
+                $a$c        $a$x                          $a      $x
+                  $a$c      $a$x
+                    $a      $x
+EOC

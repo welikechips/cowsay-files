@@ -1,0 +1,69 @@
+# Kylo Ren
+# by Michael B Myers - https://dribbble.com/shots/2314676-The-Force-Awakens-pixel-art
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;241m  ";
+$d = "\e[48;5;231m  ";
+$e = "\e[48;5;233m  ";
+$f = "\e[48;5;245m  ";
+$g = "\e[48;5;252m  ";
+$h = "\e[48;5;240m  ";
+$i = "\e[48;5;251m  ";
+$j = "\e[48;5;196m  ";
+
+$the_cow = <<EOC
+          $t
+            $t        $a    $b      $x
+              $t        $a  $b        $x
+                $t      $a  $b$c  $d$c$b$x
+                  $t  $a  $b  $e      $b$x
+                      $a  $e$f    $d$g$b$x
+                      $a  $e$f$e      $b$x
+                    $a    $e$f    $b$h$i$x
+                  $e$a    $e  $b    $h$e$b$x
+                  $e  $a    $e  $b  $h$e$b  $x
+                $a$b$e  $a    $e$b  $h$e$a$b$x
+              $a$b$e$b$e$a$b$a  $e    $a$e$b$a$x
+            $a  $b  $a$e    $b$a        $b$e$a$x
+            $a$b  $e  $a  $e  $b$e      $a  $e$x
+          $a  $b$e$a$e    $a        $b  $e    $x
+          $a$e  $a  $e$a$e      $a    $e$b$e  $x
+        $e  $a    $e  $a  $b  $e      $b  $e  $x
+        $e  $b  $e    $a  $b      $a$b    $e  $b$x
+        $e$b    $e    $a  $b      $a$b    $e  $b$x
+          $b  $e      $a    $b    $a$b    $e  $b$x
+        $b    $e      $a    $b    $a$b    $e    $b$x
+        $b  $e          $a  $b    $a$b  $e  $x$e$b$x
+        $b  $e        $a$e        $a$e    $x  $e$b$x
+        $b  $e        $a$e        $a$e    $x  $e$b$x
+        $b  $e      $x$a$j$e      $a$e    $x  $e  $b$x
+        $b  $e    $x$e$j$d$j$b$a$b$a$b$a$b$x    $e$b$x
+        $b  $e  $x  $a$j$d$j$b$a$b$a$b$a$b  $x  $e$b$x
+          $b  $e$x$a$j$d$j$a$b    $e$b  $a$b$x  $e$b$x
+    $c  $x$b  $x  $a$j$d$j$a$b    $e$b  $a$b$x  $e$b$x
+        $c  $a  $x$a$g$j$a  $b    $e$b        $e  $x
+            $a  $f$g  $j  $b      $e$b        $e  $x
+                $a$g$d    $j    $b$e$b        $x
+              $a$j$g$j    $d    $j    $b      $x
+              $j$d$j$a    $j    $d    $j    $b  $x
+              $j$d$j$a  $b      $j    $d    $j    $x
+            $j$d$j$a    $b        $e$b$j    $d    $j    $x
+            $j$d$j$a    $b      $e  $b      $j    $d    $j    $x
+            $e$j$a    $b        $e  $b          $x$j    $d    $j    $x
+          $e    $a    $b        $e  $b          $x      $j    $d    $j  $x
+          $e    $a    $b        $e  $b            $x          $j    $d  $j$x
+          $e    $a  $b          $e  $b            $x                $j  $x
+          $e    $a  $b        $e    $b            $x
+        $e    $a    $b        $e    $b            $x
+        $e    $a    $b        $e    $b            $x
+        $e    $a  $b          $e    $b            $x
+      $e    $a    $b          $x$e  $b            $x
+    $e      $a    $b$a  $b    $x$e  $b            $x
+  $e    $a          $b        $x$e  $b            $x
+        $a      $b            $x  $e$b            $x
+                $e      $b  $x    $e$b      $e      $x
+EOC

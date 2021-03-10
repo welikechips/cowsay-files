@@ -1,0 +1,64 @@
+# Wario
+# sprite from Super Smash Flash
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;184m  ";
+$c = "\e[48;5;226m  ";
+$d = "\e[48;5;21m  ";
+$e = "\e[48;5;20m  ";
+$f = "\e[48;5;100m  ";
+$g = "\e[48;5;231m  ";
+$h = "\e[48;5;223m  ";
+$i = "\e[48;5;216m  ";
+$j = "\e[48;5;173m  ";
+$k = "\e[48;5;45m  ";
+$l = "\e[48;5;130m  ";
+$m = "\e[48;5;24m  ";
+$n = "\e[48;5;89m  ";
+$o = "\e[48;5;132m  ";
+$p = "\e[48;5;211m  ";
+$q = "\e[48;5;242m  ";
+$r = "\e[48;5;54m  ";
+$s = "\e[48;5;252m  ";
+$u = "\e[48;5;246m  ";
+$v = "\e[48;5;22m  ";
+$w = "\e[48;5;28m  ";
+
+$the_cow = <<EOC
+          $t                          $a      $x
+            $t                    $a  $b$c  $b$a$x
+              $t              $a  $b$c  $d  $e$a$x
+                $t        $a  $f$b$c  $a  $g$b$a$x
+                  $a        $f$b$c  $d$a  $g$a$x
+                $a$b$c  $f  $b$c    $d$g$a        $x
+                $a$b$c          $b$f$a  $b  $c  $b$a$x
+              $a    $f$b$c  $f$a                    $x
+              $a$h$i$a          $j$a$k$a    $i$a$x
+              $a$i$l$i$h$a    $i$j$k$g  $a$m$a$n$a  $x
+              $a$i$j$l$i$h$a    $j$k$g    $m$j$n$o$n$a$x
+              $a  $i$j$l$i$j$l$i    $k$m  $j$n  $p$o$n$a$x
+                $a$i  $j$l$i  $a$i$h$l  $i$a$n        $a$x
+              $a    $i$l  $i  $a  $i  $a    $n$a$n    $a$x
+              $a    $i$j  $i  $a                      $x
+                $a    $i$l$i$h$l$g$a  $g$a    $g$a$x
+                $a        $i$h$l$g$a$q$a$g  $q  $a  $x
+                  $a      $l$h$a$l$a$g$a$g$q$g$q$l$i$a$x
+              $a          $l$h    $i  $j  $l  $j$h$j$a$x
+            $a$b$i  $b$c$a          $j$i  $h    $i$a  $x
+          $a$f$i$h  $i$b$c$a$b$a$r  $a              $s$a$x
+          $a$i$h  $a        $c$b$a$r  $a$c  $b$a    $s$a$x
+        $l    $a  $s  $a$s  $a$r$a$r$b$c$a$c  $r$a  $g$s$a$x
+      $l$i    $a$s$g  $a  $g$a  $r$a$b  $a    $r$a$u$g$s$a$x
+    $a$l$h  $s  $u$g        $s$a$r$a      $r    $a$g  $s$a$x
+    $a$h    $s$g            $s$a$r            $a$s$g  $s$a$x
+    $a$h    $s$g      $s$g  $s$a$r            $a  $s    $a$x
+    $a  $h  $s$g$s$g$s$g    $s$a$r            $a$u    $a$x
+      $a$h$i$s  $u$g  $s$g$s  $a$r    $a    $r  $a    $x
+        $a      $u$s        $a$r$a        $r    $a  $x
+                $a              $x      $a  $r  $a$v$a$x
+              $a$w$a    $v$w$a$x          $a$v    $w$a$x
+              $a$v$w$a        $x          $a    $v$a$x
+EOC

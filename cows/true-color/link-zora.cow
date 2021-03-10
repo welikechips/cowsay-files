@@ -1,0 +1,61 @@
+# Link with Zora armor (Legend of Zelda: Breath of the Wild) - true color
+# by @unseven - https://twitter.com/unseven/status/895986591344148480
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;10;106;156m  ";
+$b = "\e[48;2;231;220;202m  ";
+$c = "\e[48;2;173;172;180m  ";
+$d = "\e[48;2;113;113;125m  ";
+$e = "\e[48;2;13;69;118m  ";
+$f = "\e[48;2;225;122;64m  ";
+$g = "\e[48;2;254;181;89m  ";
+$h = "\e[48;2;71;46;42m  ";
+$i = "\e[48;2;71;71;79m  ";
+$j = "\e[48;2;110;82;58m  ";
+$k = "\e[48;2;8;42;79m  ";
+$l = "\e[48;2;38;42;53m  ";
+$m = "\e[48;2;16;23;33m  ";
+$n = "\e[48;2;0;255;244m  ";
+$o = "\e[48;2;0;132;135m  ";
+$p = "\e[48;2;36;41;53m  ";
+$q = "\e[48;2;116;245;181m  ";
+
+$the_cow = <<EOC
+                  $t
+                    $t                  $a      $x
+                      $t              $b$c$a      $x
+                        $t          $d$c$d$c$a    $x
+                          $t        $d    $c$a  $e  $x
+                            $t      $c$d$c$f$a$e      $x
+                                    $e$c$f$g$f$a$e  $h$c$d$c$x
+                                    $e  $g    $e$a  $h$c$d    $x
+                                      $i$d$f  $d$e$h$j  $c    $e$a$x
+                                    $i  $d$h$a$c$a$j$h$j$h  $e$a  $d$x
+                                    $d  $h$e$a      $j$h$x    $c  $i$x
+                                    $k    $x$e$a    $e  $x    $i$l$d$x
+                                    $e$k$x    $k    $e  $x  $l$m$l  $x
+                                  $c$e$c$x  $i$k  $e$a$e$x        $l$x
+                                  $d$c$d$x$i$x$e$a  $c  $x
+                                  $d  $x$i$j$n$j  $c$d$c$d$x
+                                $d  $x$i$x$h$a    $c$d  $c$x
+                                $c  $i$x$j      $c$d$c$d  $x
+                              $c$l$m$x$a  $j  $c$d    $c  $x
+                              $m$l  $x$a  $c$d$c$d  $x
+                              $o$m$x  $d$c$d$i  $k$x
+                            $o$x          $i    $k$x
+                        $b$c$x            $k  $i$d$x
+                        $c$d$x            $k$i$x$c$a$x
+                      $d$x                $i  $x$e$a$p$x
+          $b$c$x  $b$c$x                  $i  $x  $l    $x
+      $b$x$b$d$b$d$c$d$x                $i$d$x    $l$m$l$x
+      $b$d$c$x$b  $d$x                  $d$k$x    $l$m$x
+      $b$d$x$b$q$d  $x                  $k$e$x
+          $b$q$d$x$d  $x                $e$l$x
+      $b  $c$d$x$c  $d$x                $l  $x
+      $b$x$d$x$c$d$x                  $l$m$l$x
+      $c$d  $x$c  $d$x                $m$l$x
+
+
+EOC

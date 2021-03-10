@@ -1,0 +1,53 @@
+# Flying Spaghetti Monster (Pastafarian diety)
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;232m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;226m  ";
+$d = "\e[48;5;214m  ";
+$e = "\e[48;5;229m  ";
+$f = "\e[48;5;88m  ";
+$g = "\e[48;5;160m  ";
+$h = "\e[48;5;202m  ";
+
+$the_cow = <<EOC
+              $t                    $a        $x
+                $t                $a  $b    $a$x
+                  $t              $a$c$a  $b$a$x
+                    $t            $a$c$a  $b$a  $x
+                                  $a  $c  $d  $a  $x
+                    $a        $x    $a        $d$a  $x          $a    $x
+                  $a  $b    $a$x            $a  $d$a    $x$a      $c$a$x
+                  $a$c$a  $b$a$x              $a  $d$c$a    $d$c$d$a                  $x
+                  $a$c$a  $b$a  $x              $a  $d$c$d$c$d$a$c$e$c$e          $c$a    $x
+                  $a  $c      $a  $x              $a  $d$e$d$c  $d  $a              $c$e$a$x
+                    $a        $c$a  $x  $a      $x$a$d$c$d$f$g$f$g$f$d$e  $c$e  $c$a      $x
+                            $a  $d$a      $e  $a    $c$f  $g          $d$c$e$c    $e  $a  $x
+                              $a  $d$c$a    $c$e$a$d$c$f$g$h    $g$h$g  $c$e$a      $e  $a  $x
+                            $a      $d$c$d$a  $c$e$d  $f$g  $h$f$g$h$g  $d$e$d$a      $e$c$a$x
+                      $a      $d$e        $d$a$d$c  $d$f$g  $h        $g$d$e$d$e$a    $d$e$a  $x
+                    $a  $e$c                $e  $d$c$d$f$g    $h    $f$g$d$e$d$e$d$a    $c  $a$x
+                  $a  $c$d$a    $f$g$f$g$f  $a$c$e$d  $f  $g  $f$g      $d$e$d$c$e$d$a  $c$e$a$x
+                $a  $c$a      $f  $g    $f$g$f$a$c  $d$f  $g$f$g$f$g  $f$c$e$d$a$c$e$a  $d$e$a$x
+              $a  $c$a      $f  $g  $h$g$h$g  $f$d      $f  $g$f      $a$c$e$c$a$c$e$a  $d$e$a$x
+              $a$d$a  $x$a$c$f  $g    $h    $g$f$d$c$a$d$a$f        $a$c$e$a$e$a  $e$a    $c$a$x
+              $a    $x$a  $c$f  $g      $h  $g$f$a$e$a$c$a$d$a$d  $a$c$e$a  $e$a  $e$a$x$a$c$a$x
+                      $a$c$a$f    $g$f$g$h$f$g$f$d$e$a$e$a$c$a$c$e$a$e$a  $d$e$a  $e$a$x$a$c$a$x
+                  $a    $c$e$f$g$f$g$f  $g  $f  $d$e$a$e$a$e$a$c$e$c$a    $c$e$a  $e$a$x$a$c$a$x
+                $a  $d  $e$d  $f  $g$f$g      $d  $c$a$e$a$e$a$c$d$e$a    $c$d$a  $e$a$x$a$d$a$x
+              $a  $e$c$d$e$a$e    $f    $g$f$a$d  $e$a$c$a$e$a$d$c  $a  $c$d$a    $e$a$x$a$d$a$x
+            $a  $c  $a  $d$a  $c  $e  $a    $d  $c$a$d$c$e$d$c  $d$c$e$a$c$a    $d$a  $x$a    $x
+        $a    $c$a      $e$a  $d      $e    $c  $e$d  $c$e$a$e$a  $c$e$a    $x$a    $x
+    $a    $d  $a  $x$a$c$e$d  $a      $d  $c$e$c$d$c$a$d$c$a$e$a    $c$e$a$x
+    $a$c$a            $c$a        $d  $c    $a$d$c$a  $d$c$e$c$a$x$a$d$e$a$x
+    $a  $c$e$d$a  $c    $a$x$a$c  $a$c$e$c$a$d$c$a  $c$d$a$e$a  $x$a  $c$a  $x
+      $a  $c        $d$a  $x$a    $e$c$a  $c  $a  $d$c$a  $d$e$a        $c$a$x
+        $a              $x  $a$e$c$a    $c$d$a  $c  $a    $d$a$c$e$a$x$a$c$a$x
+                            $a        $c$a    $c$a      $d$c$a      $x$a    $x
+                                  $a$c$a  $x$a    $x$a  $c$a  $x
+                                  $a    $x          $a$c$a  $x
+                                                    $a$d$a$x
+EOC

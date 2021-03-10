@@ -1,0 +1,75 @@
+# Jeff Boomhauer (King of the Hill)
+# by Mauri Helme - https://www.youtube.com/channel/UCas7DqhT9pKI3_L0dY2HhTw
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;236m  ";
+$b = "\e[48;5;228m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;185m  ";
+$e = "\e[48;5;180m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;230m  ";
+$h = "\e[48;5;137m  ";
+$i = "\e[48;5;242m  ";
+$j = "\e[48;5;238m  ";
+$k = "\e[48;5;102m  ";
+$l = "\e[48;5;166m  ";
+$m = "\e[48;5;208m  ";
+$n = "\e[48;5;214m  ";
+$o = "\e[48;5;60m  ";
+$p = "\e[48;5;94m  ";
+
+$the_cow = <<EOC
+          $t
+            $t                  $a                $x
+              $t            $a  $b      $c        $a$x
+                $t        $a$b                      $a$x
+                  $t    $a$d$b  $d$a              $d$a$x
+                        $a$d$b  $a$e              $a$x
+                        $a$d$b  $a$e  $f          $a$x
+                        $a$d$b    $a$f          $g$f$a$x
+                        $a$d$b    $a$f              $a$x
+                        $a$d$b  $d$a$f      $a$f  $a  $x
+                        $a$d    $a$e$f              $g$a$x
+                        $a$d  $a$f              $h$f$g$a$x
+                          $a$d$a$f$e$f            $h$f$a$x
+                          $a$d$a$f$e$f          $e$f$e$a$x
+                            $a$d$a$f                $a$x
+                            $a  $e$f          $h  $f$a$x
+                            $a$e  $f                $a$x
+                              $a$e$f                $g$a$x
+                              $a$e  $f    $e  $f      $a$x
+                              $a$e  $f        $a      $x
+                              $a$e    $f      $a$x
+                  $a              $e      $a        $x
+            $a    $i              $a      $i        $a  $x
+          $a$j$i  $k        $i                $k    $i  $a$x
+        $a$j$i                                      $k  $i$a$x
+        $a$j$i                                            $a$x
+      $a$j  $i                                            $a$x
+      $a$j  $i                                            $a$x
+      $a$j  $i      $a$i                            $a$i    $a$x
+      $a$j  $i      $a$i                            $a$i    $a$x
+      $a              $i                            $a      $x
+      $a$e        $a$j  $i                          $a$e  $a$x
+      $a$e$f      $a$j  $i                          $a$e$f$a$x
+      $a$e$f    $g$a$j  $i                          $a$e$f$a$x
+      $a$e$f    $g$a$j  $i                          $a$e$f$a$x
+      $a$e$f    $g$a$j  $i                          $a$e$f$a$x
+      $a$e  $f  $g$a$j    $i                        $a$e$f$a$x
+      $a$e  $f      $a    $i            $a      $i  $a$e$f$a$x
+      $a$e  $f        $g  $a  $i      $a$l$m  $n$a$i$a$e$f$a$x
+        $a$e    $f          $g$a        $l$m  $n$a$i  $a$e$a$x
+        $a$e          $f        $g    $a$l$o  $m$a$i  $a$e$g$a$x
+          $a  $e            $f          $a    $m$a  $i$a$e$f$a$x
+              $a        $e        $f          $a$h$a$i  $a$f$a$x
+              $a$j      $a      $e            $a$h$a$i  $a$f$a$x
+              $a$j              $a$e  $a      $h  $a$i  $a$f$a$x
+              $a$j                $a  $e  $a$h    $a$i  $a$f$a$x
+                $a$j      $i  $j      $a          $i    $a$f$a$x
+                  $a$j      $i      $j            $i  $j$a$f$a$x
+                  $a      $j                        $a$e$f  $a$x
+                  $a$p    $a                          $e$f$a$x
+EOC

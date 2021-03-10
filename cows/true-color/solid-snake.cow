@@ -1,0 +1,61 @@
+# Solid Snake (Metal Gear Solid) - true color
+# by /u/Onceyougowalrus - https://www.reddit.com/r/PixelArt/comments/6arpxo/ocmetal_gear_solid/
+# Generated with Charc0al's coway file creator http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;2;62;33;29m  ";
+$b = "\e[48;2;133;65;29m  ";
+$c = "\e[48;2;34;18;20m  ";
+$d = "\e[48;2;33;32;43m  ";
+$e = "\e[48;2;55;40;84m  ";
+$f = "\e[48;2;96;80;127m  ";
+$g = "\e[48;2;18;18;18m  ";
+$h = "\e[48;2;158;90;84m  ";
+$i = "\e[48;2;225;123;79m  ";
+$j = "\e[48;2;253;253;253m  ";
+$k = "\e[48;2;250;177;122m  ";
+$l = "\e[48;2;55;56;58m  ";
+$m = "\e[48;2;254;219;168m  ";
+$n = "\e[48;2;73;58;103m  ";
+$o = "\e[48;2;96;96;191m  ";
+$p = "\e[48;2;112;158;222m  ";
+$q = "\e[48;2;188;197;246m  ";
+$r = "\e[48;2;83;86;76m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t                $a$b$x
+                $t        $c$a  $b  $x  $d  $e$f$x
+                  $t    $c$a$b  $a$b  $d$x    $e$f  $x
+                      $c$a$b$a  $b  $a$b$e    $f$x  $f$x
+                      $g$d  $e  $b$e$f$b$x      $f$x
+                  $d$g$d  $e  $f    $e$x        $f$x
+                $d$g  $d$h$d          $x        $f$x
+                $d$g  $d$i$h$d$j$i$k$h$d$l$x  $f$x
+                $d  $g  $h$i$k    $m$i$d  $l$x
+              $g$d    $g  $h$m$k  $m$h$d  $e  $x
+            $d  $g$d$e  $g$h$k      $h$d$f      $x
+          $d  $e  $g$d$e  $g$i$j  $k$d  $e  $f  $x
+        $d$g    $e  $g$d$e$g  $h  $g  $e  $f$d$x
+        $g$n  $o$g$e$d$g              $e  $f$d$x
+        $g$n$p    $g$e$d  $e$g      $d$e$f$d$o$x
+          $n$o$p  $g$d$e    $d    $g$d$f$d$n$p$x
+            $n$o$p  $g$d  $e    $d  $x$d$n  $p$x
+        $g$d$n  $o$g$l$g  $d$e      $x$d$n  $p$x
+      $g$l  $d$g  $d  $l$g  $d$e$d$x  $d$n$o$p$x
+    $g$d$l$d  $n$g$d    $l$g$d  $x    $d$n$o$p$x
+    $g$d    $n$d$n$g  $d$p  $d  $x    $n    $x
+    $d$n  $o  $p$o$n$g$n$o$p  $x    $d$o  $p$x
+      $d$n$o  $p$o$d$g$n  $o$p  $d$x$d  $o  $x
+      $d$n$p    $d$g      $n$o$d$e$d$l$q$d$x
+        $d$n$o$p$g        $d  $e    $d$l$q  $x
+        $d$n  $o$x$g      $n$d    $e    $l  $q  $x
+          $g$r$d$g$x      $g$n$d    $e$n$x  $l  $q  $x
+          $g$d  $g$x        $g$n    $d  $x      $l  $x
+          $g$r$d$g$x  $g    $d$g$d  $n    $x
+          $g  $d$g$x  $g$d      $n    $g$d$l$x
+        $g$r  $d$g$x$g$d      $n    $g$d    $x
+      $g      $d$g$x$g$d$g$x$g$n    $g$d$g  $x
+EOC

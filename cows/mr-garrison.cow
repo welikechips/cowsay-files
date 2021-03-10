@@ -1,0 +1,61 @@
+# Mr. Garrison (South Park)
+# by Unknown
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;223m  ";
+$b = "\e[48;5;248m  ";
+$c = "\e[48;5;238m  ";
+$d = "\e[48;5;255m  ";
+$e = "\e[48;5;197m  ";
+$f = "\e[48;5;250m  ";
+$g = "\e[48;5;70m  ";
+$h = "\e[48;5;132m  ";
+$i = "\e[48;5;172m  ";
+$j = "\e[48;5;28m  ";
+$xa = "\e[49m $a";
+
+$the_cow = <<EOC
+      $t
+        $t
+          $t          $a                    $x
+            $t      $a                        $x
+                  $b$a                        $b$x
+                $b  $a    $b  $a      $b  $a  $b  $x
+                $b  $a  $b$a  $b$a  $b$a  $b$a$b  $x
+                $b  $a  $c    $a    $c    $a  $b  $x
+              $a$c  $a$c$d    $c$a$c$d    $c$a$c  $a$x
+              $a    $c  $d$c$d$c    $d$c$d$c  $a    $x
+              $a      $c$d    $c$a$c$d    $c$a      $x
+                $a      $c    $a    $c    $a      $x
+                $a                                $x
+           $e      $a         $c    $a            $x
+           $f      $a       $c$a    $c$a        $x
+           $e      $xa                        $x
+           $f      $x $c$g$a          $g  $c$x
+         $c          $g $c$g$c$g$c$g$c$g$c$g  $x
+         $d$c$d  $c$d$g   $c$g  $c$g  $c$g      $x
+        $e$h$i    $h$e$g        $c$g            $x
+          $h  $i$h  $g          $c$g              $x
+          $h        $g          $c$g              $x
+          $h        $g          $c$g              $x
+          $a$h    $a$g          $c$g              $x
+            $a    $g            $c$g              $x
+            $a    $g            $c$g              $x
+                  $g            $c$g              $x
+                  $g            $c$g              $x
+                  $g            $c$g          $a  $x
+                  $g            $c$g        $a    $x
+                      $j                    $a  $x
+                      $j        $c$j        $x
+                      $j        $c$j        $x
+                      $j        $c$j        $x
+                      $j        $c$j        $x
+                      $j        $c$j        $x
+                      $j        $c$j        $x
+                      $j        $c$j        $x
+                      $j        $c$j        $x
+                      $j        $c$j        $x
+                    $c                        $x
+EOC

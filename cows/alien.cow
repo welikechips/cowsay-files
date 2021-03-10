@@ -1,0 +1,73 @@
+# Alien (Alien [1979])
+# by /u/Sbe16 - https://www.reddit.com/r/PixelArt/comments/9u1vze/alien_is_my_favorite_scifi_film_with_2001_a_space/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;245m  ";
+$b = "\e[48;5;237m  ";
+$c = "\e[48;5;243m  ";
+$d = "\e[48;5;248m  ";
+$e = "\e[48;5;241m  ";
+$f = "\e[48;5;234m  ";
+$g = "\e[48;5;239m  ";
+$h = "\e[48;5;250m  ";
+$i = "\e[48;5;235m  ";
+
+$the_cow = <<EOC
+          $t                            $a$b      $x
+            $t                        $a$b          $x
+              $t                    $a$b            $x
+                $t                $a$b$c    $x  $b  $x
+                  $t            $d$e$c$a$e$x    $b  $x
+                              $d  $e  $a$x    $f$b  $x
+                              $d$c$a$c$e$x  $f      $x
+                            $d  $a    $x    $f$g$f  $x
+                            $d$e      $x  $b$e$f  $x
+                          $d  $a$c  $x  $b$f$b$f$x
+                          $d$h$a  $e$x  $b$e$f  $x
+                        $d  $c$e    $x$g$f$b$f$x
+                        $d  $a$e  $d$x$g$e$f$x
+                        $d$h$a  $e$h$g$f  $g$b$x$e$b        $x    $f  $x
+                      $d  $c    $e$d$g$f$b$x$b      $i$f  $b  $x$f  $x
+                      $d  $a$e  $a$d$g$f$b$x$i$b$g$f      $b    $f$x
+                      $d$a    $e$a$b$g$b$f$b  $e$b              $f$x
+                      $d$c    $e$a$g$b$f    $g$b$f          $b  $x      $b  $f$x
+                    $d  $a$c$e  $a$b  $f  $i$b  $f$i$b  $f    $b$x    $b  $f  $x
+                    $d$h$a  $e$a$f  $b$f  $b  $f  $b  $f$b    $f$x  $b$f  $x
+                    $h$d$c  $e$a$f    $b$f$b  $f  $b$f$b$g$e$b$f$x$b$f  $x
+                  $h  $c    $e$a$f    $b$f$b$f  $i$b$f    $b$g$b$f      $x
+                  $h$d$c  $e    $f  $i$b$f$b  $f$i$b$f$b  $f$b    $f  $x                                                $g$x  $g$x
+                  $d$c    $e    $f  $b$f  $b$f  $i$b$f$b  $g$f$b  $f$x                                            $g$x$f$g$f  $g$x$g$x
+                  $a$f$c  $f$b$e$f$b$f$i  $b$f  $i$b$f  $b    $f$b  $x  $b      $x                                $f$g$f$i$b  $f$g$x
+                  $f  $c  $f  $g$f$e$f$i  $f$b    $f$b$f    $b$f    $b  $f      $x                          $g$x$f      $b$f$b$i$f$x
+                  $f$e$c  $b$f$g$i$e$f          $b$f            $b  $f$b$g$f$x                                $g$f$b$f  $g$f$g$f  $g  $x
+                  $c  $f  $c$e$f$b  $x$g  $e$g$b$f  $b    $x    $f$b  $f$b$x                                  $f    $g$x    $f  $b$f$x
+                    $e$b  $e$b    $x  $f  $e$f    $b$f  $b$x    $f$b    $f$g$x                            $g$f  $b$f$x        $g$f  $x
+                    $e$x$e$f  $b$x    $e$g$f$e$g$b$f      $x  $f    $b  $f  $g$x                            $g$f$g$x          $f  $g  $x
+                        $f    $b$x    $f  $g$e$f  $b      $f        $x$b$f  $g$x                          $f      $x          $e$b$f$x
+                        $f$b  $x  $b  $f      $c$g$f      $b$f      $x  $f    $g  $x                  $g$x$f    $x            $f    $x
+        $g$f          $g$x    $b      $f  $g  $e$f  $b    $f      $x      $b$f$g  $x                    $g  $f$g$x            $g$b$g  $x
+      $f                    $b    $f            $e$g$f    $b$f$x            $b$f$g$x                $g$x$f    $x            $g$f$b$f$x
+      $f$x$f$x$f  $x$g$f                $x  $g  $e$f          $x            $b$f$g$x                  $g$f    $x            $g$f$g$x
+    $g$x    $f$x                              $g$f  $b$g$b      $f$x        $b$f  $g$x          $g$x$f    $g$x            $g$f    $g$x
+          $g$x          $g              $x    $b$g  $b  $f        $x          $b$f$g$x            $g$f    $g$x          $f      $x
+                  $g$b                    $g  $f$g  $b$f  $b      $f  $x      $b$f$g$x      $g$x$f    $g$f$x        $f      $g$x$g$x
+            $g    $b                $g$e$g$b$i  $b    $f$b$f        $b$f$x      $f$g  $x$g$x  $g$f    $g$x    $f            $x
+        $g                          $b$i$f      $b$g  $f  $b$f$b  $f$g$b$f$x$g$x$f  $g$x$g$f      $g$f$x  $f      $g$f$g$x  $g$x
+      $g        $b$f        $i$b            $i  $f$b    $f$g$b      $g  $f  $g$f    $g$f          $g$x  $f    $g$f$g$x  $g$x
+      $g  $f        $i$b      $i$f                        $g  $b  $g    $f    $g$f  $g$f    $g$f  $x  $f      $g$x  $g$x
+      $b  $f$i$b      $i$f                                $b$g        $b$f          $b$g$f    $g$x    $f    $x$g$x    $g  $x
+      $f    $b$i$f                                          $i$g    $b$f          $b$f$g$f  $x        $f    $x      $g  $x$g$x
+        $f    $i$f                    $x              $f      $b    $f    $g$f$g$f    $g  $x          $f    $g$x$g$x$f$x
+                $f                    $x                  $f            $x        $f$b$f$g$x            $f            $x
+                          $f              $x              $f            $x        $f$b$f$g$x              $f        $x
+                                $f        $x          $f              $x          $g$x$f  $x
+                                  $f      $x      $b$x$f        $x                    $f$b$x
+                                    $f    $x$f$x  $f$b$f    $x                      $b$f  $x
+                                    $f        $x    $f$b    $x                    $g$f    $x
+                                  $f        $x        $b$f$b  $x                        $f$x
+                                  $f      $x            $b$f  $b$x                    $g$x
+                                $f      $x              $b$f$b$f$b  $x
+                              $f        $x                $g$b$g$b$c$b$x
+EOC

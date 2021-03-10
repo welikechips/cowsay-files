@@ -1,0 +1,58 @@
+# sam-fisher
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;239m  ";
+$b = "\e[48;5;59m  ";
+$c = "\e[48;5;236m  ";
+$d = "\e[48;5;40m  ";
+$e = "\e[48;5;242m  ";
+$f = "\e[48;5;65m  ";
+$g = "\e[48;5;22m  ";
+$h = "\e[48;5;246m  ";
+$i = "\e[48;5;180m  ";
+$j = "\e[48;5;137m  ";
+$k = "\e[48;5;252m  ";
+$l = "\e[48;5;108m  ";
+
+$the_cow = <<EOC
+                            $t
+                              $t
+                                $t            $a      $b$c$x
+                                            $c$a$b    $c$d$c$x
+                                            $a$b  $a$c$d$c$d$x
+                                $c$e$a  $e$f$c  $a  $c    $x
+                            $g$a$b$e$h$b$c$b$e  $i    $j$x
+                          $a$f$e$k    $c  $l$e$j  $i    $x
+                        $g$f$e$k      $a$e$f$e$j$b$j$i$j$x
+                      $c$f$a$k      $h$a$f$a$b$j$e$j  $x
+                      $f$e$c$e$h$k$h$a$c$e$c    $a$c$x
+                    $c$e$h$e  $c$a  $c$g$a$c      $x
+                    $f$e  $k$e$c  $a$c    $g$c  $x
+                    $a$e$k$h$c  $a  $c      $x
+                  $c$b$a  $c                $x
+                  $b$k$h$c  $a    $g$a$c$a$x
+                  $a$h$k  $a        $c  $x
+                  $a$b$e$k  $e  $b$a$b$c$x
+                  $a$b$a  $h  $e$h  $b$e  $c$x
+                  $e$h  $b$a$b  $h$e  $h  $k$e$x
+                  $h  $k  $h$a$k  $h$e$h  $k  $e$x
+                  $h  $k    $e$h$k    $a$b$e$h$k$h$x
+                  $h  $k$h$k$h$a$h  $a    $b$e$h$k$h$x
+                  $e    $h$k  $c          $a$b$e$h  $e$x
+                  $e$b$h$k  $h$x      $c    $a  $e  $k$h$x
+                $e$h    $k  $b$x        $c    $a$b$e$h$k$b$x
+              $e$h$e$b$h$k$e$x              $a$c  $b$e$k$e$x
+            $e$h  $e$b  $c$x              $a$b  $a    $h$b$x
+        $c$e$h  $e$b$c  $x              $b$e$b  $a  $c  $x
+        $b$e$b$e$b$c  $x              $b$e  $a  $c      $x
+      $c$h$c      $x                  $a      $c    $x
+      $e$b$c$x                      $c$a$c        $x
+    $c$h$b$a$x                        $b  $a$x
+    $c$h$e$c$x                        $c$e$h$b  $c$x
+    $c$b$h$c$x                          $c  $b    $c$x
+      $c$e$b$x
+      $c    $x
+EOC

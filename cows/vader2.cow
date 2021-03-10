@@ -1,0 +1,64 @@
+# Darth Vader (Star Wars)
+# by Pao Drabatan - https://starwars.fandom.com/f/p/3343172654596399558
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;246m  ";
+$c = "\e[48;5;239m  ";
+$d = "\e[48;5;252m  ";
+$e = "\e[48;5;196m  ";
+$f = "\e[48;5;231m  ";
+
+$the_cow = <<EOC
+                      $t
+                        $t                $a      $x
+                          $t            $a$b$a$c  $a$x
+                            $t        $a$b$a$d$c    $a$x
+                                      $a      $d$c  $a$x
+                $a    $x            $a$c$a$c  $a$b$d$a$x
+              $a$d$b$c$a$x          $a  $c$a  $c$a$c  $a$x
+              $a$b$c$a$x            $a  $c$a  $c$a$b$c$a$x
+              $a$c$a$x              $a$c$d$c      $a$c  $a$x
+              $a$c  $a$x            $a      $c  $a  $b$c  $a$x
+                $a$d$a  $x        $a$d$a    $d$a          $x
+                $a$c  $a  $x    $a                          $x
+                  $a$c  $a      $d$b  $a  $b$a  $b$a$b$a  $b$a$x
+                  $a$d$c  $a$d$b$c  $b$a$d$a$d$b$a$d$a$b$a$c$b$a$x
+                  $a  $d$c$a$c$a$c  $a  $d$a$d$b$a$d$a$b$a      $x
+                $a    $b$c  $a  $c$a        $b  $a$b$a      $c  $a$x
+            $a  $b$c$a  $c$a          $c    $a        $c$a    $c$a$x
+          $a$b$c  $a$c$a    $c$a      $c      $a$b  $a$c$a    $b$c$a$x
+        $a$b$c  $a$c$a$c$a            $c    $a  $d$c$a        $b$c$a$x
+      $a$c$a$c$a$c$a$c$a        $c$a    $c  $a  $c$b$a  $c$a  $b$a$c$a$x
+    $a$b$a$c$a    $c$a$c$a        $c$a  $c  $a          $c$a    $b$a    $x
+    $a$c$a    $x  $a        $c$a$c$a$c$a    $c$a$c$a$c$a$c$a    $b$c$a  $x
+  $a$c$a  $x          $a$c$a  $c$a$c$a                          $b$a$c$a  $x
+  $a    $x              $a  $c$a$c$a        $b$a$d  $a$b$a      $c  $a$c$a$x
+  $a  $x                $a$b$a$c$a$c$a  $b  $c        $a        $c    $a    $x
+  $a$x                  $a$c  $a$c$a      $b  $c$a$c  $a        $c  $a$c$a  $x
+                      $a$b$c$a$c$a  $b$c  $a    $c$a  $e  $a  $b$c    $a$c$a$x
+                      $a$c$a$c$a  $c    $a$c$a  $c$e  $f  $e$a$b$c  $a$c$a  $x
+                    $a$b$a$c$a  $c  $a  $c    $e  $f  $e  $a  $b$c    $a$c$a$x
+                    $a$c  $a  $c    $a$c  $e  $f  $e  $a$c$a  $c    $a$c$a  $x
+                  $a$c  $a  $b$c    $a$e  $f  $e  $a$c$a$c$a  $c  $a$c$a    $x
+                  $a$c$a    $c    $e  $f  $e  $a        $c  $a$c$a$c$a$c$a  $x
+                $a$b$c$a  $b$c$e  $f  $e  $a            $c  $a$c  $a$c$a$c$a$x
+                $a$c$a$c$a$e  $f  $e  $c$a              $c$a  $c    $a$c$a  $x
+                $a    $e  $f  $e  $c    $a              $c$a$c    $a$c$a    $x
+                  $e  $f  $e  $c          $a          $c$a$b$c  $a$c$a      $x
+                $e$f  $e  $a$c  $a    $c      $a    $c$a  $c  $a$c$a        $x
+                $e    $a  $c$a  $b$a$c$a                $c      $a          $x
+                          $a  $c$b$a  $c$a        $c$a$b$c  $a          $c$a$x
+                            $a$d$b$a    $c$a$c$a$c$a  $c$a                $x
+                            $a$d$a    $x$a    $c$a$c  $a                  $x
+                            $a$d$a  $x        $a$b$a                $c$a  $x
+                          $a$d$b$a  $x      $a          $c$a          $x
+                          $a$d$a  $x      $a                  $x
+                          $a$d$a  $x                  $a$b$c$a$x
+                        $a$d$a    $x                  $a$d$c$a$x
+                    $a  $d$b$a    $x                  $a$d$b$c$a$x
+                  $a$d  $c      $a$x                  $a$b$d$b$c$a$x
+                  $a            $x                      $a        $x
+EOC

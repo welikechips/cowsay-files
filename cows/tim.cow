@@ -1,0 +1,67 @@
+# Tim (The Life & Times of Tim)
+# by Charc0al (original art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;94m  ";
+$b = "\e[48;5;59m  ";
+$c = "\e[48;5;236m  ";
+$d = "\e[48;5;238m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;255m  ";
+$g = "\e[48;5;180m  ";
+$h = "\e[48;5;95m  ";
+
+$the_cow = <<EOC
+          $t                      $a                  $x
+            $t                $a$b    $a                $x
+              $t            $b$c$a      $d$a              $x
+                $t    $a$b$c  $a  $d$c      $a  $d  $a      $x
+                      $b$c$a$c    $a    $c$d$c$d$a$d  $c$a  $b$a$x
+                  $a  $c$a$c    $a  $c    $a$d$a$e$b$c  $d$a$b  $a$x
+                $a$d  $c      $a$c    $a    $e      $c$a$c$d$a$b  $a$x
+              $a  $b$c$a  $c$a$c    $e                $c$a$b$d$a$b$a$x
+            $a  $d$c$a$c  $a$c$e  $d  $e      $d      $e$c$a$b  $a$b$x
+            $a$b$c$a$c  $a$d$e  $d  $e                    $c$a$d$b  $x
+            $b$d    $b$a$c$d$e  $f  $d  $e    $f  $d  $e    $d$a$b  $x
+            $b  $a  $b$d$b$e  $f    $d  $e    $f  $d  $e    $d$a  $b$a$x
+            $a$b$d  $a  $e      $f      $e  $b$f      $e      $d$a  $x
+            $b$c  $a$e                      $b$e              $d$b$x
+            $b$e$a$e                          $b$e            $d$e  $a$x
+          $a  $e$a$e                          $b$e            $d$b$e$x
+            $a$d  $e                          $b$e            $d$e  $x
+            $a$b$a$e                  $b        $e            $d$b$a$x
+              $b$a$d$e                                          $c  $a$x
+                $d  $e                                        $d$a$c$b$a$x
+                  $d$e                                        $d$b$a$x
+                    $d$e            $g          $e            $d$x
+                      $d$e        $g$b          $e          $d$x
+                        $d$e      $b$e                    $d$x
+                          $d$e                          $d$x
+                            $d  $e                    $d$x
+                                $d$e                $d$x
+                                  $d                $x
+                                  $d$e            $d$x
+                                  $d$e            $d$x
+                              $d    $e            $d$x
+                        $d    $h    $d  $e      $d      $x
+                      $d  $h            $d      $h      $d  $x
+                  $d  $h                                    $d  $x
+                $d$h                                            $d$x
+              $d  $h                                              $d$x
+            $d  $h                                                $d$x
+            $d$h                                                    $d$x
+            $d$h              $d$h  $d$h$d  $h$d$h    $d$h          $d$x
+          $d  $h              $d  $h$d$h$d$h  $d$h    $d$h            $d$x
+          $d    $h            $d  $h$d$h$d  $h$d$h$d$h$d$h            $d$x
+          $d$f$d  $h          $d$h$d  $h$d$h  $d  $h$d  $h            $d$x
+          $d$f    $d$h$d$h    $d$h  $d$h$d  $h$d$h    $d$h            $d$x
+          $d$f    $d      $h                                            $d$x
+        $d$f        $d  $h  $d$h    $d$h                    $d$h        $d$x
+        $d$f      $d$x$d$h    $d$h$d$h                    $d  $h  $d      $x
+        $d$f      $d$x$d$h      $d$h$d    $h$d  $h$d$h$d$h$d      $f    $d$x
+        $d$f    $d$x  $d$h      $d$h$d$h$d$h$d$h  $d  $h  $d$x  $d$f      $d$x
+        $d$f    $d$x  $d$h      $d$h$d    $h$d$h  $d$h$d$h$d$x  $d$f      $d$x
+          $d$f  $d$x  $d$h                                $d$x    $d$f      $d$x
+EOC

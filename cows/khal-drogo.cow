@@ -1,0 +1,90 @@
+# Khal Drogo - Dothraki King (Game of Thrones) - cropped
+# by Cezary 'Charlie' Luczynski - https://www.deviantart.com/luczynski/art/Pixel-art-Game-of-Thrones-Character-set-part-I-528286975
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;231m  ";
+$b = "\e[48;5;130m  ";
+$c = "\e[48;5;95m  ";
+$d = "\e[48;5;235m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;215m  ";
+$g = "\e[48;5;69m  ";
+$h = "\e[48;5;24m  ";
+$i = "\e[48;5;237m  ";
+$j = "\e[48;5;88m  ";
+$k = "\e[48;5;236m  ";
+$l = "\e[48;5;244m  ";
+$m = "\e[48;5;227m  ";
+$n = "\e[48;5;238m  ";
+$o = "\e[48;5;102m  ";
+$p = "\e[48;5;249m  ";
+$q = "\e[48;5;195m  ";
+$r = "\e[48;5;189m  ";
+$s = "\e[48;5;167m  ";
+$u = "\e[48;5;124m  ";
+
+$the_cow = <<EOC
+                      $t                    $a$b$c$d$x
+                        $t                $a$d        $x
+                          $t              $e$d$f  $d  $x
+                            $t            $f$d$b$e$f  $x
+                              $t        $e$d$b$d  $f  $x
+                                        $c$f$d$b$c$d  $x
+                                      $a$d    $f  $b$f$x
+                                    $a$d$f$a$d$b$d    $x
+                                  $e$b$a$f$b$d    $f  $x
+                                $e$a  $b$f$b$d        $x
+                              $a  $b$f  $b$f$b$d      $x
+                        $a    $b      $f    $b  $d  $x
+                    $a$e$b$f  $g  $f        $b  $x$d$x
+                  $a$b$h$g    $f  $g$b  $f  $b    $d$f$e$x
+                  $e$h$f$e    $g  $f$g$f$b  $f$b$f$i$c$b$e$x
+                $e$b$f$g      $f  $h  $g$f    $b$f$d$b$h$g$f$x
+                $e$b$f        $g  $f  $g  $f    $b$d$g$j$b  $x
+                $e$b$f          $b$h$g$f$g$f    $b$i$f$h    $f$x
+                $e$b$f        $b$f    $g$f$g$f    $d$g$f$c    $x
+              $a$b$f        $b$k$f$e$f  $g$f$g$f  $g$f  $i$c  $x
+            $a$b$f        $b$i  $b$e  $f                $i  $c$x
+            $a$b$f          $i  $c$b$e  $f    $b  $f  $b$i$c$x
+            $e$b$f          $i  $b            $f  $b  $i$c  $x
+            $e$b$f          $d$e$b    $f              $i$c  $x
+          $a$b$f          $x$b$d$e$b  $f$e  $f        $i$c  $x
+          $a$b$f        $x  $b$d  $b$d$c  $f$d  $c  $f$i$d  $x
+          $e$b$f      $x    $b$d  $x$e$i  $d  $i$c$i$c$d  $x
+          $e$b$f$b  $x      $f$d  $x$e$i$d  $i$b$i$b$d  $c$x
+          $b$i  $c  $x      $e$d  $x$e$i$c          $i$c    $x
+          $f$i  $c    $x      $d$l$x$e$i$b  $i$b$i$b$i    $d$x
+          $f$i  $c    $x    $b$d  $x$b$i$c$d$c$d$c$i    $d  $x
+          $f$i        $x    $f$d  $x$e$m$b$m    $b$m$b$d    $x
+          $b$i  $c    $x    $f$d  $x$e$m$b$m    $b$m$b$i$d  $x
+            $f$i$c  $i$x    $e$d  $x$d$i                $d    $x
+            $f$i      $x    $e$d  $a$e$c$f$i$b$n$i$n$b$d      $x
+            $b$i  $c$x        $d$a$e  $c$f$n$b  $n$b  $i$d    $x
+              $f$i  $x      $f$d$e    $c$f$n$b$i$b    $d      $x
+              $f$i$c$x      $f$d$e  $d$c$f$i$b  $i$b  $i$d    $x
+              $b$i  $c$e$x  $d$i      $c$f$b          $d  $e$d$x
+              $f$d$i$c  $e$x$d$i    $c  $f$i$b        $d  $c$d$x
+              $d$f$i  $c$d    $b$c      $f$n$b        $d  $b$c$x
+            $i  $f$i$c$i$d  $x$b$c      $f$i$b        $d  $b$o$p$x
+            $i$d$f$d$c$i$e$x$b$c        $f$b  $n$b$n$b$d  $b$x$l$p$x
+          $i  $d$x$e  $x    $b$c      $f$b$n$b$n$b$n$b$d  $x    $p$q$x
+          $i  $d$x        $f$c      $i$f$b$n$b        $d  $x    $o$p$q$x
+          $i  $d$x        $f$c      $i$f$b$n$b        $d  $x      $p  $a$x
+          $i  $d$x      $f$c      $i  $f$b    $n$b$n$b$d  $x        $p  $a$x
+          $i  $d$x      $f$c      $i  $f$i$b  $n$b$n$b$d  $x        $p  $x
+          $i  $d$x      $b$c    $i    $f$n$b  $n$b$n$b$d  $x        $p  $x
+          $i$d  $x    $b$c      $i$c$i$f$i$b      $n$b$d  $x        $p  $x
+        $i  $d  $x    $b$c    $i$c$i  $f$b        $n$b$d  $x        $p    $x
+        $i$d    $x    $b$c    $i$c$i$x$f$b    $n$b$n$b$d  $x          $p  $x
+        $i$d    $x    $b$c      $i  $x$f$i$b  $n$b$n$b$d  $x          $p    $x
+        $i$d    $x  $b$c    $i      $x$f$n$b  $n$b    $d  $x            $p    $x                        $q$x
+        $i$d    $x  $b$c  $i      $x  $f$i$b      $i$b$d  $x            $p  $q  $x                  $a$r$x
+        $i$d    $x  $b$c        $i$x$f$i$b  $n$b    $d    $x              $p    $q  $x        $s  $u$p$x
+        $d      $x$f$c        $i  $x$f$n$b          $d    $x                $u$p  $s$u  $s    $u$p$u$x
+        $d      $x$f$c        $i  $x          $i      $d  $x                    $u$p  $u      $x
+        $d      $x$f$c      $i  $x            $i$d        $x                          $u$x  $u$x
+        $d  $x$d$b$c    $i      $x            $i$d        $x                          $u$x  $u$x
+        $d  $x$d$b$c      $i    $x            $i$d      $x                            $u$x
+EOC

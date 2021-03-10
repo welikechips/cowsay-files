@@ -1,0 +1,55 @@
+# Toucan Sam
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;17m  ";
+$b = "\e[48;5;25m  ";
+$c = "\e[48;5;33m  ";
+$d = "\e[48;5;220m  ";
+$e = "\e[48;5;160m  ";
+$f = "\e[48;5;168m  ";
+$g = "\e[48;5;234m  ";
+$h = "\e[48;5;250m  ";
+$i = "\e[48;5;231m  ";
+$j = "\e[48;5;130m  ";
+$k = "\e[48;5;59m  ";
+$l = "\e[48;5;125m  ";
+$m = "\e[48;5;88m  ";
+
+$the_cow = <<EOC
+                  $t
+                    $t
+                      $t
+                        $t
+
+                $a$b  $x      $c      $b$x      $d$e  $f  $g      $x
+                  $a$b  $a$c$h$i  $h$c    $b$j$d$e$i    $k        $g  $x
+              $c  $x$a  $c$h$i      $h$c    $d$i  $e$f$l$g  $k        $g$x
+            $b  $c  $x$c  $i    $g  $i  $c  $d  $e$f  $g        $k    $g$x
+                $b  $x$c  $i  $g  $i$g$i$c  $d$e  $f  $g            $k  $g$x
+                    $b$c  $i  $g      $i$c$b$d$e  $f  $g            $k  $g$x
+                    $b$c  $i  $g      $i$c$b$d$e  $f  $g              $k$g$x
+                    $b$c  $i  $g      $i$c$d  $e  $f  $l$g                $x
+                    $b$c  $h$i  $g  $i$c$b$d$e    $f    $g                $x
+                    $b  $c  $h$i    $c$b$d    $e  $m$l$f$g                $x
+                      $b$c          $b$d      $m    $l  $g                $x
+                      $b$c        $b$d$g$d  $j$m    $l  $g              $x
+                        $b$c      $d  $j$g  $j  $m$g                    $x
+                          $b$c$b$c$j$d    $j$g    $x          $g      $x
+                          $b    $h$i$j        $g$x                  $g$x
+              $e$x  $d$x$c  $b    $h$i  $h    $a$x
+              $e  $x$d$c      $a$c$i          $h$a$x
+              $m$e$m$c      $b$a$c  $i          $a  $x
+              $m  $c        $a$b  $c$i        $h$a    $x
+                $c          $a$b  $c  $i      $b$a    $x
+                $c    $b$c$b$a$b  $c$b$i    $h$a        $x
+                $b$c$b$a$c$b$a    $b    $h  $b$m$a      $x
+                $a$b$a  $b$a  $m$j$a$b      $m  $a      $x
+                  $a  $j$d        $j$a  $m        $a  $x
+                    $d    $j$d  $i$d$x  $m  $j        $x
+                  $m$j$d$j$m$j$d  $j  $x$m  $j            $x
+                  $m  $j$m          $j$x$m    $j      $m  $j$x
+                    $m              $x    $m    $j      $m$j$x
+EOC

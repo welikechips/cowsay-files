@@ -1,0 +1,47 @@
+# Bullet Kin
+# sprite from Enter the Gungeon (PC/Console game)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;244m  ";
+$b = "\e[48;5;231m  ";
+$c = "\e[48;5;252m  ";
+$d = "\e[48;5;239m  ";
+$e = "\e[48;5;88m  ";
+$f = "\e[48;5;160m  ";
+$g = "\e[48;5;202m  ";
+$h = "\e[48;5;136m  ";
+$i = "\e[48;5;220m  ";
+$j = "\e[48;5;229m  ";
+$k = "\e[48;5;235m  ";
+$l = "\e[48;5;94m  ";
+
+$the_cow = <<EOC
+      $t
+        $t
+          $t
+                  $a      $x
+                $a          $x
+              $a  $b$c$d  $a  $x
+            $a  $c$b$c$d    $a  $x
+            $a    $c$a  $d  $a  $x
+          $a  $c$b$c$a    $d  $a  $x
+          $a  $c$b$c$a    $d  $a  $x
+          $a    $c  $a  $d  $a    $x
+          $e                      $x
+          $e$f  $g  $f  $g$f$g$f$e$x
+          $e$f  $g  $f    $g$f$g$e  $x
+          $e                          $x
+          $h  $i$j  $i      $h    $e  $x
+          $h  $i$j  $i      $h    $e$x
+          $h  $i$j  $i      $h    $x
+          $h$k$i$j$k    $i$k$h    $x
+          $h  $i$j  $i      $h    $x
+          $h  $i$j  $i      $h    $x
+            $l                  $x
+          $h  $i$j  $i      $h    $x
+          $h                      $x
+            $l$i$l$x      $l$i$l$x
+              $l$x          $l$x
+EOC

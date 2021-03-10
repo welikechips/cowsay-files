@@ -1,0 +1,50 @@
+# Elmo (Sesame Street)
+# by <authorName>
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;234m  ";
+$b = "\e[48;5;160m  ";
+$c = "\e[48;5;231m  ";
+$d = "\e[48;5;102m  ";
+$e = "\e[48;5;208m  ";
+$f = "\e[48;5;166m  ";
+$g = "\e[48;5;88m  ";
+$h = "\e[48;5;124m  ";
+
+$the_cow = <<EOC
+                      $t
+      $a  $x            $t                $a    $x    $a    $x
+      $a$b$a$x            $t            $a$c    $a    $c    $a$x
+      $a$b$a$x              $t        $a$c  $d$a$c$a$c$a$d$c  $a$x
+      $a  $b$a$x              $t      $a$c  $a  $c$a$c$a  $c  $a$x
+        $a$b  $a$x                    $a$c        $a$c        $a$x
+      $a$b$a$b  $a$x              $a      $c  $a      $c    $a$x
+      $a$b  $a$b$a$x            $a  $b    $a  $e      $a      $x
+      $a  $b$a$b$a$x          $a$b        $a$e          $a$b  $a  $x
+      $a$b$a$b$a$b$a$x      $a  $b        $a$f$e        $a$b    $a  $x
+      $a  $b$a  $b$a$x    $a$b            $a$f$e        $a$b      $a$x
+      $a$b$a$b$a$b$a$x    $a$b  $a  $b    $a$f  $e      $a$b        $a$x
+      $a  $b    $a$x    $a  $g$b  $a$g$h$b  $a$f    $e$a$b      $a$b$a$x
+      $a$b    $a$x        $a$g$h$b$a    $g$h$b$a      $b    $a    $b$a$x
+      $a$g$b    $a$x      $a  $g$b$a          $g$h$b  $a      $b    $a$x
+        $a$h$b  $a$x        $a$g$h$b$a                        $b    $a$x
+        $a$g$b    $a$x        $a$g$b$a                      $b    $a$x
+        $a$g$h$b    $a$x        $a$g$b$a                  $b    $a  $x
+          $a$g$h$b    $a  $x    $a$g$h$b$a              $b      $a$x
+            $a$g$h$b      $a        $g$b    $a      $h$b      $a$x
+              $a$g  $h$b            $a$g$h$b      $a  $h  $a    $x
+                $a  $g  $h$b            $h  $b    $a$b$a      $x
+                    $a  $g        $b              $a$g$b$a  $x
+                        $a        $g$b              $a$g$b  $a  $x
+                              $a$g$b                $a    $h$b  $a$x
+                            $a$g$b                $a$g$b  $a$b  $a$x
+                            $a$h$b                $a  $g$b        $a$x
+                            $a$h$b              $a$h$b$a$h$b      $a$x
+                          $a$g$h$b              $a$g$b            $a$x
+                          $a$g$h$b              $a$g$h$b            $a$x
+                          $a$g$h  $b              $a$g$h$b          $a$x
+                          $a$g$h    $b              $a$g  $b        $a$x
+                          $a$g$h        $b            $a  $g$b      $a$x
+EOC

@@ -1,0 +1,70 @@
+# Zeke, sentient Xbox (Ctrl-Alt-Del Comics)
+# by Charc0al (original cowsay art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;242m  ";
+$b = "\e[48;5;248m  ";
+$c = "\e[48;5;245m  ";
+$d = "\e[48;5;235m  ";
+$e = "\e[48;5;237m  ";
+$f = "\e[48;5;239m  ";
+$g = "\e[48;5;65m  ";
+$h = "\e[48;5;71m  ";
+$i = "\e[48;5;114m  ";
+$j = "\e[48;5;59m  ";
+$k = "\e[48;5;252m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t          $a      $x
+                $t    $a  $b    $c$d$x
+                    $a$b      $c$e$f$d$x
+                  $a$b      $c  $e$f$d$x
+                $a$c$b  $c    $e$f    $d$x
+                $a$c          $e$f    $d$x
+                $a$c        $a$e$f    $d$x
+                $a$c      $g$h$g$f      $d$x
+                $g$h$g$c  $h$i  $f      $d$x
+                $h$i  $c  $h$i  $f      $d$x
+                $h$i  $a$c  $h  $f        $d$x
+                  $h  $a      $e$f        $d$x
+                  $f$a          $e$f      $d$x
+                    $f$a        $e$f      $d$x
+                    $f$a          $e$f    $d$x
+                      $f$a          $e  $d$x
+                      $f$a            $d  $x
+                        $f$a          $d$x
+                          $f        $d  $x
+                                  $d        $a    $x
+                                  $d      $a$c$b$c$a  $c$x
+                            $f$a$e$d  $e$a$b      $c$a$b$c$x
+                          $f$a$b$a$e$a  $b        $a$b  $c$f$x
+                        $f  $b    $a  $b          $j$b  $c$e$d$x
+                        $d$a$b                $c$a$d$a  $f$d    $x
+                        $d$a$b  $c$a  $c      $j$d          $f$d  $x
+                        $d$e$c  $g$h  $a$c  $j$d            $f  $d  $x
+                $f  $x  $d  $j$c$g$h  $a$c$j$e    $f$e$d    $e$f  $d  $x
+                $f$e$x  $d$e$f$a$g$h  $j$c$j$e$f    $e$d  $x$e  $f$e    $x
+                $f$e$x  $d$e$c  $a$j  $a  $j$e$f    $e$d  $x  $e  $f$b$c$d$x
+                $a$c  $a$e$j$a              $f$e$f  $e$d  $x    $e$j$c  $d$x
+              $a$c  $a  $e$a                  $f$e$f$d  $x        $d      $x
+              $c  $f  $e$d$a      $f  $a        $f$e$d  $x        $e    $d$x
+              $c  $a    $e$a    $f$d  $f$a        $f$d$x          $f$e$d$x
+              $c$a$f  $e$d$a  $f$d$e$d$e$f$a    $f  $d$x          $f$e$d$x
+              $c$a    $f$d$f  $e$d$e  $d$e$f    $e$d$x          $f  $e$d$x
+                $e$f  $e$d$x$d                    $x            $f$e$d$x
+                  $d    $x    $d$j                $x          $j$e  $d$x
+                                $k            $j  $x          $j$e$d  $x
+                                $k            $j  $x      $a  $c$f$d$x
+                              $b$c            $e    $j  $f$e  $a$e$x
+                            $b$c            $e$f    $a    $j$d$e$d$x
+                            $c              $e$d  $j$a    $j$d  $x
+                            $f$a$c        $a$f$d$j$e$d$j  $e  $x
+                            $a$f$a          $f$e  $d$f  $d$x
+                            $a$f$a          $d      $f$d$x
+                            $a  $f$a      $e  $f$e$d    $x
+                            $a  $f$a    $f  $a    $e$d  $x
+EOC

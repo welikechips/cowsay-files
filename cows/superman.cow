@@ -1,0 +1,68 @@
+# Superman
+# sprite from The Death and Return of Superman (SNES) - https://www.spriters-resource.com/snes/deathandreturnofsuperman/sheet/18550/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;233m  ";
+$b = "\e[48;5;17m  ";
+$c = "\e[48;5;52m  ";
+$d = "\e[48;5;173m  ";
+$e = "\e[48;5;216m  ";
+$f = "\e[48;5;223m  ";
+$g = "\e[48;5;124m  ";
+$h = "\e[48;5;232m  ";
+$i = "\e[48;5;160m  ";
+$j = "\e[48;5;19m  ";
+$k = "\e[48;5;26m  ";
+$l = "\e[48;5;33m  ";
+$m = "\e[48;5;220m  ";
+$n = "\e[48;5;214m  ";
+
+$the_cow = <<EOC
+                                      $t
+                                        $t                    $a        $x
+                                          $t                $a      $b$a$b$a$x
+                                            $t            $a    $c  $a$b$a$b$x
+                                              $t          $a    $c$d  $c$b$a$x
+                                                          $a$d$c    $d$e$d$x$a$x
+                                                        $a  $e$d    $c  $d$x
+                                                        $a$c$f$d$f$e  $d$e$x
+                                  $g          $x        $c    $d$e$f$e$d$c$x
+                              $g$c$g$h    $g$i$g$x    $c$d$c    $d$e$d$f$x
+                            $g$c$g$i$g  $c$h$g  $c$a$c  $e$d$g$c  $d$e  $x$g  $x
+                        $g$c$g$b      $c$g$c$a$i$g$c  $d$e$d$c$g$c  $d  $a$c$g$c$x
+                      $g$c$g$b$j    $b  $c$i$c$i  $g$c$d  $e$d$c        $a$g    $c$x
+                    $g$c$g$b$j$k      $j$c  $i$c$i$g$c  $d$f$d  $e$c  $g    $j$c$g$c$x
+                    $c  $b$j$k      $j  $b$h$c$h$i$g  $d$c$e$c$e$d$c  $g$b  $j$h$c$g$x
+                  $c  $h$b      $j    $h$j$k            $j$b    $j    $k$h$j$b$h  $c$x
+                $c  $h$b$j  $b  $h    $j$k    $g$i$c$g    $i    $g$c$i$k  $l$k$b$h$c$x
+          $d  $e$f$c$h$j$k  $j$b$h    $j$k  $c$m$g$i$e  $m$n    $g  $e$g$j$k$l$j$b$c$x
+        $d$e$c$e  $b$j$k    $b$h$b$h  $b$j$l$g$i  $g      $i      $g$i$g$b$j$k  $j$b$x
+      $d$f$d$e$c    $b  $k$j$h  $b$h  $b  $k$l$g$i$g        $i    $g  $k$h$b$j  $b$h$x
+      $d  $f  $d$c$d$b  $j$b$h$b  $h    $b$j  $k$g$i$g$m    $n  $g$i$k$j$b$h          $x
+      $c$d$e$f$e$d$c$b    $h$b  $h          $b$j  $g$i$g  $i  $g$i$h            $j$k$j$b$x
+        $c$d$e$f$d  $b$j  $b  $h      $b$h            $i$e  $g  $h    $b$h      $j$k$l$j$b$x
+      $c    $d    $c$j    $h            $b$j    $k    $g$c$g$c  $b  $j  $h      $b$j$k  $j$b$x
+    $c      $h$c  $h$b    $h            $b$j$k  $j    $b$g$c  $b$j$k  $j$h        $b$j    $b$x    $e$d  $x
+    $c$g$c$h                              $b    $h    $b    $h    $b$j$b$h$b$h      $b    $h    $e  $c$e$d$x
+  $c  $g$h                                        $j  $k$j$b$k$j$b$h    $x  $h            $b  $c    $e$d$f$d$x
+$c  $g$c$h                                  $b$h    $b$j  $b$j$b$h  $x      $h$b$h      $b    $d$c$d$f  $d  $x
+$c$g$c$h                                    $b$j$h$b$j$k$j$b$k$j$b$h$x        $h$j$b$h    $b$j$c$d$e$f$e$d$c$x
+$c$g$c$h                                    $b$j$h$b$j    $b$j  $b  $x          $h$j$b$h  $b$j$d  $f$e$d$c$x
+$g$c$h                                          $b$h$b$k$j$b$k$h$b  $x            $h$b$h    $b$c$d    $c$x
+$c$h                                      $c$d$m$g  $m    $d$m$g$m$x                $h          $c  $x
+$h                                      $c$g$d$m$g  $m    $d$m$g$m$x                    $h        $x
+$h                                      $c$g  $c$g              $c$x
+$h                                    $c    $g    $i    $g  $i$g  $h$x
+$h                                    $c    $g$c$g              $c$h  $x
+$h                                    $c            $g$i  $g$c    $h    $x
+$h                                  $c  $b$h    $c$g  $i    $g$c$h    $b$h$x
+$h                                  $c$h$j$b$h  $c$g$i      $c$h      $b  $h$x
+$h                                    $b$j  $h    $c$g$i    $c$h    $b$j  $b$h$x
+$h                                    $j$k$j$b$h    $c$i  $g$h      $b$j    $b$h$x
+$h                                    $j$k  $j$b$h    $g  $c$h        $b$j$k$j$b$h$x
+$h                                  $b$j$k  $j$b$h    $c  $h            $b$j$k$j$b$h$x
+$h                                  $b$j$k    $j$b$h                      $b$j$k$j$b$h$x
+$h                                  $b$j$k    $j$b$h              $b    $h  $b$j$k$j$b$h$x
+EOC

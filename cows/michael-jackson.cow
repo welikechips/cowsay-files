@@ -1,0 +1,74 @@
+# Michael Jackson
+# by gamemakerstuff - https://gamemakerstuff.files.wordpress.com/2014/06/michael-jackson-pixel-art.gif
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;245m  ";
+$b = "\e[48;5;255m  ";
+$c = "\e[48;5;144m  ";
+$d = "\e[48;5;187m  ";
+$e = "\e[48;5;247m  ";
+$f = "\e[48;5;236m  ";
+$g = "\e[48;5;180m  ";
+$h = "\e[48;5;242m  ";
+$i = "\e[48;5;94m  ";
+$j = "\e[48;5;137m  ";
+$k = "\e[48;5;68m  ";
+$l = "\e[48;5;61m  ";
+
+$the_cow = <<EOC
+                                $t                          $a  $x
+                                  $t              $b$a$x  $c$b$d$a  $x
+                                    $t            $e$d$c$f$d  $b$d  $a$x$g$x
+                                      $t            $b$d$f$h  $d  $g  $i$g$i$x
+                                        $t            $b$d$h$f    $a$j    $i$x
+                                                      $c$b$d  $f      $i$j  $i$x
+$g  $j$x                                      $e    $f    $b    $d$c$a$h$i$j$i$x
+  $g  $j  $x          $e  $d$e  $h$e$k  $e$d$e    $f      $i$f$i$b  $c  $a$i  $x
+  $i$g  $j    $d            $e  $d  $k  $d            $f$i  $j$i    $x    $i  $d$x
+    $i$g$j  $i$d              $e    $k  $e$d$h$d      $k$i  $j    $i$h$x  $d$e$d$x
+  $g  $j$i  $h$e                    $l$k$e$h  $e$d$b  $l$k  $l$j  $h  $e$x$d$e$c$x
+                                $e$h$l  $h    $a$d$b$c$l$k$l$e$l$h  $e$c$x$d  $c$x
+                                            $h$a$b$c$l      $e$a$e$a$e$a$x$d  $c$x
+                                            $h$e$b  $l$k  $l$d$a$d$a  $c$a$d  $c$x
+                                            $h$e$b$c$e$l$k$l$d    $h$a$d$a$d  $c$x
+                                          $h$e$b  $l$e$l$k  $d    $a$h$d$c$a$d$c$x
+                                          $h$e$b$l  $d$l  $e$d      $h$d  $h$d$c$x
+                                          $h$d$h$l  $d$k$l$d  $a$d  $h$a$d$h$d$c$x
+                                          $e$b$h$l  $d$k  $d  $l$d  $h  $c$d$c  $x
+                                          $d$b$h$l  $d$a$k$d  $l$e$d$a$h$x$c  $x
+                                          $b$h  $k$l$d  $l$d  $l  $d  $a$x
+                                        $b$h    $k  $a$d$l$d  $l  $e$d$a$x
+                                      $d$b$h$a$h$l$k  $d$k$d  $l    $e$d$x
+                                      $b$h  $a  $h$l  $e$l$d  $l$a  $h$d$e$x
+                                    $b  $h$a$e  $h$e$l$e$l$d  $c  $a$h$e  $x
+                                    $b$a  $e$c  $h$c    $a$d$e$c    $a$h$e$x
+                                  $b$a$e  $c$d$a$h$a$d$c$a$d$e$a$c  $a  $x
+                                  $b$d$e$c$d$c$a$h$a$c$d$c$e$a  $c    $a$h$x
+                                    $d    $c$a$h  $a$c$d$c  $a  $c    $a$h$x
+                                        $c$d$c$a$h  $a$c$d$c  $a    $c  $h$x
+                                                    $a$b$d  $c  $h$a$c  $a$x
+                                                    $c$b$d  $c$h  $a  $c$a$x
+                                                    $c$b$d  $a$h$a        $x
+                                                    $c$b$d  $a$x  $a  $c$a$x
+                                                    $c$b$d  $a$x  $a  $c$a$x
+                                                    $c$b$d  $a$x  $a  $c$a  $x
+                                                    $c$b$d$c$a$x    $a      $x
+                                                    $c$b$d$c$x      $a$e$c$a$x
+                                                    $c$b$d$c$x      $a  $c$a$x
+                                                    $c$d  $c$x        $a$e$a$x
+                                                  $a$c$d$a  $x        $a    $x
+                                                $c$a      $x          $c$a    $x
+                                              $a  $d$c$a$x            $c  $a  $x
+                                            $c$d  $a  $x                $c$a  $x
+                                          $c$d$a  $c$a$x                $c  $e$x
+                                          $a    $d$a$x                  $c  $a  $x
+                                        $e$l$c$d$c$x                    $c  $a  $x
+                                      $h$e  $l$c$a$x                      $h$a$h$x
+                                      $a$e$h  $f  $x                      $a$c$a$h$x
+                                    $f$a$e$a$f$x                          $f$e    $h$x
+                                    $f      $x                            $f          $x
+                                    $f      $x                                $f      $x
+                                      $f  $x
+EOC

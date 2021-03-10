@@ -1,0 +1,67 @@
+# Hank Hill (King of the Hill)
+# by Mauri Helme - https://www.youtube.com/channel/UCas7DqhT9pKI3_L0dY2HhTw
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;180m  ";
+$c = "\e[48;5;94m  ";
+$d = "\e[48;5;52m  ";
+$e = "\e[48;5;223m  ";
+$f = "\e[48;5;230m  ";
+$g = "\e[48;5;137m  ";
+$h = "\e[48;5;231m  ";
+
+$the_cow = <<EOC
+          $t                                    $a        $x
+            $t                        $a        $b        $a      $x
+              $t              $a      $b        $c        $b      $a    $x
+                $t      $a    $b      $c                          $b    $a$x
+                    $a  $c                                              $b$a$x
+                  $a$d  $c                                              $b$a$x
+                $a$d  $c                                                $b$a$x
+                $a$d  $c                                                  $b$a$x
+              $a$d      $c              $d                        $c      $b$a$x
+              $a$d                          $a                    $d    $c$b$a$x
+              $a$d          $a              $b          $e        $a    $d$c$a$x
+            $a$d        $a  $b              $e            $f      $e    $a$d$c$a$x
+            $a$d      $a$b$e                    $a    $e          $f    $e$d$c$a$x
+            $a$d      $a$b$e                $a  $b    $a  $e          $f$e$d  $a$x
+            $a$d    $a$b$e                                            $f$e$d  $a$x
+            $a$d    $a$b$e                    $a        $e                $d  $a$x
+            $a$d    $a$b$e                $a  $b      $e$a    $e            $a$x
+            $a$d  $a$b  $e                                                  $a$x
+            $a$d  $a$b  $e  $a                $e        $a                    $x
+            $a$d    $a$b$e$a  $e  $b        $a  $e    $a  $b              $a  $x
+            $a$d    $a$b$e$a$e  $g  $e      $b$a        $e          $g  $b  $a  $x
+            $a$d    $a      $e$g$e  $a    $e$b$a$b    $a$e  $a    $e    $g$b$a  $x
+            $a  $d    $b  $a$e  $a  $h    $a$b$a$e  $b$a$e$a$h    $a  $e  $b$a  $x
+          $a$e  $a  $b$e  $a$e$a$h  $a  $h$a$b$a$e    $a$e$a$h$a  $h  $a$e$b$a  $x
+          $a$e$g$e$b$e    $a$e  $a        $e$b$a$e    $a$e  $a        $e  $b$a  $x
+          $a$e$b$g$b$e    $a  $e            $a  $e    $a  $e              $a  $x
+          $a$e$b$g$b$e    $b$a                $b$e    $f$a                    $x
+            $a$b$g$b$e      $b                $e        $f$a$b              $a$x
+            $a$b$e$b$e        $f  $e      $b    $e          $a$e      $f  $e$a$x
+            $a$e  $b$e                    $a    $b  $e  $a  $e              $a$x
+              $a  $b$e                $a$e  $b  $a      $b  $e  $a$e        $a$x
+                $a$b$e        $a      $e        $b      $e      $b$a      $e$a$x
+                $a$b  $e      $b      $e                          $b    $e$a$x
+                $a$b  $e                                                  $a$x
+                $a$b  $e                                              $f$e$a$x
+                $a$b    $e                  $a              $e        $f$e$a$x
+                  $a$b  $e            $b$a  $b$e    $f  $e  $a  $e    $f$e$a$x
+                  $a$b  $e              $b    $a        $b    $e    $f$e$a$x
+                  $a$b    $e                  $b        $e          $f$e$a$x
+                  $a$b$a$e                                          $f$e$a$x
+                  $a$b  $a$b$e                                          $a$x
+                  $a$b  $a$b    $e                $f  $e              $a$x
+                    $a$b  $a  $b        $e                          $b$a$x
+                    $a$b      $a$b            $e                  $b$a$x
+                    $a$b                    $a$b          $a  $e    $a$x
+                    $a$b                      $a          $e        $a$x
+                    $a$b                              $e            $a$x
+                    $a$b                    $e                      $a$x
+                    $a$b                  $e                        $a$x
+                    $a$b                $e                          $a$x
+EOC

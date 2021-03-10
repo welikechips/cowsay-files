@@ -1,0 +1,62 @@
+# Zeke, sentient Xbox (Ctrl-Alt-Del Comics)
+# by Charc0al (original cowsay art)
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;237m  ";
+$b = "\e[48;5;242m  ";
+$c = "\e[48;5;240m  ";
+$d = "\e[48;5;245m  ";
+$e = "\e[48;5;71m  ";
+$f = "\e[48;5;47m  ";
+$g = "\e[48;5;235m  ";
+$h = "\e[48;5;248m  ";
+$i = "\e[48;5;22m  ";
+$j = "\e[48;5;251m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+              $t    $a$b    $x
+                  $c$a$d    $b$x
+                $a$c  $a$d    $x
+                $a$c  $a$d    $x
+                $a$c  $e  $d$e  $x
+                $a$c  $e$f$d$e$f$x
+                $a$c  $e$f$d$e$f$x
+                $a$c  $a$d    $x
+                $a$c  $a$d    $x
+                $a$c  $a$d    $x
+                  $c$a$d    $c$x
+                  $g$c$d  $c$x
+                    $a  $d$x                $b$x    $a$x
+        $h  $b$d  $b$c    $a$d$x            $d$b$x$a  $x
+      $a$d$h$c$d    $b$c$a$d    $x          $d$b$a  $x
+      $a$d  $a$b$d    $b$d    $c$b$x      $b  $a  $c$a$x
+        $a  $g  $b$d  $e$f$d$b$g$b$x      $c  $d  $a$x
+        $g    $a$g$d  $i$e$d$c$a$b$x      $h$b$a    $x
+        $a$c$g$a  $d          $c$a$x    $c$b$a$x
+        $a$c$g$a$d              $c$g$x$c  $a$x
+        $a$c$g$d      $b$a$d    $a$g$c    $a$x
+        $a$c$a$d    $b$c  $a$d  $a  $c  $a$x
+      $a$c  $a$c$d$b$c      $a  $g$c  $a$x
+      $a$c  $x$a  $c    $a$b$x  $g$c$a$x
+      $a  $c$x  $h        $j$x  $g$a$x
+      $a$d$a$x$b$h$j        $b$x
+      $g  $a$c$d$b$j      $h$d  $x
+      $a$c$a$g$b$d$b      $d      $x
+      $a$c$a$g$a$d              $b$x
+      $a$c  $g  $b$d          $b$c$x
+        $a$c$a$c  $b$d      $b$c  $x
+        $a$c$a$c    $b$d  $b$c      $x
+        $a    $c      $b  $a$c      $x
+        $a$d$a$c        $g$a$c      $x
+        $a    $c        $g$a$c      $x
+      $a$d    $a$c      $g$a$c      $x
+    $c$a$d    $a$c      $g$a$c      $x
+    $g$a$d    $a$c      $g$a$c      $x
+      $a$c    $a$c      $g$a$c      $x
+        $a    $c        $g$a$c      $x
+            $a  $c      $g$a$c      $x
+EOC

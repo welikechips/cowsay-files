@@ -1,0 +1,65 @@
+# Super Mario with Yoshi
+# sprite from Super Mario World (SNES)
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;52m  ";
+$b = "\e[48;5;124m  ";
+$c = "\e[48;5;203m  ";
+$d = "\e[48;5;221m  ";
+$e = "\e[48;5;231m  ";
+$f = "\e[48;5;235m  ";
+$g = "\e[48;5;94m  ";
+$h = "\e[48;5;216m  ";
+$i = "\e[48;5;46m  ";
+$j = "\e[48;5;28m  ";
+$k = "\e[48;5;223m  ";
+$l = "\e[48;5;34m  ";
+$m = "\e[48;5;208m  ";
+$n = "\e[48;5;227m  ";
+$o = "\e[48;5;17m  ";
+$p = "\e[48;5;31m  ";
+$q = "\e[48;5;116m  ";
+
+$the_cow = <<EOC
+  $t
+    $t
+      $t                  $a      $x
+        $t            $a  $b  $c$d$a$x
+          $t        $a$b  $c  $d$e$a$x
+            $t    $a$b$c    $a$f        $x
+                $a$b$c  $a$f              $x
+                $a$c  $a$f            $x
+              $a$g  $a$f    $e  $h$e$x        $f  $x
+              $g$e  $g$a$f$h$e$f$h$f$x      $f$i$j$f$x
+            $g$e      $g$f$h$e$f$k      $g$f$l$j$e  $x
+            $g$e      $g$f  $k          $g$f$l$e  $f$x
+            $g$e  $a    $f$k  $f$h      $g$f$e    $f$x$f    $x
+            $a$e$a$c    $a$k$f          $m$f$e      $f$i    $f  $x
+            $a  $b  $c    $a$k$f      $m  $f$j$e  $j$i    $e  $i$f$x
+          $a  $n$a$b  $c  $a$k    $g$x$f    $l$j  $i        $f$e$f$x
+        $a  $n$a  $b    $c$a$g    $x$f$m$f$j$l  $i                $f$x
+        $a$n$a$o$a$b      $a$p$a$x  $g    $j$l$i      $l$i        $f$x
+        $a$n$a$o  $a      $p$q$b$a$f$e    $g$l$i    $e$f$l$i      $f$x
+        $a$n$o$p$q$p      $e  $q$o$f$e    $g$l$i    $e$f$l$i      $f$x
+      $a$n$a$o$p$q        $e  $q$o$f$e    $g$l$i  $e$f  $j$l$i  $l$f$x
+      $a$n$a$o      $q          $o$f$g    $f$l$e        $f$j$l  $f$x
+      $a$n$a$o$p  $o$q      $o    $x$f$m$f$j$l$e  $f$e    $f    $x
+      $a$n$a$g$o$p      $q      $o$x  $f  $l  $e$f$x$f    $x
+      $a$n$a$g  $o  $p    $q      $o$f  $j$l$e$f$x
+    $a$n$a  $g      $o  $p  $q    $o$e$f$l$i$e$f$x
+    $a$n$a$g        $a$e$o$p    $q$o$e$f$l$i$e$f$x
+  $a$n$a  $g        $a$f$e$o$p    $o$f$l$i$e  $f$x
+  $a                  $f$e$f$o    $f    $i$e$f$x
+                  $f$e$l$f  $g      $d$f$i$e$f$x
+                    $f$e$l$f            $e  $f$x
+                    $f$e      $f$m$f$e    $f$x
+                      $f$e  $f$m    $f$e  $f$x
+                      $f$e$f  $m    $f$e$f$x
+                        $f  $e$f    $e$f$x
+                        $f            $x
+                      $f$b          $f$x
+                      $f$b          $e$f$x
+                      $f$b            $f$x
+                      $f                $x
+EOC

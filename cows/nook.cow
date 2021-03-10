@@ -1,0 +1,58 @@
+# Tom Nook (Animal Crossing)
+# by /u/misstapkat5 - https://www.reddit.com/r/AnimalCrossing/comments/ftoibd/i_made_a_pixel_acnh_tom_nook_out_of_lego/
+# Generated with Charc0al's cowsay file converter http://charc0al.github.io/cowsay-files/converter
+
+$x = "\e[49m  ";          #reset color
+$t = "$thoughts ";
+$a = "\e[48;5;235m  ";
+$b = "\e[48;5;137m  ";
+$c = "\e[48;5;225m  ";
+$d = "\e[48;5;235m  ";
+$e = "\e[48;5;19m  ";
+$f = "\e[48;5;255m  ";
+$g = "\e[48;5;30m  ";
+$h = "\e[48;5;187m  ";
+$i = "\e[48;5;94m  ";
+$j = "\e[48;5;208m  ";
+$k = "\e[48;5;101m  ";
+
+$the_cow = <<EOC
+          $t
+            $t
+                $a    $x                    $a    $x
+              $a$b  $a  $x                $a  $b  $a$x
+            $a$b$c  $b$a$x                $a$b$c  $b$a$x
+            $a$b$c  $b$a                    $b$c  $b$a$x
+              $a$b$a  $b                    $a  $b$a$x
+                $a$b  $d                    $b  $a$x
+              $a$b$d                            $b$a$x
+            $a$b$d  $b  $d                $b  $d  $b$a$x
+            $a$b$d$b      $d            $b      $d$b$a$x
+          $a$b$d  $b  $e$f$d            $f$e$b  $d  $b$a$x
+          $a$b$d  $f$e  $f$d            $f$e  $f$d  $b$a$x
+          $a$b$d  $f$e  $f$d            $f$e  $f$d  $b$a$x
+          $a$b$d    $f  $d    $b    $d    $f  $d    $b$a$x
+          $a$b$d          $b            $d        $b  $a$x
+          $a$b    $d    $b    $a    $b    $d    $b    $a$x
+            $a$b            $a        $b            $a$x
+            $a$b            $a        $b            $a$x
+              $a$b                                $a  $x
+                $a  $b                        $a    $x
+                    $a                            $x
+                      $a  $g$h$b    $h$g  $a  $x  $a  $x
+                    $a$h        $b$h  $g    $h$a  $i  $a$x
+                  $a$h$g$h  $g$h  $g$h    $a$h  $b$i  $a$x
+                $a$g$h$a$g  $h  $i$h$g  $h$g$a$g$b    $a$x
+              $a$b$h  $a$g  $h$g$h  $g$j  $h$a$h$b  $a$x
+            $a$b    $a$h        $i$h  $j  $h$g$a    $x
+          $a$i  $b$a  $g$h  $g  $h$g$h  $g  $h$a$x
+          $a$i  $a$x$a$g$h  $g  $i$h    $g  $h$a      $x
+            $a  $x  $a$h$g$h        $g$h      $a$i    $a$x
+                    $a$k                      $a$i      $a$x
+                    $a$k                      $a$i      $a$x
+                    $a$k        $a  $k        $a$i    $a$x
+                      $a$k      $a  $k      $a        $x
+                        $a$b  $a$x  $a$b  $a$x
+                        $a$i  $a$x  $a$i  $a$x
+                          $a  $x      $a  $x
+EOC
